@@ -1,0 +1,7 @@
+read_rtlil inputs/checkpoint.il
+read_liberty -lib inputs/cell.lib
+hierarchy -check -top ChipTop
+select -assert-count 194 t:fakeram45_512x64
+abc -liberty inputs/cell.lib -script direct.abc
+clean
+write_rtlil ChipTop-after-abc.il

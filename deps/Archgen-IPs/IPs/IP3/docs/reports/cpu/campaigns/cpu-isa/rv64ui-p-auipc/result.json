@@ -1,0 +1,9 @@
+{
+  "test": "rv64ui-p-auipc",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 5.607,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64ui-p-auipc/simulation.log"
+}

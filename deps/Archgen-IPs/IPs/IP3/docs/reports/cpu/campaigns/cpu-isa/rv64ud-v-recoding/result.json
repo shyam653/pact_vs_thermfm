@@ -1,0 +1,9 @@
+{
+  "test": "rv64ud-v-recoding",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 67.954,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64ud-v-recoding/simulation.log"
+}

@@ -1,0 +1,3 @@
+test	binary	suite	required_stdout
+nvdla-negative-control	<test-build>/nvdla-negative-control.riscv	expected-failure-control	[]
+nvdla-timeout-control	<test-build>/nvdla-timeout-control.riscv	expected-failure-control	[]

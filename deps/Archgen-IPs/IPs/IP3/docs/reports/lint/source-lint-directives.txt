@@ -1,0 +1,2 @@
+./EICG_wrapper.v:1:/* verilator lint_off UNOPTFLAT */
+./SimDRAM.v:227:  /* verilator lint_off WIDTH */

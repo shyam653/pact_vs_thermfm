@@ -1,0 +1,142 @@
+{
+  "flows": [
+    {
+      "id": "flow1_baseline",
+      "name": "1. Baseline (No Thermal)",
+      "type": "baseline"
+    },
+    {
+      "id": "flow2_pact_superlu",
+      "name": "2. PACT (SuperLU)",
+      "type": "pact_superlu"
+    },
+    {
+      "id": "flow3_pact_xyce",
+      "name": "3. PACT (Xyce/SPICE)",
+      "type": "pact_xyce"
+    },
+    {
+      "id": "flow4_thermfm_run1",
+      "name": "4. Therm-FM (Custom Run 1)",
+      "type": "thermfm_run1"
+    },
+    {
+      "id": "flow5_thermfm_run2",
+      "name": "5. Therm-FM (Custom Run 2)",
+      "type": "thermfm_run2"
+    },
+    {
+      "id": "flow6_thermfm_released",
+      "name": "6. Therm-FM (Released Checkpoint)",
+      "type": "thermfm_released"
+    }
+  ],
+  "hardware_config": {
+    "cpu": "24x CPU Cores (x86_64)",
+    "gpu": "CPU-Only (Host)"
+  },
+  "repeatability": {
+    "run1_vs_run2_temp_mae_k": 4.293834686279297,
+    "run1_vs_run2_temp_max_diff_k": 16.09075927734375,
+    "run1_vs_run2_sta_arrival_diff_ps": 0.0,
+    "is_repeatable": false
+  },
+  "results": [
+    {
+      "spef_path": "data/ibex_baseline.spef",
+      "clock_period_ns": 10.0,
+      "data_arrival_time_ns": 4.7761,
+      "slack_ns": 5.0648,
+      "wns_ns": 5.0648,
+      "tns_ns": 0.0,
+      "status": "MET",
+      "min_temp_k": 298.15,
+      "max_temp_k": 298.15,
+      "mean_temp_k": 298.15,
+      "r_scale_factor": 1.0,
+      "elapsed_sec": 0.6588897705078125,
+      "peak_ram_mb": 295.1875,
+      "spef_file": "data/ibex_baseline.spef"
+    },
+    {
+      "spef_path": "outputs/flow2_pact_superlu/adjusted.spef",
+      "clock_period_ns": 10.0,
+      "data_arrival_time_ns": 4.7771,
+      "slack_ns": 5.0635,
+      "wns_ns": 5.0635,
+      "tns_ns": 0.0,
+      "status": "MET",
+      "min_temp_k": 676.05,
+      "max_temp_k": 676.14,
+      "mean_temp_k": 676.064638671875,
+      "r_scale_factor": 2.4587505052734375,
+      "elapsed_sec": 1.802666187286377,
+      "peak_ram_mb": 296.1328125,
+      "spef_file": "outputs/flow2_pact_superlu/adjusted.spef"
+    },
+    {
+      "spef_path": "outputs/flow3_pact_xyce/adjusted.spef",
+      "clock_period_ns": 10.0,
+      "data_arrival_time_ns": 4.7761,
+      "slack_ns": 5.0648,
+      "wns_ns": 5.0648,
+      "tns_ns": 0.0,
+      "status": "MET",
+      "min_temp_k": 676.05,
+      "max_temp_k": 676.14,
+      "mean_temp_k": 676.064638671875,
+      "r_scale_factor": 2.4587505052734375,
+      "elapsed_sec": 1.6301445960998535,
+      "peak_ram_mb": 296.13671875,
+      "spef_file": "outputs/flow3_pact_xyce/adjusted.spef"
+    },
+    {
+      "spef_path": "outputs/flow4_thermfm_run1/adjusted.spef",
+      "clock_period_ns": 10.0,
+      "data_arrival_time_ns": 4.7761,
+      "slack_ns": 5.0647,
+      "wns_ns": 5.0647,
+      "tns_ns": 0.0,
+      "status": "MET",
+      "min_temp_k": 299.7270202636719,
+      "max_temp_k": 333.7165222167969,
+      "mean_temp_k": 310.31805419921875,
+      "r_scale_factor": 1.046968698501587,
+      "elapsed_sec": 0.6859772205352783,
+      "peak_ram_mb": 317.4140625,
+      "spef_file": "outputs/flow4_thermfm_run1/adjusted.spef"
+    },
+    {
+      "spef_path": "outputs/flow5_thermfm_run2/adjusted.spef",
+      "clock_period_ns": 10.0,
+      "data_arrival_time_ns": 4.7761,
+      "slack_ns": 5.0647,
+      "wns_ns": 5.0647,
+      "tns_ns": 0.0,
+      "status": "MET",
+      "min_temp_k": 298.1499938964844,
+      "max_temp_k": 332.7333984375,
+      "mean_temp_k": 310.69012451171875,
+      "r_scale_factor": 1.0484049320220947,
+      "elapsed_sec": 0.6717493534088135,
+      "peak_ram_mb": 317.625,
+      "spef_file": "outputs/flow5_thermfm_run2/adjusted.spef"
+    },
+    {
+      "spef_path": "outputs/flow6_thermfm_released/adjusted.spef",
+      "clock_period_ns": 10.0,
+      "data_arrival_time_ns": 4.7767,
+      "slack_ns": 5.0641,
+      "wns_ns": 5.0641,
+      "tns_ns": 0.0,
+      "status": "MET",
+      "min_temp_k": 298.1499938964844,
+      "max_temp_k": 450.0,
+      "mean_temp_k": 440.85980224609375,
+      "r_scale_factor": 1.5508599281311035,
+      "elapsed_sec": 0.6683480739593506,
+      "peak_ram_mb": 317.5,
+      "spef_file": "outputs/flow6_thermfm_released/adjusted.spef"
+    }
+  ]
+}

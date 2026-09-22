@@ -1,0 +1,268 @@
+{
+  "completed_utc": "2026-09-12T16:44:45.917755+00:00",
+  "configuration": "DualRocketNVDLAConfig",
+  "top": "ChipTop",
+  "status": "PASS_LOGIC_MAPPING_WITH_GENERIC_MEMORIES",
+  "synthesis_mode": "preserve-memories",
+  "frontend_cleanup": {
+    "command": "opt_clean -purge before check -assert",
+    "stages": {
+      "elaborate": {
+        "before": {
+          "num_wires": 275963,
+          "num_wire_bits": 29991168,
+          "num_pub_wires": 88570,
+          "num_pub_wire_bits": 12327111,
+          "num_ports": 36302,
+          "num_port_bits": 310667,
+          "num_memories": 411,
+          "num_memory_bits": 7109698,
+          "num_processes": 0,
+          "num_cells": 185262,
+          "num_submodules": 83
+        },
+        "after": {
+          "num_wires": 163147,
+          "num_wire_bits": 1194759,
+          "num_pub_wires": 68061,
+          "num_pub_wire_bits": 631814,
+          "num_ports": 32601,
+          "num_port_bits": 296085,
+          "num_memories": 411,
+          "num_memory_bits": 7109698,
+          "num_processes": 0,
+          "num_cells": 129718,
+          "num_submodules": 83
+        }
+      },
+      "prepare": {
+        "before": {
+          "num_wires": 269203,
+          "num_wire_bits": 30020182,
+          "num_pub_wires": 83794,
+          "num_pub_wire_bits": 12324257,
+          "num_ports": 56,
+          "num_port_bits": 363,
+          "num_memories": 199,
+          "num_memory_bits": 1151042,
+          "num_processes": 0,
+          "num_cells": 214521,
+          "num_submodules": 0
+        },
+        "after": {
+          "num_wires": 124678,
+          "num_wire_bits": 898792,
+          "num_pub_wires": 32480,
+          "num_pub_wire_bits": 326308,
+          "num_ports": 56,
+          "num_port_bits": 363,
+          "num_memories": 199,
+          "num_memory_bits": 1151042,
+          "num_processes": 0,
+          "num_cells": 126546,
+          "num_submodules": 0
+        }
+      }
+    }
+  },
+  "stage_order": [
+    "preflight",
+    "prepare",
+    "elaborate",
+    "sram-simulation",
+    "memory-audit",
+    "map",
+    "finalize",
+    "physical-link-if-mapped",
+    "summary"
+  ],
+  "abc_mode": "direct",
+  "abc_commands": [
+    "strash",
+    "&get -n",
+    "&nf",
+    "&put"
+  ],
+  "cell_audit": {
+    "status": "PASS",
+    "allowed_library_cell_types": 136,
+    "observed_cell_types": 34,
+    "generic_memory_exception": true,
+    "scope": "Actual standard-cell and SRAM Liberty declarations; only $mem_v2 additionally allowed in preserve-memories mode"
+  },
+  "yosys_creator": "Yosys 0.68+195 (git sha1 435977e97-dirty, Release, Clang /usr/bin/clang++ 21.1.8)",
+  "mapped_design": {
+    "num_wires": 711159,
+    "num_wire_bits": 892764,
+    "num_pub_wires": 15767,
+    "num_pub_wire_bits": 187367,
+    "num_ports": 56,
+    "num_port_bits": 363,
+    "num_memories": 0,
+    "num_memory_bits": 0,
+    "num_processes": 0,
+    "num_cells": 719780,
+    "num_submodules": 0,
+    "area": 4741582.202001,
+    "sequential_area": 593640.446,
+    "num_cells_by_type": {
+      "$mem_v2": 201,
+      "AND2_X1": 9358,
+      "AND3_X1": 2887,
+      "AND4_X1": 1423,
+      "AOI211_X1": 3024,
+      "AOI21_X1": 31323,
+      "AOI221_X1": 3835,
+      "AOI222_X1": 3942,
+      "AOI22_X1": 32963,
+      "BUF_X1": 6,
+      "DFFR_X1": 34699,
+      "DFFS_X1": 708,
+      "DFF_X1": 89623,
+      "DLL_X1": 1,
+      "INV_X1": 36384,
+      "MUX2_X1": 171678,
+      "NAND2_X1": 71699,
+      "NAND3_X1": 19627,
+      "NAND4_X1": 12139,
+      "NOR2_X1": 31430,
+      "NOR3_X1": 11617,
+      "NOR4_X1": 8577,
+      "OAI211_X1": 3008,
+      "OAI21_X1": 45536,
+      "OAI221_X1": 2190,
+      "OAI222_X1": 155,
+      "OAI22_X1": 848,
+      "OAI33_X1": 412,
+      "OR2_X1": 7775,
+      "OR3_X1": 2135,
+      "OR4_X1": 3292,
+      "XNOR2_X1": 44905,
+      "XOR2_X1": 32186,
+      "fakeram45_512x64": 194
+    }
+  },
+  "standard_cell_instances": 719385,
+  "generic_memory_instances": 201,
+  "generic_memory_bits": 1210363,
+  "openroad_link": {
+    "linked": false,
+    "status": "NOT_RUN",
+    "reason": "Generic memories lack physical SRAM macros"
+  },
+  "sram_comparison": {
+    "seeds": [
+      1,
+      827361,
+      2147483647
+    ],
+    "interfaces": 7,
+    "compared_cycles": 212364
+  },
+  "memory_inventory": {
+    "configuration": "DualRocketNVDLAConfig",
+    "top": "ChipTop",
+    "macro": "fakeram45_512x64",
+    "memories": [
+      {
+        "module": "cc_dir_ext",
+        "depth": 1024,
+        "width": 144,
+        "ports": "mrw",
+        "mask_granularity": 18,
+        "mask_bits": 8,
+        "instances": 1,
+        "macros_per_instance": 6,
+        "total_macros": 6,
+        "logical_bits": 147456
+      },
+      {
+        "module": "cc_banks_0_ext",
+        "depth": 16384,
+        "width": 64,
+        "ports": "rw",
+        "mask_granularity": 64,
+        "mask_bits": 1,
+        "instances": 4,
+        "macros_per_instance": 32,
+        "total_macros": 128,
+        "logical_bits": 4194304
+      },
+      {
+        "module": "rockettile_dcache_data_arrays_0_ext",
+        "depth": 512,
+        "width": 512,
+        "ports": "mrw",
+        "mask_granularity": 8,
+        "mask_bits": 64,
+        "instances": 2,
+        "macros_per_instance": 8,
+        "total_macros": 16,
+        "logical_bits": 524288
+      },
+      {
+        "module": "rockettile_dcache_tag_array_ext",
+        "depth": 64,
+        "width": 176,
+        "ports": "mrw",
+        "mask_granularity": 22,
+        "mask_bits": 8,
+        "instances": 2,
+        "macros_per_instance": 3,
+        "total_macros": 6,
+        "logical_bits": 22528
+      },
+      {
+        "module": "rockettile_icache_tag_array_ext",
+        "depth": 64,
+        "width": 168,
+        "ports": "mrw",
+        "mask_granularity": 21,
+        "mask_bits": 8,
+        "instances": 2,
+        "macros_per_instance": 3,
+        "total_macros": 6,
+        "logical_bits": 21504
+      },
+      {
+        "module": "rockettile_icache_data_arrays_0_ext",
+        "depth": 512,
+        "width": 256,
+        "ports": "mrw",
+        "mask_granularity": 32,
+        "mask_bits": 8,
+        "instances": 4,
+        "macros_per_instance": 4,
+        "total_macros": 16,
+        "logical_bits": 524288
+      },
+      {
+        "module": "mem_ext",
+        "depth": 8192,
+        "width": 64,
+        "ports": "mrw",
+        "mask_granularity": 8,
+        "mask_bits": 8,
+        "instances": 1,
+        "macros_per_instance": 16,
+        "total_macros": 16,
+        "logical_bits": 524288
+      }
+    ],
+    "memory_instances": 16,
+    "logical_bits": 5958656,
+    "physical_macro_instances": 194,
+    "physical_capacity_bits": 6356992
+  },
+  "memory_audit": {
+    "status": "PRESERVE_GENERIC_MEMORIES",
+    "remaining_behavioral_arrays": 199
+  },
+  "limitations": [
+    "Nangate45/fakeram45 exploratory non-manufacturable mapping",
+    "No timing constraints, timing closure, placement, or routing",
+    "SRAM comparisons are finite simulation, not formal equivalence",
+    "Synthesis/link success is not functional SoC signoff",
+    "Generic memory cells retain port semantics but have no SRAM technology mapping, physical area or physical netlist link; reported logic area excludes their storage area"
+  ]
+}

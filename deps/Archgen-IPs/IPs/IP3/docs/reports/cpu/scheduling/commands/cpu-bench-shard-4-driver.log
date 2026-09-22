@@ -1,0 +1,155 @@
+Progress: 0/19, {}, elapsed 30s
+Progress: 0/19, {}, elapsed 60s
+Progress: 0/19, {}, elapsed 90s
+Progress: 0/19, {}, elapsed 120s
+Progress: 0/19, {}, elapsed 150s
+Progress: 0/19, {}, elapsed 180s
+Progress: 0/19, {}, elapsed 210s
+Progress: 0/19, {}, elapsed 240s
+Progress: 0/19, {}, elapsed 270s
+Progress: 0/19, {}, elapsed 300s
+Progress: 0/19, {}, elapsed 330s
+Progress: 0/19, {}, elapsed 360s
+Progress: 0/19, {}, elapsed 390s
+Progress: 0/19, {}, elapsed 420s
+Progress: 0/19, {}, elapsed 450s
+Progress: 0/19, {}, elapsed 480s
+Progress: 0/19, {}, elapsed 510s
+Progress: 0/19, {}, elapsed 540s
+Progress: 0/19, {}, elapsed 570s
+Progress: 0/19, {}, elapsed 600s
+Progress: 0/19, {}, elapsed 630s
+Progress: 0/19, {}, elapsed 660s
+Progress: 0/19, {}, elapsed 690s
+Progress: 0/19, {}, elapsed 720s
+Progress: 0/19, {}, elapsed 750s
+Progress: 0/19, {}, elapsed 780s
+Progress: 0/19, {}, elapsed 810s
+1/19 rsort PASS 816.707s
+Progress: 1/19, {'PASS': 1}, elapsed 847s
+Progress: 1/19, {'PASS': 1}, elapsed 877s
+Progress: 1/19, {'PASS': 1}, elapsed 907s
+Progress: 1/19, {'PASS': 1}, elapsed 937s
+Progress: 1/19, {'PASS': 1}, elapsed 967s
+Progress: 1/19, {'PASS': 1}, elapsed 997s
+Progress: 1/19, {'PASS': 1}, elapsed 1027s
+Progress: 1/19, {'PASS': 1}, elapsed 1057s
+Progress: 1/19, {'PASS': 1}, elapsed 1087s
+Progress: 1/19, {'PASS': 1}, elapsed 1117s
+Progress: 1/19, {'PASS': 1}, elapsed 1147s
+Progress: 1/19, {'PASS': 1}, elapsed 1177s
+Progress: 1/19, {'PASS': 1}, elapsed 1207s
+Progress: 1/19, {'PASS': 1}, elapsed 1237s
+Progress: 1/19, {'PASS': 1}, elapsed 1267s
+Progress: 1/19, {'PASS': 1}, elapsed 1297s
+Progress: 1/19, {'PASS': 1}, elapsed 1327s
+Progress: 1/19, {'PASS': 1}, elapsed 1357s
+Progress: 1/19, {'PASS': 1}, elapsed 1387s
+Progress: 1/19, {'PASS': 1}, elapsed 1417s
+Progress: 1/19, {'PASS': 1}, elapsed 1447s
+Progress: 1/19, {'PASS': 1}, elapsed 1477s
+Progress: 1/19, {'PASS': 1}, elapsed 1507s
+Progress: 1/19, {'PASS': 1}, elapsed 1537s
+Progress: 1/19, {'PASS': 1}, elapsed 1567s
+2/19 mm PASS 760.159s
+Progress: 2/19, {'PASS': 2}, elapsed 1607s
+Progress: 2/19, {'PASS': 2}, elapsed 1637s
+Progress: 2/19, {'PASS': 2}, elapsed 1667s
+Progress: 2/19, {'PASS': 2}, elapsed 1697s
+Progress: 2/19, {'PASS': 2}, elapsed 1727s
+Progress: 2/19, {'PASS': 2}, elapsed 1757s
+Progress: 2/19, {'PASS': 2}, elapsed 1787s
+Progress: 2/19, {'PASS': 2}, elapsed 1817s
+Progress: 2/19, {'PASS': 2}, elapsed 1847s
+Progress: 2/19, {'PASS': 2}, elapsed 1877s
+Progress: 2/19, {'PASS': 2}, elapsed 1907s
+Progress: 2/19, {'PASS': 2}, elapsed 1937s
+Progress: 2/19, {'PASS': 2}, elapsed 1967s
+Progress: 2/19, {'PASS': 2}, elapsed 1997s
+Progress: 2/19, {'PASS': 2}, elapsed 2027s
+Progress: 2/19, {'PASS': 2}, elapsed 2057s
+Progress: 2/19, {'PASS': 2}, elapsed 2087s
+Progress: 2/19, {'PASS': 2}, elapsed 2117s
+3/19 mt-memcpy PASS 545.737s
+Progress: 3/19, {'PASS': 3}, elapsed 2153s
+Progress: 3/19, {'PASS': 3}, elapsed 2183s
+Progress: 3/19, {'PASS': 3}, elapsed 2213s
+Progress: 3/19, {'PASS': 3}, elapsed 2243s
+Progress: 3/19, {'PASS': 3}, elapsed 2273s
+Progress: 3/19, {'PASS': 3}, elapsed 2303s
+Progress: 3/19, {'PASS': 3}, elapsed 2333s
+Progress: 3/19, {'PASS': 3}, elapsed 2363s
+Progress: 3/19, {'PASS': 3}, elapsed 2393s
+Progress: 3/19, {'PASS': 3}, elapsed 2423s
+Progress: 3/19, {'PASS': 3}, elapsed 2453s
+Progress: 3/19, {'PASS': 3}, elapsed 2483s
+Progress: 3/19, {'PASS': 3}, elapsed 2513s
+Progress: 3/19, {'PASS': 3}, elapsed 2543s
+Progress: 3/19, {'PASS': 3}, elapsed 2573s
+Progress: 3/19, {'PASS': 3}, elapsed 2603s
+4/19 dhrystone PASS 494.47s
+Progress: 4/19, {'PASS': 4}, elapsed 2647s
+Progress: 4/19, {'PASS': 4}, elapsed 2677s
+Progress: 4/19, {'PASS': 4}, elapsed 2707s
+Progress: 4/19, {'PASS': 4}, elapsed 2737s
+Progress: 4/19, {'PASS': 4}, elapsed 2767s
+Progress: 4/19, {'PASS': 4}, elapsed 2797s
+Progress: 4/19, {'PASS': 4}, elapsed 2827s
+Progress: 4/19, {'PASS': 4}, elapsed 2857s
+Progress: 4/19, {'PASS': 4}, elapsed 2887s
+Progress: 4/19, {'PASS': 4}, elapsed 2917s
+Progress: 4/19, {'PASS': 4}, elapsed 2947s
+Progress: 4/19, {'PASS': 4}, elapsed 2977s
+5/19 mt-memcpy-dual PASS 371.226s
+Progress: 5/19, {'PASS': 5}, elapsed 3018s
+Progress: 5/19, {'PASS': 5}, elapsed 3048s
+Progress: 5/19, {'PASS': 5}, elapsed 3078s
+Progress: 5/19, {'PASS': 5}, elapsed 3108s
+Progress: 5/19, {'PASS': 5}, elapsed 3138s
+Progress: 5/19, {'PASS': 5}, elapsed 3168s
+Progress: 5/19, {'PASS': 5}, elapsed 3198s
+Progress: 5/19, {'PASS': 5}, elapsed 3228s
+6/19 mt-vvadd-dual PASS 263.396s
+Progress: 6/19, {'PASS': 6}, elapsed 3282s
+Progress: 6/19, {'PASS': 6}, elapsed 3312s
+Progress: 6/19, {'PASS': 6}, elapsed 3342s
+Progress: 6/19, {'PASS': 6}, elapsed 3372s
+Progress: 6/19, {'PASS': 6}, elapsed 3402s
+Progress: 6/19, {'PASS': 6}, elapsed 3432s
+Progress: 6/19, {'PASS': 6}, elapsed 3462s
+7/19 legacy-cy_matmul-dual FAIL 224.221s
+Progress: 7/19, {'PASS': 6, 'FAIL': 1}, elapsed 3506s
+Progress: 7/19, {'PASS': 6, 'FAIL': 1}, elapsed 3536s
+Progress: 7/19, {'PASS': 6, 'FAIL': 1}, elapsed 3566s
+Progress: 7/19, {'PASS': 6, 'FAIL': 1}, elapsed 3596s
+Progress: 7/19, {'PASS': 6, 'FAIL': 1}, elapsed 3626s
+Progress: 7/19, {'PASS': 6, 'FAIL': 1}, elapsed 3656s
+8/19 legacy-ay_matmul-dual FAIL 189.715s
+Progress: 8/19, {'PASS': 6, 'FAIL': 2}, elapsed 3696s
+Progress: 8/19, {'PASS': 6, 'FAIL': 2}, elapsed 3726s
+Progress: 8/19, {'PASS': 6, 'FAIL': 2}, elapsed 3756s
+Progress: 8/19, {'PASS': 6, 'FAIL': 2}, elapsed 3786s
+Progress: 8/19, {'PASS': 6, 'FAIL': 2}, elapsed 3816s
+9/19 legacy-bk_matmul-dual FAIL 156.177s
+Progress: 9/19, {'PASS': 6, 'FAIL': 3}, elapsed 3852s
+Progress: 9/19, {'PASS': 6, 'FAIL': 3}, elapsed 3882s
+Progress: 9/19, {'PASS': 6, 'FAIL': 3}, elapsed 3912s
+10/19 legacy-du_matmul-dual FAIL 116.762s
+Progress: 10/19, {'PASS': 6, 'FAIL': 4}, elapsed 3969s
+Progress: 10/19, {'PASS': 6, 'FAIL': 4}, elapsed 3999s
+11/19 multiply PASS 72.631s
+Progress: 11/19, {'PASS': 7, 'FAIL': 4}, elapsed 4041s
+Progress: 11/19, {'PASS': 7, 'FAIL': 4}, elapsed 4071s
+12/19 legacy-dc_matmul-dual PASS 70.89s
+Progress: 12/19, {'PASS': 8, 'FAIL': 4}, elapsed 4112s
+13/19 legacy-ce_matmul-dual PASS 59.131s
+Progress: 13/19, {'PASS': 9, 'FAIL': 4}, elapsed 4171s
+14/19 legacy-ck_matmul-dual PASS 46.718s
+Progress: 14/19, {'PASS': 10, 'FAIL': 4}, elapsed 4218s
+15/19 legacy-ag_matmul-dual PASS 35.37s
+Progress: 15/19, {'PASS': 11, 'FAIL': 4}, elapsed 4253s
+16/19 legacy-cg_matmul-dual PASS 35.212s
+17/19 legacy-bh_matmul-dual PASS 29.189s
+18/19 legacy-af_matmul-dual FAIL 27.331s
+19/19 legacy-bb_matmul-dual PASS 26.981s
+{"total": 19, "counts": {"PASS": 14, "FAIL": 5}, "elapsed_seconds": 4342.059, "finished_utc": "2026-09-12T19:01:35Z"}

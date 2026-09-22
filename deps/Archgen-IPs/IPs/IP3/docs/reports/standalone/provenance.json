@@ -1,0 +1,30 @@
+{
+  "rtl": "${REPO_ROOT}/IPs/IP3/rtl/gen-collateral/nvdla_small.preprocessed.v",
+  "rtl_sha256": "88e206bbf86544030034ecfc387ef3ae4a9a8b6a149b1f550b87bbf02770a124",
+  "command": [
+    "${CHIPYARD_ROOT}/.conda-env/bin/verilator",
+    "--cc",
+    "--exe",
+    "--build",
+    "-j",
+    "1",
+    "--top-module",
+    "nvdla_small",
+    "-Wno-fatal",
+    "--Mdir",
+    "${STANDALONE_BUILD}/obj",
+    "-CFLAGS",
+    "-O1 -fno-pie",
+    "-LDFLAGS",
+    "-no-pie",
+    "${REPO_ROOT}/IPs/IP3/rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "${REPO_ROOT}/IPs/IP3/tests/nvdla_standalone.cpp"
+  ],
+  "verilator_version": "Verilator 5.022 2024-02-24 rev conda-forge build 1\n",
+  "scope": "NVDLA engines, APB/AXI harness; no CPUs/caches; PLIC emulated",
+  "sources": {
+    "nvdla_standalone.cpp": "569d4ef6aa544ab721d784c2d30ae85bb0262103e29b872b00419480877534b0",
+    "nvdla_test.c": "e1a0092fdf53f234c8ecf0c92bba1999409ed201b6ad6abde7addf0beb4a9322",
+    "nvdla.h": "15aa2b37f35b559ff53891a58f2473a621411b03c57a3f8fbc43a862bf4745b3"
+  }
+}

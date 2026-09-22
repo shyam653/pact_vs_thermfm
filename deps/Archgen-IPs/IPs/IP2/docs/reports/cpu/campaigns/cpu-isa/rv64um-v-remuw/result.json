@@ -1,0 +1,9 @@
+{
+  "test": "rv64um-v-remuw",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 10.02,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64um-v-remuw/simulation.log"
+}

@@ -1,0 +1,9 @@
+{
+  "test": "dual-hart-smoke",
+  "suite": "dual-hart-smoke",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 6.701,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/dual-hart-smoke/simulation.log"
+}

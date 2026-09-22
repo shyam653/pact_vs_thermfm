@@ -1,0 +1,6 @@
+Cloning into '${REPO_ROOT}/build/cpu-rebuilt/bench/libgloss-src'...
+HEAD is now at 39234a1 Merge pull request #12 from ucb-bar/vs
+test	exit_status	source
+hello	0	${CHIPYARD_ROOT}/tests/hello.c
+cpp-hello	0	${CHIPYARD_ROOT}/tests/cpp-hello.cpp
+mt-hello-dual	0	${REPO_ROOT}/build/cpu-rebuilt/bench/mt-hello-dual.c

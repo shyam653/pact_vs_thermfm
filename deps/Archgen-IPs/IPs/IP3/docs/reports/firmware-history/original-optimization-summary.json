@@ -1,0 +1,19 @@
+{
+  "captured_utc": "2026-09-12T15:10:59.884584+00:00",
+  "scope": "Historical scalar-byte firmware and equivalent bulk-loop revision; excluded from final accepted full-SoC campaign count",
+  "original_source_sha256": "0adcb0f5b65068b201d56581a4ec438f40019f3801aec6d31a40f972439a81fa",
+  "current_source_sha256": "8e443fa4d9340b7b10b46ad231dc608544abde0b0440d69e654234512a997f71",
+  "same_simulator_sha256": "1d1e40de39739d20508913e8d6ce4f0eafecb90f3b7a2295bbf8a80359924229",
+  "original_outcome": "WALL_TIMEOUT",
+  "original_wall_seconds": 900.122,
+  "original_completed_sdp_jobs": 5,
+  "original_final_pass": false,
+  "original_elf_sha256": {
+    "nvdla-dual": "20c690f5e0b645834ad1a88859434bc3cf831d3cbcfc57693ca0e7b545df0807",
+    "nvdla-negative-control": "d0e59c25ce372dccd5e8bc4087fb4b685c1900d311bd84b1c8a83a6813e2f522",
+    "nvdla-timeout-control": "4b65631ae509163c3502a469e9f297dbad48cc18d57cbf2095d22989c54c4f7f"
+  },
+  "original_elf_storage": "Original ELF files remain retained under ${REPO_ROOT}/build/IP3/nvdla-tests; hashes and complete source/compiler records are published here.",
+  "bulk_loop_change": "512 aligned uint64 iterations replace 4096 uint8 iterations for poison fill and full-buffer equality. Every byte and first mismatch diagnosis retained; no whole-program speedup factor claimed.",
+  "helper_verification": "C and C++ probes check all 4096 poison bytes, equality, all 4096 individual mismatch byte indices with varied bit positions, and first-of-multiple mismatch ordering."
+}

@@ -1,0 +1,16 @@
+{
+  "changed_utc": "2026-09-12T17:01:05.327002+00:00",
+  "reason": "Replace only idle fixed jobs2 benchmark queue with four jobs1 balanced shards; no benchmark had started and no active simulation was interrupted",
+  "stopped_idle_queue_pid": 298365,
+  "stopped_idle_queue_argv": [
+    "python3",
+    "build/IP3/queue-cpu-bench.py"
+  ],
+  "old_queue_parent_pid": 298360,
+  "benchmark_directory_absent": true,
+  "benchmark_launch_command_absent": true,
+  "archived_files": {
+    "queue-cpu-bench.py": "42876c8e0bda446416842b3e6f75ab237d2aff67b3f9c6c4db397c2b13832a2f",
+    "cpu-bench-queue.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

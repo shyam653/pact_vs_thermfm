@@ -1,0 +1,9 @@
+plugin -i @SLANG_PLUGIN@
+read_liberty -lib @SRAM_LIB@
+read_slang --top ChipTop -D SYNTHESIS -y @RTL_DIR@ -Y .sv -Y .v @CHIP_TOP@ @EXTRA_SOURCES@ @WRAPPERS@
+hierarchy -check -top ChipTop
+tee -o @OUT@/prepare-before-clean-statistics.json stat -json -width
+opt_clean -purge
+tee -o @OUT@/prepare-after-clean-statistics.json stat -json -width
+check -assert
+write_rtlil @OUT@/ChipTop-macro-elaborated.il

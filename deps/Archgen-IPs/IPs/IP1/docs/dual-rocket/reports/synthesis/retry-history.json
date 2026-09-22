@@ -1,0 +1,43 @@
+{
+  "attempts": [
+    {
+      "directory_label": "publication-run/synthesis",
+      "started_utc": "2026-09-06T13:05:40.339555+00:00",
+      "exit_status": 1,
+      "completed_sram_comparisons": 212364,
+      "failed_stage": "elaborate",
+      "mapped_design_produced": false,
+      "error_excerpt_path_normalized": [
+        "error: '\"<GENERATED_RTL>\"': No such file or directory",
+        "ERROR: Bad command"
+      ],
+      "cause": "The installed read_slang frontend retained literal quote characters in .ys filename arguments.",
+      "preserved_raw_sha256": {
+        "elaborate.log": "90d6b9f64c0778465716b4c2f541bd73c49316e53d83bb01805b9e277eef7e13",
+        "provenance.json": "451fa2a611889e9647e7d269c3ac7e8f6db0164a28999b27768a85a121609f94",
+        "run-status.txt": "e93176b9cdf866ef0c78d24b2eae43327a3a79c44849a0a5e00140124cbfe5a6"
+      }
+    },
+    {
+      "directory_label": "publication-run/synthesis-retry1",
+      "started_utc": "2026-09-06T13:15:43.196474+00:00",
+      "fix": "Controlled whitespace-free relative input/plugin symlinks, Yosys working directory set to the new output directory, and a lightweight preflight check before SRAM tests.",
+      "validation": "Every SRAM seed and full-SoC synthesis stage rerun; no results reused from the failed attempt.",
+      "completed_utc": "2026-09-06T13:51:31.495434+00:00",
+      "exit_status": 0,
+      "summary_sha256": "9df0438acb15ee9793479ebf638be18e246e4551ed8ff84b32ecf640690f9ed4"
+    }
+  ],
+  "infrastructure_probes": [
+    {
+      "test": "Yosys/slang with spaces in input, working, and helper-executable paths",
+      "result": "PASS",
+      "design": "One AND expression and output buffer; not a SoC synthesis"
+    },
+    {
+      "test": "OpenROAD instance traversal/getMaster and report_design_area from a working directory with spaces",
+      "result": "PASS",
+      "design": "One AND2_X1; not a SoC synthesis"
+    }
+  ]
+}

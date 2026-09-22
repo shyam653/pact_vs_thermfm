@@ -1,0 +1,7 @@
+Flow ID,Flow Name,Mean Temp (K),R Scale Factor,Data Arrival (ns),Setup Slack (ns),Timing Status,Elapsed Time (s),CPU Config,GPU Config,Peak Memory (MB),Thermal SPEF Output
+flow1_baseline,1. Baseline (No Thermal),298.15,1.000000,4.7761,5.0648,MET,0.659,24x CPU Cores (x86_64),CPU-Only (Host),295.2,data/ibex_baseline.spef
+flow2_pact_superlu,2. PACT (SuperLU),676.06,2.458751,4.7771,5.0635,MET,1.803,24x CPU Cores (x86_64),CPU-Only (Host),296.1,outputs/flow2_pact_superlu/adjusted.spef
+flow3_pact_xyce,3. PACT (Xyce/SPICE),676.06,2.458751,4.7761,5.0648,MET,1.630,24x CPU Cores (x86_64),CPU-Only (Host),296.1,outputs/flow3_pact_xyce/adjusted.spef
+flow4_thermfm_run1,4. Therm-FM (Custom Run 1),310.32,1.046969,4.7761,5.0647,MET,0.686,24x CPU Cores (x86_64),CPU-Only (Host),317.4,outputs/flow4_thermfm_run1/adjusted.spef
+flow5_thermfm_run2,5. Therm-FM (Custom Run 2),310.69,1.048405,4.7761,5.0647,MET,0.672,24x CPU Cores (x86_64),CPU-Only (Host),317.6,outputs/flow5_thermfm_run2/adjusted.spef
+flow6_thermfm_released,6. Therm-FM (Released Checkpoint),440.86,1.550860,4.7767,5.0641,MET,0.668,24x CPU Cores (x86_64),CPU-Only (Host),317.5,outputs/flow6_thermfm_released/adjusted.spef

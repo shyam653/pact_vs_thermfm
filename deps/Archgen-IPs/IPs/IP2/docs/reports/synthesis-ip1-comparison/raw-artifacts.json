@@ -1,0 +1,157 @@
+[
+  {
+    "path": "ChipTop-after-abc.il",
+    "bytes": 135904336,
+    "sha256": "c3dc4dfa477f57e050d17fdf839285cb051f45a9139a3190785a92d553edf9f4"
+  },
+  {
+    "path": "ChipTop-mapped.json",
+    "bytes": 251269575,
+    "sha256": "0a5a769dbbf4cca1bce0108c64386dde3c9b29342868390e16bb7cf53e0f731b"
+  },
+  {
+    "path": "ChipTop-mapped.v",
+    "bytes": 69819525,
+    "sha256": "70e99c26119c502e004598df034e33509e9fbd9485b7f64188b594804778b3c3"
+  },
+  {
+    "path": "ChipTop.odb",
+    "bytes": 194526393,
+    "sha256": "f81e0d2fbb873945cc53d61062f7fde82cb740295c838cfe52038f546c8306a6"
+  },
+  {
+    "path": "artifact-sha256.json",
+    "bytes": 2829,
+    "sha256": "dc6f65a93de164b33ebc81ada9ba8e3f23c2a2738ab3df443c7fbd271903a73c"
+  },
+  {
+    "path": "check.tcl",
+    "bytes": 1071,
+    "sha256": "b13341b178f4842057335099749664aab65c330d446c79d5b6260df2d7a92cd1"
+  },
+  {
+    "path": "direct.abc",
+    "bytes": 28,
+    "sha256": "ff35c8ecc15fd3353d520c61090e0278080ae8cc765f98c3d2256bd5afe25dcd"
+  },
+  {
+    "path": "finalize.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "finalize.log",
+    "bytes": 9970,
+    "sha256": "40d4554f031d167705c19c96be4bcba6ede250bf3950c4ca329c2d53b5a957cd"
+  },
+  {
+    "path": "finalize.ys",
+    "bytes": 362,
+    "sha256": "6fb73c334a44937efa2913b3e7b202d35bad75f43489f9a7ac7e840ea9660117"
+  },
+  {
+    "path": "inherited/artifact-sha256.json",
+    "bytes": 3851,
+    "sha256": "c6741f21551f6bf733366e0e58610576d69934d3d0fc78612738d0f081baa36b"
+  },
+  {
+    "path": "inherited/elaborate.log",
+    "bytes": 3041946,
+    "sha256": "2cab0366e27857029d1c83e298ef36c50cfccf4dbe5c4994f6bd5ac2cb044eb8"
+  },
+  {
+    "path": "inherited/macro-map/inventory.json",
+    "bytes": 2190,
+    "sha256": "621cc3797281662b06f6af505d62bdeea7e6e9df1f462368ccccc35576fb0088"
+  },
+  {
+    "path": "inherited/macro-map/test_sram.log",
+    "bytes": 2069,
+    "sha256": "b25b043a6e38bcf283202789c439f4d18f5b420687f2496599ef548c41dc58c4"
+  },
+  {
+    "path": "inherited/map-prefix.log",
+    "bytes": 7349658,
+    "sha256": "fe86885310248ece15616263538c8a63ab5e3e957200799bdb84391e4348d55c"
+  },
+  {
+    "path": "inherited/preflight.log",
+    "bytes": 1760,
+    "sha256": "bb9a6ddd554cf50f5836c0aad7bbafd6a6aad38e06e873c694b0a8a0dd710a08"
+  },
+  {
+    "path": "inherited/prepare.log",
+    "bytes": 665544,
+    "sha256": "499be9db1e5457027f4de20007f73ab66f44cfd1dca5b251f85887030dd6cf4a"
+  },
+  {
+    "path": "inherited/provenance.json",
+    "bytes": 129884,
+    "sha256": "c76c30c7bee302bf25c519e378ebe97f865f693cdfdedd3be13b9d413f7f4328"
+  },
+  {
+    "path": "inherited/summary.json",
+    "bytes": 2003,
+    "sha256": "9df0438acb15ee9793479ebf638be18e246e4551ed8ff84b32ecf640690f9ed4"
+  },
+  {
+    "path": "map.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "map.log",
+    "bytes": 2919,
+    "sha256": "a03d41fce9209ab4ae51eed3c6fe065e6525120cb263bd630a9b40e26b2543c4"
+  },
+  {
+    "path": "map.ys",
+    "bytes": 227,
+    "sha256": "cf98f216329e4090dea6848fba3f37e44321cf266d9021d94fac53edb9da1068"
+  },
+  {
+    "path": "native-tools-after.json",
+    "bytes": 1000,
+    "sha256": "74c52181d0ce357efb0e9a3d93da31cc403d912dfa5e47a0c3108216e2080a50"
+  },
+  {
+    "path": "openroad-link.json",
+    "bytes": 71,
+    "sha256": "7de83dca06777cf141edef1ac67b4c01ed37f44e5c5eab679bf76a75e91c2a8a"
+  },
+  {
+    "path": "openroad.console.log",
+    "bytes": 836,
+    "sha256": "5f52b0573f2b30976e7289df11fab6b325d6515d8da1248534effacfe8412d99"
+  },
+  {
+    "path": "openroad.log",
+    "bytes": 836,
+    "sha256": "5f52b0573f2b30976e7289df11fab6b325d6515d8da1248534effacfe8412d99"
+  },
+  {
+    "path": "provenance.json",
+    "bytes": 134838,
+    "sha256": "2899a9a48c30d3324772e74ebff4d13c80c9791dbde938569f7e2e22c3a89aa8"
+  },
+  {
+    "path": "run-status.txt",
+    "bytes": 14,
+    "sha256": "ed163d69a09ddc0ffcbdf126a42d5745a93449fa7a39354788e948b7ac795c04"
+  },
+  {
+    "path": "run.py",
+    "bytes": 11814,
+    "sha256": "ef465fe2695f65fed95ae709b68667d20cf8a9fb5d2792a76ee86d08747d6ab5"
+  },
+  {
+    "path": "statistics.json",
+    "bytes": 3261,
+    "sha256": "29881d552efafdc07433895ae980efe4d8dca03ebe2f35d2fa232ae7088c3ea8"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 5515,
+    "sha256": "8e36f317dcdb6941dd4321ce5160b34247605ad5d451ee0e9461a6a9965f7f85"
+  }
+]

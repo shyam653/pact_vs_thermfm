@@ -1,0 +1,5 @@
+plugin -i @SLANG_PLUGIN@
+read_liberty -lib @SRAM_LIB@
+read_slang --top @PREFLIGHT_TOP@ -D SYNTHESIS @WRAPPERS@
+hierarchy -check -top @PREFLIGHT_TOP@
+check -assert

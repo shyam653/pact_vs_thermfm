@@ -1,0 +1,9 @@
+{
+  "test": "rv64ui-v-ma_data",
+  "suite": "isa",
+  "result": "WALL_TIMEOUT",
+  "exit_status": 0,
+  "wall_seconds": 600.22,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64ui-v-ma_data/simulation.log"
+}

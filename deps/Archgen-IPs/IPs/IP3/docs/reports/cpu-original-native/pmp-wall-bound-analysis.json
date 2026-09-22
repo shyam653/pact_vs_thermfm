@@ -1,0 +1,438 @@
+{
+  "captured_utc": "2026-09-12T15:34:09.934288+00:00",
+  "scope": "Host-runtime comparison for selecting the initial PMP wall bound; scheduling contention prevents CPU performance claims",
+  "matched_virtual_pass_tests": 70,
+  "median_ratio": 3.468896448929968,
+  "p90_ratio": 3.870418452991969,
+  "maximum_ratio": 4.463224256979886,
+  "total_seconds_ratio": 3.3496446519667433,
+  "ip2_pmp_seconds": 1013.445,
+  "pmp_projection_at_maximum_observed_ratio": 4523.23230711498,
+  "matches": [
+    {
+      "test": "rv64ua-v-amoadd_d",
+      "ip2_seconds": 16.766,
+      "ip3_seconds": 58.996,
+      "ratio": 3.518788023380652
+    },
+    {
+      "test": "rv64ua-v-amoadd_w",
+      "ip2_seconds": 16.153,
+      "ip3_seconds": 56.335,
+      "ratio": 3.487587445056646
+    },
+    {
+      "test": "rv64ua-v-amoand_d",
+      "ip2_seconds": 16.004,
+      "ip3_seconds": 53.999,
+      "ratio": 3.3740939765058733
+    },
+    {
+      "test": "rv64ua-v-amoand_w",
+      "ip2_seconds": 16.608,
+      "ip3_seconds": 56.222,
+      "ratio": 3.3852360308285165
+    },
+    {
+      "test": "rv64ua-v-amomax_d",
+      "ip2_seconds": 16.203,
+      "ip3_seconds": 54.505,
+      "ratio": 3.3638832315003397
+    },
+    {
+      "test": "rv64ua-v-amomax_w",
+      "ip2_seconds": 17.011,
+      "ip3_seconds": 57.263,
+      "ratio": 3.3662336135441775
+    },
+    {
+      "test": "rv64ua-v-amomaxu_d",
+      "ip2_seconds": 16.764,
+      "ip3_seconds": 57.839,
+      "ratio": 3.4501908852302554
+    },
+    {
+      "test": "rv64ua-v-amomaxu_w",
+      "ip2_seconds": 19.184,
+      "ip3_seconds": 62.658,
+      "ratio": 3.26615929941618
+    },
+    {
+      "test": "rv64ua-v-amomin_d",
+      "ip2_seconds": 20.8,
+      "ip3_seconds": 64.694,
+      "ratio": 3.1102884615384614
+    },
+    {
+      "test": "rv64ua-v-amomin_w",
+      "ip2_seconds": 20.907,
+      "ip3_seconds": 64.594,
+      "ratio": 3.089587219591524
+    },
+    {
+      "test": "rv64ua-v-amominu_d",
+      "ip2_seconds": 20.852,
+      "ip3_seconds": 60.622,
+      "ratio": 2.9072511030117014
+    },
+    {
+      "test": "rv64ua-v-amominu_w",
+      "ip2_seconds": 20.955,
+      "ip3_seconds": 57.384,
+      "ratio": 2.738439513242663
+    },
+    {
+      "test": "rv64ua-v-amoor_d",
+      "ip2_seconds": 21.41,
+      "ip3_seconds": 55.271,
+      "ratio": 2.58155067725362
+    },
+    {
+      "test": "rv64ua-v-amoor_w",
+      "ip2_seconds": 20.35,
+      "ip3_seconds": 67.671,
+      "ratio": 3.3253562653562656
+    },
+    {
+      "test": "rv64ua-v-amoswap_d",
+      "ip2_seconds": 20.606,
+      "ip3_seconds": 83.754,
+      "ratio": 4.064544307483257
+    },
+    {
+      "test": "rv64ua-v-amoswap_w",
+      "ip2_seconds": 20.302,
+      "ip3_seconds": 70.436,
+      "ratio": 3.469411880602897
+    },
+    {
+      "test": "rv64ua-v-amoxor_d",
+      "ip2_seconds": 20.451,
+      "ip3_seconds": 55.577,
+      "ratio": 2.717568823040438
+    },
+    {
+      "test": "rv64ua-v-amoxor_w",
+      "ip2_seconds": 21.208,
+      "ip3_seconds": 54.523,
+      "ratio": 2.570869483213882
+    },
+    {
+      "test": "rv64ua-v-lrsc",
+      "ip2_seconds": 27.102,
+      "ip3_seconds": 75.577,
+      "ratio": 2.7886133864659435
+    },
+    {
+      "test": "rv64uc-v-rvc",
+      "ip2_seconds": 32.124,
+      "ip3_seconds": 99.355,
+      "ratio": 3.092858921678496
+    },
+    {
+      "test": "rv64ud-v-fclass",
+      "ip2_seconds": 12.701,
+      "ip3_seconds": 51.918,
+      "ratio": 4.087709629163058
+    },
+    {
+      "test": "rv64ud-v-fadd",
+      "ip2_seconds": 21.757,
+      "ip3_seconds": 83.272,
+      "ratio": 3.8273659052259044
+    },
+    {
+      "test": "rv64ud-v-fcmp",
+      "ip2_seconds": 22.913,
+      "ip3_seconds": 78.86,
+      "ratio": 3.441714310653341
+    },
+    {
+      "test": "rv64ud-v-fcvt",
+      "ip2_seconds": 21.56,
+      "ip3_seconds": 72.335,
+      "ratio": 3.355055658627087
+    },
+    {
+      "test": "rv64ud-v-fdiv",
+      "ip2_seconds": 22.164,
+      "ip3_seconds": 65.246,
+      "ratio": 2.943782710702039
+    },
+    {
+      "test": "rv64ud-v-fcvt_w",
+      "ip2_seconds": 32.628,
+      "ip3_seconds": 98.08,
+      "ratio": 3.006007110457276
+    },
+    {
+      "test": "rv64ud-v-fmadd",
+      "ip2_seconds": 19.547,
+      "ip3_seconds": 67.531,
+      "ratio": 3.4548012482733927
+    },
+    {
+      "test": "rv64ud-v-fmin",
+      "ip2_seconds": 18.776,
+      "ip3_seconds": 68.183,
+      "ratio": 3.631391137622497
+    },
+    {
+      "test": "rv64ud-v-ldst",
+      "ip2_seconds": 16.561,
+      "ip3_seconds": 64.098,
+      "ratio": 3.870418452991969
+    },
+    {
+      "test": "rv64ud-v-move",
+      "ip2_seconds": 18.769,
+      "ip3_seconds": 63.027,
+      "ratio": 3.358037188981832
+    },
+    {
+      "test": "rv64ud-v-structural",
+      "ip2_seconds": 10.222,
+      "ip3_seconds": 28.499,
+      "ratio": 2.788006261005674
+    },
+    {
+      "test": "rv64ud-v-recoding",
+      "ip2_seconds": 16.655,
+      "ip3_seconds": 74.335,
+      "ratio": 4.463224256979886
+    },
+    {
+      "test": "rv64uf-v-fclass",
+      "ip2_seconds": 10.425,
+      "ip3_seconds": 38.065,
+      "ratio": 3.651318944844124
+    },
+    {
+      "test": "rv64uf-v-fadd",
+      "ip2_seconds": 18.769,
+      "ip3_seconds": 63.657,
+      "ratio": 3.3916031754488785
+    },
+    {
+      "test": "rv64uf-v-fcmp",
+      "ip2_seconds": 17.971,
+      "ip3_seconds": 62.302,
+      "ratio": 3.466807634522286
+    },
+    {
+      "test": "rv64uf-v-fcvt",
+      "ip2_seconds": 17.008,
+      "ip3_seconds": 62.302,
+      "ratio": 3.6630997177798683
+    },
+    {
+      "test": "rv64uf-v-fdiv",
+      "ip2_seconds": 18.675,
+      "ip3_seconds": 65.62,
+      "ratio": 3.513788487282463
+    },
+    {
+      "test": "rv64uf-v-fcvt_w",
+      "ip2_seconds": 26.263,
+      "ip3_seconds": 95.138,
+      "ratio": 3.622510756577695
+    },
+    {
+      "test": "rv64uf-v-fmadd",
+      "ip2_seconds": 17.71,
+      "ip3_seconds": 62.468,
+      "ratio": 3.5272727272727273
+    },
+    {
+      "test": "rv64uf-v-fmin",
+      "ip2_seconds": 17.616,
+      "ip3_seconds": 61.099,
+      "ratio": 3.468381017257039
+    },
+    {
+      "test": "rv64uf-v-move",
+      "ip2_seconds": 9.818,
+      "ip3_seconds": 36.168,
+      "ratio": 3.6838459971480955
+    },
+    {
+      "test": "rv64uf-v-ldst",
+      "ip2_seconds": 16.76,
+      "ip3_seconds": 60.508,
+      "ratio": 3.6102625298329354
+    },
+    {
+      "test": "rv64uf-v-recoding",
+      "ip2_seconds": 17.009,
+      "ip3_seconds": 59.592,
+      "ratio": 3.5035569404432945
+    },
+    {
+      "test": "rv64ui-v-add",
+      "ip2_seconds": 15.477,
+      "ip3_seconds": 44.68,
+      "ratio": 2.886864379401693
+    },
+    {
+      "test": "rv64ui-v-addi",
+      "ip2_seconds": 22.609,
+      "ip3_seconds": 42.17,
+      "ratio": 1.8651864301826706
+    },
+    {
+      "test": "rv64ui-v-addiw",
+      "ip2_seconds": 19.355,
+      "ip3_seconds": 40.808,
+      "ratio": 2.1083957633686383
+    },
+    {
+      "test": "rv64ui-v-addw",
+      "ip2_seconds": 18.059,
+      "ip3_seconds": 41.298,
+      "ratio": 2.286837587906307
+    },
+    {
+      "test": "rv64ui-v-andi",
+      "ip2_seconds": 9.917,
+      "ip3_seconds": 36.607,
+      "ratio": 3.6913381062821418
+    },
+    {
+      "test": "rv64ui-v-and",
+      "ip2_seconds": 21.026,
+      "ip3_seconds": 63.152,
+      "ratio": 3.0035194521069153
+    },
+    {
+      "test": "rv64ui-v-auipc",
+      "ip2_seconds": 9.52,
+      "ip3_seconds": 34.907,
+      "ratio": 3.6667016806722685
+    },
+    {
+      "test": "rv64ui-v-beq",
+      "ip2_seconds": 10.272,
+      "ip3_seconds": 35.415,
+      "ratio": 3.4477219626168223
+    },
+    {
+      "test": "rv64ui-v-bge",
+      "ip2_seconds": 10.125,
+      "ip3_seconds": 35.059,
+      "ratio": 3.462617283950617
+    },
+    {
+      "test": "rv64ui-v-bgeu",
+      "ip2_seconds": 10.583,
+      "ip3_seconds": 34.615,
+      "ratio": 3.2708116791080037
+    },
+    {
+      "test": "rv64ui-v-blt",
+      "ip2_seconds": 10.528,
+      "ip3_seconds": 35.821,
+      "ratio": 3.4024506079027352
+    },
+    {
+      "test": "rv64ui-v-bltu",
+      "ip2_seconds": 10.122,
+      "ip3_seconds": 35.864,
+      "ratio": 3.543173285911875
+    },
+    {
+      "test": "rv64ui-v-bne",
+      "ip2_seconds": 10.271,
+      "ip3_seconds": 36.115,
+      "ratio": 3.516210690293058
+    },
+    {
+      "test": "rv64ui-v-jal",
+      "ip2_seconds": 9.668,
+      "ip3_seconds": 34.82,
+      "ratio": 3.6015721969383536
+    },
+    {
+      "test": "rv64ui-v-fence_i",
+      "ip2_seconds": 16.1,
+      "ip3_seconds": 59.206,
+      "ratio": 3.677391304347826
+    },
+    {
+      "test": "rv64ui-v-jalr",
+      "ip2_seconds": 9.769,
+      "ip3_seconds": 37.776,
+      "ratio": 3.8669259903777258
+    },
+    {
+      "test": "rv64ui-v-lb",
+      "ip2_seconds": 17.465,
+      "ip3_seconds": 68.097,
+      "ratio": 3.8990552533638705
+    },
+    {
+      "test": "rv64ui-v-lbu",
+      "ip2_seconds": 17.108,
+      "ip3_seconds": 65.272,
+      "ratio": 3.8152910918868366
+    },
+    {
+      "test": "rv64ui-v-ld",
+      "ip2_seconds": 16.903,
+      "ip3_seconds": 63.407,
+      "ratio": 3.7512275927350176
+    },
+    {
+      "test": "rv64ui-v-lh",
+      "ip2_seconds": 17.56,
+      "ip3_seconds": 62.906,
+      "ratio": 3.582346241457859
+    },
+    {
+      "test": "rv64ui-v-lui",
+      "ip2_seconds": 10.275,
+      "ip3_seconds": 38.877,
+      "ratio": 3.7836496350364963
+    },
+    {
+      "test": "rv64ui-v-lhu",
+      "ip2_seconds": 16.955,
+      "ip3_seconds": 63.309,
+      "ratio": 3.7339427897375406
+    },
+    {
+      "test": "rv64ui-v-lw",
+      "ip2_seconds": 16.954,
+      "ip3_seconds": 66.493,
+      "ratio": 3.9219653179190748
+    },
+    {
+      "test": "rv64ui-v-lwu",
+      "ip2_seconds": 17.158,
+      "ip3_seconds": 67.719,
+      "ratio": 3.946788670008159
+    },
+    {
+      "test": "rv64ui-v-or",
+      "ip2_seconds": 17.819,
+      "ip3_seconds": 68.714,
+      "ratio": 3.856220887816376
+    },
+    {
+      "test": "rv64ui-v-ori",
+      "ip2_seconds": 9.971,
+      "ip3_seconds": 35.127,
+      "ratio": 3.5229164577274097
+    },
+    {
+      "test": "rv64ui-v-sb",
+      "ip2_seconds": 17.008,
+      "ip3_seconds": 64.014,
+      "ratio": 3.763758231420508
+    }
+  ],
+  "selected_initial_pmp_wall_seconds": 7200,
+  "pmp_cycle_ceiling": 20000000,
+  "selected_initial_benchmark_wall_seconds": 1800,
+  "benchmark_cycle_ceiling": 2000000,
+  "rationale": "PMP maximum observed slowdown projects 4523 seconds; 7200 provides additional scheduling/workload margin. The slowest IP2 passing benchmark projects approximately 1108 seconds; 1800 provides margin. These are initial bounds, not simulation results."
+}

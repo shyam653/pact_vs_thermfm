@@ -1,0 +1,1 @@
+${CHIPYARD_ROOT}/sims/verilator/simulator-chipyard.harness-DualRocketNVDLAConfig +permissive +dramsim +dramsim_ini_dir=${CHIPYARD_ROOT}/generators/testchipip/src/main/resources/dramsim2_ini +max-cycles=2000000 +verilator+seed+1 +loadmem=${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-p-slli_uw +permissive-off ${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-p-slli_uw

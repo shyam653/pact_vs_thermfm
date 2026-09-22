@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzfh-v-fadd",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 63.664,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uzfh-v-fadd/simulation.log"
+}

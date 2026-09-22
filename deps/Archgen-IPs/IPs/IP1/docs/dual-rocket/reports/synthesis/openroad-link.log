@@ -1,0 +1,9 @@
+OpenROAD v2.0-17598-ga008522d8
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0227] LEF file: <NANGATE45>/lef/NangateOpenCellLibrary.tech.lef, created 22 layers, 27 vias
+[INFO ODB-0227] LEF file: <NANGATE45>/lef/NangateOpenCellLibrary.macro.lef, created 134 library cells
+[INFO ODB-0227] LEF file: <NANGATE45>/lef/fakeram45_512x64.lef, created 1 library cells
+Design area 4004733 u^2 100% utilization.
+Full dual-Rocket ChipTop netlist and 194 SRAM macros linked successfully

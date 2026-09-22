@@ -1,0 +1,4 @@
+[
+  "python3",
+  "${REPO_ROOT}/build/IP3/queue-cpu-bench-shards.py"
+]

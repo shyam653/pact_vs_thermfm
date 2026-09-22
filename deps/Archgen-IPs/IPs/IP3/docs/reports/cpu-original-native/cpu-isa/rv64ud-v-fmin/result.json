@@ -1,0 +1,9 @@
+{
+  "test": "rv64ud-v-fmin",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 68.183,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64ud-v-fmin/simulation.log"
+}

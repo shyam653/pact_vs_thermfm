@@ -1,0 +1,6 @@
+plugin -i @SLANG_PLUGIN@
+read_liberty -lib @SRAM_LIB@
+read_slang --top ChipTop -D SYNTHESIS -y @RTL_DIR@ -Y .sv -Y .v @CHIP_TOP@ @WRAPPERS@
+hierarchy -check -top ChipTop
+check -assert
+write_rtlil @OUT@/ChipTop-macro-elaborated.il

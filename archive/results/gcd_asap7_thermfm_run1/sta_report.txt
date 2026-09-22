@@ -1,0 +1,2 @@
+Error: run_sta.tcl, 2 cannot read file /home/boson4/OpenROAD/src/sta/examples/reg1_asap7.lib.
+

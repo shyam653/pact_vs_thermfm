@@ -1,0 +1,9 @@
+{
+  "test": "rv64ud-v-structural",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 28.499,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64ud-v-structural/simulation.log"
+}

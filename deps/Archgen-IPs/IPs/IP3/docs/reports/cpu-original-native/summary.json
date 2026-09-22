@@ -1,0 +1,45 @@
+{
+  "scope": "Historical interrupted CPU tests on the original native simulator; excluded from corrected SoC acceptance",
+  "status": "INTERRUPTED_FOR_RTL_CORRECTION",
+  "recorded_utc": "2026-09-12T15:53:45.159681+00:00",
+  "simulator_sha256": "1d1e40de39739d20508913e8d6ce4f0eafecb90f3b7a2295bbf8a80359924229",
+  "completed_results": {
+    "cpu-isa": {
+      "count": 277,
+      "counts": {
+        "PASS": 274,
+        "FAIL": 2,
+        "WALL_TIMEOUT": 1
+      },
+      "summary_existed": false
+    },
+    "cpu-pmp": {
+      "count": 0,
+      "counts": {},
+      "summary_existed": false
+    }
+  },
+  "interrupted_tests": [
+    {
+      "campaign": "cpu-pmp",
+      "test": "pmp",
+      "status": "INTERRUPTED_FOR_RTL_CORRECTION"
+    },
+    {
+      "campaign": "cpu-isa",
+      "test": "rv64uzbb-p-sext_b",
+      "status": "INTERRUPTED_FOR_RTL_CORRECTION"
+    },
+    {
+      "campaign": "cpu-isa",
+      "test": "rv64uzbb-p-sext_h",
+      "status": "INTERRUPTED_FOR_RTL_CORRECTION"
+    }
+  ],
+  "benchmark_started": false,
+  "corrected_cpu_acceptance": false,
+  "source_interruption_sha256": "ce90d36f3dcc73facef411c07d0d3048b0dd201119b261f6dfbdb9bd1d2c5db1",
+  "original_archive_file_count": 849,
+  "exported_file_count": 848,
+  "path_normalization": "Only recorded workspace/campaign path bytes replaced; all other bytes preserved"
+}

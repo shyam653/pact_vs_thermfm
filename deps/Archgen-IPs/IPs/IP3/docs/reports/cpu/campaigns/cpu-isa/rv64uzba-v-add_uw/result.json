@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzba-v-add_uw",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 36.341,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uzba-v-add_uw/simulation.log"
+}

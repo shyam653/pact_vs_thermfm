@@ -1,0 +1,9 @@
+{
+  "test": "corrected-legacy-ae_matmul-dual",
+  "suite": "corrected-mt-supplement",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 109.063,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench-shard-1/corrected-legacy-ae_matmul-dual/simulation.log"
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "Supplemental evidence captured after the independent direct mappings passed; the original default ABC attempt was deliberately stopped and is not a PASS. JSON paths normalized for publication.",
+  "raw_sources": {
+    "deliberate-stop-outcome.json": {
+      "sha256": "ca35661a4c82b87d677b7a46d3694667a0c768c5f7159c16d1d567c2a32ab454",
+      "bytes": 2170
+    },
+    "native-tool-sha256.json": {
+      "sha256": "8327501f6f8b695fdc72771b1141264d63ad35e90f253f9ea1c4d747b2fd97eb",
+      "bytes": 1460
+    },
+    "native-tools-after-stop.json": {
+      "sha256": "3c41abc352371998ad02dcedb5b10c3c71cac141d66ffba08c250b1b0381e4ba",
+      "bytes": 793
+    }
+  }
+}

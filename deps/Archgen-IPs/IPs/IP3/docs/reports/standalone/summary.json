@@ -1,0 +1,28 @@
+{
+  "binary_sha256": "2513e5e112bebdcb958ce8ac21ede0ed88e09f11b3007b4c0a8203b70ba26b51",
+  "results": [
+    {
+      "seed": 1,
+      "passed": true,
+      "exit": 0,
+      "elapsed_seconds": 0.6679816970136017,
+      "command": [
+        "${STANDALONE_BUILD}/obj/Vnvdla_small",
+        "+verilator+seed+1",
+        "+verilator+rand+reset+2"
+      ]
+    },
+    {
+      "seed": 17,
+      "passed": true,
+      "exit": 0,
+      "elapsed_seconds": 0.8179928009631112,
+      "command": [
+        "${STANDALONE_BUILD}/obj/Vnvdla_small",
+        "+verilator+seed+17",
+        "+verilator+rand+reset+2"
+      ]
+    }
+  ],
+  "all_passed": true
+}

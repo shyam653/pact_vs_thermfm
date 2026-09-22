@@ -1,0 +1,9 @@
+{
+  "test": "nvdla-timeout-control",
+  "suite": "expected-failure-control",
+  "result": "FAIL",
+  "exit_status": 255,
+  "wall_seconds": 345.392,
+  "cycles": "",
+  "log": "${REPO_ROOT}/build/IP3/nvdla-words-controls/nvdla-timeout-control/simulation.log"
+}

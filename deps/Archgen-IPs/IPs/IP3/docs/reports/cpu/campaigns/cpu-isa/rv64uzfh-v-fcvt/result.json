@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzfh-v-fcvt",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 65.026,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uzfh-v-fcvt/simulation.log"
+}

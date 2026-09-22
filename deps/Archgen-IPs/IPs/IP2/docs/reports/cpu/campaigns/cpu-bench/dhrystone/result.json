@@ -1,0 +1,9 @@
+{
+  "test": "dhrystone",
+  "suite": "benchmark-configured",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 135.69,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/dhrystone/simulation.log"
+}

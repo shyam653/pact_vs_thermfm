@@ -1,0 +1,9 @@
+{
+  "test": "rv64uf-v-fcmp",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 64.923,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uf-v-fcmp/simulation.log"
+}

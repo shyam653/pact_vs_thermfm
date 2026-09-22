@@ -1,0 +1,3 @@
+7408892d5e04c137fcff9befecee1d9dde9ca07aa8806a7da89e6cdefb9aec1e  ${REPO_ROOT}/IPs/IP3/patches/0001-define-small-nvdla-axi-address-upper-bits.patch
+b36fe297f6df77c8df434af1b4de354d7ca277060c2fe6e1c016b40ab8105eeb  ${REPO_ROOT}/IPs/IP3/patches/0002-define-nvdla-dbb-axi-metadata.patch
+f23d08baaaf4743de2724f5f1cb6fc82fc86cecf0c656925cb4226bd11135714  ${REPO_ROOT}/IPs/IP3/patches/0003-define-small-sdp-lut-readbacks.patch

@@ -1,0 +1,9 @@
+{
+  "test": "corrected-legacy-vvadd1-dual",
+  "suite": "corrected-mt-supplement",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 66.287,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/corrected-legacy-vvadd1-dual/simulation.log"
+}

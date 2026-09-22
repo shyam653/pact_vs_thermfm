@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzbs-p-bext",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 2.285,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uzbs-p-bext/simulation.log"
+}

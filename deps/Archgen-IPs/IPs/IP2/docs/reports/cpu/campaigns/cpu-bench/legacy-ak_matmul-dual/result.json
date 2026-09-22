@@ -1,0 +1,9 @@
+{
+  "test": "legacy-ak_matmul-dual",
+  "suite": "legacy-mt",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 22.901,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/legacy-ak_matmul-dual/simulation.log"
+}

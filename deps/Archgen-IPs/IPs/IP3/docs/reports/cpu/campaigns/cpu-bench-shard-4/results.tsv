@@ -1,0 +1,20 @@
+test	suite	result	exit_status	wall_seconds	cycles	log
+rsort	benchmark-configured	PASS	0	816.707		${CAMPAIGN_ROOT}/cpu-bench-shard-4/rsort/simulation.log
+mm	benchmark-configured	PASS	0	760.159		${CAMPAIGN_ROOT}/cpu-bench-shard-4/mm/simulation.log
+mt-memcpy	benchmark-extra	PASS	0	545.737		${CAMPAIGN_ROOT}/cpu-bench-shard-4/mt-memcpy/simulation.log
+dhrystone	benchmark-configured	PASS	0	494.47		${CAMPAIGN_ROOT}/cpu-bench-shard-4/dhrystone/simulation.log
+mt-memcpy-dual	benchmark-dual	PASS	0	371.226		${CAMPAIGN_ROOT}/cpu-bench-shard-4/mt-memcpy-dual/simulation.log
+mt-vvadd-dual	benchmark-dual	PASS	0	263.396		${CAMPAIGN_ROOT}/cpu-bench-shard-4/mt-vvadd-dual/simulation.log
+legacy-cy_matmul-dual	legacy-mt	FAIL	255	224.221		${CAMPAIGN_ROOT}/cpu-bench-shard-4/legacy-cy_matmul-dual/simulation.log
+legacy-ay_matmul-dual	legacy-mt	FAIL	255	189.715		${CAMPAIGN_ROOT}/cpu-bench-shard-4/legacy-ay_matmul-dual/simulation.log
+legacy-bk_matmul-dual	legacy-mt	FAIL	255	156.177		${CAMPAIGN_ROOT}/cpu-bench-shard-4/legacy-bk_matmul-dual/simulation.log
+legacy-du_matmul-dual	legacy-mt	FAIL	255	116.762		${CAMPAIGN_ROOT}/cpu-bench-shard-4/legacy-du_matmul-dual/simulation.log
+multiply	benchmark-configured	PASS	0	72.631		${CAMPAIGN_ROOT}/cpu-bench-shard-4/multiply/simulation.log
+legacy-dc_matmul-dual	legacy-mt	PASS	0	70.89		${CAMPAIGN_ROOT}/cpu-bench-shard-4/legacy-dc_matmul-dual/simulation.log
+legacy-ce_matmul-dual	legacy-mt	PASS	0	59.131		${CAMPAIGN_ROOT}/cpu-bench-shard-4/legacy-ce_matmul-dual/simulation.log
+legacy-ck_matmul-dual	legacy-mt	PASS	0	46.718		${CAMPAIGN_ROOT}/cpu-bench-shard-4/legacy-ck_matmul-dual/simulation.log
+legacy-ag_matmul-dual	legacy-mt	PASS	0	35.37		${CAMPAIGN_ROOT}/cpu-bench-shard-4/legacy-ag_matmul-dual/simulation.log
+legacy-cg_matmul-dual	legacy-mt	PASS	0	35.212		${CAMPAIGN_ROOT}/cpu-bench-shard-4/legacy-cg_matmul-dual/simulation.log
+legacy-bh_matmul-dual	legacy-mt	PASS	0	29.189		${CAMPAIGN_ROOT}/cpu-bench-shard-4/legacy-bh_matmul-dual/simulation.log
+legacy-af_matmul-dual	legacy-mt	FAIL	255	27.331		${CAMPAIGN_ROOT}/cpu-bench-shard-4/legacy-af_matmul-dual/simulation.log
+legacy-bb_matmul-dual	legacy-mt	PASS	0	26.981		${CAMPAIGN_ROOT}/cpu-bench-shard-4/legacy-bb_matmul-dual/simulation.log

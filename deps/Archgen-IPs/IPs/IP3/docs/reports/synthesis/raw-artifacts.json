@@ -1,0 +1,257 @@
+[
+  {
+    "path": "ChipTop-after-abc.il",
+    "bytes": 278013053,
+    "sha256": "f18b22abc363c7c889cbf45e771bcd1ac804073c032f3a3331a8a97fd2cc94e2"
+  },
+  {
+    "path": "ChipTop-before-abc.il",
+    "bytes": 498657981,
+    "sha256": "5c1c28df397fabd4c64c2169f2f778f8114c4603d36d3432c7908b797fb2ef77"
+  },
+  {
+    "path": "ChipTop-elaborated.il",
+    "bytes": 67526157,
+    "sha256": "aef645c0dc8589a1cd94ce4fa38ded4ca248a646065dd74cd793f5d5276d0936"
+  },
+  {
+    "path": "ChipTop-logic-mapped.json",
+    "bytes": 493562795,
+    "sha256": "93db41723df82834e2bfdbb5ad23e53f10f0835f0bd5713ece72362c71511492"
+  },
+  {
+    "path": "ChipTop-logic-mapped.v",
+    "bytes": 153610296,
+    "sha256": "475576e8867fb94156710079248f4516753744cdead4d463783862c6cc652a8f"
+  },
+  {
+    "path": "ChipTop-macro-elaborated.il",
+    "bytes": 84489257,
+    "sha256": "e97a3f4e6e5b806ae3221c65217c694d1f167a7f488c519211ad69104d1817f6"
+  },
+  {
+    "path": "artifact-sha256.json",
+    "bytes": 4709,
+    "sha256": "9f3c5a0d5e0bfc1bbd81a03c27589637e06e69e59e9f126ea8830bc2794d681a"
+  },
+  {
+    "path": "cell-audit.json",
+    "bytes": 251,
+    "sha256": "9cc10f0b3f749525b2d34703ee10413c7fc799c2eeb95c9f6441c71c3b3dc97e"
+  },
+  {
+    "path": "cleanup-audit.json",
+    "bytes": 20874,
+    "sha256": "414b0908623840111f1161a03f16e2cc6d9cd658b2e0ae70b1a766dabdd92448"
+  },
+  {
+    "path": "cleanup-performance-observation.json",
+    "bytes": 1998,
+    "sha256": "cf7485d60bca1bfa1296dfe5488ad48ae09c7d32e26cdbc1d5282443402c0e08"
+  },
+  {
+    "path": "elaborate-after-clean-statistics.json",
+    "bytes": 3024722,
+    "sha256": "6d051e4608ca83af7e7e05a865e5b83dd92ca1a99b9068167cb384427f5abe50"
+  },
+  {
+    "path": "elaborate-after-clean.il",
+    "bytes": 67526157,
+    "sha256": "aef645c0dc8589a1cd94ce4fa38ded4ca248a646065dd74cd793f5d5276d0936"
+  },
+  {
+    "path": "elaborate-before-clean-statistics.json",
+    "bytes": 3387269,
+    "sha256": "7647c6f580e87027fb6bb27958eaf9f77e40d94c2aa7d7c1bee0a72c2f163da8"
+  },
+  {
+    "path": "elaborate-before-clean.il",
+    "bytes": 99442301,
+    "sha256": "fc327f512099d7eae513534697a3d40f47a3f593c48ff4dced782f5d4c46d912"
+  },
+  {
+    "path": "elaborate.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "elaborate.log",
+    "bytes": 17180721,
+    "sha256": "cf1cedf003c27ccb63874f4478f7edc3f80e39e19b705bc9b99f31fb4a149ca4"
+  },
+  {
+    "path": "elaborate.ys",
+    "bytes": 578,
+    "sha256": "17184d505af6319f73d414eebe76c6e4b8b67d1acd5e220b517036ed55d57ab8"
+  },
+  {
+    "path": "elaborated-statistics.json",
+    "bytes": 3024722,
+    "sha256": "6d051e4608ca83af7e7e05a865e5b83dd92ca1a99b9068167cb384427f5abe50"
+  },
+  {
+    "path": "finalize.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "finalize.log",
+    "bytes": 5532,
+    "sha256": "25a7f58e1d9c3450a18a9992148c89fa2fe600293650522b7906274d0cb18308"
+  },
+  {
+    "path": "finalize.ys",
+    "bytes": 508,
+    "sha256": "5732c94a760ef7b223fa4e1b88db387073c47d5511b656ceb5bc8b17e8e3dae7"
+  },
+  {
+    "path": "loaded-slang-plugin.json",
+    "bytes": 734,
+    "sha256": "a85db52d44ac8d7bc5c4d4b6dc44816015c9c0314208506a02ac574760860bf1"
+  },
+  {
+    "path": "macro-map/chipyard_sram_macros.v",
+    "bytes": 4728,
+    "sha256": "200e53502910905720d8a6201e4e81ea6220f173dfbca540bbb06ff3a3dd8376"
+  },
+  {
+    "path": "macro-map/compile.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "macro-map/gold_mems.v",
+    "bytes": 103138,
+    "sha256": "680b3580eb3d6d609d96f0557dfdf15872d81cb6e78175e27e4fb4251d493626"
+  },
+  {
+    "path": "macro-map/inventory.json",
+    "bytes": 2195,
+    "sha256": "05c392d4c6dda85ca07d8d1110577c3ee3b9e0227feb7230266c179e11c85deb"
+  },
+  {
+    "path": "macro-map/test_sram.log",
+    "bytes": 2102,
+    "sha256": "aa7bfd31180674ba075eb001e92b30256719122c5db0c7f15e7dfa98381841bc"
+  },
+  {
+    "path": "macro-map/test_sram.sv",
+    "bytes": 7470,
+    "sha256": "60663c9305ac07a726860ec50cf9b0e0b4b3fbe5077ae267150744677d4187fb"
+  },
+  {
+    "path": "macro-map/test_sram.vvp",
+    "bytes": 942648,
+    "sha256": "da28481140258fdc510642137a770b521ed484d17cc75eaae7359ade1cb0f67b"
+  },
+  {
+    "path": "map.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "map.log",
+    "bytes": 12174856,
+    "sha256": "830b9c720402aadfbf6209e457c168a10933aaf0e1e4c74a125394480d868ac8"
+  },
+  {
+    "path": "map.ys",
+    "bytes": 536,
+    "sha256": "ee3f6b9bdec83a752b12789dabe6309fc0e0e6a8f8c019d99945004bb6ed37a0"
+  },
+  {
+    "path": "memory-audit.json",
+    "bytes": 54457,
+    "sha256": "122e6562a42cbee8c3f4069a0537bac4186dec27b85dc9db9e6263572e2f109c"
+  },
+  {
+    "path": "memory-contract-audit.json",
+    "bytes": 441202,
+    "sha256": "3e0f2e46705ef4b4c681615b139ea2ef1ad7d0b59093525cd6902e48149beba0"
+  },
+  {
+    "path": "memory-lowering-summary.json",
+    "bytes": 7228,
+    "sha256": "03f8de8eed6772b90aec6982f8f5ae0fdd53f41a208a58e223d5dbaf025a4683"
+  },
+  {
+    "path": "native-tool-identity.json",
+    "bytes": 3920,
+    "sha256": "a916425ad37a5b0a676837c6f3c44ebd0ceeafbe37f583a38bcbb0cced64c95e"
+  },
+  {
+    "path": "preflight.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "preflight.log",
+    "bytes": 1760,
+    "sha256": "bb9a6ddd554cf50f5836c0aad7bbafd6a6aad38e06e873c694b0a8a0dd710a08"
+  },
+  {
+    "path": "preflight.ys",
+    "bytes": 171,
+    "sha256": "f51cf68809d2a6242131b9d3166b59975f0ee601797e8e3ebf7cfb2ffaacbf71"
+  },
+  {
+    "path": "prepare-after-clean-statistics.json",
+    "bytes": 51390,
+    "sha256": "faa6b9f5dea332534822db0fdd9f356149db4e01c7a29f396081f4243cec704d"
+  },
+  {
+    "path": "prepare-before-clean-statistics.json",
+    "bytes": 57098,
+    "sha256": "5d9b21d2d9a0cec7973cf5476ac32b02b809c139c37112789b1d66342ee9eb3e"
+  },
+  {
+    "path": "prepare.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "prepare.log",
+    "bytes": 3560929,
+    "sha256": "44bf3e2476c31768f53b83655dbe7e35cdd157b3e4a3443948f00f2864d7254e"
+  },
+  {
+    "path": "prepare.ys",
+    "bytes": 417,
+    "sha256": "acd4bb7653fde138d21c22b0d85ffcc643bc5fcd476d39a48c1b422197110b97"
+  },
+  {
+    "path": "preserved-memories.json",
+    "bytes": 44442,
+    "sha256": "74e841bb8b9744c8bd3d9ea89ce754ca65f2b4364521a08d2aca65a873bc78a2"
+  },
+  {
+    "path": "provenance.json",
+    "bytes": 149219,
+    "sha256": "6aba0b1dc11cf638a2d7a482b87c6c0b6de5167a1f736c45e362397dd11ab409"
+  },
+  {
+    "path": "run-status.txt",
+    "bytes": 14,
+    "sha256": "ed163d69a09ddc0ffcbdf126a42d5745a93449fa7a39354788e948b7ac795c04"
+  },
+  {
+    "path": "source-plan.json",
+    "bytes": 68693,
+    "sha256": "20360a48c67a05be51941a578d33753d98032adce2a83b7403819912a7b46f5d"
+  },
+  {
+    "path": "statistics.json",
+    "bytes": 3341,
+    "sha256": "af00e7e01f87ec508af78d8f5af3198b9cd41558ba1b7c5199e38f1f8e75fb50"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 7197,
+    "sha256": "0af604ab4c638df23ab826df88ba89482bd930a1d85981ac3649f5762a4a9bb4"
+  },
+  {
+    "path": "tool-versions.txt",
+    "bytes": 4379,
+    "sha256": "f8c49288e119f127fa3f14450774e6b208399bb966f0aa39ce992fe36d5588bc"
+  }
+]

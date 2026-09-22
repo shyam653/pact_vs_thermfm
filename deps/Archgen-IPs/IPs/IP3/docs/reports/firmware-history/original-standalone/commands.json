@@ -1,0 +1,41 @@
+{
+  "build": [
+    "${CHIPYARD_ROOT}/.conda-env/bin/verilator",
+    "--cc",
+    "--exe",
+    "--build",
+    "-j",
+    "1",
+    "--top-module",
+    "nvdla_small",
+    "-Wno-fatal",
+    "--Mdir",
+    "/tmp/ip3-nvdla-standalone/obj",
+    "-CFLAGS",
+    "-O1 -fno-pie",
+    "-LDFLAGS",
+    "-no-pie",
+    "/tmp/ip3-nvdla-standalone/nvdla_small.preprocessed.v",
+    "${REPO_ROOT}/IPs/IP3/tests/nvdla_standalone.cpp"
+  ],
+  "final_harness_rebuild": [
+    "make",
+    "-C",
+    "/tmp/ip3-nvdla-standalone/obj",
+    "-f",
+    "Vnvdla_small.mk",
+    "-j1"
+  ],
+  "runs": [
+    [
+      "/tmp/ip3-nvdla-standalone/obj/Vnvdla_small",
+      "+verilator+seed+1",
+      "+verilator+rand+reset+2"
+    ],
+    [
+      "/tmp/ip3-nvdla-standalone/obj/Vnvdla_small",
+      "+verilator+seed+17",
+      "+verilator+rand+reset+2"
+    ]
+  ]
+}

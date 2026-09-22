@@ -1,0 +1,669 @@
+{
+  "status": "PASS",
+  "context": "ACTUAL_FULL_FLOW_FRONTEND",
+  "source_inputs_unchanged": true,
+  "observed_utc": "2026-09-12T16:46:55.894129+00:00",
+  "scope": "Cleanup structural audit: module ports, original memory declarations and memory-cell types/all parameters; output-free TileLink monitor internals removed. Not formal surrounding-logic equivalence or technology mapping.",
+  "audit_script_sha256": "2d93c4f53afa09d5297388b39db14c82c80c928259026a9c8106e9d2c73186c6",
+  "input_sha256": {
+    "elaborate-before-clean.il": "fc327f512099d7eae513534697a3d40f47a3f593c48ff4dced782f5d4c46d912",
+    "elaborate-after-clean.il": "aef645c0dc8589a1cd94ce4fa38ded4ca248a646065dd74cd793f5d5276d0936",
+    "elaborate-before-clean-statistics.json": "7647c6f580e87027fb6bb27958eaf9f77e40d94c2aa7d7c1bee0a72c2f163da8",
+    "elaborate-after-clean-statistics.json": "6d051e4608ca83af7e7e05a865e5b83dd92ca1a99b9068167cb384427f5abe50",
+    "elaborated-statistics.json": "6d051e4608ca83af7e7e05a865e5b83dd92ca1a99b9068167cb384427f5abe50",
+    "elaborate.ys": "17184d505af6319f73d414eebe76c6e4b8b67d1acd5e220b517036ed55d57ab8",
+    "elaborate.log": "cf1cedf003c27ccb63874f4478f7edc3f80e39e19b705bc9b99f31fb4a149ca4",
+    "provenance.json": "6aba0b1dc11cf638a2d7a482b87c6c0b6de5167a1f736c45e362397dd11ab409"
+  },
+  "inputs_unchanged_during_audit": true,
+  "identical_module_names": true,
+  "module_count": 3904,
+  "top_port_count": 56,
+  "changed_modules_by_contract": {
+    "ports": [],
+    "memories": [],
+    "memory_cells": []
+  },
+  "memory_declarations": 411,
+  "memory_cell_count": 836,
+  "contract_before_sha256": "27882f3715197d87550464823c58b7611c5e3017ebe12162aeeade92c260ed35",
+  "contract_after_sha256": "27882f3715197d87550464823c58b7611c5e3017ebe12162aeeade92c260ed35",
+  "design_before": {
+    "num_wires": 275963,
+    "num_wire_bits": 29991168,
+    "num_pub_wires": 88570,
+    "num_pub_wire_bits": 12327111,
+    "num_ports": 36302,
+    "num_port_bits": 310667,
+    "num_memories": 411,
+    "num_memory_bits": 7109698,
+    "num_processes": 0,
+    "num_cells": 185262,
+    "num_submodules": 83
+  },
+  "design_after": {
+    "num_wires": 163147,
+    "num_wire_bits": 1194759,
+    "num_pub_wires": 68061,
+    "num_pub_wire_bits": 631814,
+    "num_ports": 32601,
+    "num_port_bits": 296085,
+    "num_memories": 411,
+    "num_memory_bits": 7109698,
+    "num_processes": 0,
+    "num_cells": 129718,
+    "num_submodules": 83
+  },
+  "monitor_count": 76,
+  "monitors": [
+    {
+      "module": "\\TLMonitor_17$ChipTop.system.pbus.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 129,
+      "cells_after": 0,
+      "wire_bits_before": 2394512,
+      "wire_bits_after": 69
+    },
+    {
+      "module": "\\TLMonitor$ChipTop.system.sbus.system_bus_xbar.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 158,
+      "cells_after": 0,
+      "wire_bits_before": 7195,
+      "wire_bits_after": 81
+    },
+    {
+      "module": "\\TLMonitor_1$ChipTop.system.sbus.system_bus_xbar.monitor_1",
+      "output_or_inout_ports": 0,
+      "cells_before": 258,
+      "cells_after": 0,
+      "wire_bits_before": 3321,
+      "wire_bits_after": 165
+    },
+    {
+      "module": "\\TLMonitor_1$ChipTop.system.sbus.system_bus_xbar.monitor_2",
+      "output_or_inout_ports": 0,
+      "cells_before": 258,
+      "cells_after": 0,
+      "wire_bits_before": 3321,
+      "wire_bits_after": 165
+    },
+    {
+      "module": "\\TLMonitor_3$ChipTop.system.sbus.system_bus_xbar.monitor_3",
+      "output_or_inout_ports": 0,
+      "cells_before": 155,
+      "cells_after": 0,
+      "wire_bits_before": 65717,
+      "wire_bits_after": 87
+    },
+    {
+      "module": "\\TLMonitor_4$ChipTop.system.sbus.fixer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 158,
+      "cells_after": 0,
+      "wire_bits_before": 7195,
+      "wire_bits_after": 81
+    },
+    {
+      "module": "\\TLMonitor_5$ChipTop.system.sbus.fixer.monitor_1",
+      "output_or_inout_ports": 0,
+      "cells_before": 258,
+      "cells_after": 0,
+      "wire_bits_before": 3321,
+      "wire_bits_after": 165
+    },
+    {
+      "module": "\\TLMonitor_5$ChipTop.system.sbus.fixer.monitor_2",
+      "output_or_inout_ports": 0,
+      "cells_before": 258,
+      "cells_after": 0,
+      "wire_bits_before": 3321,
+      "wire_bits_after": 165
+    },
+    {
+      "module": "\\TLMonitor_7$ChipTop.system.sbus.fixer.monitor_3",
+      "output_or_inout_ports": 0,
+      "cells_before": 155,
+      "cells_after": 0,
+      "wire_bits_before": 65717,
+      "wire_bits_after": 87
+    },
+    {
+      "module": "\\TLMonitor_8$ChipTop.system.pbus.fixer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 158,
+      "cells_after": 0,
+      "wire_bits_before": 158877,
+      "wire_bits_after": 84
+    },
+    {
+      "module": "\\TLMonitor_9$ChipTop.system.pbus.out_xbar.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 158,
+      "cells_after": 0,
+      "wire_bits_before": 158877,
+      "wire_bits_after": 84
+    },
+    {
+      "module": "\\TLMonitor_10$ChipTop.system.pbus.buffer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 159,
+      "cells_after": 0,
+      "wire_bits_before": 159901,
+      "wire_bits_after": 84
+    },
+    {
+      "module": "\\TLMonitor_11$ChipTop.system.pbus.atomics.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 159,
+      "cells_after": 0,
+      "wire_bits_before": 159901,
+      "wire_bits_after": 84
+    },
+    {
+      "module": "\\TLMonitor_12$ChipTop.system.pbus.buffer_1.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 159,
+      "cells_after": 0,
+      "wire_bits_before": 159901,
+      "wire_bits_after": 84
+    },
+    {
+      "module": "\\TLMonitor_18$ChipTop.system.fbus.fbus_xbar.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 126,
+      "cells_after": 0,
+      "wire_bits_before": 1399,
+      "wire_bits_after": 67
+    },
+    {
+      "module": "\\TLMonitor_19$ChipTop.system.fbus.fbus_xbar.monitor_1",
+      "output_or_inout_ports": 0,
+      "cells_before": 155,
+      "cells_after": 0,
+      "wire_bits_before": 5445,
+      "wire_bits_after": 79
+    },
+    {
+      "module": "\\TLMonitor_20$ChipTop.system.fbus.buffer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 158,
+      "cells_after": 0,
+      "wire_bits_before": 7195,
+      "wire_bits_after": 81
+    },
+    {
+      "module": "\\TLMonitor_23$ChipTop.system.cbus.fixer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 157,
+      "cells_after": 0,
+      "wire_bits_before": 179791,
+      "wire_bits_after": 86
+    },
+    {
+      "module": "\\TLMonitor_24$ChipTop.system.cbus.in_xbar.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 158,
+      "cells_after": 0,
+      "wire_bits_before": 97211,
+      "wire_bits_after": 84
+    },
+    {
+      "module": "\\TLMonitor_25$ChipTop.system.cbus.in_xbar.monitor_1",
+      "output_or_inout_ports": 0,
+      "cells_before": 113,
+      "cells_after": 0,
+      "wire_bits_before": 1221,
+      "wire_bits_after": 46
+    },
+    {
+      "module": "\\TLMonitor_26$ChipTop.system.cbus.out_xbar.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 157,
+      "cells_after": 0,
+      "wire_bits_before": 179791,
+      "wire_bits_after": 86
+    },
+    {
+      "module": "\\TLMonitor_27$ChipTop.system.cbus.buffer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 158,
+      "cells_after": 0,
+      "wire_bits_before": 180815,
+      "wire_bits_after": 86
+    },
+    {
+      "module": "\\TLMonitor_28$ChipTop.system.cbus.atomics.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 158,
+      "cells_after": 0,
+      "wire_bits_before": 180815,
+      "wire_bits_after": 86
+    },
+    {
+      "module": "\\TLMonitor_39$ChipTop.system.mbus.mbus_xbar.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 159,
+      "cells_after": 0,
+      "wire_bits_before": 3727,
+      "wire_bits_after": 75
+    },
+    {
+      "module": "\\TLMonitor_40$ChipTop.system.mbus.picker.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 155,
+      "cells_after": 0,
+      "wire_bits_before": 3713,
+      "wire_bits_after": 72
+    },
+    {
+      "module": "\\TLMonitor_41$ChipTop.system.mbus.picker.monitor_1",
+      "output_or_inout_ports": 0,
+      "cells_before": 159,
+      "cells_after": 0,
+      "wire_bits_before": 3711,
+      "wire_bits_after": 71
+    },
+    {
+      "module": "\\TLMonitor_43$ChipTop.system.mbus.buffer_1.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 159,
+      "cells_after": 0,
+      "wire_bits_before": 3711,
+      "wire_bits_after": 71
+    },
+    {
+      "module": "\\TLMonitor_45$ChipTop.system.coh_wrapper.l2.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 257,
+      "cells_after": 0,
+      "wire_bits_before": 97794,
+      "wire_bits_after": 189
+    },
+    {
+      "module": "\\TLMonitor_46$ChipTop.system.coh_wrapper.InclusiveCache_inner_TLBuffer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 257,
+      "cells_after": 0,
+      "wire_bits_before": 97794,
+      "wire_bits_after": 189
+    },
+    {
+      "module": "\\TLMonitor_47$ChipTop.system.coh_wrapper.cork.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 239,
+      "cells_after": 0,
+      "wire_bits_before": 3049,
+      "wire_bits_after": 126
+    },
+    {
+      "module": "\\TLMonitor_48$ChipTop.system.coh_wrapper.binder.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 159,
+      "cells_after": 0,
+      "wire_bits_before": 3727,
+      "wire_bits_after": 75
+    },
+    {
+      "module": "\\TLMonitor_51$ChipTop.system.tile_prci_domain.buffer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 262,
+      "cells_after": 0,
+      "wire_bits_before": 3358,
+      "wire_bits_after": 179
+    },
+    {
+      "module": "\\TLMonitor_51$ChipTop.system.tile_prci_domain_1.buffer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 262,
+      "cells_after": 0,
+      "wire_bits_before": 3358,
+      "wire_bits_after": 179
+    },
+    {
+      "module": "\\TLMonitor_55$ChipTop.system.clint_domain.clint.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 129,
+      "cells_after": 0,
+      "wire_bits_before": 2394564,
+      "wire_bits_after": 82
+    },
+    {
+      "module": "\\TLMonitor_56$ChipTop.system.plic_domain.plic.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 130,
+      "cells_after": 0,
+      "wire_bits_before": 2410956,
+      "wire_bits_after": 84
+    },
+    {
+      "module": "\\TLMonitor_64$ChipTop.system.bootrom_domain.bootrom.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 93,
+      "cells_after": 0,
+      "wire_bits_before": 1836737,
+      "wire_bits_after": 70
+    },
+    {
+      "module": "\\TLMonitor_65$ChipTop.system.bank.ram.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 130,
+      "cells_after": 0,
+      "wire_bits_before": 41724,
+      "wire_bits_after": 72
+    },
+    {
+      "module": "\\TLMonitor_66$ChipTop.system.bank.fragmenter.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 153,
+      "cells_after": 0,
+      "wire_bits_before": 3691,
+      "wire_bits_after": 66
+    },
+    {
+      "module": "\\TLMonitor_67$ChipTop.system.bank.buffer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 159,
+      "cells_after": 0,
+      "wire_bits_before": 3711,
+      "wire_bits_after": 71
+    },
+    {
+      "module": "\\TLMonitor_70$ChipTop.system.uartClockDomainWrapper.uart_0.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 129,
+      "cells_after": 0,
+      "wire_bits_before": 2394576,
+      "wire_bits_after": 85
+    },
+    {
+      "module": "\\TLMonitor_71$ChipTop.system.chipyard_prcictrl_domain.xbar.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 152,
+      "cells_after": 0,
+      "wire_bits_before": 158825,
+      "wire_bits_after": 71
+    },
+    {
+      "module": "\\TLMonitor_72$ChipTop.system.chipyard_prcictrl_domain.clock_gater.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 129,
+      "cells_after": 0,
+      "wire_bits_before": 2394544,
+      "wire_bits_after": 77
+    },
+    {
+      "module": "\\TLMonitor_73$ChipTop.system.chipyard_prcictrl_domain.fragmenter.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 152,
+      "cells_after": 0,
+      "wire_bits_before": 158825,
+      "wire_bits_after": 71
+    },
+    {
+      "module": "\\TLMonitor_74$ChipTop.system.chipyard_prcictrl_domain.reset_setter.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 129,
+      "cells_after": 0,
+      "wire_bits_before": 2394544,
+      "wire_bits_after": 77
+    },
+    {
+      "module": "\\TLMonitor_75$ChipTop.system.chipyard_prcictrl_domain.fragmenter_1.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 152,
+      "cells_after": 0,
+      "wire_bits_before": 158825,
+      "wire_bits_after": 71
+    },
+    {
+      "module": "\\TLMonitor_13$ChipTop.system.pbus.coupler_to_bootaddressreg.fragmenter.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 152,
+      "cells_after": 0,
+      "wire_bits_before": 158793,
+      "wire_bits_after": 63
+    },
+    {
+      "module": "\\TLMonitor_14$ChipTop.system.pbus.coupler_to_nvdla_cfg.fragmenter.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 159,
+      "cells_after": 0,
+      "wire_bits_before": 159947,
+      "wire_bits_after": 80
+    },
+    {
+      "module": "\\TLMonitor_15$ChipTop.system.pbus.coupler_to_nvdla_cfg.widget.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 159,
+      "cells_after": 0,
+      "wire_bits_before": 159901,
+      "wire_bits_after": 84
+    },
+    {
+      "module": "\\TLMonitor_16$ChipTop.system.pbus.coupler_to_device_named_uart_0.fragmenter.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 152,
+      "cells_after": 0,
+      "wire_bits_before": 158857,
+      "wire_bits_after": 79
+    },
+    {
+      "module": "\\TLMonitor_21$ChipTop.system.fbus.coupler_from_debug_sb.widget.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 130,
+      "cells_after": 0,
+      "wire_bits_before": 1545,
+      "wire_bits_after": 59
+    },
+    {
+      "module": "\\TLMonitor_22$ChipTop.system.fbus.coupler_from_port_named_serial_tl_0_in.buffer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 155,
+      "cells_after": 0,
+      "wire_bits_before": 5445,
+      "wire_bits_after": 79
+    },
+    {
+      "module": "\\TLMonitor_29$ChipTop.system.cbus.wrapped_error_device.error.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 152,
+      "cells_after": 0,
+      "wire_bits_before": 180736,
+      "wire_bits_after": 67
+    },
+    {
+      "module": "\\TLMonitor_30$ChipTop.system.cbus.wrapped_error_device.buffer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 158,
+      "cells_after": 0,
+      "wire_bits_before": 180755,
+      "wire_bits_after": 71
+    },
+    {
+      "module": "\\TLMonitor_31$ChipTop.system.cbus.coupler_to_l2_ctrl.buffer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 136,
+      "cells_after": 0,
+      "wire_bits_before": 2410968,
+      "wire_bits_after": 87
+    },
+    {
+      "module": "\\TLMonitor_32$ChipTop.system.cbus.coupler_to_l2_ctrl.fragmenter.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 159,
+      "cells_after": 0,
+      "wire_bits_before": 159889,
+      "wire_bits_after": 81
+    },
+    {
+      "module": "\\TLMonitor_33$ChipTop.system.cbus.coupler_to_clint.fragmenter.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 152,
+      "cells_after": 0,
+      "wire_bits_before": 158845,
+      "wire_bits_after": 76
+    },
+    {
+      "module": "\\TLMonitor_34$ChipTop.system.cbus.coupler_to_plic.fragmenter.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 153,
+      "cells_after": 0,
+      "wire_bits_before": 159877,
+      "wire_bits_after": 78
+    },
+    {
+      "module": "\\TLMonitor_35$ChipTop.system.cbus.coupler_to_debug.fragmenter.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 152,
+      "cells_after": 0,
+      "wire_bits_before": 158789,
+      "wire_bits_after": 62
+    },
+    {
+      "module": "\\TLMonitor_36$ChipTop.system.cbus.coupler_to_bootrom.fragmenter.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 104,
+      "cells_after": 0,
+      "wire_bits_before": 123625,
+      "wire_bits_after": 64
+    },
+    {
+      "module": "\\TLMonitor_37$ChipTop.system.cbus.coupler_to_prci_ctrl.fixer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 152,
+      "cells_after": 0,
+      "wire_bits_before": 158825,
+      "wire_bits_after": 71
+    },
+    {
+      "module": "\\TLMonitor_38$ChipTop.system.cbus.coupler_to_prci_ctrl.buffer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 159,
+      "cells_after": 0,
+      "wire_bits_before": 159869,
+      "wire_bits_after": 76
+    },
+    {
+      "module": "\\TLMonitor_42$ChipTop.system.mbus.coupler_to_memory_controller_port_named_axi4.tl2axi4.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 155,
+      "cells_after": 0,
+      "wire_bits_before": 3713,
+      "wire_bits_after": 72
+    },
+    {
+      "module": "\\TLMonitor_44$ChipTop.system.coh_wrapper.l2.ctrls.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 130,
+      "cells_after": 0,
+      "wire_bits_before": 2410948,
+      "wire_bits_after": 82
+    },
+    {
+      "module": "\\TLMonitor_49$ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.tlMasterXbar.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 258,
+      "cells_after": 0,
+      "wire_bits_before": 2928,
+      "wire_bits_after": 175
+    },
+    {
+      "module": "\\TLMonitor_50$ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.tlMasterXbar.monitor_1",
+      "output_or_inout_ports": 0,
+      "cells_before": 113,
+      "cells_after": 0,
+      "wire_bits_before": 1241,
+      "wire_bits_after": 51
+    },
+    {
+      "module": "\\TLMonitor_49$ChipTop.system.tile_prci_domain_1.element_reset_domain_rockettile.tlMasterXbar.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 258,
+      "cells_after": 0,
+      "wire_bits_before": 2928,
+      "wire_bits_after": 175
+    },
+    {
+      "module": "\\TLMonitor_50$ChipTop.system.tile_prci_domain_1.element_reset_domain_rockettile.tlMasterXbar.monitor_1",
+      "output_or_inout_ports": 0,
+      "cells_before": 113,
+      "cells_after": 0,
+      "wire_bits_before": 1241,
+      "wire_bits_after": 51
+    },
+    {
+      "module": "\\TLMonitor_57$ChipTop.system.tlDM.dmOuter.dmiXbar.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 103,
+      "cells_after": 0,
+      "wire_bits_before": 653,
+      "wire_bits_after": 28
+    },
+    {
+      "module": "\\TLMonitor_58$ChipTop.system.tlDM.dmOuter.dmOuter.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 95,
+      "cells_after": 0,
+      "wire_bits_before": 616,
+      "wire_bits_after": 19
+    },
+    {
+      "module": "\\TLMonitor_61$ChipTop.system.tlDM.dmOuter.asource.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 118,
+      "cells_after": 0,
+      "wire_bits_before": 887,
+      "wire_bits_after": 29
+    },
+    {
+      "module": "\\TLMonitor_62$ChipTop.system.tlDM.dmInner.dmInner.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 125,
+      "cells_after": 0,
+      "wire_bits_before": 979,
+      "wire_bits_after": 35
+    },
+    {
+      "module": "\\TLMonitor_63$ChipTop.system.tlDM.dmInner.dmInner.monitor_1",
+      "output_or_inout_ports": 0,
+      "cells_before": 129,
+      "cells_after": 0,
+      "wire_bits_before": 2394508,
+      "wire_bits_after": 68
+    },
+    {
+      "module": "\\TLMonitor_68$ChipTop.system.domain.nvdla.buffer.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 153,
+      "cells_after": 0,
+      "wire_bits_before": 65703,
+      "wire_bits_after": 83
+    },
+    {
+      "module": "\\TLMonitor_69$ChipTop.system.domain.nvdla.cfg_tl_node.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 42,
+      "cells_after": 0,
+      "wire_bits_before": 351,
+      "wire_bits_after": 88
+    },
+    {
+      "module": "\\TLMonitor_59$ChipTop.system.tlDM.dmOuter.dmiBypass.bar.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 118,
+      "cells_after": 0,
+      "wire_bits_before": 887,
+      "wire_bits_after": 29
+    },
+    {
+      "module": "\\TLMonitor_60$ChipTop.system.tlDM.dmOuter.dmiBypass.error.monitor",
+      "output_or_inout_ports": 0,
+      "cells_before": 99,
+      "cells_after": 0,
+      "wire_bits_before": 1115,
+      "wire_bits_after": 144
+    }
+  ],
+  "same_check_assert_passed": true
+}

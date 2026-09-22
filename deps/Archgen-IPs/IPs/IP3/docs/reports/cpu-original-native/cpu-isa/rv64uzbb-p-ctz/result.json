@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzbb-p-ctz",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 3.683,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64uzbb-p-ctz/simulation.log"
+}

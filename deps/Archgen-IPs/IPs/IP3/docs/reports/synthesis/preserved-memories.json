@@ -1,0 +1,1811 @@
+[
+  {
+    "instance": "ChipTop.$auto$memory_bmux2rom.cc:63:execute$133508",
+    "WIDTH": 64,
+    "SIZE": 1024,
+    "ABITS": 10,
+    "RD_PORTS": 1,
+    "WR_PORTS": 0,
+    "bits": 65536
+  },
+  {
+    "instance": "ChipTop.$auto$memory_bmux2rom.cc:63:execute$133511",
+    "WIDTH": 3,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 0,
+    "bits": 24
+  },
+  {
+    "instance": "ChipTop.$auto$memory_bmux2rom.cc:63:execute$133514",
+    "WIDTH": 64,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 0,
+    "bits": 512
+  },
+  {
+    "instance": "ChipTop.$auto$memory_bmux2rom.cc:63:execute$133517",
+    "WIDTH": 4,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 0,
+    "bits": 64
+  },
+  {
+    "instance": "ChipTop.$auto$memory_bmux2rom.cc:63:execute$133520",
+    "WIDTH": 3,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 0,
+    "bits": 24
+  },
+  {
+    "instance": "ChipTop.$auto$proc_rom.cc:155:do_switch$2",
+    "WIDTH": 23,
+    "SIZE": 512,
+    "ABITS": 9,
+    "RD_PORTS": 1,
+    "WR_PORTS": 0,
+    "bits": 11776
+  },
+  {
+    "instance": "ChipTop.system.bank.buffer.nodeIn_d_q.ram_ext.Memory",
+    "WIDTH": 72,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 144
+  },
+  {
+    "instance": "ChipTop.system.bank.buffer.nodeOut_a_q.ram_ext.Memory",
+    "WIDTH": 114,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 228
+  },
+  {
+    "instance": "ChipTop.system.cbus.buffer.nodeIn_d_q.ram_ext.Memory",
+    "WIDTH": 86,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 172
+  },
+  {
+    "instance": "ChipTop.system.cbus.buffer.nodeOut_a_q.ram_ext.Memory",
+    "WIDTH": 129,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 258
+  },
+  {
+    "instance": "ChipTop.system.cbus.coupler_to_prci_ctrl.buffer.nodeIn_d_q.ram_ext.Memory",
+    "WIDTH": 15,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 30
+  },
+  {
+    "instance": "ChipTop.system.cbus.coupler_to_prci_ctrl.buffer.nodeOut_a_q.ram_ext.Memory",
+    "WIDTH": 113,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 226
+  },
+  {
+    "instance": "ChipTop.system.cbus.wrapped_error_device.buffer.nodeIn_d_q.ram_ext.Memory",
+    "WIDTH": 18,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 36
+  },
+  {
+    "instance": "ChipTop.system.cbus.wrapped_error_device.buffer.nodeOut_a_q.ram_ext.Memory",
+    "WIDTH": 107,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 214
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.cork.q.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 12
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.cork.q_1.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 12
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.requests.data_ext.Memory",
+    "WIDTH": 47,
+    "SIZE": 33,
+    "ABITS": 6,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1551
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.requests.head_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 21,
+    "ABITS": 5,
+    "RD_PORTS": 1,
+    "WR_PORTS": 2,
+    "bits": 126
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.requests.next_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 33,
+    "ABITS": 6,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 198
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.requests.tail_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 21,
+    "ABITS": 5,
+    "RD_PORTS": 2,
+    "WR_PORTS": 1,
+    "bits": 126
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkA.putbuffer.data_ext.Memory",
+    "WIDTH": 73,
+    "SIZE": 40,
+    "ABITS": 6,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 2920
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkA.putbuffer.head_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 40,
+    "ABITS": 6,
+    "RD_PORTS": 1,
+    "WR_PORTS": 2,
+    "bits": 240
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkA.putbuffer.next_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 40,
+    "ABITS": 6,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 240
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkA.putbuffer.tail_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 40,
+    "ABITS": 6,
+    "RD_PORTS": 2,
+    "WR_PORTS": 1,
+    "bits": 240
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkC.c_q.ram_ext.Memory",
+    "WIDTH": 115,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 230
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkC.putbuffer.data_ext.Memory",
+    "WIDTH": 65,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1040
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkC.putbuffer.head_ext.Memory",
+    "WIDTH": 4,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 2,
+    "bits": 8
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkC.putbuffer.next_ext.Memory",
+    "WIDTH": 4,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 64
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkC.putbuffer.tail_ext.Memory",
+    "WIDTH": 4,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 2,
+    "WR_PORTS": 1,
+    "bits": 8
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkD.d_q.ram_ext.Memory",
+    "WIDTH": 80,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 160
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sourceA.io_a_q.ram_ext.Memory",
+    "WIDTH": 29,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 58
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sourceC.queue.ram_ext.Memory",
+    "WIDTH": 96,
+    "SIZE": 12,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1152
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sourceD.queue.ram_data_ext.Memory",
+    "WIDTH": 64,
+    "SIZE": 3,
+    "ABITS": 2,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 192
+  },
+  {
+    "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sourceE.io_e_q.ram_sink_ext.Memory",
+    "WIDTH": 3,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 6
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4buf.nodeIn_b_deq_q.ram_ext.Memory",
+    "WIDTH": 8,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4buf.nodeIn_r_deq_q.ram_ext.Memory",
+    "WIDTH": 73,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 146
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4buf.nodeOut_ar_deq_q.ram_ext.Memory",
+    "WIDTH": 35,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 70
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4buf.nodeOut_aw_deq_q.ram_ext.Memory",
+    "WIDTH": 38,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 76
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4buf.nodeOut_w_deq_q.ram_ext.Memory",
+    "WIDTH": 73,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 146
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_1.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_10.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_11.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_12.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_13.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_14.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_15.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_2.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_3.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_4.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_5.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_6.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_7.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_8.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.axi4yank.Queue16_BundleMap_9.ram_ext.Memory",
+    "WIDTH": 6,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 96
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.buffer.nodeIn_d_q.ram_ext.Memory",
+    "WIDTH": 86,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 172
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.buffer.nodeOut_a_q.ram_ext.Memory",
+    "WIDTH": 125,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 250
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_a.u_NV_NVDLA_cacc.u_assembly_buffer.u_accu_abuf_0.M",
+    "WIDTH": 272,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 4352
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_a.u_NV_NVDLA_cacc.u_delivery_buffer.u_accu_dbuf.M",
+    "WIDTH": 256,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 4096
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank0_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank0_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank10_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank10_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank11_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank11_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank12_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank12_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank13_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank13_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank14_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank14_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank15_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank15_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank16_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank16_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank17_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank17_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank18_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank18_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank19_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank19_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank1_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank1_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank20_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank20_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank21_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank21_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank22_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank22_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank23_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank23_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank24_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank24_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank25_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank25_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank26_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank26_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank27_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank27_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank28_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank28_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank29_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank29_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank2_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank2_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank30_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank30_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank31_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank31_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank3_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank3_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank4_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank4_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank5_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank5_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank6_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank6_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank7_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank7_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank8_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank8_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank9_ram0.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank9_ram1.M",
+    "WIDTH": 64,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 16384
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_dc.u_fifo.ram.M",
+    "WIDTH": 6,
+    "SIZE": 128,
+    "ABITS": 7,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 768
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_img.u_sg.u_NV_NVDLA_CDMA_IMG_fifo.ram.M",
+    "WIDTH": 11,
+    "SIZE": 128,
+    "ABITS": 7,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1408
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_00.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_01.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_02.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_03.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_04.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_05.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_06.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_07.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_08.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_09.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_10.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_11.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_12.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_13.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_14.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_15.M",
+    "WIDTH": 64,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1024
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_wt.u_8atmm_fifo.ram.M",
+    "WIDTH": 65,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 520
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_wt.u_fifo.ram.M",
+    "WIDTH": 4,
+    "SIZE": 128,
+    "ABITS": 7,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 512
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_cdp.u_dp.u_NV_NVDLA_CDP_DP_intp.u_intpinfo_sync_fifo.ram.M",
+    "WIDTH": 4,
+    "SIZE": 20,
+    "ABITS": 5,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 80
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_cdp.u_dp.u_NV_NVDLA_CDP_DP_syncfifo.u_data_sync_fifo.ram.M",
+    "WIDTH": 9,
+    "SIZE": 80,
+    "ABITS": 7,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 720
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_cdp.u_dp.u_NV_NVDLA_CDP_DP_syncfifo.u_info_sync_fifo.ram.M",
+    "WIDTH": 17,
+    "SIZE": 80,
+    "ABITS": 7,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1360
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_cdp.u_dp.u_NV_NVDLA_CDP_DP_syncfifo.u_sumpd_sync_fifo.ram.M",
+    "WIDTH": 21,
+    "SIZE": 60,
+    "ABITS": 6,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1260
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_cdp.u_rdma.u_eg.u_lat_fifo.ram.M",
+    "WIDTH": 65,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 520
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_mcif.u_write.u_cq.adr_ram.M",
+    "WIDTH": 8,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 2048
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_mcif.u_write.u_cq.ram.M",
+    "WIDTH": 3,
+    "SIZE": 256,
+    "ABITS": 8,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 768
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank0_uram_0.M",
+    "WIDTH": 18,
+    "SIZE": 128,
+    "ABITS": 7,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 2304
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank1_uram_0.M",
+    "WIDTH": 18,
+    "SIZE": 128,
+    "ABITS": 7,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 2304
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank2_uram_0.M",
+    "WIDTH": 18,
+    "SIZE": 128,
+    "ABITS": 7,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 2304
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank3_uram_0.M",
+    "WIDTH": 18,
+    "SIZE": 128,
+    "ABITS": 7,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 2304
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank4_uram_0.M",
+    "WIDTH": 18,
+    "SIZE": 128,
+    "ABITS": 7,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 2304
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank5_uram_0.M",
+    "WIDTH": 18,
+    "SIZE": 128,
+    "ABITS": 7,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 2304
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank6_uram_0.M",
+    "WIDTH": 18,
+    "SIZE": 128,
+    "ABITS": 7,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 2304
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank7_uram_0.M",
+    "WIDTH": 18,
+    "SIZE": 128,
+    "ABITS": 7,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 2304
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_rdma.u_eg.u_lat_fifo.ram.M",
+    "WIDTH": 65,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 520
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_p.u_NV_NVDLA_sdp.u_rdma.u_brdma.u_cq.ram.M",
+    "WIDTH": 16,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 256
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_p.u_NV_NVDLA_sdp.u_rdma.u_brdma.u_lat_fifo.ram.M",
+    "WIDTH": 65,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1040
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_p.u_NV_NVDLA_sdp.u_rdma.u_mrdma.u_cq.ram.M",
+    "WIDTH": 14,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 224
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_p.u_NV_NVDLA_sdp.u_rdma.u_mrdma.u_eg.u_din.u_lat_fifo.ram.M",
+    "WIDTH": 65,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 520
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_p.u_NV_NVDLA_sdp.u_rdma.u_nrdma.u_cq.ram.M",
+    "WIDTH": 16,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 256
+  },
+  {
+    "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_p.u_NV_NVDLA_sdp.u_rdma.u_nrdma.u_lat_fifo.ram.M",
+    "WIDTH": 65,
+    "SIZE": 16,
+    "ABITS": 4,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 1040
+  },
+  {
+    "instance": "ChipTop.system.fbus.buffer.nodeIn_d_q.ram_ext.Memory",
+    "WIDTH": 83,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 166
+  },
+  {
+    "instance": "ChipTop.system.fbus.buffer.nodeOut_a_q.ram_ext.Memory",
+    "WIDTH": 122,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 244
+  },
+  {
+    "instance": "ChipTop.system.fbus.coupler_from_port_named_serial_tl_0_in.buffer.nodeIn_d_q.ram_ext.Memory",
+    "WIDTH": 82,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 164
+  },
+  {
+    "instance": "ChipTop.system.fbus.coupler_from_port_named_serial_tl_0_in.buffer.nodeOut_a_q.ram_ext.Memory",
+    "WIDTH": 119,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 238
+  },
+  {
+    "instance": "ChipTop.system.mbus.buffer_1.nodeIn_d_q.ram_ext.Memory",
+    "WIDTH": 79,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 158
+  },
+  {
+    "instance": "ChipTop.system.mbus.buffer_1.nodeOut_a_q.ram_ext.Memory",
+    "WIDTH": 114,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 228
+  },
+  {
+    "instance": "ChipTop.system.pbus.buffer.nodeIn_d_q.ram_ext.Memory",
+    "WIDTH": 82,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 164
+  },
+  {
+    "instance": "ChipTop.system.pbus.buffer.nodeOut_a_q.ram_ext.Memory",
+    "WIDTH": 128,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 256
+  },
+  {
+    "instance": "ChipTop.system.pbus.buffer_1.nodeIn_d_q.ram_ext.Memory",
+    "WIDTH": 85,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 170
+  },
+  {
+    "instance": "ChipTop.system.pbus.buffer_1.nodeOut_a_q.ram_ext.Memory",
+    "WIDTH": 128,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 256
+  },
+  {
+    "instance": "ChipTop.system.serial_tl_domain.phy.in_phits_io_inner_ser_0_in_q.ram_flit_ext.Memory",
+    "WIDTH": 32,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 256
+  },
+  {
+    "instance": "ChipTop.system.serial_tl_domain.phy.in_phits_io_inner_ser_1_in_q.ram_flit_ext.Memory",
+    "WIDTH": 32,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 256
+  },
+  {
+    "instance": "ChipTop.system.serial_tl_domain.phy.in_phits_io_inner_ser_2_in_q.ram_flit_ext.Memory",
+    "WIDTH": 32,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 256
+  },
+  {
+    "instance": "ChipTop.system.serial_tl_domain.phy.in_phits_io_inner_ser_3_in_q.ram_flit_ext.Memory",
+    "WIDTH": 32,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 256
+  },
+  {
+    "instance": "ChipTop.system.serial_tl_domain.phy.in_phits_io_inner_ser_4_in_q.ram_flit_ext.Memory",
+    "WIDTH": 32,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 256
+  },
+  {
+    "instance": "ChipTop.system.serial_tl_domain.phy.out_phits_out_async_io_enq_q_1.ram_flit_ext.Memory",
+    "WIDTH": 32,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 256
+  },
+  {
+    "instance": "ChipTop.system.serial_tl_domain.phy.out_phits_out_async_io_enq_q_3.ram_flit_ext.Memory",
+    "WIDTH": 32,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 256
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain.buffer.nodeIn_b_q.ram_ext.Memory",
+    "WIDTH": 27,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 54
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain.buffer.nodeIn_d_q.ram_ext.Memory",
+    "WIDTH": 80,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 160
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain.buffer.nodeOut_a_q.ram_ext.Memory",
+    "WIDTH": 116,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 232
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain.buffer.nodeOut_c_q.ram_ext.Memory",
+    "WIDTH": 106,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 212
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain.buffer.nodeOut_e_q.ram_sink_ext.Memory",
+    "WIDTH": 3,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 6
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.core.rf_ext.Memory",
+    "WIDTH": 64,
+    "SIZE": 31,
+    "ABITS": 5,
+    "RD_PORTS": 2,
+    "WR_PORTS": 1,
+    "bits": 1984
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.regfile_ext.Memory",
+    "WIDTH": 65,
+    "SIZE": 32,
+    "ABITS": 5,
+    "RD_PORTS": 3,
+    "WR_PORTS": 2,
+    "bits": 2080
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.frontend.btb.table_ext.Memory",
+    "WIDTH": 1,
+    "SIZE": 512,
+    "ABITS": 9,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 512
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain_1.buffer.nodeIn_b_q.ram_ext.Memory",
+    "WIDTH": 27,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 54
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain_1.buffer.nodeIn_d_q.ram_ext.Memory",
+    "WIDTH": 80,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 160
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain_1.buffer.nodeOut_a_q.ram_ext.Memory",
+    "WIDTH": 116,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 232
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain_1.buffer.nodeOut_c_q.ram_ext.Memory",
+    "WIDTH": 106,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 212
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain_1.buffer.nodeOut_e_q.ram_sink_ext.Memory",
+    "WIDTH": 3,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 6
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain_1.element_reset_domain_rockettile.core.rf_ext.Memory",
+    "WIDTH": 64,
+    "SIZE": 31,
+    "ABITS": 5,
+    "RD_PORTS": 2,
+    "WR_PORTS": 1,
+    "bits": 1984
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain_1.element_reset_domain_rockettile.fpuOpt.regfile_ext.Memory",
+    "WIDTH": 65,
+    "SIZE": 32,
+    "ABITS": 5,
+    "RD_PORTS": 3,
+    "WR_PORTS": 2,
+    "bits": 2080
+  },
+  {
+    "instance": "ChipTop.system.tile_prci_domain_1.element_reset_domain_rockettile.frontend.btb.table_ext.Memory",
+    "WIDTH": 1,
+    "SIZE": 512,
+    "ABITS": 9,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 512
+  },
+  {
+    "instance": "ChipTop.system.tlDM.dmInner.dmInner.sb2tlOpt.d_q.ram_ext.Memory",
+    "WIDTH": 10,
+    "SIZE": 2,
+    "ABITS": 1,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 20
+  },
+  {
+    "instance": "ChipTop.system.uartClockDomainWrapper.uart_0.rxq.ram_ext.Memory",
+    "WIDTH": 8,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 64
+  },
+  {
+    "instance": "ChipTop.system.uartClockDomainWrapper.uart_0.txq.ram_ext.Memory",
+    "WIDTH": 8,
+    "SIZE": 8,
+    "ABITS": 3,
+    "RD_PORTS": 1,
+    "WR_PORTS": 1,
+    "bits": 64
+  }
+]

@@ -1,0 +1,9 @@
+plugin -i slang
+read_liberty -lib inputs/sram.lib
+read_slang --top ChipTop -D SYNTHESIS -y inputs/rtl -Y .sv -Y .v inputs/rtl/ChipTop.sv inputs/extra-0.v macro-map/chipyard_sram_macros.v
+hierarchy -check -top ChipTop
+tee -o ./prepare-before-clean-statistics.json stat -json -width
+opt_clean -purge
+tee -o ./prepare-after-clean-statistics.json stat -json -width
+check -assert
+write_rtlil ./ChipTop-macro-elaborated.il

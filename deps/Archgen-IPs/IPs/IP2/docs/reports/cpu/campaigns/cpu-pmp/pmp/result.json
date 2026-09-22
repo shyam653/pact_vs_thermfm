@@ -1,0 +1,9 @@
+{
+  "test": "pmp",
+  "suite": "benchmark-configured",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 1013.445,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-pmp/pmp/simulation.log"
+}

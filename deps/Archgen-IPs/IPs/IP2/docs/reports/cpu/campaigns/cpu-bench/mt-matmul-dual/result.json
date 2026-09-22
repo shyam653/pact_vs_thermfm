@@ -1,0 +1,9 @@
+{
+  "test": "mt-matmul-dual",
+  "suite": "benchmark-dual",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 17.112,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/mt-matmul-dual/simulation.log"
+}

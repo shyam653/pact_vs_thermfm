@@ -1,0 +1,9 @@
+{
+  "test": "rv64um-v-mul",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 33.253,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64um-v-mul/simulation.log"
+}

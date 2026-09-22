@@ -1,0 +1,170 @@
+Progress: 0/18, {}, elapsed 30s
+Progress: 0/18, {}, elapsed 60s
+Progress: 0/18, {}, elapsed 90s
+Progress: 0/18, {}, elapsed 120s
+Progress: 0/18, {}, elapsed 150s
+Progress: 0/18, {}, elapsed 180s
+Progress: 0/18, {}, elapsed 210s
+Progress: 0/18, {}, elapsed 240s
+Progress: 0/18, {}, elapsed 270s
+Progress: 0/18, {}, elapsed 300s
+Progress: 0/18, {}, elapsed 330s
+Progress: 0/18, {}, elapsed 360s
+Progress: 0/18, {}, elapsed 390s
+Progress: 0/18, {}, elapsed 420s
+Progress: 0/18, {}, elapsed 450s
+Progress: 0/18, {}, elapsed 480s
+Progress: 0/18, {}, elapsed 510s
+Progress: 0/18, {}, elapsed 540s
+Progress: 0/18, {}, elapsed 570s
+Progress: 0/18, {}, elapsed 600s
+Progress: 0/18, {}, elapsed 630s
+Progress: 0/18, {}, elapsed 660s
+Progress: 0/18, {}, elapsed 690s
+Progress: 0/18, {}, elapsed 720s
+Progress: 0/18, {}, elapsed 750s
+Progress: 0/18, {}, elapsed 780s
+Progress: 0/18, {}, elapsed 810s
+Progress: 0/18, {}, elapsed 840s
+Progress: 0/18, {}, elapsed 870s
+Progress: 0/18, {}, elapsed 900s
+Progress: 0/18, {}, elapsed 930s
+Progress: 0/18, {}, elapsed 960s
+Progress: 0/18, {}, elapsed 990s
+Progress: 0/18, {}, elapsed 1020s
+Progress: 0/18, {}, elapsed 1050s
+Progress: 0/18, {}, elapsed 1080s
+Progress: 0/18, {}, elapsed 1110s
+Progress: 0/18, {}, elapsed 1140s
+Progress: 0/18, {}, elapsed 1170s
+Progress: 0/18, {}, elapsed 1200s
+Progress: 0/18, {}, elapsed 1230s
+Progress: 0/18, {}, elapsed 1260s
+Progress: 0/18, {}, elapsed 1290s
+Progress: 0/18, {}, elapsed 1320s
+Progress: 0/18, {}, elapsed 1350s
+Progress: 0/18, {}, elapsed 1380s
+Progress: 0/18, {}, elapsed 1410s
+Progress: 0/18, {}, elapsed 1440s
+Progress: 0/18, {}, elapsed 1470s
+Progress: 0/18, {}, elapsed 1500s
+Progress: 0/18, {}, elapsed 1530s
+Progress: 0/18, {}, elapsed 1560s
+Progress: 0/18, {}, elapsed 1590s
+Progress: 0/18, {}, elapsed 1620s
+Progress: 0/18, {}, elapsed 1650s
+Progress: 0/18, {}, elapsed 1680s
+Progress: 0/18, {}, elapsed 1710s
+Progress: 0/18, {}, elapsed 1740s
+Progress: 0/18, {}, elapsed 1770s
+Progress: 0/18, {}, elapsed 1800s
+1/18 legacy-ad_matmul-dual WALL_TIMEOUT 1800.07s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 1830s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 1860s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 1890s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 1920s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 1950s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 1980s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2010s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2040s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2070s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2100s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2130s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2160s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2190s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2220s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2250s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2280s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2310s
+2/18 legacy-cl_matmul-dual FAIL 522.661s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'FAIL': 1}, elapsed 2353s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'FAIL': 1}, elapsed 2383s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'FAIL': 1}, elapsed 2413s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'FAIL': 1}, elapsed 2443s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'FAIL': 1}, elapsed 2473s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'FAIL': 1}, elapsed 2503s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'FAIL': 1}, elapsed 2533s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'FAIL': 1}, elapsed 2563s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'FAIL': 1}, elapsed 2593s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'FAIL': 1}, elapsed 2623s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'FAIL': 1}, elapsed 2653s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'FAIL': 1}, elapsed 2683s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'FAIL': 1}, elapsed 2713s
+3/18 legacy-br_matmul-dual FAIL 414.685s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'FAIL': 2}, elapsed 2767s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'FAIL': 2}, elapsed 2797s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'FAIL': 2}, elapsed 2827s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'FAIL': 2}, elapsed 2857s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'FAIL': 2}, elapsed 2887s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'FAIL': 2}, elapsed 2917s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'FAIL': 2}, elapsed 2947s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'FAIL': 2}, elapsed 2977s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'FAIL': 2}, elapsed 3007s
+4/18 legacy-av_matmul-dual FAIL 289.171s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'FAIL': 3}, elapsed 3057s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'FAIL': 3}, elapsed 3087s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'FAIL': 3}, elapsed 3117s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'FAIL': 3}, elapsed 3147s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'FAIL': 3}, elapsed 3177s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'FAIL': 3}, elapsed 3207s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'FAIL': 3}, elapsed 3237s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'FAIL': 3}, elapsed 3267s
+5/18 legacy-vvadd2-dual PASS 261.018s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'FAIL': 3, 'PASS': 1}, elapsed 3318s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'FAIL': 3, 'PASS': 1}, elapsed 3348s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'FAIL': 3, 'PASS': 1}, elapsed 3378s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'FAIL': 3, 'PASS': 1}, elapsed 3408s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'FAIL': 3, 'PASS': 1}, elapsed 3438s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'FAIL': 3, 'PASS': 1}, elapsed 3468s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'FAIL': 3, 'PASS': 1}, elapsed 3498s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'FAIL': 3, 'PASS': 1}, elapsed 3528s
+6/18 legacy-al_matmul-dual FAIL 268.38s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'FAIL': 4, 'PASS': 1}, elapsed 3586s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'FAIL': 4, 'PASS': 1}, elapsed 3616s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'FAIL': 4, 'PASS': 1}, elapsed 3646s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'FAIL': 4, 'PASS': 1}, elapsed 3676s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'FAIL': 4, 'PASS': 1}, elapsed 3706s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'FAIL': 4, 'PASS': 1}, elapsed 3736s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'FAIL': 4, 'PASS': 1}, elapsed 3766s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'FAIL': 4, 'PASS': 1}, elapsed 3796s
+7/18 legacy-bf_matmul-dual FAIL 246.811s
+Progress: 7/18, {'WALL_TIMEOUT': 1, 'FAIL': 5, 'PASS': 1}, elapsed 3833s
+Progress: 7/18, {'WALL_TIMEOUT': 1, 'FAIL': 5, 'PASS': 1}, elapsed 3863s
+Progress: 7/18, {'WALL_TIMEOUT': 1, 'FAIL': 5, 'PASS': 1}, elapsed 3893s
+Progress: 7/18, {'WALL_TIMEOUT': 1, 'FAIL': 5, 'PASS': 1}, elapsed 3923s
+Progress: 7/18, {'WALL_TIMEOUT': 1, 'FAIL': 5, 'PASS': 1}, elapsed 3953s
+Progress: 7/18, {'WALL_TIMEOUT': 1, 'FAIL': 5, 'PASS': 1}, elapsed 3983s
+8/18 legacy-am_matmul-dual FAIL 209.844s
+Progress: 8/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 1}, elapsed 4043s
+Progress: 8/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 1}, elapsed 4073s
+Progress: 8/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 1}, elapsed 4103s
+Progress: 8/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 1}, elapsed 4133s
+Progress: 8/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 1}, elapsed 4163s
+Progress: 8/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 1}, elapsed 4193s
+9/18 chipyard-cpp-hello PASS 196.429s
+Progress: 9/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 2}, elapsed 4239s
+Progress: 9/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 2}, elapsed 4269s
+Progress: 9/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 2}, elapsed 4299s
+Progress: 9/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 2}, elapsed 4329s
+10/18 mt-matmul PASS 138.558s
+Progress: 10/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 3}, elapsed 4378s
+Progress: 10/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 3}, elapsed 4408s
+Progress: 10/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 3}, elapsed 4438s
+11/18 corrected-legacy-ae_matmul-dual PASS 109.063s
+Progress: 11/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 4}, elapsed 4487s
+Progress: 11/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 4}, elapsed 4517s
+12/18 legacy-ak_matmul-dual PASS 81.19s
+Progress: 12/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 5}, elapsed 4568s
+Progress: 12/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 5}, elapsed 4598s
+13/18 legacy-cs_matmul-dual PASS 74.975s
+Progress: 13/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 6}, elapsed 4643s
+14/18 median PASS 56.415s
+Progress: 14/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 7}, elapsed 4699s
+15/18 legacy-dm_matmul-dual PASS 52.905s
+Progress: 15/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 8}, elapsed 4752s
+16/18 towers PASS 40.037s
+Progress: 16/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 9}, elapsed 4792s
+17/18 legacy-bj_matmul-dual PASS 50.028s
+Progress: 17/18, {'WALL_TIMEOUT': 1, 'FAIL': 6, 'PASS': 10}, elapsed 4842s
+18/18 chipyard-hello PASS 32.74s
+{"total": 18, "counts": {"WALL_TIMEOUT": 1, "FAIL": 6, "PASS": 11}, "elapsed_seconds": 4845.022, "finished_utc": "2026-09-12T18:45:36Z"}

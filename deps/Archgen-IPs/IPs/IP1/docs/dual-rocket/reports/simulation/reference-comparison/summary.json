@@ -1,0 +1,64 @@
+{
+  "unique_tests": 422,
+  "comparison_counts": {
+    "PASS_AGREE": 391,
+    "NONPASS_AGREE": 31
+  },
+  "rtl_counts": {
+    "PASS": 391,
+    "WALL_TIMEOUT": 6,
+    "FAIL": 25
+  },
+  "spike_counts": {
+    "PASS": 391,
+    "NONZERO": 27,
+    "TIMEOUT": 4
+  },
+  "pass_nonpass_disagreements": [],
+  "nonpass_raw_kind_pairs": {
+    "WALL_TIMEOUT / NONZERO": 2,
+    "FAIL / NONZERO": 25,
+    "WALL_TIMEOUT / TIMEOUT": 4
+  },
+  "hash_evidence_counts": {
+    "BUILD_HASH_ONLY": 419,
+    "SPIKE_RUN_HASH": 3
+  },
+  "interpretation": "Only PASS versus non-PASS is compared. Raw failure kinds and exit codes are retained, not equated. Agreement does not validate test oracles or prove architectural equivalence.",
+  "hash_limit": "All current ELFs match preserved build and selected RTL hashes. Only corrected3 have per-ELF hashes in Spike-run provenance; original419 reference results are linked through unchanged build artifacts, not contemporaneous per-ELF reference hashes.",
+  "input_sha256": {
+    "isa-build/manifest.tsv": "471f8dab16081e3346c26dd52c9f0fc77c3066fcb3d36281d4e9672c99adbc30",
+    "bench-build/manifest.tsv": "e0f016033adce91cba7fabced46af0861c4803e0bd5b7c2814c954346d504922",
+    "smoke-manifest.tsv": "71636e6d317c37447f1353fc01baf5925094a57b879153d3c0d4a941ee10b3e9",
+    "bench-build/corrected/manifest.tsv": "191fd8b1c5958290b9639fe5ca159c8f04604f37a96797d4cbb3931bde053278",
+    "spike/results.tsv": "d71250b6122ccef2108facff7cf6ca6278cdbc7d7333675789f9a20e5a9480da",
+    "spike/benchmarks/results.tsv": "e4f7495206dd89124c7618436fec2dfb41ed019388b0495cda8e4e2032c83232",
+    "spike/corrected/results.tsv": "ee07c506af0ad2abc5a3d805d48cbf597814217ec23aa075aa142b5c629a88de",
+    "isa-executables.tsv": "45689f43d97ab26ca783fa29a6cb139c684e06e6e22c4b215cb59cd525900bbd",
+    "bench-build/binary-sha256.txt": "0b6e2e464360d58c99c6c7e0e8e8cd985e55d91fed09314fae59cf1ef431ee47",
+    "bench-build/chipyard-provenance.txt": "abf823d4146c1bde5e5ca3577a51a24390e88c837415c4cece868397b8a45923",
+    "bench-build/corrected/binary-sha256.txt": "f39658ee267b48544ac4113037316c855eab0473fda644668fe7628d69211710",
+    "../simulation/binary-sha256.txt": "f617e72ee62a9b1c93651e9be0c391c39ac459b870144781507f7246b1c4ae20",
+    "spike/corrected/provenance.txt": "9d8088b0b90cfc781974cb5a297e2056ef184a09623584fbbdfed85d8385fbfc",
+    "all-results.tsv": "34c2fc60d7df07c35dab94afb25276c43fb21fa4da3563d1e3a0374af29c4935",
+    "cpp-retry/summary.json": "0016b0222ef81c1a318b2eebe0dc44959bf665274b18481d184f7d9d5909439a",
+    "cpp-retry/provenance.json": "d0395d62964dfd2140431f7091b5f17e165e2d91c8bc08a06e8977e0d0c18776",
+    "cpp-retry/results.tsv": "3318bde9497b738189defcfb70794c0a604926e388a426682adec4c59d73e6a0",
+    "smoke-run/summary.json": "49cc33826cfc6133a2df8ba99a25af2682b5928ffa6698e980c8b83986de6e03",
+    "smoke-run/provenance.json": "3f5d1f24f1bc72b8f77efa2e0d5f1996738687d4f9c84c10104553c67a53f92e",
+    "smoke-run/results.tsv": "f343bd86eaad97c472d1ff40d9d1f726142e1e8851cc740fe8e552bfd00a446d",
+    "corrected-run/summary.json": "d12f03b6f7f8a45dbc678363ac2879671be0bfeb266505131c4fe1af8b537ee8",
+    "corrected-run/provenance.json": "0d1b81d4da41947ca8c30e77f21fbf4084c24190b7dfa7d9e5ce2195035c79f3",
+    "corrected-run/results.tsv": "99c2d739b5e4e39084288b8ed411d898e6adab2a0e5be0ab92bef2f35d00ab15",
+    "bench-run/summary.json": "6e2e12aabe213e8719f34afde444f66a6a6d84e47272b50a779360970426a4f1",
+    "bench-run/provenance.json": "a15292d79dada8c1ea579f2ce515dfaee5280dd6c8efeae5aa39474c74e259d1",
+    "bench-run/results.tsv": "3f6bd654c0841c07a0f92e67f2dc0e04889d9373925beaf86b94124287a3d9e6",
+    "pmp-retry/summary.json": "ba5992d3ac1965b3e4a9e5fd02a910abeaa95fe6248112493dda35e86767377f",
+    "pmp-retry/provenance.json": "412042b2a3fd7eb34fbc3049dc4220c3f30877c95d23eefc163d32dacc2f1413",
+    "pmp-retry/results.tsv": "fa43509bc85fc2031c803c1c45c8a76f5bc913262115a1a4f193671325f5a369",
+    "isa-run/summary.json": "3561eea957f140ec14068517d63d498c7e93b84a979237827a92f0912439e3da",
+    "isa-run/provenance.json": "82afebc010ef800d89f58370b37b3a3f1f140aa2cec51ff1d31b17741aca8fe7",
+    "isa-run/results.tsv": "1353c432ec5b2fd911e2257d41ab337384fc94e8e04c2db4b53f4383540dd1fc"
+  },
+  "script_sha256": "fdbf3db0eac7ef1f098079749331311e9a42a4e88181efd7d8d930745ff31b8f"
+}

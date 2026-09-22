@@ -1,0 +1,61 @@
+{
+  "peripheral" : {
+    "displayName" : "fft-generator.At0x2400",
+    "baseAddress" : "0x2400",
+    "regfields" : [ {
+      "unnamedRegField0_0" : {
+        "byteOffset" : "0x0",
+        "bitOffset" : 0,
+        "bitWidth" : 32
+      }
+    }, {
+      "unnamedRegField8_0" : {
+        "byteOffset" : "0x8",
+        "bitOffset" : 0,
+        "bitWidth" : 32
+      }
+    }, {
+      "unnamedRegField10_0" : {
+        "byteOffset" : "0x10",
+        "bitOffset" : 0,
+        "bitWidth" : 32
+      }
+    }, {
+      "unnamedRegField18_0" : {
+        "byteOffset" : "0x18",
+        "bitOffset" : 0,
+        "bitWidth" : 32
+      }
+    }, {
+      "unnamedRegField20_0" : {
+        "byteOffset" : "0x20",
+        "bitOffset" : 0,
+        "bitWidth" : 32
+      }
+    }, {
+      "unnamedRegField28_0" : {
+        "byteOffset" : "0x28",
+        "bitOffset" : 0,
+        "bitWidth" : 32
+      }
+    }, {
+      "unnamedRegField30_0" : {
+        "byteOffset" : "0x30",
+        "bitOffset" : 0,
+        "bitWidth" : 32
+      }
+    }, {
+      "unnamedRegField38_0" : {
+        "byteOffset" : "0x38",
+        "bitOffset" : 0,
+        "bitWidth" : 32
+      }
+    }, {
+      "unnamedRegField40_0" : {
+        "byteOffset" : "0x40",
+        "bitOffset" : 0,
+        "bitWidth" : 32
+      }
+    } ]
+  }
+}

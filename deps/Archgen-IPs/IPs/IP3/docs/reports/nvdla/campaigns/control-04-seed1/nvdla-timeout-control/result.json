@@ -1,0 +1,9 @@
+{
+  "test": "nvdla-timeout-control",
+  "suite": "expected-failure-control",
+  "result": "FAIL",
+  "exit_status": 255,
+  "wall_seconds": 392.409,
+  "cycles": "",
+  "log": "<campaign:control-04-seed1>/nvdla-timeout-control/simulation.log"
+}

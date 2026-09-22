@@ -1,0 +1,23 @@
+[
+  [
+    "${CHIPYARD_ROOT}/.conda-env/bin/verilator",
+    "--cc",
+    "-Wno-fatal",
+    "--top-module",
+    "check",
+    "--Mdir",
+    "${PROBE_ROOT}/without",
+    "${PROBE_ROOT}/check.sv"
+  ],
+  [
+    "${CHIPYARD_ROOT}/.conda-env/bin/verilator",
+    "--cc",
+    "--assert",
+    "-Wno-fatal",
+    "--top-module",
+    "check",
+    "--Mdir",
+    "${PROBE_ROOT}/with",
+    "${PROBE_ROOT}/check.sv"
+  ]
+]

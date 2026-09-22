@@ -1,0 +1,34 @@
+{
+  "preflight": {
+    "check_problem_counts": [
+      0
+    ],
+    "error_lines": []
+  },
+  "elaborate": {
+    "check_problem_counts": [
+      0
+    ],
+    "error_lines": []
+  },
+  "prepare": {
+    "check_problem_counts": [
+      0
+    ],
+    "error_lines": []
+  },
+  "map": {
+    "check_problem_counts": [
+      0,
+      0,
+      0
+    ],
+    "error_lines": []
+  },
+  "finalize": {
+    "check_problem_counts": [
+      0
+    ],
+    "error_lines": []
+  }
+}

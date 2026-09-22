@@ -1,0 +1,37 @@
+{
+  "captured_utc": "2026-09-12T13:53:20.392090+00:00",
+  "scope": "Post-build evidence export checks; current script hashes are not contemporaneous compile-time records",
+  "builder_at_export_sha256": "f34e01f2c5b426f170f9e1fba28bdda8d112aa026b2bf44f2934e514e8450046",
+  "current_template_sha256": {
+    "baseline-config-benchmarks.txt": "f7618b013b14c193a1b0a5b085c6d5a245da04ba9ad3d361d073491249fedcc5",
+    "baseline-config-isa.txt": "be193c8f5970a6150b481725547bf6a489642e72f32bed7a7ea04a3b4eae7fe1",
+    "bench/build-chipyard.sh": "940982df39ac3b11dcab4f6a6a0f624e1c16ea948feb209fe700615dec726da1",
+    "bench/build.sh": "eb9e22bcb8b6b07a8de64d7f0723d159387cc3f6e2eb0cb107c3a149dd629579",
+    "bench/compat/riscv-pk/encoding.h": "b620a7a26507e3c797450ef94d0cc4bb459f917e51c4a825ba70171b6422472c",
+    "bench/corrected/build.sh": "535d620f4b8fe10a2a89480e0a82cb1a85e2f0557db714571fce8a1ea95e2b1b",
+    "bench/corrected/mt-matmul.c": "e747861d8a8b42ff3f5cd297372063137cc0f50d8e4cd10207a075377aef8362",
+    "bench/corrected/vvadd1.c": "551171cb193f3788040eaf50c11309bb110b4f8c59a9206e4cdc18fad4495602",
+    "bench/crt-dual.S": "023bbe88be7b2a24a9fc60dc27b13caa2a49011e9da4a8e087701f269474821e",
+    "bench/inventory.mk": "b35d14af57777d55b312c6a9d9875f7d6f1565307644adff4dda417c3120c5df",
+    "bench/mt-hello-dual.c": "f35fbff62a1a1417a2fc3a8842e0edb7aacd4fa857e0b5ff6e57016fb26a400d",
+    "dual-hart-smoke.S": "19b738232b89140bab2b63f1a8b28dd49411c3f584b41ec78d5f9197f202153a",
+    "isa-targets.txt": "a9f15921da747df193206309401d541432515d098c1671d5cfbdf6c3bc257cbf"
+  },
+  "copied_build_templates_identical": {
+    "bench/build-chipyard.sh": "940982df39ac3b11dcab4f6a6a0f624e1c16ea948feb209fe700615dec726da1",
+    "bench/build.sh": "eb9e22bcb8b6b07a8de64d7f0723d159387cc3f6e2eb0cb107c3a149dd629579",
+    "bench/compat/riscv-pk/encoding.h": "b620a7a26507e3c797450ef94d0cc4bb459f917e51c4a825ba70171b6422472c",
+    "bench/corrected/build.sh": "535d620f4b8fe10a2a89480e0a82cb1a85e2f0557db714571fce8a1ea95e2b1b",
+    "bench/corrected/mt-matmul.c": "e747861d8a8b42ff3f5cd297372063137cc0f50d8e4cd10207a075377aef8362",
+    "bench/corrected/vvadd1.c": "551171cb193f3788040eaf50c11309bb110b4f8c59a9206e4cdc18fad4495602",
+    "bench/crt-dual.S": "023bbe88be7b2a24a9fc60dc27b13caa2a49011e9da4a8e087701f269474821e",
+    "bench/inventory.mk": "b35d14af57777d55b312c6a9d9875f7d6f1565307644adff4dda417c3120c5df",
+    "bench/mt-hello-dual.c": "f35fbff62a1a1417a2fc3a8842e0edb7aacd4fa857e0b5ff6e57016fb26a400d",
+    "dual-hart-smoke.S": "19b738232b89140bab2b63f1a8b28dd49411c3f584b41ec78d5f9197f202153a"
+  },
+  "source_revisions_checked_at_export": {
+    "riscv-tests": "0494f954a3d8d2ca9e4972da7a01e94b6a909bce",
+    "riscv-test-env": "4fabfb4e0d3eacc1dc791da70e342e4b68ea7e46"
+  },
+  "current_elf_hashes_match_recorded_build_and_campaigns": 422
+}

@@ -1,0 +1,9 @@
+{
+  "test": "rv64ui-p-xori",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 3.676,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64ui-p-xori/simulation.log"
+}

@@ -1,0 +1,40 @@
+{
+  "compiler": "<chipyard>/.conda-env/riscv-tools/bin/riscv64-unknown-elf-gcc",
+  "compiler_version": "riscv64-unknown-elf-gcc (gc891d8dc23e) 13.2.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "nvdla_revision": "d99ffdc79bbf9b86c6cad0c278a785d5802c8209",
+  "builds": [
+    {
+      "name": "nvdla-dual",
+      "binary": "<test-build>/nvdla-dual.riscv",
+      "sha256": "09a42274e457294119ddc919da9e9f4432e8c404b9cc93b0795a06e7c73a2c56",
+      "harts": 2,
+      "negative_control": false
+    },
+    {
+      "name": "nvdla-negative-control",
+      "binary": "<test-build>/nvdla-negative-control.riscv",
+      "sha256": "0ab1dcccf01e093c8b47c2891cddf1e98aff05b396ab5e0a27932e66fbde3731",
+      "harts": 2,
+      "negative_control": true
+    },
+    {
+      "name": "nvdla-timeout-control",
+      "binary": "<test-build>/nvdla-timeout-control.riscv",
+      "sha256": "acbd170aa7f65a61d611964725f6aef043b9f6cd059c92ff4c31c298deb6c2e2",
+      "harts": 2,
+      "negative_control": true
+    }
+  ],
+  "nvdla_plic_source": 1,
+  "dts": "<test-dts>",
+  "dts_sha256": "9824c2fa39409c142db699205c8fd35bcd635bfe347cc4aa210259e18addc4dc",
+  "inputs": {
+    "tests/README.md": "ac803f26a77e60fedeaf1c596a82cd159662cfac4719299210b7260535cfcdae",
+    "tests/link.ld": "c93bc36d9e6f493f156092356899885a77c04ec2f0587817a7d98518cecf5683",
+    "tests/nvdla.h": "15aa2b37f35b559ff53891a58f2473a621411b03c57a3f8fbc43a862bf4745b3",
+    "tests/nvdla_standalone.cpp": "569d4ef6aa544ab721d784c2d30ae85bb0262103e29b872b00419480877534b0",
+    "tests/nvdla_test.c": "e1a0092fdf53f234c8ecf0c92bba1999409ed201b6ad6abde7addf0beb4a9322",
+    "tests/start.S": "48c742ddc5378ed44ab854990a1021f6f86a025d1dffb921fecd501a9cfaaeff"
+  },
+  "builder_sha256": "19be07c9afdbe810b7bcd55fcecc3497951b41b521bef018f759860837322e3f"
+}

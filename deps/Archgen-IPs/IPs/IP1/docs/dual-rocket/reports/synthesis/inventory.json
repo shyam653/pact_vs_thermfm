@@ -1,0 +1,95 @@
+{
+  "configuration": "DualRocketConfig",
+  "top": "ChipTop",
+  "macro": "fakeram45_512x64",
+  "memories": [
+    {
+      "module": "cc_dir_ext",
+      "depth": 1024,
+      "width": 144,
+      "ports": "mrw",
+      "mask_granularity": 18,
+      "mask_bits": 8,
+      "instances": 1,
+      "macros_per_instance": 6,
+      "total_macros": 6,
+      "logical_bits": 147456
+    },
+    {
+      "module": "cc_banks_0_ext",
+      "depth": 16384,
+      "width": 64,
+      "ports": "rw",
+      "mask_granularity": 64,
+      "mask_bits": 1,
+      "instances": 4,
+      "macros_per_instance": 32,
+      "total_macros": 128,
+      "logical_bits": 4194304
+    },
+    {
+      "module": "rockettile_dcache_data_arrays_0_ext",
+      "depth": 512,
+      "width": 512,
+      "ports": "mrw",
+      "mask_granularity": 8,
+      "mask_bits": 64,
+      "instances": 2,
+      "macros_per_instance": 8,
+      "total_macros": 16,
+      "logical_bits": 524288
+    },
+    {
+      "module": "rockettile_dcache_tag_array_ext",
+      "depth": 64,
+      "width": 176,
+      "ports": "mrw",
+      "mask_granularity": 22,
+      "mask_bits": 8,
+      "instances": 2,
+      "macros_per_instance": 3,
+      "total_macros": 6,
+      "logical_bits": 22528
+    },
+    {
+      "module": "rockettile_icache_tag_array_ext",
+      "depth": 64,
+      "width": 168,
+      "ports": "mrw",
+      "mask_granularity": 21,
+      "mask_bits": 8,
+      "instances": 2,
+      "macros_per_instance": 3,
+      "total_macros": 6,
+      "logical_bits": 21504
+    },
+    {
+      "module": "rockettile_icache_data_arrays_0_ext",
+      "depth": 512,
+      "width": 256,
+      "ports": "mrw",
+      "mask_granularity": 32,
+      "mask_bits": 8,
+      "instances": 4,
+      "macros_per_instance": 4,
+      "total_macros": 16,
+      "logical_bits": 524288
+    },
+    {
+      "module": "mem_ext",
+      "depth": 8192,
+      "width": 64,
+      "ports": "mrw",
+      "mask_granularity": 8,
+      "mask_bits": 8,
+      "instances": 1,
+      "macros_per_instance": 16,
+      "total_macros": 16,
+      "logical_bits": 524288
+    }
+  ],
+  "memory_instances": 16,
+  "logical_bits": 5958656,
+  "physical_macro_instances": 194,
+  "physical_capacity_bits": 6356992
+}

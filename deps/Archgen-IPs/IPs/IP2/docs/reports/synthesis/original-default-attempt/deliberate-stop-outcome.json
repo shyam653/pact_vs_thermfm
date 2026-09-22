@@ -1,0 +1,21 @@
+{
+  "requested_utc": "2026-09-12T14:30:29.400388+00:00",
+  "reason": "Deliberately stopped by project owner after independent direct ABC mapping passed all mapped checks and OpenROAD link for both IP2 and IP1. Original default ABC did not complete.",
+  "signal": "SIGTERM",
+  "target_pid": 275859,
+  "target_command": "OSS_CAD_SUITE_ROOT/lib/ld-linux-x86-64.so.2 --inhibit-cache --inhibit-rpath  --library-path OSS_CAD_SUITE_ROOT/lib OSS_CAD_SUITE_ROOT/libexec/yosys-abc -s ",
+  "completed_independent_run": "INDEPENDENT_DIRECT_RUN",
+  "observed_stopped_utc": "2026-09-12T14:30:47.095175+00:00",
+  "original_run_status": "exit_status=1",
+  "session_exit_code": 1,
+  "all_original_processes_gone": true,
+  "map_log_tail": "h cell: $_DLATCHSR_PPP_\n\n7.1. Executing DFFLEGALIZE pass (convert FFs and LATCHes to types supported by the target).\n<suppressed ~8 debug messages>\nMapping DFF/DLATCH cells in module `\\ChipTop':\n  mapped 549 $_DFF_PN0_ cells to \\DFFR_X1 cells.\n  mapped 7 $_DFF_PN1_ cells to \\DFFS_X1 cells.\n  mapped 55746 $_DFF_P_ cells to \\DFF_X1 cells.\n  mapped 1 $_DLATCH_N_ cells to \\DLL_X1 cells.\n\n8. Executing RTLIL backend.\nOutput filename: ./ChipTop-before-abc.il\n\n9. Executing ABC pass (technology mapping using ABC).\n\n9.1. Extracting gate netlist of module `\\ChipTop' to `<abc-temp-dir>/input.blif'..\nReplacing 256 occurrences of constant undef bits with constant zero bits\nERROR: ABC failed with status F\n",
+  "original_files": {
+    "provenance.json": "1e597b69ca36503edfc8370e573726656daa3d1c3911a298b45ea88cdcb2eded",
+    "map.log": "58a9b258f875ff1c258020ac4e558000f5526b8fae756697482e95d6af88868b",
+    "map.console.log": "0b4cee82644628668e1cd5c736be8975eca8a8e65c81670e8b6483a1f983a408",
+    "run-status.txt": "e93176b9cdf866ef0c78d24b2eae43327a3a79c44849a0a5e00140124cbfe5a6",
+    "native-tool-sha256.json": "8327501f6f8b695fdc72771b1141264d63ad35e90f253f9ea1c4d747b2fd97eb",
+    "native-tools-after-stop.json": "3c41abc352371998ad02dcedb5b10c3c71cac141d66ffba08c250b1b0381e4ba"
+  }
+}

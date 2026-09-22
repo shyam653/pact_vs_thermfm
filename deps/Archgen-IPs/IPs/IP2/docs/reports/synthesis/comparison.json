@@ -1,0 +1,48 @@
+{
+  "mapping_mode": "abc-direct",
+  "abc_commands": [
+    "strash",
+    "&get -n",
+    "&nf",
+    "&put"
+  ],
+  "current": {
+    "configuration": "DualRocketFFTConfig",
+    "status": "PASS",
+    "standard_cell_instances": 396434,
+    "total_instances": 396628,
+    "area_um2": 4087070.316002,
+    "sram_macros": 194,
+    "checkpoint_sha256": "950f6d2fdeb4e8b62671ea1918ff2393f22bb1f86b9ec16a14e9c99e00bb9785"
+  },
+  "baseline": {
+    "configuration": "DualRocketConfig",
+    "status": "PASS",
+    "standard_cell_instances": 379014,
+    "total_instances": 379208,
+    "area_um2": 4064449.942001,
+    "sram_macros": 194,
+    "checkpoint_sha256": "05afba9480bdc608662a91b5a65e34b9e7ce33b8780c7e4da2dbb117591c742a"
+  },
+  "identical_libraries": {
+    "NangateOpenCellLibrary.macro.lef": "840b01e500826096d1edcc752350834da647fdbf360798f243f8122b52b357c3",
+    "NangateOpenCellLibrary.tech.lef": "834a79295054cd4209178d1bade67c353863c47bb4b3c22ee38b862b7cec37f2",
+    "fakeram45_512x64.lef": "2d88d8204b5990182efad59f783c62253395a7a11c60b2c998a0b0088f496f62",
+    "NangateOpenCellLibrary_typical.lib": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1",
+    "fakeram45_512x64.lib": "52bec9c35e3ed922459e336aa0e3f9a9e90c1caff6a6d9fff1743902e00e5dce"
+  },
+  "identical_native_binaries": {
+    "yosys": "1ed3600e5edb4d864d1832f4826fd11b3dbf848d3280cbba3489cd6696c6fe18",
+    "yosys-abc": "4ab5cc1910db09801b3f147b03caabee75dad58ed50a051e4e803cc3625e9021",
+    "iverilog": "e7362b162abcf2640a8693676fbba5ad1e6d8eaa68df2c70d060258534bbec47",
+    "vvp": "e72f739adcad49d464bd192ff96dc081378f875b9524ba3611e71a594d588410",
+    "openroad": "93fe61454a52b927602fd6c798c4402214c19e80e7d614636345f0f427ea2f46"
+  },
+  "delta": {
+    "standard_cell_instances": 17420,
+    "total_instances": 17420,
+    "area_um2": 22620.374001000077,
+    "sram_macros": 0
+  },
+  "scope": "Both complete SoCs independently mapped from their own verified pre-ABC checkpoints using the same ABC script, native tools and libraries. No timing constraints or physical design."
+}

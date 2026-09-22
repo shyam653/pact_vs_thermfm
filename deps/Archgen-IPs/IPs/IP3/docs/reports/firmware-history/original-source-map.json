@@ -1,0 +1,30 @@
+{
+  "tests/README.md": {
+    "archived_path": "original-source/tests/README.md.txt",
+    "original_sha256": "9304fc83d3312dda49f1cd750d00f703cfa68c9bee867a0064a4acb681bf7820"
+  },
+  "tests/link.ld": {
+    "archived_path": "original-source/tests/link.ld",
+    "original_sha256": "c93bc36d9e6f493f156092356899885a77c04ec2f0587817a7d98518cecf5683"
+  },
+  "tests/nvdla.h": {
+    "archived_path": "original-source/tests/nvdla.h",
+    "original_sha256": "15aa2b37f35b559ff53891a58f2473a621411b03c57a3f8fbc43a862bf4745b3"
+  },
+  "tests/nvdla_standalone.cpp": {
+    "archived_path": "original-source/tests/nvdla_standalone.cpp",
+    "original_sha256": "13d191a3e58406b87afb316409f33c08b93621920bb2d5d7c0e8f0275599054f"
+  },
+  "tests/nvdla_test.c": {
+    "archived_path": "original-source/tests/nvdla_test.c",
+    "original_sha256": "0adcb0f5b65068b201d56581a4ec438f40019f3801aec6d31a40f972439a81fa"
+  },
+  "tests/start.S": {
+    "archived_path": "original-source/tests/start.S",
+    "original_sha256": "48c742ddc5378ed44ab854990a1021f6f86a025d1dffb921fecd501a9cfaaeff"
+  },
+  "scripts/build-nvdla-tests.py": {
+    "archived_path": "original-source/build-nvdla-tests.py",
+    "original_sha256": "19be07c9afdbe810b7bcd55fcecc3497951b41b521bef018f759860837322e3f"
+  }
+}

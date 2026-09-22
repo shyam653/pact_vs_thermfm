@@ -1,0 +1,256 @@
+{
+  "normal_simulations": 9,
+  "normal_passes": 9,
+  "negative_controls": 1,
+  "negative_control_rejected": true,
+  "normal_completed_transforms": 2433,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "simulator_sha256": "5945b691918e61aaf05431f07b8f40cdf87e6431ab4981e310c188a8b38fbd5c",
+  "reference": {
+    "fft_revision": "e361f229b5574931f555b10e1b48f2769c07832c",
+    "points": 8,
+    "component_width": 16,
+    "component_fraction_bits": 8,
+    "twiddle_fraction_bits": 17,
+    "random_seed": 1179928148,
+    "cases": 135,
+    "independent_dft_cases": 94,
+    "max_independent_dft_component_error_lsb": 0.9993872553617962,
+    "dft_component_error_limit_lsb": 4,
+    "upstream_known_answer_verified": true,
+    "generator_sha256": "5d470ccc5db02b30160c363c468072bc7b840e3e02f9b1406aeff3f26f2f6524",
+    "header_sha256": "fda750764c84705fa46917d98abd64afad6a63795393b55c8c7fe6c28e3f8236"
+  },
+  "results": [
+    {
+      "test": "fft-single",
+      "suite": "fft-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 109.556,
+      "cycles": "",
+      "seed": 1,
+      "negative_control": false,
+      "max_cycles": 10000000,
+      "wall_timeout_seconds": 600,
+      "elf_sha256": "04c8a057cae8d0a5d2c7fa47c1b31dccae85bde8c53f37e421a3512e489216e2",
+      "log": "logs/seed1/fft-single.log",
+      "original_log_sha256": "891704eff662356d5096e117282c10697cbdc8fe03ca25aa9b04761d75d59fb6",
+      "exported_log_sha256": "d0806b1c99b8478f1ee7f0ec5f0e7438866753f91cac1932ec4f0735436992af"
+    },
+    {
+      "test": "fft-dual",
+      "suite": "fft-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 316.882,
+      "cycles": "",
+      "seed": 1,
+      "negative_control": false,
+      "max_cycles": 10000000,
+      "wall_timeout_seconds": 600,
+      "elf_sha256": "065c68f08f84d9b68dcef45074398e398519dff46f721a1eec97e33ba2317ae8",
+      "log": "logs/seed1/fft-dual.log",
+      "original_log_sha256": "a205ee3aa43aa98b7d918e3ac0118e19040980404d8f6ce5f7c3f9b44b3ca1d9",
+      "exported_log_sha256": "8ee8d8feaf56535d5c291d80cd5720e62d803c6ef72d3c54762d4256db0e9182"
+    },
+    {
+      "test": "fft-upstream",
+      "suite": "fft-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 4.29,
+      "cycles": "",
+      "seed": 1,
+      "negative_control": false,
+      "max_cycles": 10000000,
+      "wall_timeout_seconds": 600,
+      "elf_sha256": "4de627321acc7e70b972bacd8e1a0d026d69f81c5c5e54975dd46efee72d272d",
+      "log": "logs/seed1/fft-upstream.log",
+      "original_log_sha256": "c51c7952d861d2392a6c1ed07e8c4dc9313299b13a65ba1c5c9debf5d2661de5",
+      "exported_log_sha256": "70444f5c387dbfb52b7d97800f0b1cd966686e1ded62882810e18ace771e3dc5"
+    },
+    {
+      "test": "fft-single",
+      "suite": "fft-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 130.113,
+      "cycles": "",
+      "seed": 2,
+      "negative_control": false,
+      "max_cycles": 10000000,
+      "wall_timeout_seconds": 600,
+      "elf_sha256": "04c8a057cae8d0a5d2c7fa47c1b31dccae85bde8c53f37e421a3512e489216e2",
+      "log": "logs/seed2/fft-single.log",
+      "original_log_sha256": "891704eff662356d5096e117282c10697cbdc8fe03ca25aa9b04761d75d59fb6",
+      "exported_log_sha256": "d0806b1c99b8478f1ee7f0ec5f0e7438866753f91cac1932ec4f0735436992af"
+    },
+    {
+      "test": "fft-dual",
+      "suite": "fft-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 299.512,
+      "cycles": "",
+      "seed": 2,
+      "negative_control": false,
+      "max_cycles": 10000000,
+      "wall_timeout_seconds": 600,
+      "elf_sha256": "065c68f08f84d9b68dcef45074398e398519dff46f721a1eec97e33ba2317ae8",
+      "log": "logs/seed2/fft-dual.log",
+      "original_log_sha256": "a205ee3aa43aa98b7d918e3ac0118e19040980404d8f6ce5f7c3f9b44b3ca1d9",
+      "exported_log_sha256": "8ee8d8feaf56535d5c291d80cd5720e62d803c6ef72d3c54762d4256db0e9182"
+    },
+    {
+      "test": "fft-upstream",
+      "suite": "fft-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 4.438,
+      "cycles": "",
+      "seed": 2,
+      "negative_control": false,
+      "max_cycles": 10000000,
+      "wall_timeout_seconds": 600,
+      "elf_sha256": "4de627321acc7e70b972bacd8e1a0d026d69f81c5c5e54975dd46efee72d272d",
+      "log": "logs/seed2/fft-upstream.log",
+      "original_log_sha256": "c51c7952d861d2392a6c1ed07e8c4dc9313299b13a65ba1c5c9debf5d2661de5",
+      "exported_log_sha256": "70444f5c387dbfb52b7d97800f0b1cd966686e1ded62882810e18ace771e3dc5"
+    },
+    {
+      "test": "fft-single",
+      "suite": "fft-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 133.654,
+      "cycles": "",
+      "seed": 3,
+      "negative_control": false,
+      "max_cycles": 10000000,
+      "wall_timeout_seconds": 600,
+      "elf_sha256": "04c8a057cae8d0a5d2c7fa47c1b31dccae85bde8c53f37e421a3512e489216e2",
+      "log": "logs/seed3/fft-single.log",
+      "original_log_sha256": "891704eff662356d5096e117282c10697cbdc8fe03ca25aa9b04761d75d59fb6",
+      "exported_log_sha256": "d0806b1c99b8478f1ee7f0ec5f0e7438866753f91cac1932ec4f0735436992af"
+    },
+    {
+      "test": "fft-dual",
+      "suite": "fft-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 321.351,
+      "cycles": "",
+      "seed": 3,
+      "negative_control": false,
+      "max_cycles": 10000000,
+      "wall_timeout_seconds": 600,
+      "elf_sha256": "065c68f08f84d9b68dcef45074398e398519dff46f721a1eec97e33ba2317ae8",
+      "log": "logs/seed3/fft-dual.log",
+      "original_log_sha256": "a205ee3aa43aa98b7d918e3ac0118e19040980404d8f6ce5f7c3f9b44b3ca1d9",
+      "exported_log_sha256": "8ee8d8feaf56535d5c291d80cd5720e62d803c6ef72d3c54762d4256db0e9182"
+    },
+    {
+      "test": "fft-upstream",
+      "suite": "fft-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 5.71,
+      "cycles": "",
+      "seed": 3,
+      "negative_control": false,
+      "max_cycles": 10000000,
+      "wall_timeout_seconds": 600,
+      "elf_sha256": "4de627321acc7e70b972bacd8e1a0d026d69f81c5c5e54975dd46efee72d272d",
+      "log": "logs/seed3/fft-upstream.log",
+      "original_log_sha256": "c51c7952d861d2392a6c1ed07e8c4dc9313299b13a65ba1c5c9debf5d2661de5",
+      "exported_log_sha256": "70444f5c387dbfb52b7d97800f0b1cd966686e1ded62882810e18ace771e3dc5"
+    },
+    {
+      "test": "fft-negative-control",
+      "suite": "expected-failure-control",
+      "result": "FAIL",
+      "exit_status": 255,
+      "wall_seconds": 10.139,
+      "cycles": "",
+      "seed": 1,
+      "negative_control": true,
+      "max_cycles": 10000000,
+      "wall_timeout_seconds": 600,
+      "elf_sha256": "8e996004ef91c2d26dd5bb7dcd2267854edd94af492468d06e45fa1cdfa53e0b",
+      "log": "logs/negative-control/fft-negative-control.log",
+      "original_log_sha256": "389a649de0c8e667f93e385d8e42200fefae9982729d4b3178383eb36a165b88",
+      "exported_log_sha256": "f31293e200d3987b539990f3d479c6d15c84b411f570af3c659ab435c8530eec"
+    }
+  ],
+  "log_normalization": "Only known checkout/campaign paths replaced; original hashes retained",
+  "source_build_provenance_sha256": "58601a6d17085d04ba17e14439c61f179cdc251de1fd18e6012d45934b7e976b",
+  "published_build_inputs_verified": {
+    "tests/fft_reference.py": "5d470ccc5db02b30160c363c468072bc7b840e3e02f9b1406aeff3f26f2f6524",
+    "tests/fft_test.c": "3809e5de7c81e43e4aafe16d9192fa2e587ec0fc679e49d73d99f36a4e9fc911",
+    "tests/link.ld": "c93bc36d9e6f493f156092356899885a77c04ec2f0587817a7d98518cecf5683",
+    "tests/runtime.h": "8a01c0e5358065ee1600c212c00a2d70c25267870ec8b1a34d19bdbb3facc457",
+    "tests/start.S": "48c742ddc5378ed44ab854990a1021f6f86a025d1dffb921fecd501a9cfaaeff",
+    "tests/upstream_fft.c": "5e6cec623822c2183cd80ec80d8eb6f9c01ebb069e29ef262e1abe6947fe539b"
+  },
+  "build_evidence": {
+    "build/build-provenance.json": {
+      "original_sha256": "58601a6d17085d04ba17e14439c61f179cdc251de1fd18e6012d45934b7e976b",
+      "exported_sha256": "d6aaea53730d632d74f89474feac5327aea27406b62e0c11b00961e0450469c6"
+    },
+    "build/reference.json": {
+      "original_sha256": "5ff343bd372b1e35860f19e8490776c4a6b1fe7d22d829caa502ec9257b9c80e",
+      "exported_sha256": "5ff343bd372b1e35860f19e8490776c4a6b1fe7d22d829caa502ec9257b9c80e"
+    },
+    "build/fft_vectors.h": {
+      "original_sha256": "fda750764c84705fa46917d98abd64afad6a63795393b55c8c7fe6c28e3f8236",
+      "exported_sha256": "fda750764c84705fa46917d98abd64afad6a63795393b55c8c7fe6c28e3f8236"
+    },
+    "build/reference-generation.log": {
+      "original_sha256": "e6946af10360eb9684ede66555700859f595a99a6c541032befc3d9e16370a72",
+      "exported_sha256": "e6946af10360eb9684ede66555700859f595a99a6c541032befc3d9e16370a72"
+    },
+    "build/fft-single-command.json": {
+      "original_sha256": "3d041905c415caa86d7a09e691ea18c6594056ba804e98392c1f4bdf943c8ae8",
+      "exported_sha256": "b11ebd256f43d1abbafe70e4ad06ce7cbbc3bcab02c1724db9a3adc02a2059dd"
+    },
+    "build/fft-single-build.log": {
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/fft-dual-command.json": {
+      "original_sha256": "fb2962a17a03e6b5ce7bde58578663e774dfc272c677f9f85ba4e5cad0cb5507",
+      "exported_sha256": "addeff329b241fd96735bd637174ff6f695b5c847e620ecf818d468cde3752c8"
+    },
+    "build/fft-dual-build.log": {
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/fft-upstream-command.json": {
+      "original_sha256": "bfaaa45beabb73ee97863ca4aeab6335259d08608ce1fc51b7adefcb929f7cbd",
+      "exported_sha256": "85e3b742b3d85ac1345d93c7c2d622247c7d22527ed72976ac9b1a0bc2424a0d"
+    },
+    "build/fft-upstream-build.log": {
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "build/fft-negative-control-command.json": {
+      "original_sha256": "83007480839df950c1ee52c049cbbc46a5c2afcc2d5572e35df5f345c8b1df6c",
+      "exported_sha256": "eaeb586ce8dfc7f569abd08ca30245ff1b28a61c5dcb40296f3df8afaa07acd7"
+    },
+    "build/fft-negative-control-build.log": {
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "build_path_normalization": {
+    "<ip2>": "IPs/IP2",
+    "<chipyard>": "Prepared pinned Chipyard checkout",
+    "<test-build>": "Original external test build directory"
+  },
+  "exporter_sha256": "de4895e79a93db6c7e03f69493641f3c13d03c69dae64b3c4d98055cb651521a"
+}

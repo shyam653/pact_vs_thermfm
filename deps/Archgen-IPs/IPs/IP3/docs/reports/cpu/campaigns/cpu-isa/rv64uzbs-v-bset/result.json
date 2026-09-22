@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzbs-v-bset",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 68.094,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uzbs-v-bset/simulation.log"
+}

@@ -1,0 +1,9 @@
+{
+  "test": "chipyard-hello",
+  "suite": "chipyard-generic",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 9.272,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/chipyard-hello/simulation.log"
+}

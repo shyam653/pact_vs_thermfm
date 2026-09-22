@@ -1,0 +1,13 @@
+{
+  "measured_utc": "2026-09-06 13:17:17 UTC",
+  "note": "Supplemental native tool hashes rechecked during retry SRAM validation, before full-ChipTop Yosys/OpenROAD stages. Launcher and explicit slang-plugin hashes are also in provenance.json. This does not hash every shared runtime dependency.",
+  "files": {
+    "oss-cad-suite/libexec/yosys": "1ed3600e5edb4d864d1832f4826fd11b3dbf848d3280cbba3489cd6696c6fe18",
+    "oss-cad-suite/libexec/yosys-abc": "4ab5cc1910db09801b3f147b03caabee75dad58ed50a051e4e803cc3625e9021",
+    "oss-cad-suite/libexec/iverilog": "e7362b162abcf2640a8693676fbba5ad1e6d8eaa68df2c70d060258534bbec47",
+    "oss-cad-suite/libexec/vvp": "e72f739adcad49d464bd192ff96dc081378f875b9524ba3611e71a594d588410",
+    "openroad/usr/bin/openroad": "93fe61454a52b927602fd6c798c4402214c19e80e7d614636345f0f427ea2f46"
+  },
+  "rechecked_after_run_utc": "2026-09-06 13:54:07 UTC",
+  "after_run_result": "All five native executable hashes still match the values measured during SRAM validation."
+}

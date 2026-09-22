@@ -1,0 +1,5 @@
+test	suite	result	exit_status	wall_seconds	cycles	log	campaign	selected_final
+pmp	benchmark-configured	WALL_TIMEOUT	0	600.009		bench-run/pmp/simulation.log	bench-run	false
+pmp	benchmark-configured	PASS	0	892.308		pmp-retry/pmp/simulation.log	pmp-retry	true
+chipyard-cpp-hello	chipyard-generic	MISSING_FINISH	0	69.816		smoke-run/chipyard-cpp-hello/simulation.log	smoke-run	false
+chipyard-cpp-hello	chipyard-generic	PASS	0	70.67		cpp-retry/chipyard-cpp-hello/simulation.log	cpp-retry	true

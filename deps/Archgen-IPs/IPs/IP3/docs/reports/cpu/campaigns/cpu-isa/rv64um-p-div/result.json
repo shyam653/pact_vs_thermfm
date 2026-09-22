@@ -1,0 +1,9 @@
+{
+  "test": "rv64um-p-div",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 4.946,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64um-p-div/simulation.log"
+}

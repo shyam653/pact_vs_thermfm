@@ -1,0 +1,77 @@
+{
+  "baseline_label": "Prior DualRocketConfig full-ChipTop run, 2026-09-06T09:40:22Z (not the single-core Rocket baseline)",
+  "tools": {
+    "verilator": {
+      "baseline_warnings": 2484,
+      "current_warnings": 2484,
+      "warning_delta": 0,
+      "current_errors": 0,
+      "current_exit_code": 0,
+      "rules": [
+        {
+          "category": "DECLFILENAME",
+          "baseline": 1,
+          "current": 1,
+          "delta": 0
+        },
+        {
+          "category": "EOFNEWLINE",
+          "baseline": 4,
+          "current": 4,
+          "delta": 0
+        },
+        {
+          "category": "LATCH",
+          "baseline": 1,
+          "current": 1,
+          "delta": 0
+        },
+        {
+          "category": "PINCONNECTEMPTY",
+          "baseline": 424,
+          "current": 424,
+          "delta": 0
+        },
+        {
+          "category": "SYNCASYNCNET",
+          "baseline": 4,
+          "current": 4,
+          "delta": 0
+        },
+        {
+          "category": "UNUSEDPARAM",
+          "baseline": 1,
+          "current": 1,
+          "delta": 0
+        },
+        {
+          "category": "UNUSEDSIGNAL",
+          "baseline": 2047,
+          "current": 2047,
+          "delta": 0
+        },
+        {
+          "category": "VARHIDDEN",
+          "baseline": 2,
+          "current": 2,
+          "delta": 0
+        }
+      ]
+    },
+    "slang": {
+      "baseline_warnings": 21,
+      "current_warnings": 21,
+      "warning_delta": 0,
+      "current_errors": 0,
+      "current_exit_code": 0,
+      "rules": [
+        {
+          "category": "arith-in-shift",
+          "baseline": 21,
+          "current": 21,
+          "delta": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "test": "legacy-vvadd4-dual",
+  "suite": "legacy-mt",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 72.173,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/legacy-vvadd4-dual/simulation.log"
+}

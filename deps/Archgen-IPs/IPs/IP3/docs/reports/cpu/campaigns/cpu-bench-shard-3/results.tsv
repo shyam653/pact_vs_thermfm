@@ -1,0 +1,19 @@
+test	suite	result	exit_status	wall_seconds	cycles	log
+legacy-dv_matmul-dual	legacy-mt	WALL_TIMEOUT	-9	1805.017		${CAMPAIGN_ROOT}/cpu-bench-shard-3/legacy-dv_matmul-dual/simulation.log
+qsort	benchmark-configured	PASS	0	652.595		${CAMPAIGN_ROOT}/cpu-bench-shard-3/qsort/simulation.log
+legacy-dr_matmul-dual	legacy-mt	FAIL	255	413.382		${CAMPAIGN_ROOT}/cpu-bench-shard-3/legacy-dr_matmul-dual/simulation.log
+legacy-bo_matmul-dual	legacy-mt	FAIL	255	306.643		${CAMPAIGN_ROOT}/cpu-bench-shard-3/legacy-bo_matmul-dual/simulation.log
+spmv	benchmark-configured	PASS	0	241.213		${CAMPAIGN_ROOT}/cpu-bench-shard-3/spmv/simulation.log
+legacy-vvadd1-dual	legacy-mt	PASS	0	191.758		${CAMPAIGN_ROOT}/cpu-bench-shard-3/legacy-vvadd1-dual/simulation.log
+legacy-az_matmul-dual	legacy-mt	FAIL	255	191.362		${CAMPAIGN_ROOT}/cpu-bench-shard-3/legacy-az_matmul-dual/simulation.log
+corrected-legacy-vvadd1-dual	corrected-mt-supplement	PASS	0	136.403		${CAMPAIGN_ROOT}/cpu-bench-shard-3/corrected-legacy-vvadd1-dual/simulation.log
+legacy-vvadd3-dual	legacy-mt	PASS	0	110.454		${CAMPAIGN_ROOT}/cpu-bench-shard-3/legacy-vvadd3-dual/simulation.log
+memcpy	benchmark-extra	PASS	0	76.155		${CAMPAIGN_ROOT}/cpu-bench-shard-3/memcpy/simulation.log
+legacy-bc_matmul-dual	legacy-mt	PASS	0	69.061		${CAMPAIGN_ROOT}/cpu-bench-shard-3/legacy-bc_matmul-dual/simulation.log
+corrected-mt-matmul-dual	corrected-mt-supplement	PASS	0	54.307		${CAMPAIGN_ROOT}/cpu-bench-shard-3/corrected-mt-matmul-dual/simulation.log
+legacy-ar_matmul-dual	legacy-mt	PASS	0	41.451		${CAMPAIGN_ROOT}/cpu-bench-shard-3/legacy-ar_matmul-dual/simulation.log
+mt-matmul-dual	benchmark-dual	PASS	0	34.461		${CAMPAIGN_ROOT}/cpu-bench-shard-3/mt-matmul-dual/simulation.log
+legacy-ds_matmul-dual	legacy-mt	PASS	0	35.865		${CAMPAIGN_ROOT}/cpu-bench-shard-3/legacy-ds_matmul-dual/simulation.log
+legacy-ci_matmul-dual	legacy-mt	PASS	0	30.296		${CAMPAIGN_ROOT}/cpu-bench-shard-3/legacy-ci_matmul-dual/simulation.log
+legacy-ai_matmul-dual	legacy-mt	PASS	0	29.492		${CAMPAIGN_ROOT}/cpu-bench-shard-3/legacy-ai_matmul-dual/simulation.log
+dual-hart-smoke	dual-hart-smoke	PASS	0	14.424		${CAMPAIGN_ROOT}/cpu-bench-shard-3/dual-hart-smoke/simulation.log

@@ -1,0 +1,139 @@
+{
+  "format_version": 1,
+  "source_label": "LINT_OUTPUT_ROOT",
+  "path_aliases": {
+    "rtl": "the configured generated gen-collateral directory in the external Chipyard checkout",
+    "CHIPYARD_ROOT": "external pinned Chipyard checkout",
+    "LINT_OUTPUT_ROOT": "original complete local lint output directory",
+    "verilator": "resolved Verilator executable; original bytes identified by SHA-256",
+    "slang": "resolved slang executable; original bytes identified by SHA-256"
+  },
+  "transformations": [
+    "Replace machine-local source, executable, and output paths with aliases.",
+    "Extract all Verilator SARIF result objects; omit ruleIndex, rendered markdown and source snippets.",
+    "Retain all diagnostic severities, rule IDs, messages, primary and related locations.",
+    "Retain slang diagnostics and notes; deduplicate the identical source inventories."
+  ],
+  "raw_artifacts_not_vendored": [
+    {
+      "path": "slang/dependency-sha256.txt",
+      "bytes": 78897,
+      "sha256": "36eaaa2ac36a54c2b97aecda6e1769b88f7fe9560dd2a7dda928767403df1c6c"
+    },
+    {
+      "path": "slang/diagnostics.json",
+      "bytes": 14502,
+      "sha256": "354e0697171cec7778c31d6f1546bb5b870469fb86ae2046c8e0895c6b7ee64b"
+    },
+    {
+      "path": "slang/exit-code.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "slang/lint.log",
+      "bytes": 30731,
+      "sha256": "a6b1429150cc3cd226e3d7ea889231c6bd20ddb897896b165f4d1e4d66794ab7"
+    },
+    {
+      "path": "slang/module-dependencies.txt",
+      "bytes": 50451,
+      "sha256": "e997a3a1d8e01b5125e57a6e9553b0099f3cb203c618240d15f8f8cd21337621"
+    },
+    {
+      "path": "slang/provenance.json",
+      "bytes": 1820,
+      "sha256": "79abba42f03632cc34fb19c51319f649e650465644c5397210ebcb8339bb5590"
+    },
+    {
+      "path": "slang/source-integrity-exit-code.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "slang/source-integrity.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "slang/source-lint-directives.txt",
+      "bytes": 103,
+      "sha256": "fa9cebac1ff5023b44fcd16729489d9f8dac90b6a1bd8ab484781768837abda2"
+    },
+    {
+      "path": "slang/source-sha256.txt",
+      "bytes": 44666,
+      "sha256": "c7b76d1dac02f258a1e79823630e3f10daa943c1ccb964a0630c893826853bf3"
+    },
+    {
+      "path": "slang/summary.json",
+      "bytes": 166,
+      "sha256": "dcee520088471cf310c8a7d32909ea0eb903adce43ab0f3f6670e607d4b3aa92"
+    },
+    {
+      "path": "slang/time-stats.json",
+      "bytes": 125,
+      "sha256": "69350dd345703ff3317789ac27733478d31bf0e1399ef4367f840abbe2a481c7"
+    },
+    {
+      "path": "source-plan.json",
+      "bytes": 63427,
+      "sha256": "c91b2d3d24acb9ba0939d0c09ad9d72a87fe929feb88ae530728677e3b509c9c"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 904,
+      "sha256": "326cc89be3a2cee18909da32f2171deb02ee700dbcd332b8c479875c6678ab95"
+    },
+    {
+      "path": "verilator/diagnostics.sarif",
+      "bytes": 20448259,
+      "sha256": "31bb87b8a08366bd6c5fbbc95238eb6447ff903df1073a66bf3ba61fbb6bf898"
+    },
+    {
+      "path": "verilator/exit-code.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "verilator/lint.log",
+      "bytes": 3870462,
+      "sha256": "bc05c261119e2ac756269e70c96e8341cbd1aa4890f3af6a38317acffa15017f"
+    },
+    {
+      "path": "verilator/provenance.json",
+      "bytes": 1730,
+      "sha256": "6d03196c176a0efafd05a16a0308ed8e2f03966996f648e96a0b9a5aff6bbc61"
+    },
+    {
+      "path": "verilator/source-integrity-exit-code.txt",
+      "bytes": 2,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    {
+      "path": "verilator/source-integrity.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "verilator/source-lint-directives.txt",
+      "bytes": 103,
+      "sha256": "19ca2bc18a59b71cee1e42833f5c4f1a0f6f1c5bdbf544131e4217644308943a"
+    },
+    {
+      "path": "verilator/source-sha256.txt",
+      "bytes": 44666,
+      "sha256": "c7b76d1dac02f258a1e79823630e3f10daa943c1ccb964a0630c893826853bf3"
+    },
+    {
+      "path": "verilator/summary.json",
+      "bytes": 607,
+      "sha256": "b3af118ada215fe8807938659a0aa7dd96f969ce4b14462e8c86c58517f897ef"
+    },
+    {
+      "path": "workflow-exits.json",
+      "bytes": 35,
+      "sha256": "424ef9382c10f038d61d32735d0d93ffee8a0c0290c6c4c599c81902fd7d1591"
+    }
+  ]
+}

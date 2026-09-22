@@ -1,0 +1,742 @@
+[
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 43172,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 43185,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 43198,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 43211,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65251,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65264,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65277,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65284,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65291,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65298,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65305,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65312,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65319,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65326,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65333,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65340,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65347,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65354,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65361,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65368,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65375,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65382,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65389,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65396,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65403,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65410,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65417,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65424,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65431,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65438,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65445,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65452,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65459,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65466,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65473,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65480,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65487,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65494,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 65507,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 68368,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 68381,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 68394,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 68407,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 71896,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 71909,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 75690,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 82670,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 86841,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 90675,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 90688,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 103860,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 103873,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 103886,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 108997,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 109010,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 109023,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 109036,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 109049,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 110016,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 110029,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 110042,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 110055,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 110068,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 110117,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 115125,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 115501,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 115514,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 115527,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 115540,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 115553,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 116873,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 116886,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 127302,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 127315,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 127328,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163044,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163072,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163100,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163129,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163157,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163185,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163217,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163245,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163273,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163302,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163330,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163358,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163387,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163415,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 163443,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 169322,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 169551,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 171283,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 171452,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 174658,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 174671,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 174684,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 174697,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 174710,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 174723,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 175922,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 175935,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 175948,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 175961,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 175974,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 176023,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 181318,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 181362,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 181406,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 181451,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 181495,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 181539,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 181584,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 181628,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 181672,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 181722,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183312,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183325,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183338,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183351,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183364,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183377,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183390,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183403,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183416,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183429,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183442,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183455,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183468,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183481,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183509,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183522,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183535,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183548,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183561,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183574,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183587,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183600,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183613,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183626,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 183639,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 186791,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 186804,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 197026,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 197039,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 209677,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 211786,
+    "kind": "cover"
+  },
+  {
+    "path": "rtl/gen-collateral/nvdla_small.preprocessed.v",
+    "line": 211799,
+    "kind": "cover"
+  }
+]

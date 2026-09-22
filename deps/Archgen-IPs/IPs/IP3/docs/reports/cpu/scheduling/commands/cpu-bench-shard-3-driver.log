@@ -1,0 +1,159 @@
+Progress: 0/18, {}, elapsed 30s
+Progress: 0/18, {}, elapsed 60s
+Progress: 0/18, {}, elapsed 90s
+Progress: 0/18, {}, elapsed 120s
+Progress: 0/18, {}, elapsed 150s
+Progress: 0/18, {}, elapsed 180s
+Progress: 0/18, {}, elapsed 210s
+Progress: 0/18, {}, elapsed 240s
+Progress: 0/18, {}, elapsed 270s
+Progress: 0/18, {}, elapsed 300s
+Progress: 0/18, {}, elapsed 330s
+Progress: 0/18, {}, elapsed 360s
+Progress: 0/18, {}, elapsed 390s
+Progress: 0/18, {}, elapsed 420s
+Progress: 0/18, {}, elapsed 450s
+Progress: 0/18, {}, elapsed 480s
+Progress: 0/18, {}, elapsed 510s
+Progress: 0/18, {}, elapsed 540s
+Progress: 0/18, {}, elapsed 570s
+Progress: 0/18, {}, elapsed 600s
+Progress: 0/18, {}, elapsed 630s
+Progress: 0/18, {}, elapsed 660s
+Progress: 0/18, {}, elapsed 690s
+Progress: 0/18, {}, elapsed 720s
+Progress: 0/18, {}, elapsed 750s
+Progress: 0/18, {}, elapsed 780s
+Progress: 0/18, {}, elapsed 810s
+Progress: 0/18, {}, elapsed 840s
+Progress: 0/18, {}, elapsed 870s
+Progress: 0/18, {}, elapsed 900s
+Progress: 0/18, {}, elapsed 930s
+Progress: 0/18, {}, elapsed 960s
+Progress: 0/18, {}, elapsed 990s
+Progress: 0/18, {}, elapsed 1020s
+Progress: 0/18, {}, elapsed 1050s
+Progress: 0/18, {}, elapsed 1080s
+Progress: 0/18, {}, elapsed 1110s
+Progress: 0/18, {}, elapsed 1140s
+Progress: 0/18, {}, elapsed 1170s
+Progress: 0/18, {}, elapsed 1200s
+Progress: 0/18, {}, elapsed 1230s
+Progress: 0/18, {}, elapsed 1260s
+Progress: 0/18, {}, elapsed 1290s
+Progress: 0/18, {}, elapsed 1320s
+Progress: 0/18, {}, elapsed 1350s
+Progress: 0/18, {}, elapsed 1380s
+Progress: 0/18, {}, elapsed 1410s
+Progress: 0/18, {}, elapsed 1440s
+Progress: 0/18, {}, elapsed 1470s
+Progress: 0/18, {}, elapsed 1500s
+Progress: 0/18, {}, elapsed 1530s
+Progress: 0/18, {}, elapsed 1560s
+Progress: 0/18, {}, elapsed 1590s
+Progress: 0/18, {}, elapsed 1620s
+Progress: 0/18, {}, elapsed 1650s
+Progress: 0/18, {}, elapsed 1680s
+Progress: 0/18, {}, elapsed 1710s
+Progress: 0/18, {}, elapsed 1740s
+Progress: 0/18, {}, elapsed 1770s
+Progress: 0/18, {}, elapsed 1800s
+1/18 legacy-dv_matmul-dual WALL_TIMEOUT 1805.017s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 1835s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 1865s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 1895s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 1925s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 1955s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 1985s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2015s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2045s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2075s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2105s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2135s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2165s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2195s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2225s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2255s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2285s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2315s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2345s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2375s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2405s
+Progress: 1/18, {'WALL_TIMEOUT': 1}, elapsed 2435s
+2/18 qsort PASS 652.595s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'PASS': 1}, elapsed 2488s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'PASS': 1}, elapsed 2518s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'PASS': 1}, elapsed 2548s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'PASS': 1}, elapsed 2578s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'PASS': 1}, elapsed 2608s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'PASS': 1}, elapsed 2638s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'PASS': 1}, elapsed 2668s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'PASS': 1}, elapsed 2698s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'PASS': 1}, elapsed 2728s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'PASS': 1}, elapsed 2758s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'PASS': 1}, elapsed 2788s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'PASS': 1}, elapsed 2818s
+Progress: 2/18, {'WALL_TIMEOUT': 1, 'PASS': 1}, elapsed 2848s
+3/18 legacy-dr_matmul-dual FAIL 413.382s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 1}, elapsed 2901s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 1}, elapsed 2931s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 1}, elapsed 2961s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 1}, elapsed 2991s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 1}, elapsed 3021s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 1}, elapsed 3051s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 1}, elapsed 3081s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 1}, elapsed 3111s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 1}, elapsed 3141s
+Progress: 3/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 1}, elapsed 3171s
+4/18 legacy-bo_matmul-dual FAIL 306.643s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 2}, elapsed 3208s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 2}, elapsed 3238s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 2}, elapsed 3268s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 2}, elapsed 3298s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 2}, elapsed 3328s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 2}, elapsed 3358s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 2}, elapsed 3388s
+Progress: 4/18, {'WALL_TIMEOUT': 1, 'PASS': 1, 'FAIL': 2}, elapsed 3418s
+5/18 spmv PASS 241.213s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'PASS': 2, 'FAIL': 2}, elapsed 3449s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'PASS': 2, 'FAIL': 2}, elapsed 3479s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'PASS': 2, 'FAIL': 2}, elapsed 3509s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'PASS': 2, 'FAIL': 2}, elapsed 3539s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'PASS': 2, 'FAIL': 2}, elapsed 3569s
+Progress: 5/18, {'WALL_TIMEOUT': 1, 'PASS': 2, 'FAIL': 2}, elapsed 3599s
+6/18 legacy-vvadd1-dual PASS 191.758s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'PASS': 3, 'FAIL': 2}, elapsed 3641s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'PASS': 3, 'FAIL': 2}, elapsed 3671s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'PASS': 3, 'FAIL': 2}, elapsed 3701s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'PASS': 3, 'FAIL': 2}, elapsed 3731s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'PASS': 3, 'FAIL': 2}, elapsed 3761s
+Progress: 6/18, {'WALL_TIMEOUT': 1, 'PASS': 3, 'FAIL': 2}, elapsed 3791s
+7/18 legacy-az_matmul-dual FAIL 191.362s
+Progress: 7/18, {'WALL_TIMEOUT': 1, 'PASS': 3, 'FAIL': 3}, elapsed 3832s
+Progress: 7/18, {'WALL_TIMEOUT': 1, 'PASS': 3, 'FAIL': 3}, elapsed 3862s
+Progress: 7/18, {'WALL_TIMEOUT': 1, 'PASS': 3, 'FAIL': 3}, elapsed 3892s
+Progress: 7/18, {'WALL_TIMEOUT': 1, 'PASS': 3, 'FAIL': 3}, elapsed 3922s
+8/18 corrected-legacy-vvadd1-dual PASS 136.403s
+Progress: 8/18, {'WALL_TIMEOUT': 1, 'PASS': 4, 'FAIL': 3}, elapsed 3968s
+Progress: 8/18, {'WALL_TIMEOUT': 1, 'PASS': 4, 'FAIL': 3}, elapsed 3998s
+Progress: 8/18, {'WALL_TIMEOUT': 1, 'PASS': 4, 'FAIL': 3}, elapsed 4028s
+9/18 legacy-vvadd3-dual PASS 110.454s
+Progress: 9/18, {'WALL_TIMEOUT': 1, 'PASS': 5, 'FAIL': 3}, elapsed 4079s
+Progress: 9/18, {'WALL_TIMEOUT': 1, 'PASS': 5, 'FAIL': 3}, elapsed 4109s
+10/18 memcpy PASS 76.155s
+Progress: 10/18, {'WALL_TIMEOUT': 1, 'PASS': 6, 'FAIL': 3}, elapsed 4155s
+Progress: 10/18, {'WALL_TIMEOUT': 1, 'PASS': 6, 'FAIL': 3}, elapsed 4185s
+11/18 legacy-bc_matmul-dual PASS 69.061s
+Progress: 11/18, {'WALL_TIMEOUT': 1, 'PASS': 7, 'FAIL': 3}, elapsed 4224s
+12/18 corrected-mt-matmul-dual PASS 54.307s
+Progress: 12/18, {'WALL_TIMEOUT': 1, 'PASS': 8, 'FAIL': 3}, elapsed 4278s
+13/18 legacy-ar_matmul-dual PASS 41.451s
+Progress: 13/18, {'WALL_TIMEOUT': 1, 'PASS': 9, 'FAIL': 3}, elapsed 4320s
+14/18 mt-matmul-dual PASS 34.461s
+Progress: 14/18, {'WALL_TIMEOUT': 1, 'PASS': 10, 'FAIL': 3}, elapsed 4354s
+15/18 legacy-ds_matmul-dual PASS 35.865s
+Progress: 15/18, {'WALL_TIMEOUT': 1, 'PASS': 11, 'FAIL': 3}, elapsed 4390s
+16/18 legacy-ci_matmul-dual PASS 30.296s
+17/18 legacy-ai_matmul-dual PASS 29.492s
+18/18 dual-hart-smoke PASS 14.424s
+{"total": 18, "counts": {"WALL_TIMEOUT": 1, "PASS": 14, "FAIL": 3}, "elapsed_seconds": 4434.371, "finished_utc": "2026-09-12T19:03:07Z"}

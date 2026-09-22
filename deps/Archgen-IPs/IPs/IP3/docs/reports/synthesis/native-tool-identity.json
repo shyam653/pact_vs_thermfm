@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "scope": "Six actual native binaries/plugin files observed before and after this corrected-source run; OpenROAD version was queried but physical linking was not run.",
+  "before": {
+    "observed_utc": "2026-09-12T16:01:01.700497+00:00",
+    "scope": "Before fresh corrected-RTL full macro-first preserve/direct synthesis",
+    "files": [
+      {
+        "name": "yosys",
+        "path": "OSS_CAD_SUITE_ROOT/libexec/yosys",
+        "sha256": "1ed3600e5edb4d864d1832f4826fd11b3dbf848d3280cbba3489cd6696c6fe18"
+      },
+      {
+        "name": "yosys-abc",
+        "path": "OSS_CAD_SUITE_ROOT/libexec/yosys-abc",
+        "sha256": "4ab5cc1910db09801b3f147b03caabee75dad58ed50a051e4e803cc3625e9021"
+      },
+      {
+        "name": "iverilog",
+        "path": "OSS_CAD_SUITE_ROOT/libexec/iverilog",
+        "sha256": "e7362b162abcf2640a8693676fbba5ad1e6d8eaa68df2c70d060258534bbec47"
+      },
+      {
+        "name": "vvp",
+        "path": "OSS_CAD_SUITE_ROOT/libexec/vvp",
+        "sha256": "e72f739adcad49d464bd192ff96dc081378f875b9524ba3611e71a594d588410"
+      },
+      {
+        "name": "openroad",
+        "path": "OPENROAD_INSTALL_ROOT/usr/bin/openroad",
+        "sha256": "93fe61454a52b927602fd6c798c4402214c19e80e7d614636345f0f427ea2f46"
+      },
+      {
+        "name": "slang.so",
+        "path": "OSS_CAD_SUITE_ROOT/share/yosys/plugins/slang.so",
+        "sha256": "e026e608add15ebdf0820e6e01069b1e6cfb54e3deead702f7b54fae24e87826"
+      }
+    ]
+  },
+  "after": {
+    "observed_utc": "2026-09-12T16:47:54.746151+00:00",
+    "scope": "After completed corrected full synthesis and both contract audits",
+    "files": [
+      {
+        "name": "yosys",
+        "path": "OSS_CAD_SUITE_ROOT/libexec/yosys",
+        "sha256": "1ed3600e5edb4d864d1832f4826fd11b3dbf848d3280cbba3489cd6696c6fe18"
+      },
+      {
+        "name": "yosys-abc",
+        "path": "OSS_CAD_SUITE_ROOT/libexec/yosys-abc",
+        "sha256": "4ab5cc1910db09801b3f147b03caabee75dad58ed50a051e4e803cc3625e9021"
+      },
+      {
+        "name": "iverilog",
+        "path": "OSS_CAD_SUITE_ROOT/libexec/iverilog",
+        "sha256": "e7362b162abcf2640a8693676fbba5ad1e6d8eaa68df2c70d060258534bbec47"
+      },
+      {
+        "name": "vvp",
+        "path": "OSS_CAD_SUITE_ROOT/libexec/vvp",
+        "sha256": "e72f739adcad49d464bd192ff96dc081378f875b9524ba3611e71a594d588410"
+      },
+      {
+        "name": "openroad",
+        "path": "OPENROAD_INSTALL_ROOT/usr/bin/openroad",
+        "sha256": "93fe61454a52b927602fd6c798c4402214c19e80e7d614636345f0f427ea2f46"
+      },
+      {
+        "name": "slang.so",
+        "path": "OSS_CAD_SUITE_ROOT/share/yosys/plugins/slang.so",
+        "sha256": "e026e608add15ebdf0820e6e01069b1e6cfb54e3deead702f7b54fae24e87826"
+      }
+    ]
+  },
+  "all_native_files_identical": true,
+  "loaded_slang_plugin": {
+    "observed_utc": "2026-09-12T16:03:26.574547+00:00",
+    "scope": "Actual loaded Yosys slang plugin in corrected final full-flow macro frontend",
+    "processes": [
+      {
+        "pid": 296351,
+        "command": "OSS_CAD_SUITE_ROOT/lib/ld-linux-x86-64.so.2 --inhibit-cache --inhibit-rpath  --library-path OSS_CAD_SUITE_ROOT/lib OSS_CAD_SUITE_ROOT/libexec/yosys -Q -T -q -l prepare.log -s prepare.ys ",
+        "loaded_libraries": [
+          {
+            "path": "OSS_CAD_SUITE_ROOT/share/yosys/plugins/slang.so",
+            "sha256": "e026e608add15ebdf0820e6e01069b1e6cfb54e3deead702f7b54fae24e87826"
+          }
+        ]
+      }
+    ]
+  }
+}

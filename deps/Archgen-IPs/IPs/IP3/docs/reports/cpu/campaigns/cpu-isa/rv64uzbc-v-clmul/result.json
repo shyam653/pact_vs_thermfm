@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzbc-v-clmul",
+  "suite": "isa",
+  "result": "WALL_TIMEOUT",
+  "exit_status": 0,
+  "wall_seconds": 600.168,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uzbc-v-clmul/simulation.log"
+}

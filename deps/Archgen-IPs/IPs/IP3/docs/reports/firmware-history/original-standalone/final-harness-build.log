@@ -1,0 +1,4 @@
+make: Entering directory '/tmp/ip3-nvdla-standalone/obj'
+${CHIPYARD_ROOT}/.conda-env/bin/x86_64-conda-linux-gnu-c++  -I.  -MMD -I${CHIPYARD_ROOT}/.conda-env/share/verilator/include -I${CHIPYARD_ROOT}/.conda-env/share/verilator/include/vltstd -DVM_COVERAGE=0 -DVM_SC=0 -DVM_TRACE=0 -DVM_TRACE_FST=0 -DVM_TRACE_VCD=0 -faligned-new -fcf-protection=none -Wno-bool-operation -Wno-shadow -Wno-sign-compare -Wno-tautological-compare -Wno-uninitialized -Wno-unused-but-set-parameter -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-unused-variable    -O1 -fno-pie   -Os -c -o nvdla_standalone.o ${REPO_ROOT}/IPs/IP3/tests/nvdla_standalone.cpp
+${CHIPYARD_ROOT}/.conda-env/bin/x86_64-conda-linux-gnu-c++    nvdla_standalone.o verilated.o verilated_threads.o Vnvdla_small__ALL.a   -no-pie  -pthread -lpthread -latomic   -o Vnvdla_small
+make: Leaving directory '/tmp/ip3-nvdla-standalone/obj'

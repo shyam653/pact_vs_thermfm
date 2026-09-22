@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzbc-p-clmulh",
+  "suite": "isa",
+  "result": "FAIL",
+  "exit_status": 255,
+  "wall_seconds": 1.224,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uzbc-p-clmulh/simulation.log"
+}

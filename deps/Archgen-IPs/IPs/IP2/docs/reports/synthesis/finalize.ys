@@ -1,0 +1,10 @@
+read_rtlil ChipTop-after-abc.il
+read_liberty -lib inputs/cell.lib
+clean -purge
+hierarchy -check -top ChipTop
+check -assert -mapped
+select -assert-none t:$*
+select -assert-count 194 t:fakeram45_512x64
+tee -o statistics.json stat -json -liberty inputs/cell.lib -liberty inputs/sram.lib
+write_verilog -noattr -noexpr ChipTop-mapped.v
+write_json ChipTop-mapped.json

@@ -1,0 +1,9 @@
+{
+  "test": "rv64uc-v-rvc",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 86.97,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uc-v-rvc/simulation.log"
+}

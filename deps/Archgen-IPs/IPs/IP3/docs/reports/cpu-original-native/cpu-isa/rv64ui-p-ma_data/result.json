@@ -1,0 +1,9 @@
+{
+  "test": "rv64ui-p-ma_data",
+  "suite": "isa",
+  "result": "FAIL",
+  "exit_status": 255,
+  "wall_seconds": 4.341,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64ui-p-ma_data/simulation.log"
+}

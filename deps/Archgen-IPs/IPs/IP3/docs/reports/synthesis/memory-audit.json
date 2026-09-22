@@ -1,0 +1,1858 @@
+{
+  "per_memory_standard_cell_bit_limit": 8192,
+  "remaining_behavioral_memories": [
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.pbus.buffer.nodeOut_a_q.ram_ext.Memory",
+      "width": 128,
+      "depth": 2,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.pbus.buffer.nodeIn_d_q.ram_ext.Memory",
+      "width": 85,
+      "depth": 2,
+      "bits": 170
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.pbus.buffer_1.nodeOut_a_q.ram_ext.Memory",
+      "width": 128,
+      "depth": 2,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.pbus.buffer_1.nodeIn_d_q.ram_ext.Memory",
+      "width": 85,
+      "depth": 2,
+      "bits": 170
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.fbus.buffer.nodeOut_a_q.ram_ext.Memory",
+      "width": 127,
+      "depth": 2,
+      "bits": 254
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.fbus.buffer.nodeIn_d_q.ram_ext.Memory",
+      "width": 83,
+      "depth": 2,
+      "bits": 166
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.fbus.coupler_from_port_named_serial_tl_0_in.buffer.nodeOut_a_q.ram_ext.Memory",
+      "width": 119,
+      "depth": 2,
+      "bits": 238
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.fbus.coupler_from_port_named_serial_tl_0_in.buffer.nodeIn_d_q.ram_ext.Memory",
+      "width": 82,
+      "depth": 2,
+      "bits": 164
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.cbus.buffer.nodeOut_a_q.ram_ext.Memory",
+      "width": 129,
+      "depth": 2,
+      "bits": 258
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.cbus.buffer.nodeIn_d_q.ram_ext.Memory",
+      "width": 86,
+      "depth": 2,
+      "bits": 172
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.cbus.wrapped_error_device.buffer.nodeOut_a_q.ram_ext.Memory",
+      "width": 107,
+      "depth": 2,
+      "bits": 214
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.cbus.wrapped_error_device.buffer.nodeIn_d_q.ram_ext.Memory",
+      "width": 86,
+      "depth": 2,
+      "bits": 172
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.cbus.coupler_to_prci_ctrl.buffer.nodeOut_a_q.ram_ext.Memory",
+      "width": 113,
+      "depth": 2,
+      "bits": 226
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.cbus.coupler_to_prci_ctrl.buffer.nodeIn_d_q.ram_ext.Memory",
+      "width": 85,
+      "depth": 2,
+      "bits": 170
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.mbus.buffer_1.nodeOut_a_q.ram_ext.Memory",
+      "width": 114,
+      "depth": 2,
+      "bits": 228
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.mbus.buffer_1.nodeIn_d_q.ram_ext.Memory",
+      "width": 79,
+      "depth": 2,
+      "bits": 158
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sourceA.io_a_q.ram_ext.Memory",
+      "width": 117,
+      "depth": 2,
+      "bits": 234
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sourceC.queue.ram_ext.Memory",
+      "width": 109,
+      "depth": 12,
+      "bits": 1308
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sourceD.queue.ram_data_ext.Memory",
+      "width": 64,
+      "depth": 3,
+      "bits": 192
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sourceE.io_e_q.ram_sink_ext.Memory",
+      "width": 3,
+      "depth": 2,
+      "bits": 6
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkA.putbuffer.head_ext.Memory",
+      "width": 6,
+      "depth": 40,
+      "bits": 240
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkA.putbuffer.tail_ext.Memory",
+      "width": 6,
+      "depth": 40,
+      "bits": 240
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkA.putbuffer.next_ext.Memory",
+      "width": 6,
+      "depth": 40,
+      "bits": 240
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkA.putbuffer.data_ext.Memory",
+      "width": 73,
+      "depth": 40,
+      "bits": 2920
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkC.c_q.ram_ext.Memory",
+      "width": 115,
+      "depth": 2,
+      "bits": 230
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkC.putbuffer.head_ext.Memory",
+      "width": 4,
+      "depth": 2,
+      "bits": 8
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkC.putbuffer.tail_ext.Memory",
+      "width": 4,
+      "depth": 2,
+      "bits": 8
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkC.putbuffer.next_ext.Memory",
+      "width": 4,
+      "depth": 16,
+      "bits": 64
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkC.putbuffer.data_ext.Memory",
+      "width": 65,
+      "depth": 16,
+      "bits": 1040
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.sinkD.d_q.ram_ext.Memory",
+      "width": 80,
+      "depth": 2,
+      "bits": 160
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.requests.head_ext.Memory",
+      "width": 6,
+      "depth": 21,
+      "bits": 126
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.requests.tail_ext.Memory",
+      "width": 6,
+      "depth": 21,
+      "bits": 126
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.requests.next_ext.Memory",
+      "width": 6,
+      "depth": 33,
+      "bits": 198
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.l2.inclusive_cache_bank_sched.requests.data_ext.Memory",
+      "width": 48,
+      "depth": 33,
+      "bits": 1584
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.cork.q.ram_ext.Memory",
+      "width": 80,
+      "depth": 2,
+      "bits": 160
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.coh_wrapper.cork.q_1.ram_ext.Memory",
+      "width": 80,
+      "depth": 2,
+      "bits": 160
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain.element_reset_domain_rockettile.frontend.btb.table_ext.Memory",
+      "width": 1,
+      "depth": 512,
+      "bits": 512
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.regfile_ext.Memory",
+      "width": 65,
+      "depth": 32,
+      "bits": 2080
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain.element_reset_domain_rockettile.core.rf_ext.Memory",
+      "width": 64,
+      "depth": 31,
+      "bits": 1984
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain.buffer.nodeOut_a_q.ram_ext.Memory",
+      "width": 117,
+      "depth": 2,
+      "bits": 234
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain.buffer.nodeIn_d_q.ram_ext.Memory",
+      "width": 80,
+      "depth": 2,
+      "bits": 160
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain.buffer.nodeIn_b_q.ram_ext.Memory",
+      "width": 52,
+      "depth": 2,
+      "bits": 104
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain.buffer.nodeOut_c_q.ram_ext.Memory",
+      "width": 109,
+      "depth": 2,
+      "bits": 218
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain.buffer.nodeOut_e_q.ram_sink_ext.Memory",
+      "width": 3,
+      "depth": 2,
+      "bits": 6
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain_1.element_reset_domain_rockettile.frontend.btb.table_ext.Memory",
+      "width": 1,
+      "depth": 512,
+      "bits": 512
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain_1.element_reset_domain_rockettile.fpuOpt.regfile_ext.Memory",
+      "width": 65,
+      "depth": 32,
+      "bits": 2080
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain_1.element_reset_domain_rockettile.core.rf_ext.Memory",
+      "width": 64,
+      "depth": 31,
+      "bits": 1984
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain_1.buffer.nodeOut_a_q.ram_ext.Memory",
+      "width": 117,
+      "depth": 2,
+      "bits": 234
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain_1.buffer.nodeIn_d_q.ram_ext.Memory",
+      "width": 80,
+      "depth": 2,
+      "bits": 160
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain_1.buffer.nodeIn_b_q.ram_ext.Memory",
+      "width": 52,
+      "depth": 2,
+      "bits": 104
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain_1.buffer.nodeOut_c_q.ram_ext.Memory",
+      "width": 109,
+      "depth": 2,
+      "bits": 218
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tile_prci_domain_1.buffer.nodeOut_e_q.ram_sink_ext.Memory",
+      "width": 3,
+      "depth": 2,
+      "bits": 6
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.tlDM.dmInner.dmInner.sb2tlOpt.d_q.ram_ext.Memory",
+      "width": 10,
+      "depth": 2,
+      "bits": 20
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.bank.buffer.nodeOut_a_q.ram_ext.Memory",
+      "width": 114,
+      "depth": 2,
+      "bits": 228
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.bank.buffer.nodeIn_d_q.ram_ext.Memory",
+      "width": 79,
+      "depth": 2,
+      "bits": 158
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.buffer.nodeOut_a_q.ram_ext.Memory",
+      "width": 130,
+      "depth": 2,
+      "bits": 260
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.buffer.nodeIn_d_q.ram_ext.Memory",
+      "width": 86,
+      "depth": 2,
+      "bits": 172
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_1.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_2.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_3.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_4.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_5.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_6.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_7.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_8.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_9.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_10.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_11.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_12.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_13.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_14.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4yank.Queue16_BundleMap_15.ram_ext.Memory",
+      "width": 6,
+      "depth": 16,
+      "bits": 96
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4buf.nodeOut_aw_deq_q.ram_ext.Memory",
+      "width": 65,
+      "depth": 2,
+      "bits": 130
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4buf.nodeOut_w_deq_q.ram_ext.Memory",
+      "width": 73,
+      "depth": 2,
+      "bits": 146
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4buf.nodeIn_b_deq_q.ram_ext.Memory",
+      "width": 8,
+      "depth": 2,
+      "bits": 16
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4buf.nodeOut_ar_deq_q.ram_ext.Memory",
+      "width": 65,
+      "depth": 2,
+      "bits": 130
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.axi4buf.nodeIn_r_deq_q.ram_ext.Memory",
+      "width": 73,
+      "depth": 2,
+      "bits": 146
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_mcif.u_write.u_cq.ram.M",
+      "width": 3,
+      "depth": 256,
+      "bits": 768
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_mcif.u_write.u_cq.adr_ram.M",
+      "width": 8,
+      "depth": 256,
+      "bits": 2048
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_cdp.u_rdma.u_eg.u_lat_fifo.ram.M",
+      "width": 65,
+      "depth": 8,
+      "bits": 520
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_cdp.u_dp.u_NV_NVDLA_CDP_DP_syncfifo.u_data_sync_fifo.ram.M",
+      "width": 9,
+      "depth": 80,
+      "bits": 720
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_cdp.u_dp.u_NV_NVDLA_CDP_DP_syncfifo.u_info_sync_fifo.ram.M",
+      "width": 17,
+      "depth": 80,
+      "bits": 1360
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_cdp.u_dp.u_NV_NVDLA_CDP_DP_syncfifo.u_sumpd_sync_fifo.ram.M",
+      "width": 21,
+      "depth": 60,
+      "bits": 1260
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_cdp.u_dp.u_NV_NVDLA_CDP_DP_intp.u_intpinfo_sync_fifo.ram.M",
+      "width": 4,
+      "depth": 20,
+      "bits": 80
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_rdma.u_eg.u_lat_fifo.ram.M",
+      "width": 65,
+      "depth": 8,
+      "bits": 520
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank0_uram_0.M",
+      "width": 18,
+      "depth": 128,
+      "bits": 2304
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank1_uram_0.M",
+      "width": 18,
+      "depth": 128,
+      "bits": 2304
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank2_uram_0.M",
+      "width": 18,
+      "depth": 128,
+      "bits": 2304
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank3_uram_0.M",
+      "width": 18,
+      "depth": 128,
+      "bits": 2304
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank4_uram_0.M",
+      "width": 18,
+      "depth": 128,
+      "bits": 2304
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank5_uram_0.M",
+      "width": 18,
+      "depth": 128,
+      "bits": 2304
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank6_uram_0.M",
+      "width": 18,
+      "depth": 128,
+      "bits": 2304
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_o.u_NV_NVDLA_pdp.u_core.u_cal2d.bank7_uram_0.M",
+      "width": 18,
+      "depth": 128,
+      "bits": 2304
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_wt.u_8atmm_fifo.ram.M",
+      "width": 65,
+      "depth": 8,
+      "bits": 520
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_wt.u_fifo.ram.M",
+      "width": 6,
+      "depth": 128,
+      "bits": 768
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_dc.u_fifo.ram.M",
+      "width": 6,
+      "depth": 128,
+      "bits": 768
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_img.u_sg.u_NV_NVDLA_CDMA_IMG_fifo.ram.M",
+      "width": 11,
+      "depth": 128,
+      "bits": 1408
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_00.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_01.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_02.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_03.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_04.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_05.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_06.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_07.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_08.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_09.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_10.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_11.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_12.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_13.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_14.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_shared_buffer.u_shared_buffer_15.M",
+      "width": 64,
+      "depth": 16,
+      "bits": 1024
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank0_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank0_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank1_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank1_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank2_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank2_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank3_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank3_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank4_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank4_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank5_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank5_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank6_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank6_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank7_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank7_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank8_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank8_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank9_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank9_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank10_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank10_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank11_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank11_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank12_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank12_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank13_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank13_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank14_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank14_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank15_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank15_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank16_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank16_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank17_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank17_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank18_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank18_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank19_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank19_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank20_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank20_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank21_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank21_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank22_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank22_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank23_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank23_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank24_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank24_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank25_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank25_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank26_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank26_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank27_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank27_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank28_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank28_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank29_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank29_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank30_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank30_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank31_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank31_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_a.u_NV_NVDLA_cacc.u_assembly_buffer.u_accu_abuf_0.M",
+      "width": 272,
+      "depth": 16,
+      "bits": 4352
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_a.u_NV_NVDLA_cacc.u_delivery_buffer.u_accu_dbuf.M",
+      "width": 256,
+      "depth": 16,
+      "bits": 4096
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_p.u_NV_NVDLA_sdp.u_rdma.u_mrdma.u_cq.ram.M",
+      "width": 14,
+      "depth": 16,
+      "bits": 224
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_p.u_NV_NVDLA_sdp.u_rdma.u_mrdma.u_eg.u_din.u_lat_fifo.ram.M",
+      "width": 65,
+      "depth": 8,
+      "bits": 520
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_p.u_NV_NVDLA_sdp.u_rdma.u_brdma.u_cq.ram.M",
+      "width": 16,
+      "depth": 16,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_p.u_NV_NVDLA_sdp.u_rdma.u_brdma.u_lat_fifo.ram.M",
+      "width": 65,
+      "depth": 16,
+      "bits": 1040
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_p.u_NV_NVDLA_sdp.u_rdma.u_nrdma.u_cq.ram.M",
+      "width": 16,
+      "depth": 16,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_p.u_NV_NVDLA_sdp.u_rdma.u_nrdma.u_lat_fifo.ram.M",
+      "width": 65,
+      "depth": 16,
+      "bits": 1040
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.serial_tl_domain.phy.out_phits_out_async_io_enq_q.ram_flit_ext.Memory",
+      "width": 32,
+      "depth": 8,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.serial_tl_domain.phy.out_phits_out_async_io_enq_q_1.ram_flit_ext.Memory",
+      "width": 32,
+      "depth": 8,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.serial_tl_domain.phy.out_phits_out_async_io_enq_q_2.ram_flit_ext.Memory",
+      "width": 32,
+      "depth": 8,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.serial_tl_domain.phy.out_phits_out_async_io_enq_q_3.ram_flit_ext.Memory",
+      "width": 32,
+      "depth": 8,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.serial_tl_domain.phy.out_phits_out_async_io_enq_q_4.ram_flit_ext.Memory",
+      "width": 32,
+      "depth": 8,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.serial_tl_domain.phy.in_phits_io_inner_ser_0_in_q.ram_flit_ext.Memory",
+      "width": 32,
+      "depth": 8,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.serial_tl_domain.phy.in_phits_io_inner_ser_1_in_q.ram_flit_ext.Memory",
+      "width": 32,
+      "depth": 8,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.serial_tl_domain.phy.in_phits_io_inner_ser_2_in_q.ram_flit_ext.Memory",
+      "width": 32,
+      "depth": 8,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.serial_tl_domain.phy.in_phits_io_inner_ser_3_in_q.ram_flit_ext.Memory",
+      "width": 32,
+      "depth": 8,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.serial_tl_domain.phy.in_phits_io_inner_ser_4_in_q.ram_flit_ext.Memory",
+      "width": 32,
+      "depth": 8,
+      "bits": 256
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.uartClockDomainWrapper.uart_0.txq.ram_ext.Memory",
+      "width": 8,
+      "depth": 8,
+      "bits": 64
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.uartClockDomainWrapper.uart_0.rxq.ram_ext.Memory",
+      "width": 8,
+      "depth": 8,
+      "bits": 64
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "$auto$proc_rom.cc:155:do_switch$2",
+      "width": 32,
+      "depth": 512,
+      "bits": 16384
+    }
+  ],
+  "unsupported_large_memories": [
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank0_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank0_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank1_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank1_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank2_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank2_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank3_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank3_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank4_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank4_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank5_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank5_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank6_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank6_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank7_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank7_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank8_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank8_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank9_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank9_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank10_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank10_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank11_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank11_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank12_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank12_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank13_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank13_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank14_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank14_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank15_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank15_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank16_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank16_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank17_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank17_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank18_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank18_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank19_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank19_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank20_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank20_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank21_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank21_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank22_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank22_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank23_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank23_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank24_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank24_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank25_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank25_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank26_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank26_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank27_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank27_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank28_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank28_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank29_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank29_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank30_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank30_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank31_ram0.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cbuf.u_cbuf_ram_bank31_ram1.M",
+      "width": 64,
+      "depth": 256,
+      "bits": 16384
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "$auto$proc_rom.cc:155:do_switch$2",
+      "width": 32,
+      "depth": 512,
+      "bits": 16384
+    }
+  ],
+  "synthesis_mode": "preserve-memories",
+  "status": "PRESERVE_GENERIC_MEMORIES",
+  "scope": "Static memories in elaborated RTLIL after generated SRAM replacement; these remaining small arrays may map to standard cells."
+}

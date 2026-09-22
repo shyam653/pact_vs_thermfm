@@ -1,0 +1,13 @@
+diff --git a/src/main/resources/vsrc/small/nvdla_small.v b/src/main/resources/vsrc/small/nvdla_small.v
+--- a/src/main/resources/vsrc/small/nvdla_small.v
++++ b/src/main/resources/vsrc/small/nvdla_small.v
+@@ -133,5 +133,9 @@ NV_nvdla nvdla_top (
+ ); // nvdla_top
+ 
++// nv_small exposes 32-bit physical addresses; define the wrapper's upper bits.
++assign nvdla_core2dbb_aw_awaddr[63:32] = 32'b0;
++assign nvdla_core2dbb_ar_araddr[63:32] = 32'b0;
++
+ assign nvdla_core2dbb_aw_awsize = 3'b011;
+ assign nvdla_core2dbb_ar_arsize = 3'b011;
+ 

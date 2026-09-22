@@ -1,0 +1,5 @@
+plugin -i @SLANG_PLUGIN@
+read_liberty -lib @SRAM_LIB@
+read_slang --top cc_dir_ext -D SYNTHESIS @WRAPPERS@
+hierarchy -check -top cc_dir_ext
+check -assert

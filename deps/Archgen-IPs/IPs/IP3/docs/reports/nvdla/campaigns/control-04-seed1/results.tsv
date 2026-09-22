@@ -1,0 +1,3 @@
+test	suite	result	exit_status	wall_seconds	cycles	log
+nvdla-negative-control	expected-failure-control	FAIL	255	77.898		<campaign:control-04-seed1>/nvdla-negative-control/simulation.log
+nvdla-timeout-control	expected-failure-control	FAIL	255	392.409		<campaign:control-04-seed1>/nvdla-timeout-control/simulation.log

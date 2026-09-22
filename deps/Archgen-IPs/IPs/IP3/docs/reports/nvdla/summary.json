@@ -1,0 +1,827 @@
+{
+  "schema_version": 1,
+  "evidence_scope": "full-soc-dual-rocket-nvdla",
+  "normal_simulations": 3,
+  "normal_passes": 3,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "normal_completed_jobs": 66,
+  "engine_jobs_per_run": {
+    "SDP": 16,
+    "CDP": 2,
+    "convolution": 2,
+    "PDP": 2
+  },
+  "jobs_by_hart_per_run": {
+    "0": 11,
+    "1": 11
+  },
+  "negative_controls": 2,
+  "negative_control_rejected": true,
+  "negative_control_outcomes": {
+    "corrupted-expected": true,
+    "skipped-enable": true
+  },
+  "attempt_count": 5,
+  "prior_attempts_retained": 0,
+  "all_normal_attempts": 3,
+  "all_control_attempts": 2,
+  "prior_attempts_without_required_evidence": 0,
+  "retry_selection": "Last supplied campaign for each normal seed/control; all supplied attempts retained",
+  "simulator_sha256": "ac906aabe883e14d65b06669b134ca5079d96ddcd462e82b4d0079b08a6cacf5",
+  "runner_sha256": "2c07f055f0a1de1c31134c99e1443f28db98d9ef8216819be46cc0325db319cb",
+  "runner_source": "IPs/IP2/scripts/run-regression.py",
+  "builder_sha256": "19be07c9afdbe810b7bcd55fcecc3497951b41b521bef018f759860837322e3f",
+  "nvdla_revision": "d99ffdc79bbf9b86c6cad0c278a785d5802c8209",
+  "dts_sha256": "9824c2fa39409c142db699205c8fd35bcd635bfe347cc4aa210259e18addc4dc",
+  "nvdla_plic_source": 1,
+  "source_build_provenance_sha256": "4e90ef538fc9afd2d31b1fe9b1439c96c5c5d7e2b3327af3fc8a745169f9e9f2",
+  "published_build_inputs_verified": {
+    "tests/README.md": "ac803f26a77e60fedeaf1c596a82cd159662cfac4719299210b7260535cfcdae",
+    "tests/link.ld": "c93bc36d9e6f493f156092356899885a77c04ec2f0587817a7d98518cecf5683",
+    "tests/nvdla.h": "15aa2b37f35b559ff53891a58f2473a621411b03c57a3f8fbc43a862bf4745b3",
+    "tests/nvdla_standalone.cpp": "569d4ef6aa544ab721d784c2d30ae85bb0262103e29b872b00419480877534b0",
+    "tests/nvdla_test.c": "e1a0092fdf53f234c8ecf0c92bba1999409ed201b6ad6abde7addf0beb4a9322",
+    "tests/start.S": "48c742ddc5378ed44ab854990a1021f6f86a025d1dffb921fecd501a9cfaaeff"
+  },
+  "dramsim_ini_sha256": {
+    "DDR3_micron_64M_8B_x4_sg15.ini": "d80668c4f4cc1fe9a7dbaaf0b3e5230cf93e9058aa7e5d83cb25fa421aad3b37",
+    "system.ini": "0b360fe6d596cb4c66565d4ea52b78f6dd12148120d610957bcda2e95b55a464"
+  },
+  "elf_sha256": {
+    "nvdla-dual": "09a42274e457294119ddc919da9e9f4432e8c404b9cc93b0795a06e7c73a2c56",
+    "nvdla-negative-control": "0ab1dcccf01e093c8b47c2891cddf1e98aff05b396ab5e0a27932e66fbde3731",
+    "nvdla-timeout-control": "acbd170aa7f65a61d611964725f6aef043b9f6cd059c92ff4c31c298deb6c2e2"
+  },
+  "campaigns": [
+    {
+      "id": "normal-01-seed1",
+      "negative_control": false,
+      "seed": 1,
+      "settings": {
+        "jobs": 1,
+        "max_cycles": 3000000,
+        "wall_timeout_seconds": 2400,
+        "loadmem": true
+      },
+      "started_utc": "2026-09-12T16:27:35Z",
+      "finished_utc": "2026-09-12T16:56:43Z",
+      "counts": {
+        "PASS": 1
+      },
+      "evidence": [
+        "campaigns/normal-01-seed1/provenance.json",
+        "campaigns/normal-01-seed1/summary.json",
+        "campaigns/normal-01-seed1/results.tsv",
+        "campaigns/normal-01-seed1/manifest.tsv"
+      ],
+      "resume_history": []
+    },
+    {
+      "id": "normal-02-seed2",
+      "negative_control": false,
+      "seed": 2,
+      "settings": {
+        "jobs": 1,
+        "max_cycles": 3000000,
+        "wall_timeout_seconds": 2400,
+        "loadmem": true
+      },
+      "started_utc": "2026-09-12T17:06:46Z",
+      "finished_utc": "2026-09-12T17:23:49Z",
+      "counts": {
+        "PASS": 1
+      },
+      "evidence": [
+        "campaigns/normal-02-seed2/provenance.json",
+        "campaigns/normal-02-seed2/summary.json",
+        "campaigns/normal-02-seed2/results.tsv",
+        "campaigns/normal-02-seed2/manifest.tsv"
+      ],
+      "resume_history": []
+    },
+    {
+      "id": "normal-03-seed3",
+      "negative_control": false,
+      "seed": 3,
+      "settings": {
+        "jobs": 1,
+        "max_cycles": 3000000,
+        "wall_timeout_seconds": 2400,
+        "loadmem": true
+      },
+      "started_utc": "2026-09-12T17:11:17Z",
+      "finished_utc": "2026-09-12T17:32:25Z",
+      "counts": {
+        "PASS": 1
+      },
+      "evidence": [
+        "campaigns/normal-03-seed3/provenance.json",
+        "campaigns/normal-03-seed3/summary.json",
+        "campaigns/normal-03-seed3/results.tsv",
+        "campaigns/normal-03-seed3/manifest.tsv"
+      ],
+      "resume_history": []
+    },
+    {
+      "id": "control-04-seed1",
+      "negative_control": true,
+      "seed": 1,
+      "settings": {
+        "jobs": 1,
+        "max_cycles": 3000000,
+        "wall_timeout_seconds": 2400,
+        "loadmem": true
+      },
+      "started_utc": "2026-09-12T16:57:26Z",
+      "finished_utc": "2026-09-12T17:05:17Z",
+      "counts": {
+        "FAIL": 2
+      },
+      "evidence": [
+        "campaigns/control-04-seed1/provenance.json",
+        "campaigns/control-04-seed1/summary.json",
+        "campaigns/control-04-seed1/results.tsv",
+        "campaigns/control-04-seed1/manifest.tsv"
+      ],
+      "resume_history": []
+    }
+  ],
+  "attempts": [
+    {
+      "test": "nvdla-dual",
+      "suite": "nvdla-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 1747.681,
+      "cycles": "",
+      "normal_finish": true,
+      "pass_markers": [
+        "PASS NVDLA job=0x0000000000000000 hart=0x0000000000000000 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000001 hart=0x0000000000000001 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000002 hart=0x0000000000000000 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000003 hart=0x0000000000000001 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000004 hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000005 hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000006 hart=0x0000000000000000 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000007 hart=0x0000000000000001 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000008 hart=0x0000000000000000 elements=0x0000000000000180",
+        "PASS NVDLA job=0x0000000000000009 hart=0x0000000000000001 elements=0x0000000000000180",
+        "PASS NVDLA job=0x000000000000000a hart=0x0000000000000000 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000b hart=0x0000000000000001 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000c hart=0x0000000000000000 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000d hart=0x0000000000000001 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000e hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x000000000000000f hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA CDP LUT job=0x0000000000000010 gain=0x0000000000000001 elements=256",
+        "PASS NVDLA CDP LUT job=0x0000000000000011 gain=0x0000000000000002 elements=256",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000000 outputs=8",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000001 outputs=8",
+        "PASS NVDLA PDP 2x2 max outputs=8",
+        "PASS NVDLA PDP 2x2 min outputs=8",
+        "PASS NVDLA dual-hart: 16 SDP + 2 CDP + 2 convolution + 2 pooling jobs, coherent DMA, guards, PLIC"
+      ],
+      "failure_markers": [],
+      "evidence_valid": true,
+      "completed_jobs": 22,
+      "engine_jobs": {
+        "SDP": 16,
+        "CDP": 2,
+        "convolution": 2,
+        "PDP": 2
+      },
+      "jobs_by_hart": {
+        "0": 11,
+        "1": 11
+      },
+      "campaign": "normal-01-seed1",
+      "seed": 1,
+      "negative_control": false,
+      "elf_sha256": "09a42274e457294119ddc919da9e9f4432e8c404b9cc93b0795a06e7c73a2c56",
+      "log": "campaigns/normal-01-seed1/nvdla-dual/simulation.log",
+      "original_log_sha256": "a7587d633d3fb8fddef7b99debc29248bd14ff0ef5302b32d0c45b33acfbe1cc",
+      "exported_log_sha256": "d37265a369c5d956d762e8b63509e6ab1e741af18ba9477bf05897587a05245a",
+      "result_evidence": "campaigns/normal-01-seed1/nvdla-dual/result.json",
+      "command_evidence": "campaigns/normal-01-seed1/nvdla-dual/command.txt",
+      "selected_final": true
+    },
+    {
+      "test": "nvdla-dual",
+      "suite": "nvdla-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 1022.633,
+      "cycles": "",
+      "normal_finish": true,
+      "pass_markers": [
+        "PASS NVDLA job=0x0000000000000000 hart=0x0000000000000000 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000001 hart=0x0000000000000001 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000002 hart=0x0000000000000000 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000003 hart=0x0000000000000001 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000004 hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000005 hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000006 hart=0x0000000000000000 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000007 hart=0x0000000000000001 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000008 hart=0x0000000000000000 elements=0x0000000000000180",
+        "PASS NVDLA job=0x0000000000000009 hart=0x0000000000000001 elements=0x0000000000000180",
+        "PASS NVDLA job=0x000000000000000a hart=0x0000000000000000 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000b hart=0x0000000000000001 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000c hart=0x0000000000000000 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000d hart=0x0000000000000001 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000e hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x000000000000000f hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA CDP LUT job=0x0000000000000010 gain=0x0000000000000001 elements=256",
+        "PASS NVDLA CDP LUT job=0x0000000000000011 gain=0x0000000000000002 elements=256",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000000 outputs=8",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000001 outputs=8",
+        "PASS NVDLA PDP 2x2 max outputs=8",
+        "PASS NVDLA PDP 2x2 min outputs=8",
+        "PASS NVDLA dual-hart: 16 SDP + 2 CDP + 2 convolution + 2 pooling jobs, coherent DMA, guards, PLIC"
+      ],
+      "failure_markers": [],
+      "evidence_valid": true,
+      "completed_jobs": 22,
+      "engine_jobs": {
+        "SDP": 16,
+        "CDP": 2,
+        "convolution": 2,
+        "PDP": 2
+      },
+      "jobs_by_hart": {
+        "0": 11,
+        "1": 11
+      },
+      "campaign": "normal-02-seed2",
+      "seed": 2,
+      "negative_control": false,
+      "elf_sha256": "09a42274e457294119ddc919da9e9f4432e8c404b9cc93b0795a06e7c73a2c56",
+      "log": "campaigns/normal-02-seed2/nvdla-dual/simulation.log",
+      "original_log_sha256": "a7587d633d3fb8fddef7b99debc29248bd14ff0ef5302b32d0c45b33acfbe1cc",
+      "exported_log_sha256": "d37265a369c5d956d762e8b63509e6ab1e741af18ba9477bf05897587a05245a",
+      "result_evidence": "campaigns/normal-02-seed2/nvdla-dual/result.json",
+      "command_evidence": "campaigns/normal-02-seed2/nvdla-dual/command.txt",
+      "selected_final": true
+    },
+    {
+      "test": "nvdla-dual",
+      "suite": "nvdla-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 1267.784,
+      "cycles": "",
+      "normal_finish": true,
+      "pass_markers": [
+        "PASS NVDLA job=0x0000000000000000 hart=0x0000000000000000 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000001 hart=0x0000000000000001 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000002 hart=0x0000000000000000 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000003 hart=0x0000000000000001 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000004 hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000005 hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000006 hart=0x0000000000000000 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000007 hart=0x0000000000000001 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000008 hart=0x0000000000000000 elements=0x0000000000000180",
+        "PASS NVDLA job=0x0000000000000009 hart=0x0000000000000001 elements=0x0000000000000180",
+        "PASS NVDLA job=0x000000000000000a hart=0x0000000000000000 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000b hart=0x0000000000000001 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000c hart=0x0000000000000000 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000d hart=0x0000000000000001 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000e hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x000000000000000f hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA CDP LUT job=0x0000000000000010 gain=0x0000000000000001 elements=256",
+        "PASS NVDLA CDP LUT job=0x0000000000000011 gain=0x0000000000000002 elements=256",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000000 outputs=8",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000001 outputs=8",
+        "PASS NVDLA PDP 2x2 max outputs=8",
+        "PASS NVDLA PDP 2x2 min outputs=8",
+        "PASS NVDLA dual-hart: 16 SDP + 2 CDP + 2 convolution + 2 pooling jobs, coherent DMA, guards, PLIC"
+      ],
+      "failure_markers": [],
+      "evidence_valid": true,
+      "completed_jobs": 22,
+      "engine_jobs": {
+        "SDP": 16,
+        "CDP": 2,
+        "convolution": 2,
+        "PDP": 2
+      },
+      "jobs_by_hart": {
+        "0": 11,
+        "1": 11
+      },
+      "campaign": "normal-03-seed3",
+      "seed": 3,
+      "negative_control": false,
+      "elf_sha256": "09a42274e457294119ddc919da9e9f4432e8c404b9cc93b0795a06e7c73a2c56",
+      "log": "campaigns/normal-03-seed3/nvdla-dual/simulation.log",
+      "original_log_sha256": "a7587d633d3fb8fddef7b99debc29248bd14ff0ef5302b32d0c45b33acfbe1cc",
+      "exported_log_sha256": "d37265a369c5d956d762e8b63509e6ab1e741af18ba9477bf05897587a05245a",
+      "result_evidence": "campaigns/normal-03-seed3/nvdla-dual/result.json",
+      "command_evidence": "campaigns/normal-03-seed3/nvdla-dual/command.txt",
+      "selected_final": true
+    },
+    {
+      "test": "nvdla-negative-control",
+      "suite": "expected-failure-control",
+      "result": "FAIL",
+      "exit_status": 255,
+      "wall_seconds": 77.898,
+      "cycles": "",
+      "normal_finish": false,
+      "pass_markers": [],
+      "failure_markers": [
+        "FAIL NVDLA: numerical/guard mismatch hart=0x0000000000000000 job=0x0000000000000000 index=0x0000000000000040 got=0x0000000000000080 expected=0x0000000000000081"
+      ],
+      "evidence_valid": true,
+      "negative_control_kind": "corrupted-expected",
+      "intended_failure_marker": "FAIL NVDLA: numerical/guard mismatch hart=0x0000000000000000 job=0x0000000000000000 index=0x0000000000000040 got=0x0000000000000080 expected=0x0000000000000081",
+      "negative_control_rejected": true,
+      "campaign": "control-04-seed1",
+      "seed": 1,
+      "negative_control": true,
+      "elf_sha256": "0ab1dcccf01e093c8b47c2891cddf1e98aff05b396ab5e0a27932e66fbde3731",
+      "log": "campaigns/control-04-seed1/nvdla-negative-control/simulation.log",
+      "original_log_sha256": "4498cee21c9ef4ef8934caf7482c64b1f91a91afe332e70839c6e7cbca0d525e",
+      "exported_log_sha256": "902e5a415ae3ef75a7187c1ec93ccc5f5c3a8ba171e8d6ba180cd38c5932b683",
+      "result_evidence": "campaigns/control-04-seed1/nvdla-negative-control/result.json",
+      "command_evidence": "campaigns/control-04-seed1/nvdla-negative-control/command.txt",
+      "selected_final": true
+    },
+    {
+      "test": "nvdla-timeout-control",
+      "suite": "expected-failure-control",
+      "result": "FAIL",
+      "exit_status": 255,
+      "wall_seconds": 392.409,
+      "cycles": "",
+      "normal_finish": false,
+      "pass_markers": [],
+      "failure_markers": [
+        "FAIL NVDLA: completion timeout hart=0x0000000000000000 job=0x0000000000000000 index=0x000000000000100c got=0x0000000000000000 expected=0x0000000000000001"
+      ],
+      "evidence_valid": true,
+      "negative_control_kind": "skipped-enable",
+      "intended_failure_marker": "FAIL NVDLA: completion timeout hart=0x0000000000000000 job=0x0000000000000000 index=0x000000000000100c got=0x0000000000000000 expected=0x0000000000000001",
+      "negative_control_rejected": true,
+      "campaign": "control-04-seed1",
+      "seed": 1,
+      "negative_control": true,
+      "elf_sha256": "acbd170aa7f65a61d611964725f6aef043b9f6cd059c92ff4c31c298deb6c2e2",
+      "log": "campaigns/control-04-seed1/nvdla-timeout-control/simulation.log",
+      "original_log_sha256": "bc40d5f7a0875f802e7c592d9e1ac1e0c0c355f19cd1f7d72f921f39f383911a",
+      "exported_log_sha256": "6070061d078f82cb390a7acfb7345baf5cdaa643dff7ebd99f335deb6ff28640",
+      "result_evidence": "campaigns/control-04-seed1/nvdla-timeout-control/result.json",
+      "command_evidence": "campaigns/control-04-seed1/nvdla-timeout-control/command.txt",
+      "selected_final": true
+    }
+  ],
+  "results": [
+    {
+      "test": "nvdla-dual",
+      "suite": "nvdla-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 1747.681,
+      "cycles": "",
+      "normal_finish": true,
+      "pass_markers": [
+        "PASS NVDLA job=0x0000000000000000 hart=0x0000000000000000 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000001 hart=0x0000000000000001 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000002 hart=0x0000000000000000 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000003 hart=0x0000000000000001 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000004 hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000005 hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000006 hart=0x0000000000000000 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000007 hart=0x0000000000000001 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000008 hart=0x0000000000000000 elements=0x0000000000000180",
+        "PASS NVDLA job=0x0000000000000009 hart=0x0000000000000001 elements=0x0000000000000180",
+        "PASS NVDLA job=0x000000000000000a hart=0x0000000000000000 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000b hart=0x0000000000000001 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000c hart=0x0000000000000000 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000d hart=0x0000000000000001 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000e hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x000000000000000f hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA CDP LUT job=0x0000000000000010 gain=0x0000000000000001 elements=256",
+        "PASS NVDLA CDP LUT job=0x0000000000000011 gain=0x0000000000000002 elements=256",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000000 outputs=8",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000001 outputs=8",
+        "PASS NVDLA PDP 2x2 max outputs=8",
+        "PASS NVDLA PDP 2x2 min outputs=8",
+        "PASS NVDLA dual-hart: 16 SDP + 2 CDP + 2 convolution + 2 pooling jobs, coherent DMA, guards, PLIC"
+      ],
+      "failure_markers": [],
+      "evidence_valid": true,
+      "completed_jobs": 22,
+      "engine_jobs": {
+        "SDP": 16,
+        "CDP": 2,
+        "convolution": 2,
+        "PDP": 2
+      },
+      "jobs_by_hart": {
+        "0": 11,
+        "1": 11
+      },
+      "campaign": "normal-01-seed1",
+      "seed": 1,
+      "negative_control": false,
+      "elf_sha256": "09a42274e457294119ddc919da9e9f4432e8c404b9cc93b0795a06e7c73a2c56",
+      "log": "campaigns/normal-01-seed1/nvdla-dual/simulation.log",
+      "original_log_sha256": "a7587d633d3fb8fddef7b99debc29248bd14ff0ef5302b32d0c45b33acfbe1cc",
+      "exported_log_sha256": "d37265a369c5d956d762e8b63509e6ab1e741af18ba9477bf05897587a05245a",
+      "result_evidence": "campaigns/normal-01-seed1/nvdla-dual/result.json",
+      "command_evidence": "campaigns/normal-01-seed1/nvdla-dual/command.txt",
+      "selected_final": true
+    },
+    {
+      "test": "nvdla-dual",
+      "suite": "nvdla-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 1022.633,
+      "cycles": "",
+      "normal_finish": true,
+      "pass_markers": [
+        "PASS NVDLA job=0x0000000000000000 hart=0x0000000000000000 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000001 hart=0x0000000000000001 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000002 hart=0x0000000000000000 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000003 hart=0x0000000000000001 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000004 hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000005 hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000006 hart=0x0000000000000000 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000007 hart=0x0000000000000001 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000008 hart=0x0000000000000000 elements=0x0000000000000180",
+        "PASS NVDLA job=0x0000000000000009 hart=0x0000000000000001 elements=0x0000000000000180",
+        "PASS NVDLA job=0x000000000000000a hart=0x0000000000000000 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000b hart=0x0000000000000001 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000c hart=0x0000000000000000 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000d hart=0x0000000000000001 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000e hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x000000000000000f hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA CDP LUT job=0x0000000000000010 gain=0x0000000000000001 elements=256",
+        "PASS NVDLA CDP LUT job=0x0000000000000011 gain=0x0000000000000002 elements=256",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000000 outputs=8",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000001 outputs=8",
+        "PASS NVDLA PDP 2x2 max outputs=8",
+        "PASS NVDLA PDP 2x2 min outputs=8",
+        "PASS NVDLA dual-hart: 16 SDP + 2 CDP + 2 convolution + 2 pooling jobs, coherent DMA, guards, PLIC"
+      ],
+      "failure_markers": [],
+      "evidence_valid": true,
+      "completed_jobs": 22,
+      "engine_jobs": {
+        "SDP": 16,
+        "CDP": 2,
+        "convolution": 2,
+        "PDP": 2
+      },
+      "jobs_by_hart": {
+        "0": 11,
+        "1": 11
+      },
+      "campaign": "normal-02-seed2",
+      "seed": 2,
+      "negative_control": false,
+      "elf_sha256": "09a42274e457294119ddc919da9e9f4432e8c404b9cc93b0795a06e7c73a2c56",
+      "log": "campaigns/normal-02-seed2/nvdla-dual/simulation.log",
+      "original_log_sha256": "a7587d633d3fb8fddef7b99debc29248bd14ff0ef5302b32d0c45b33acfbe1cc",
+      "exported_log_sha256": "d37265a369c5d956d762e8b63509e6ab1e741af18ba9477bf05897587a05245a",
+      "result_evidence": "campaigns/normal-02-seed2/nvdla-dual/result.json",
+      "command_evidence": "campaigns/normal-02-seed2/nvdla-dual/command.txt",
+      "selected_final": true
+    },
+    {
+      "test": "nvdla-dual",
+      "suite": "nvdla-accelerator",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 1267.784,
+      "cycles": "",
+      "normal_finish": true,
+      "pass_markers": [
+        "PASS NVDLA job=0x0000000000000000 hart=0x0000000000000000 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000001 hart=0x0000000000000001 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000002 hart=0x0000000000000000 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000003 hart=0x0000000000000001 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000004 hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000005 hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000006 hart=0x0000000000000000 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000007 hart=0x0000000000000001 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000008 hart=0x0000000000000000 elements=0x0000000000000180",
+        "PASS NVDLA job=0x0000000000000009 hart=0x0000000000000001 elements=0x0000000000000180",
+        "PASS NVDLA job=0x000000000000000a hart=0x0000000000000000 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000b hart=0x0000000000000001 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000c hart=0x0000000000000000 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000d hart=0x0000000000000001 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000e hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x000000000000000f hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA CDP LUT job=0x0000000000000010 gain=0x0000000000000001 elements=256",
+        "PASS NVDLA CDP LUT job=0x0000000000000011 gain=0x0000000000000002 elements=256",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000000 outputs=8",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000001 outputs=8",
+        "PASS NVDLA PDP 2x2 max outputs=8",
+        "PASS NVDLA PDP 2x2 min outputs=8",
+        "PASS NVDLA dual-hart: 16 SDP + 2 CDP + 2 convolution + 2 pooling jobs, coherent DMA, guards, PLIC"
+      ],
+      "failure_markers": [],
+      "evidence_valid": true,
+      "completed_jobs": 22,
+      "engine_jobs": {
+        "SDP": 16,
+        "CDP": 2,
+        "convolution": 2,
+        "PDP": 2
+      },
+      "jobs_by_hart": {
+        "0": 11,
+        "1": 11
+      },
+      "campaign": "normal-03-seed3",
+      "seed": 3,
+      "negative_control": false,
+      "elf_sha256": "09a42274e457294119ddc919da9e9f4432e8c404b9cc93b0795a06e7c73a2c56",
+      "log": "campaigns/normal-03-seed3/nvdla-dual/simulation.log",
+      "original_log_sha256": "a7587d633d3fb8fddef7b99debc29248bd14ff0ef5302b32d0c45b33acfbe1cc",
+      "exported_log_sha256": "d37265a369c5d956d762e8b63509e6ab1e741af18ba9477bf05897587a05245a",
+      "result_evidence": "campaigns/normal-03-seed3/nvdla-dual/result.json",
+      "command_evidence": "campaigns/normal-03-seed3/nvdla-dual/command.txt",
+      "selected_final": true
+    },
+    {
+      "test": "nvdla-negative-control",
+      "suite": "expected-failure-control",
+      "result": "FAIL",
+      "exit_status": 255,
+      "wall_seconds": 77.898,
+      "cycles": "",
+      "normal_finish": false,
+      "pass_markers": [],
+      "failure_markers": [
+        "FAIL NVDLA: numerical/guard mismatch hart=0x0000000000000000 job=0x0000000000000000 index=0x0000000000000040 got=0x0000000000000080 expected=0x0000000000000081"
+      ],
+      "evidence_valid": true,
+      "negative_control_kind": "corrupted-expected",
+      "intended_failure_marker": "FAIL NVDLA: numerical/guard mismatch hart=0x0000000000000000 job=0x0000000000000000 index=0x0000000000000040 got=0x0000000000000080 expected=0x0000000000000081",
+      "negative_control_rejected": true,
+      "campaign": "control-04-seed1",
+      "seed": 1,
+      "negative_control": true,
+      "elf_sha256": "0ab1dcccf01e093c8b47c2891cddf1e98aff05b396ab5e0a27932e66fbde3731",
+      "log": "campaigns/control-04-seed1/nvdla-negative-control/simulation.log",
+      "original_log_sha256": "4498cee21c9ef4ef8934caf7482c64b1f91a91afe332e70839c6e7cbca0d525e",
+      "exported_log_sha256": "902e5a415ae3ef75a7187c1ec93ccc5f5c3a8ba171e8d6ba180cd38c5932b683",
+      "result_evidence": "campaigns/control-04-seed1/nvdla-negative-control/result.json",
+      "command_evidence": "campaigns/control-04-seed1/nvdla-negative-control/command.txt",
+      "selected_final": true
+    },
+    {
+      "test": "nvdla-timeout-control",
+      "suite": "expected-failure-control",
+      "result": "FAIL",
+      "exit_status": 255,
+      "wall_seconds": 392.409,
+      "cycles": "",
+      "normal_finish": false,
+      "pass_markers": [],
+      "failure_markers": [
+        "FAIL NVDLA: completion timeout hart=0x0000000000000000 job=0x0000000000000000 index=0x000000000000100c got=0x0000000000000000 expected=0x0000000000000001"
+      ],
+      "evidence_valid": true,
+      "negative_control_kind": "skipped-enable",
+      "intended_failure_marker": "FAIL NVDLA: completion timeout hart=0x0000000000000000 job=0x0000000000000000 index=0x000000000000100c got=0x0000000000000000 expected=0x0000000000000001",
+      "negative_control_rejected": true,
+      "campaign": "control-04-seed1",
+      "seed": 1,
+      "negative_control": true,
+      "elf_sha256": "acbd170aa7f65a61d611964725f6aef043b9f6cd059c92ff4c31c298deb6c2e2",
+      "log": "campaigns/control-04-seed1/nvdla-timeout-control/simulation.log",
+      "original_log_sha256": "bc40d5f7a0875f802e7c592d9e1ac1e0c0c355f19cd1f7d72f921f39f383911a",
+      "exported_log_sha256": "6070061d078f82cb390a7acfb7345baf5cdaa643dff7ebd99f335deb6ff28640",
+      "result_evidence": "campaigns/control-04-seed1/nvdla-timeout-control/result.json",
+      "command_evidence": "campaigns/control-04-seed1/nvdla-timeout-control/command.txt",
+      "selected_final": true
+    }
+  ],
+  "exported_evidence": {
+    "build/build-provenance.json": {
+      "original_sha256": "4e90ef538fc9afd2d31b1fe9b1439c96c5c5d7e2b3327af3fc8a745169f9e9f2",
+      "exported_sha256": "3ae3945143a6c5cb3c33db2efb7e5e6785e17f71634ed2e164161b821244ab8e",
+      "bytes": 1952
+    },
+    "build/manifest.tsv": {
+      "original_sha256": "2e1a0665fcd059aa0a9840edc4f4788d378fdb74eb9620e1926f402cd3e9fe55",
+      "exported_sha256": "3c4e360d83e90377aa979f89d38c161a66f6055a750a5ec1877cde745e442c4f",
+      "bytes": 124
+    },
+    "build/negative-control.tsv": {
+      "original_sha256": "ec2af80e92b9848a71234fc288434b55edc6c9ca69bf9d2721d3a9b68bc42543",
+      "exported_sha256": "c7540b19f636977f741f3b7de74a4e19dc43f64c7aefc0626d56678e991f8b2e",
+      "bytes": 221
+    },
+    "build/nvdla-dual-command.json": {
+      "original_sha256": "e1fb66f9285a7aa179fc385b10828cf9e41c72cfae2cb4ad964949743661770b",
+      "exported_sha256": "25c37a04deb7ed6708649fa4dbb0ea9ef1a0a23dfc5284608c846a0d07f8ebde",
+      "bytes": 467
+    },
+    "build/nvdla-dual-build.log": {
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "build/nvdla-negative-control-command.json": {
+      "original_sha256": "0031a5d8c363fbb9aa22810ba02ced9a986c5531e7c8857302ebe8a4541ae8a9",
+      "exported_sha256": "e018dbefe296325aec659edaa32dae625283212dac0a5041df942e92dcac7bf4",
+      "bytes": 511
+    },
+    "build/nvdla-negative-control-build.log": {
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "build/nvdla-timeout-control-command.json": {
+      "original_sha256": "6397eda65f531d2e9c47c283abba7319a210224e6b5ef10db52f9d97800a1c12",
+      "exported_sha256": "080ab2583dba628d3b43791f4feb4ed6a884d193ee2baa7304be4a2bdfe96465",
+      "bytes": 534
+    },
+    "build/nvdla-timeout-control-build.log": {
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "build/test-device-tree.dts": {
+      "original_sha256": "9824c2fa39409c142db699205c8fd35bcd635bfe347cc4aa210259e18addc4dc",
+      "exported_sha256": "9824c2fa39409c142db699205c8fd35bcd635bfe347cc4aa210259e18addc4dc",
+      "bytes": 4840
+    },
+    "runtime/dramsim2_ini/DDR3_micron_64M_8B_x4_sg15.ini": {
+      "original_sha256": "d80668c4f4cc1fe9a7dbaaf0b3e5230cf93e9058aa7e5d83cb25fa421aad3b37",
+      "exported_sha256": "d80668c4f4cc1fe9a7dbaaf0b3e5230cf93e9058aa7e5d83cb25fa421aad3b37",
+      "bytes": 871
+    },
+    "runtime/dramsim2_ini/system.ini": {
+      "original_sha256": "0b360fe6d596cb4c66565d4ea52b78f6dd12148120d610957bcda2e95b55a464",
+      "exported_sha256": "0b360fe6d596cb4c66565d4ea52b78f6dd12148120d610957bcda2e95b55a464",
+      "bytes": 1381
+    },
+    "campaigns/normal-01-seed1/provenance.json": {
+      "original_sha256": "b3d4596decf11f934c9b1030b2a2fd6cfc30cbfe54182aa57bdafab501acdda0",
+      "exported_sha256": "167d40f6f192168b3771b2743fe0d569fdb036bbaefdc14a5b7e0eef4d05ddab",
+      "bytes": 1096
+    },
+    "campaigns/normal-01-seed1/summary.json": {
+      "original_sha256": "37547758bdfa919b147dfa14eb92bc0fa8daf9461439a6afb08473d0fb83c5eb",
+      "exported_sha256": "37547758bdfa919b147dfa14eb92bc0fa8daf9461439a6afb08473d0fb83c5eb",
+      "bytes": 123
+    },
+    "campaigns/normal-01-seed1/results.tsv": {
+      "original_sha256": "e266ed4a723c05372ca546b52c9ab9b4e980ebcee740a5ece3ed487c8937d202",
+      "exported_sha256": "6529db79adf08094d8999e4ee291110457592002cd35f5d0a175fcd5221a36b1",
+      "bytes": 155
+    },
+    "campaigns/normal-01-seed1/manifest.tsv": {
+      "original_sha256": "2e1a0665fcd059aa0a9840edc4f4788d378fdb74eb9620e1926f402cd3e9fe55",
+      "exported_sha256": "3c4e360d83e90377aa979f89d38c161a66f6055a750a5ec1877cde745e442c4f",
+      "bytes": 124
+    },
+    "campaigns/normal-01-seed1/nvdla-dual/simulation.log": {
+      "original_sha256": "a7587d633d3fb8fddef7b99debc29248bd14ff0ef5302b32d0c45b33acfbe1cc",
+      "exported_sha256": "d37265a369c5d956d762e8b63509e6ab1e741af18ba9477bf05897587a05245a",
+      "bytes": 2513
+    },
+    "campaigns/normal-01-seed1/nvdla-dual/result.json": {
+      "original_sha256": "f1311a660faffcf024d5a65b6e0d2419a90e9f4d7b9ae877e1670f6cf2dfe5de",
+      "exported_sha256": "f2f7bc6eb40e3f2020c48a0cf00570686463225608dae98ec559b44721a54900",
+      "bytes": 208
+    },
+    "campaigns/normal-01-seed1/nvdla-dual/command.txt": {
+      "original_sha256": "e4be948ac9ac19357b90085344862456833e4c3e9824e825eac4e6a4ca26edc9",
+      "exported_sha256": "14846c5e79ebda22e1b63f50c36f608562c92090e86664392c3d0ecd402d2217",
+      "bytes": 301
+    },
+    "campaigns/normal-02-seed2/provenance.json": {
+      "original_sha256": "9b29ea54fe998ddb35bd78067f51a337a6fb292f40004b8402f7bdb38c35ab9c",
+      "exported_sha256": "1b9c743f1ff4cb364d70dcd196c43ec13a189ef72af6cf3b1e48d61f4d2bd962",
+      "bytes": 1096
+    },
+    "campaigns/normal-02-seed2/summary.json": {
+      "original_sha256": "a1cb9a6719d45549f922dc057f5d66e83afc25c6fa9a85fd1078576946283bde",
+      "exported_sha256": "a1cb9a6719d45549f922dc057f5d66e83afc25c6fa9a85fd1078576946283bde",
+      "bytes": 123
+    },
+    "campaigns/normal-02-seed2/results.tsv": {
+      "original_sha256": "a8154736903d86cd324481868aa0afad9ae6faf97203364f6545224e8d6110cc",
+      "exported_sha256": "2da148c861cad3a9910271c5fe5743566e952eb5dd4264645feb343ffd6df24e",
+      "bytes": 155
+    },
+    "campaigns/normal-02-seed2/manifest.tsv": {
+      "original_sha256": "2e1a0665fcd059aa0a9840edc4f4788d378fdb74eb9620e1926f402cd3e9fe55",
+      "exported_sha256": "3c4e360d83e90377aa979f89d38c161a66f6055a750a5ec1877cde745e442c4f",
+      "bytes": 124
+    },
+    "campaigns/normal-02-seed2/nvdla-dual/simulation.log": {
+      "original_sha256": "a7587d633d3fb8fddef7b99debc29248bd14ff0ef5302b32d0c45b33acfbe1cc",
+      "exported_sha256": "d37265a369c5d956d762e8b63509e6ab1e741af18ba9477bf05897587a05245a",
+      "bytes": 2513
+    },
+    "campaigns/normal-02-seed2/nvdla-dual/result.json": {
+      "original_sha256": "215d1db1fb46811880f99a0ca35a72c07e6f742c76ff2c5470772a5f1679cb5c",
+      "exported_sha256": "bb39db5e29ce47304e052a1e06a40817b09b2ac2769642f98d2ab89561411af1",
+      "bytes": 208
+    },
+    "campaigns/normal-02-seed2/nvdla-dual/command.txt": {
+      "original_sha256": "ab98c3e9c7e2f075b2329490ffbcdeef970a142aef8353c58500e731ca0dbdf8",
+      "exported_sha256": "c079219bae57fca1d1182d64e08161155684cce1d3f1582e86a9cfb5444ca8dd",
+      "bytes": 301
+    },
+    "campaigns/normal-03-seed3/provenance.json": {
+      "original_sha256": "ae5b634cf299c16e10f9a0e0a6d836d6b048821c6514be87b6eeaba66e3a3dd5",
+      "exported_sha256": "e2cc9a37b3661752d885b7fb6a515530599a52f7f1352dbc45e256529385c51d",
+      "bytes": 1096
+    },
+    "campaigns/normal-03-seed3/summary.json": {
+      "original_sha256": "307c9a8116f3caa1e748497ca7c8e73894ad067f6591626a060f66478a2716ff",
+      "exported_sha256": "307c9a8116f3caa1e748497ca7c8e73894ad067f6591626a060f66478a2716ff",
+      "bytes": 123
+    },
+    "campaigns/normal-03-seed3/results.tsv": {
+      "original_sha256": "ef60daa6adf5af706f1bc23e394131b1221ca01bee22398ff5f03255ad248d60",
+      "exported_sha256": "458e6565b5eaf9ffbf57d8cc5bdb86e3f4dbc0c6aa8af10d7017b2ed0f78b5e3",
+      "bytes": 155
+    },
+    "campaigns/normal-03-seed3/manifest.tsv": {
+      "original_sha256": "2e1a0665fcd059aa0a9840edc4f4788d378fdb74eb9620e1926f402cd3e9fe55",
+      "exported_sha256": "3c4e360d83e90377aa979f89d38c161a66f6055a750a5ec1877cde745e442c4f",
+      "bytes": 124
+    },
+    "campaigns/normal-03-seed3/nvdla-dual/simulation.log": {
+      "original_sha256": "a7587d633d3fb8fddef7b99debc29248bd14ff0ef5302b32d0c45b33acfbe1cc",
+      "exported_sha256": "d37265a369c5d956d762e8b63509e6ab1e741af18ba9477bf05897587a05245a",
+      "bytes": 2513
+    },
+    "campaigns/normal-03-seed3/nvdla-dual/result.json": {
+      "original_sha256": "51355549115f7f7e7e2b9e9419fa3f07d79c1429c90029e0a731f5c4c7c3bf06",
+      "exported_sha256": "af0f0d67a67b64a81b6327d9d519f2fd7810ba08435283bdb614a1618c1d6b06",
+      "bytes": 208
+    },
+    "campaigns/normal-03-seed3/nvdla-dual/command.txt": {
+      "original_sha256": "aa749a861cc147f59ede5caca40e147601b85599d29056d610cd895ea8ddef63",
+      "exported_sha256": "e7c01c714f37cabfc16ab5cc59501f8f19225e42093994e4e8751a46df55a494",
+      "bytes": 301
+    },
+    "campaigns/control-04-seed1/provenance.json": {
+      "original_sha256": "8cc60bdd230f9c3c1389314411155f7127b6d54ae8155325a28de0d6913fbd05",
+      "exported_sha256": "4cabe7a14a6050cb14dcc3ba4527051521ebefc74590c2a36c8069df1bb98519",
+      "bytes": 1364
+    },
+    "campaigns/control-04-seed1/summary.json": {
+      "original_sha256": "369abeef363eb596c0f4c25fcefb02a7a80167bdf2c86850f367980ac0086d32",
+      "exported_sha256": "369abeef363eb596c0f4c25fcefb02a7a80167bdf2c86850f367980ac0086d32",
+      "bytes": 121
+    },
+    "campaigns/control-04-seed1/results.tsv": {
+      "original_sha256": "25534928b9b9eb4608b0e0b792c5eda1b29dd35c31793cd8322d3ff1d441b1e6",
+      "exported_sha256": "81dd70570b8dbd2fc647c55cd97a000bcf032c6a6bac479cf750de8cbb489405",
+      "bytes": 318
+    },
+    "campaigns/control-04-seed1/manifest.tsv": {
+      "original_sha256": "ec2af80e92b9848a71234fc288434b55edc6c9ca69bf9d2721d3a9b68bc42543",
+      "exported_sha256": "c7540b19f636977f741f3b7de74a4e19dc43f64c7aefc0626d56678e991f8b2e",
+      "bytes": 221
+    },
+    "campaigns/control-04-seed1/nvdla-negative-control/simulation.log": {
+      "original_sha256": "4498cee21c9ef4ef8934caf7482c64b1f91a91afe332e70839c6e7cbca0d525e",
+      "exported_sha256": "902e5a415ae3ef75a7187c1ec93ccc5f5c3a8ba171e8d6ba180cd38c5932b683",
+      "bytes": 1121
+    },
+    "campaigns/control-04-seed1/nvdla-negative-control/result.json": {
+      "original_sha256": "d3032a76b0c4ab20dade04aa80a596826dcb4970816389b4b7cae3664c0504b8",
+      "exported_sha256": "dfcce496a71d51ffac9198d39e188907f8aa76f5fb56cca955375536a4b1b9e4",
+      "bytes": 240
+    },
+    "campaigns/control-04-seed1/nvdla-negative-control/command.txt": {
+      "original_sha256": "1ef60731a895490002d57a50e14514ac4640cc77d4b66a31f0cc43dc60e51f53",
+      "exported_sha256": "9f8ed1652116d56292fe90fbca74a2de626b2dc8fb458d85fa92c0f881047c19",
+      "bytes": 325
+    },
+    "campaigns/control-04-seed1/nvdla-timeout-control/simulation.log": {
+      "original_sha256": "bc40d5f7a0875f802e7c592d9e1ac1e0c0c355f19cd1f7d72f921f39f383911a",
+      "exported_sha256": "6070061d078f82cb390a7acfb7345baf5cdaa643dff7ebd99f335deb6ff28640",
+      "bytes": 1116
+    },
+    "campaigns/control-04-seed1/nvdla-timeout-control/result.json": {
+      "original_sha256": "ae3f3132b57b683e84c27cdb6e0adf11577fd755f5b0862bc365589e70669374",
+      "exported_sha256": "cf3c6006c3768e46be3b0ff100bc54c6ae7b56e02574ed02b49a3195d171da5e",
+      "bytes": 239
+    },
+    "campaigns/control-04-seed1/nvdla-timeout-control/command.txt": {
+      "original_sha256": "be1fd9abd2a6327dab7c2e39bea1d5b5e574deb38cdf3c1808af2534deee2f48",
+      "exported_sha256": "fce8cf5b431eb74a7d3ae56ab2cca58b63f0f47f2f560e9c3ddfc9c58a48e47e",
+      "bytes": 323
+    }
+  },
+  "exporter_sha256": "9298950dbed4ce9e99f6ae82a0017211ea05af896e7f2e12c2db792043ee0258",
+  "path_normalization": "Only known repository, checkout, build, device-tree and campaign paths replaced; original and exported hashes retained",
+  "coverage_limits": "PLIC pending/claim/device clear/completion are polled with mie=0; CPU interrupt trap delivery is not tested. Convolution is one 1x1 C8 K8 spatial point; CDP tests linear LUT with square-sum and input multiplication bypassed; PDP tests 2x2 max/min pooling. See docs/INTEGRATION.md."
+}

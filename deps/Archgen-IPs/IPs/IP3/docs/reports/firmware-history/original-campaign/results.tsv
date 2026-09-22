@@ -1,0 +1,2 @@
+test	suite	result	exit_status	wall_seconds	cycles	log
+nvdla-dual	nvdla-accelerator	WALL_TIMEOUT	0	900.122		${ORIGINAL_CAMPAIGN}/nvdla-dual/simulation.log

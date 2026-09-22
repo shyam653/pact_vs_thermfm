@@ -1,0 +1,81 @@
+{
+  "config": "DualRocketNVDLAConfig",
+  "total": 422,
+  "counts": {
+    "PASS": 391,
+    "FAIL": 25,
+    "WALL_TIMEOUT": 6
+  },
+  "configured": {
+    "isa": {
+      "PASS": 335
+    },
+    "benchmarks": {
+      "PASS": 12
+    }
+  },
+  "baseline_passing_tests_now_nonpassing": [],
+  "campaigns": {
+    "cpu-isa": {
+      "total": 349,
+      "counts": {
+        "PASS": 340,
+        "FAIL": 5,
+        "WALL_TIMEOUT": 4
+      },
+      "elapsed_seconds": 5911.748,
+      "finished_utc": "2026-09-12T17:49:12Z"
+    },
+    "cpu-pmp": {
+      "total": 1,
+      "counts": {
+        "PASS": 1
+      },
+      "elapsed_seconds": 3504.729,
+      "finished_utc": "2026-09-12T17:09:05Z"
+    },
+    "cpu-bench-shard-1": {
+      "total": 18,
+      "counts": {
+        "WALL_TIMEOUT": 1,
+        "FAIL": 6,
+        "PASS": 11
+      },
+      "elapsed_seconds": 4845.022,
+      "finished_utc": "2026-09-12T18:45:36Z"
+    },
+    "cpu-bench-shard-2": {
+      "total": 17,
+      "counts": {
+        "FAIL": 6,
+        "PASS": 11
+      },
+      "elapsed_seconds": 4761.601,
+      "finished_utc": "2026-09-12T18:52:23Z"
+    },
+    "cpu-bench-shard-3": {
+      "total": 18,
+      "counts": {
+        "WALL_TIMEOUT": 1,
+        "PASS": 14,
+        "FAIL": 3
+      },
+      "elapsed_seconds": 4434.371,
+      "finished_utc": "2026-09-12T19:03:07Z"
+    },
+    "cpu-bench-shard-4": {
+      "total": 19,
+      "counts": {
+        "PASS": 14,
+        "FAIL": 5
+      },
+      "elapsed_seconds": 4342.059,
+      "finished_utc": "2026-09-12T19:01:35Z"
+    }
+  },
+  "simulator_sha256": "ac906aabe883e14d65b06669b134ca5079d96ddcd462e82b4d0079b08a6cacf5",
+  "baseline_table_sha256": "3c20f8acb240d481d055650db1359fee5c2abb70c7e2dfd3d27cfbe8b3d284c1",
+  "exporter_sha256": "55b360bf189b7d2666103cfe9c7e2a504d562d64e3502faf2bfdc4894e09c8db",
+  "failed_attempts_retained": true,
+  "all_tests_means": "Frozen 422-test applicable RV64 CPU inventory; not exhaustive verification"
+}

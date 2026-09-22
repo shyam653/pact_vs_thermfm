@@ -1,0 +1,9 @@
+{
+  "test": "rv64ud-v-ldst",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 68.858,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64ud-v-ldst/simulation.log"
+}

@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-09-12T13:02:47Z",
+  "simulator": "${CHIPYARD_ROOT}/sims/verilator/simulator-chipyard.harness-DualRocketFFTConfig",
+  "simulator_sha256": "5945b691918e61aaf05431f07b8f40cdf87e6431ab4981e310c188a8b38fbd5c",
+  "chipyard_root": "${CHIPYARD_ROOT}",
+  "dramsim_ini_sha256": {
+    "DDR3_micron_64M_8B_x4_sg15.ini": "d80668c4f4cc1fe9a7dbaaf0b3e5230cf93e9058aa7e5d83cb25fa421aad3b37",
+    "system.ini": "0b360fe6d596cb4c66565d4ea52b78f6dd12148120d610957bcda2e95b55a464"
+  },
+  "manifest": "${REPO_ROOT}/build/cpu-rebuilt/pmp.tsv",
+  "manifest_sha256": "011af7de88efbbcfaaecc76a1c91dc53e58bd7cdc9c09f8c37f6ceae1717c204",
+  "jobs": 1,
+  "max_cycles": 20000000,
+  "wall_timeout_seconds": 1800,
+  "seed": 1,
+  "loadmem": true,
+  "tests": [
+    {
+      "test": "pmp",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/pmp.riscv",
+      "suite": "benchmark-configured",
+      "required_stdout": [],
+      "sha256": "f11ce68870b18178e4f7cce06a17377b05a77e210fb8290415a54e2c1e7d8279"
+    }
+  ],
+  "runner_sha256": "2c07f055f0a1de1c31134c99e1443f28db98d9ef8216819be46cc0325db319cb"
+}

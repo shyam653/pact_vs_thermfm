@@ -1,0 +1,9 @@
+{
+  "test": "rv64ud-v-fclass",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 51.918,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64ud-v-fclass/simulation.log"
+}

@@ -1,0 +1,49 @@
+[INFO ODB-0227] LEF file: /home/boson4/diffusion/external/OpenROAD-flow-scripts/flow/platforms/sky130hd/lef/sky130_fd_sc_hd.tlef, created 13 layers, 25 vias
+[INFO ODB-0227] LEF file: /home/boson4/diffusion/external/OpenROAD-flow-scripts/flow/platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef, created 441 library cells
+[WARNING ORD-2011] LEF master sky130_fd_sc_hd__tapvpwrvgnd_1 has no liberty cell.
+=== STA REPORT START ===
+Startpoint: _414_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _418_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+    Delay      Time   Description
+-------------------------------------------------------------
+   0.0000    0.0000   clock clk (rise edge)
+   0.0000    0.0000   clock network delay (ideal)
+   0.0000    0.0000 ^ _414_/CLK (sky130_fd_sc_hd__dfxtp_4)
+   0.3240    0.3240 v _414_/Q (sky130_fd_sc_hd__dfxtp_4)
+   0.1232    0.4472 v _214_/Y (sky130_fd_sc_hd__nor2b_4)
+   0.3233    0.7705 v _215_/X (sky130_fd_sc_hd__maj3_2)
+   0.3251    1.0956 v _216_/X (sky130_fd_sc_hd__maj3_2)
+   0.3606    1.4562 v _217_/X (sky130_fd_sc_hd__maj3_2)
+   0.3775    1.8337 v _218_/X (sky130_fd_sc_hd__maj3_2)
+   0.3972    2.2309 v _219_/X (sky130_fd_sc_hd__maj3_2)
+   0.2485    2.4794 ^ _222_/Y (sky130_fd_sc_hd__o211ai_4)
+   0.1571    2.6365 v _225_/Y (sky130_fd_sc_hd__a311oi_4)
+   0.3383    2.9747 ^ _228_/Y (sky130_fd_sc_hd__o311ai_4)
+   0.1723    3.1470 v _231_/Y (sky130_fd_sc_hd__a311oi_4)
+   0.4326    3.5796 v _292_/X (sky130_fd_sc_hd__o311a_2)
+   0.7196    4.2993 ^ _295_/Y (sky130_fd_sc_hd__o31ai_4)
+   0.3644    4.6636 ^ split1/X (sky130_fd_sc_hd__buf_4)
+   0.1130    4.7766 v _316_/Y (sky130_fd_sc_hd__a221oi_1)
+   0.0001    4.7767 v _418_/D (sky130_fd_sc_hd__dfxtp_1)
+             4.7767   data arrival time
+
+  10.0000   10.0000   clock clk (rise edge)
+   0.0000   10.0000   clock network delay (ideal)
+   0.0000   10.0000   clock reconvergence pessimism
+            10.0000 ^ _418_/CLK (sky130_fd_sc_hd__dfxtp_1)
+  -0.1592    9.8408   library setup time
+             9.8408   data required time
+-------------------------------------------------------------
+             9.8408   data required time
+            -4.7767   data arrival time
+-------------------------------------------------------------
+             5.0641   slack (MET)
+
+
+worst slack max 5.06
+tns max 0.00
+=== STA REPORT END ===
+

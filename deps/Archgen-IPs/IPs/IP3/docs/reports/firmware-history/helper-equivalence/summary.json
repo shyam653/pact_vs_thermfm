@@ -1,0 +1,42 @@
+{
+  "source_sha256": "8e443fa4d9340b7b10b46ad231dc608544abde0b0440d69e654234512a997f71",
+  "extraction": "Exact buffer_word typedef and helper definitions from numerical source; standalone test stubs fail to capture the diagnostic via longjmp",
+  "commands": [
+    [
+      "gcc",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "${REPO_ROOT}/build/IP3/helper-equivalence/probe.c",
+      "-o",
+      "${REPO_ROOT}/build/IP3/helper-equivalence/c"
+    ],
+    [
+      "g++",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c++17",
+      "-x",
+      "c++",
+      "${REPO_ROOT}/build/IP3/helper-equivalence/probe.c",
+      "-o",
+      "${REPO_ROOT}/build/IP3/helper-equivalence/cpp"
+    ]
+  ],
+  "results": [
+    {
+      "language": "c",
+      "exit_status": 0,
+      "output": "PASS helper equivalence: all 4096 poison bytes; identical buffers; every mismatch index/bit position; first of multiple mismatches\n"
+    },
+    {
+      "language": "cpp",
+      "exit_status": 0,
+      "output": "PASS helper equivalence: all 4096 poison bytes; identical buffers; every mismatch index/bit position; first of multiple mismatches\n"
+    }
+  ]
+}

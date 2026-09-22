@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzbb-v-andn",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 31.224,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uzbb-v-andn/simulation.log"
+}

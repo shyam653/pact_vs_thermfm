@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-09-12T14:56:25.194974+00:00",
+  "reason": "Read-only diagnostic of missing first-job output; official campaign retained unchanged",
+  "simulator_sha256": "1d1e40de39739d20508913e8d6ce4f0eafecb90f3b7a2295bbf8a80359924229",
+  "elf_sha256": "20c690f5e0b645834ad1a88859434bc3cf831d3cbcfc57693ca0e7b545df0807",
+  "command": [
+    "${CHIPYARD_ROOT}/sims/verilator/simulator-chipyard.harness-DualRocketNVDLAConfig",
+    "+permissive",
+    "+dramsim",
+    "+dramsim_ini_dir=${CHIPYARD_ROOT}/generators/testchipip/src/main/resources/dramsim2_ini",
+    "+max-cycles=100000",
+    "+verilator+seed+1",
+    "+verbose",
+    "+loadmem=${ORIGINAL_TEST_BUILD}/nvdla-dual.riscv",
+    "+permissive-off",
+    "${ORIGINAL_TEST_BUILD}/nvdla-dual.riscv"
+  ],
+  "wall_limit_seconds": 240
+}

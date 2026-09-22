@@ -1,0 +1,63 @@
+{
+  "captured_utc": "2026-09-12T16:08:13.589781+00:00",
+  "verilator_version": "Verilator 5.022 2024-02-24 rev conda-forge build 1",
+  "makefile_sha256": "0ac6837f587a4a9c5ebcefdf74254aa75403382e5ef934b855df04af2665cf6a",
+  "vendor_defines_sha256": "df9eb3745cd70273f00f1e7e5286b641b0d7c4c18b651c95a16a9b7609bc1c40",
+  "hdl_source_count": 529,
+  "lexical_scan": "Strip comments and string literals, then match assert/assume/cover followed by parenthesis or property. This is a source inventory, not a preprocessor/formal proof.",
+  "explicit_sv_assert_or_assume_count": 0,
+  "conditional_vendor_cover_property_count": 148,
+  "vendor_cover_guard": "ENABLE_FUNCPOINT is absent from actual simulator command",
+  "vendor_assertion_exclusion": "ASSERT_ON is absent and vendor defs.v sets SYNTHESIS. Most helper instantiations are excluded; two clock-gate nv_assert_no_x instances remain but their helper body has no checking logic. --assert cannot enable excluded preprocessor branches.",
+  "probe": {
+    "without": {
+      "markers": {
+        "PROC_ERROR": true,
+        "PROC_FATAL": true,
+        "ASSERT_ERROR": false
+      },
+      "exported_cpp_sha256": "636f901c0e51b265ed5c9e50190085fce61ba4d03813041eba3d99139801765b"
+    },
+    "with": {
+      "markers": {
+        "PROC_ERROR": true,
+        "PROC_FATAL": true,
+        "ASSERT_ERROR": true
+      },
+      "exported_cpp_sha256": "bc6ff97b34e89da856adec88ecb4fd31873ac3ee136158f466ff0aa0b057ee22"
+    }
+  },
+  "native_model_monitor_check": {
+    "status": "procedural TileLink monitor checks are retained in generated C++",
+    "examples": 2
+  },
+  "actual_defines_vendor_preprocess": {
+    "command": [
+      "${CHIPYARD_ROOT}/.conda-env/bin/verilator",
+      "-E",
+      "-Wno-fatal",
+      "+define+CLOCK_PERIOD=1.0",
+      "+define+RESET_DELAY=777.7",
+      "+define+PRINTF_COND=TestDriver.printf_cond",
+      "+define+STOP_COND=!TestDriver.reset",
+      "+define+MODEL=TestHarness",
+      "+define+RANDOMIZE_MEM_INIT",
+      "+define+RANDOMIZE_REG_INIT",
+      "+define+RANDOMIZE_GARBAGE_ASSIGN",
+      "+define+RANDOMIZE_INVALID_ASSIGN",
+      "+define+VERILATOR",
+      "${REPO_ROOT}/IPs/IP3/rtl/gen-collateral/nvdla_small.preprocessed.v"
+    ],
+    "exit_code": 0,
+    "sha256": "ddd578241f24ebd8c4b9235bc593d28a499564210178f30e53c7c4495928e62b",
+    "bytes": 6369676,
+    "active_sva_constructs": 0,
+    "active_assert_helper_module_definitions": 1,
+    "active_clock_gate_helper_instantiations": 2,
+    "helper_behavior": "nv_assert_no_x is port/parameter declarations only under selected defines; no checking logic remains"
+  },
+  "initial_tool_probe_captured_utc": "2026-09-12T14:47:07.337281+00:00",
+  "probe_reuse": "The original installed-Verilator code-generation probe is retained; corrected HDL inventory, vendor preprocessing and native C++ monitor proof are recaptured.",
+  "native_simulator_sha256": "ac906aabe883e14d65b06669b134ca5079d96ddcd462e82b4d0079b08a6cacf5",
+  "native_model_hashes_rechecked_utc": "2026-09-12T16:10:39.406234+00:00"
+}

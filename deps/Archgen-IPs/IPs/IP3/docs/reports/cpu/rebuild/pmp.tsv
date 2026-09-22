@@ -1,0 +1,2 @@
+test	binary	suite	required_stdout
+pmp	${REPO_ROOT}/build/cpu-rebuilt/bench/bin/pmp.riscv	benchmark-configured	[]

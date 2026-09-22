@@ -1,0 +1,9 @@
+{
+  "test": "rv64mi-p-lw-misaligned",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 5.147,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64mi-p-lw-misaligned/simulation.log"
+}

@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-09-06T13:52:34Z",
+  "scope": "Actual published generation wrapper on the prepared, cached checkout",
+  "chipyard_commit": "e602d917dcc495c58cabe906535e411707096c9c",
+  "configuration": "DualRocketConfig",
+  "make_result": "Nothing to be done for verilog",
+  "fresh_elaboration": false,
+  "make_exit_code": 0,
+  "source_check_exit_code": 0,
+  "overall_exit_code": 0,
+  "make_wall_seconds": 0.81,
+  "source_files_verified": 476,
+  "exact_inventory_match": true,
+  "wrapper_sha256": "5c8192515314f6397bc8a6813b063bbce386022c05f8ff3f6c1a5ee7eb49ef9f",
+  "local_raw_evidence_sha256": {
+    "generation.log": "8b339b036d8b1004aa6379f1f0a03ac35a9b1ad01e4f176985af09d71fc5f173",
+    "provenance.txt": "cead868d6a7236d4b99d14ad9b5a0f9a99999a30399bc7eea0e708a67b3b278b",
+    "rtl.sha256": "6fae05b32c473c30d08220e9e22415c4973868c9af02c6c2cc8d8a97482c61ce"
+  }
+}

@@ -1,0 +1,142 @@
+`timescale 1ns/1ps
+module test_memory #(
+    parameter KIND = 0,
+    parameter ABITS = 10,
+    parameter WIDTH = 144,
+    parameter MASK_BITS = 8
+) (output reg done = 0);
+    reg [ABITS-1:0] RW0_addr = 0;
+    reg RW0_clk = 0;
+    reg [WIDTH-1:0] RW0_wdata = 0;
+    reg RW0_en = 0;
+    reg RW0_wmode = 0;
+    reg [MASK_BITS-1:0] RW0_wmask = 0;
+    wire [WIDTH-1:0] RW0_rdata;
+    wire [WIDTH-1:0] expected;
+    reg compare_enable = 0;
+    integer cycle = 0;
+    integer i, j, seed;
+    reg [ABITS-1:0] last_addr;
+    reg [31:0] random_state = 32'h41287131 ^ KIND;
+
+    // @MEMORY_INSTANCES@
+
+    function automatic [31:0] next_random;
+        input [31:0] state;
+        reg [31:0] x;
+        begin
+            x = state ^ (state << 13);
+            x = x ^ (x >> 17);
+            next_random = x ^ (x << 5);
+        end
+    endfunction
+
+    task step;
+        begin
+            #4 RW0_clk = 1;
+            #1;
+            cycle = cycle + 1;
+            if (compare_enable && RW0_rdata !== expected) begin
+                $display("FAIL kind=%0d cycle=%0d en=%b write=%b addr=%h mask=%h got=%h expected=%h",
+                    KIND, cycle, RW0_en, RW0_wmode, RW0_addr, RW0_wmask, RW0_rdata, expected);
+                $fatal(1, "memory behavior mismatch");
+            end
+            #4 RW0_clk = 0;
+            #1;
+        end
+    endtask
+
+    task random_data;
+        begin
+            for (j = 0; j < WIDTH; j = j + 1) begin
+                random_state = next_random(random_state);
+                RW0_wdata[j] = random_state[0];
+            end
+            for (j = 0; j < MASK_BITS; j = j + 1) begin
+                random_state = next_random(random_state);
+                RW0_wmask[j] = random_state[0];
+            end
+        end
+    endtask
+
+    initial begin
+        if ($value$plusargs("SEED=%d", seed))
+            random_state = seed ^ (32'h41287131 + KIND);
+        // Initialize through public writes, then compare every cycle thereafter.
+        RW0_en = 1;
+        RW0_wmode = 1;
+        for (i = 0; i < (1 << ABITS); i = i + 1) begin
+            RW0_addr = i;
+            random_data;
+            RW0_wmask = {MASK_BITS{1'b1}};
+            step;
+        end
+        RW0_wmode = 0;
+        RW0_addr = 0;
+        compare_enable = 1;
+        step;
+
+        // Cross every depth-bank boundary with read, collision write, and idle.
+        for (i = 0; i < (1 << ABITS); i = i + 511) begin
+            RW0_en = 1;
+            RW0_wmode = 0;
+            RW0_addr = i;
+            step;
+            last_addr = RW0_addr;
+            RW0_wmode = 1;
+            random_data;
+            step;
+            RW0_en = 0;
+            repeat (3) step;
+            RW0_en = 1;
+            RW0_wmode = 1;
+            RW0_addr = i ^ 512;
+            random_data;
+            step;
+        end
+
+        // Isolate every mask lane, including lanes spanning a 64-bit macro edge.
+        for (i = 0; i < MASK_BITS; i = i + 1) begin
+            RW0_addr = i * ((1 << ABITS) - 1) / MASK_BITS;
+            RW0_en = 1;
+            RW0_wmode = 0;
+            step;
+            last_addr = RW0_addr;
+            random_data;
+            RW0_wmask = 1;
+            RW0_wmask = RW0_wmask << i;
+            RW0_wmode = 1;
+            step;
+            RW0_en = 0;
+            repeat (2) step;
+        end
+        RW0_en = 1;
+        RW0_wmode = 1;
+        RW0_wmask = 0;
+        RW0_wdata = ~RW0_wdata;
+        step;
+
+        for (i = 0; i < 10000; i = i + 1) begin
+            random_data;
+            random_state = next_random(random_state);
+            RW0_addr = random_state;
+            RW0_en = random_state[20];
+            RW0_wmode = random_state[21];
+            if ((i % 7) == 0) RW0_addr = last_addr;
+            if (RW0_en && !RW0_wmode) last_addr = RW0_addr;
+            step;
+        end
+        $display("PASS kind=%0d depth=%0d width=%0d mask_bits=%0d compared_cycles=%0d",
+            KIND, 1 << ABITS, WIDTH, MASK_BITS, cycle - (1 << ABITS));
+        done = 1;
+    end
+endmodule
+
+module test_sram;
+    // @TEST_INSTANCES@
+    initial begin
+        wait (&done);
+        $display("PASS all original memory interfaces match macro implementation");
+        $finish;
+    end
+endmodule

@@ -1,0 +1,38 @@
+dataset:
+  value: "thermal.steady.ThermalSteady3D"
+num_trajectories:
+  value: -1
+model_name:
+  value: "demo"
+patch_size:
+  value: 4
+num_heads:
+  value: [2, 4]
+skip_connections:
+  value: [1, 0]
+window_size:
+  value: 8
+mlp_ratio:
+  value: 2.0
+depths:
+  value: [1, 1]
+embed_dim:
+  value: 24
+lr:
+  value: 0.001
+weight_decay:
+  value: 0.000001
+lr_scheduler:
+  value: "cosine"
+warmup_ratio:
+  value: 0.0
+early_stopping_patience:
+  value: 20
+num_epochs:
+  value: 3
+batch_size:
+  value: 8
+max_grad_norm:
+  value: 5.0
+train_ratio:
+  value: 0.8

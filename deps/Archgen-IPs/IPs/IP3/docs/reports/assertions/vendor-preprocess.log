@@ -1,0 +1,6 @@
+%Warning-REDEFMACRO: Redefining existing define: 'VERILATOR', with different value: ''
+                     ... Location of previous definition, with value: '1'
+                     ... For warning description see https://verilator.org/warn/REDEFMACRO?v=5.022
+                     ... Use "/* verilator lint_off REDEFMACRO */" and lint_on around source to disable this message.
+%Warning-REDEFMACRO: ${REPO_ROOT}/IPs/IP3/rtl/gen-collateral/nvdla_small.preprocessed.v:816:30: Redefining existing define: 'DESIGNWARE_NOEXIST', with different value: '1'
+                     ${REPO_ROOT}/IPs/IP3/rtl/gen-collateral/nvdla_small.preprocessed.v:816:30: ... Location of previous definition, with value: ''

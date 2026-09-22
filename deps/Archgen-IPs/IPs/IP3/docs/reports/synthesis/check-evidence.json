@@ -1,0 +1,32 @@
+{
+  "preflight": {
+    "raw_log_sha256": "bb9a6ddd554cf50f5836c0aad7bbafd6a6aad38e06e873c694b0a8a0dd710a08",
+    "raw_log_bytes": 1760,
+    "zero_problem_checks": 1,
+    "warnings": []
+  },
+  "elaborate": {
+    "raw_log_sha256": "cf1cedf003c27ccb63874f4478f7edc3f80e39e19b705bc9b99f31fb4a149ca4",
+    "raw_log_bytes": 17180721,
+    "zero_problem_checks": 1,
+    "warnings": []
+  },
+  "prepare": {
+    "raw_log_sha256": "44bf3e2476c31768f53b83655dbe7e35cdd157b3e4a3443948f00f2864d7254e",
+    "raw_log_bytes": 3560929,
+    "zero_problem_checks": 1,
+    "warnings": []
+  },
+  "map": {
+    "raw_log_sha256": "830b9c720402aadfbf6209e457c168a10933aaf0e1e4c74a125394480d868ac8",
+    "raw_log_bytes": 12174856,
+    "zero_problem_checks": 2,
+    "warnings": []
+  },
+  "finalize": {
+    "raw_log_sha256": "25a7f58e1d9c3450a18a9992148c89fa2fe600293650522b7906274d0cb18308",
+    "raw_log_bytes": 5532,
+    "zero_problem_checks": 1,
+    "warnings": []
+  }
+}

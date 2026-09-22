@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "original_inputs_unchanged": true,
+  "eda_execution": false,
+  "cases": [
+    {
+      "case": "unchanged_original_metadata",
+      "result": "ACCEPTED",
+      "macros": 194
+    },
+    {
+      "case": "directory_width_136",
+      "result": "REJECTED_AS_EXPECTED",
+      "diagnostic": "Memory geometry changed: cc_dir_ext"
+    },
+    {
+      "case": "directory_mask_17",
+      "result": "REJECTED_AS_EXPECTED",
+      "diagnostic": "Memory geometry changed: cc_dir_ext"
+    },
+    {
+      "case": "missing_directory_instance",
+      "result": "REJECTED_AS_EXPECTED",
+      "diagnostic": "Memory hierarchy instance count changed: cc_dir_ext"
+    }
+  ]
+}

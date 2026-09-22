@@ -1,0 +1,10 @@
+Design ID,Design Name,PDK / Node,Flow Name,Mean Temp (K),R Scale Factor,Data Arrival (ns),Setup Slack (ns),Delay Shift (ps),Elapsed Time (s),Thermal SPEF Output
+ibex_sky130,Ibex RISC-V Core (Sky130 HD 130nm),Sky130 HD (130nm),1. Baseline (No Thermal),298.15,1.000000,4.7761,5.0648,0.0 ps,0.641,data/ibex_baseline.spef
+ibex_sky130,Ibex RISC-V Core (Sky130 HD 130nm),Sky130 HD (130nm),2. PACT (SuperLU Solver),676.06,2.458751,4.7771,5.0635,+1.0 ps,1.801,outputs/ibex_sky130_pact_superlu/adjusted.spef
+ibex_sky130,Ibex RISC-V Core (Sky130 HD 130nm),Sky130 HD (130nm),4. Dedicated Therm-FM Model,313.43,1.058984,4.7761,5.0647,+0.0 ps,0.675,outputs/ibex_sky130_thermfm_dedicated/adjusted.spef
+aes_asap7,AES-128 Crypto Engine (ASAP7 7nm FinFET),ASAP7 (7nm FinFET),1. Baseline (No Thermal),298.15,1.000000,123.3359,-126.9984,0.0 ps,0.155,data/aes_asap7_baseline.spef
+aes_asap7,AES-128 Crypto Engine (ASAP7 7nm FinFET),ASAP7 (7nm FinFET),2. PACT (SuperLU Solver),1739.47,7.053558,302.2672,-322.4676,+178931.3 ps,1.282,outputs/aes_asap7_pact_superlu/adjusted.spef
+aes_asap7,AES-128 Crypto Engine (ASAP7 7nm FinFET),ASAP7 (7nm FinFET),4. Dedicated Therm-FM Model,313.78,1.065643,124.9983,-128.7214,+1662.4 ps,0.169,outputs/aes_asap7_thermfm_dedicated/adjusted.spef
+gcd_asap7,GCD Unit (ASAP7 7nm FinFET),ASAP7 (7nm FinFET),1. Baseline (No Thermal),298.15,1.000000,123.3359,-126.9984,0.0 ps,0.156,data/gcd_asap7_baseline.spef
+gcd_asap7,GCD Unit (ASAP7 7nm FinFET),ASAP7 (7nm FinFET),2. PACT (SuperLU Solver),2047.07,8.345467,339.5509,-363.2583,+216215.0 ps,1.287,outputs/gcd_asap7_pact_superlu/adjusted.spef
+gcd_asap7,GCD Unit (ASAP7 7nm FinFET),ASAP7 (7nm FinFET),4. Dedicated Therm-FM Model,313.41,1.064084,124.9586,-128.6797,+1622.7 ps,0.169,outputs/gcd_asap7_thermfm_dedicated/adjusted.spef

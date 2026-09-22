@@ -1,0 +1,9 @@
+{
+  "test": "rv64ua-p-amomax_d",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 4.896,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64ua-p-amomax_d/simulation.log"
+}

@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzbb-p-rori",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 5.037,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64uzbb-p-rori/simulation.log"
+}

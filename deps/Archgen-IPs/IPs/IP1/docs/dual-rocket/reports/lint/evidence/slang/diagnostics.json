@@ -1,0 +1,254 @@
+[
+  {
+    "severity": "warning",
+    "message": "'<<' has lower precedence than '+'; '+' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/IBuf.sv:121:69",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.core.ibuf"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '+' expression to silence this warning",
+    "location": "rtl/IBuf.sv:121:69"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/RocketALU.sv:58:87",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.core.alu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/RocketALU.sv:58:87"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/MulDiv.sv:98:71",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.core.div"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/MulDiv.sv:98:71"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:84:102",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:84:102"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:85:128",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:85:128"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:89:131",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:89:131"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:92:102",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:92:102"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:96:128",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:96:128"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:101:131",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:101:131"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:104:102",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:104:102"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:109:128",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:109:128"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:114:131",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:114:131"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:121:109",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:121:109"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:122:135",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:122:135"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:126:138",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:126:138"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:127:109",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:127:109"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:131:135",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:131:135"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:136:138",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:136:138"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:139:109",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:139:109"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:144:135",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:144:135"
+  },
+  {
+    "severity": "warning",
+    "message": "'>>' has lower precedence than '-'; '-' will be evaluated first",
+    "optionName": "arith-in-shift",
+    "location": "rtl/FPToInt.sv:149:138",
+    "symbolPath": "ChipTop.system.tile_prci_domain.element_reset_domain_rockettile.fpuOpt.fpiu"
+  },
+  {
+    "severity": "note",
+    "message": "place parentheses around the '-' expression to silence this warning",
+    "location": "rtl/FPToInt.sv:149:138"
+  }
+]

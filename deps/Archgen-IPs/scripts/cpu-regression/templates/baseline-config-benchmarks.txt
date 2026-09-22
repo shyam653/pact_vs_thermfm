@@ -1,0 +1,12 @@
+dhrystone.riscv
+median.riscv
+mm.riscv
+mt-matmul.riscv
+mt-vvadd.riscv
+multiply.riscv
+pmp.riscv
+qsort.riscv
+rsort.riscv
+spmv.riscv
+towers.riscv
+vvadd.riscv

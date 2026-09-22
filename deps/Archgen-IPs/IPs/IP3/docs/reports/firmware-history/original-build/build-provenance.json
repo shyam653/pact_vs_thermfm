@@ -1,0 +1,40 @@
+{
+  "compiler": "${CHIPYARD_ROOT}/.conda-env/riscv-tools/bin/riscv64-unknown-elf-gcc",
+  "compiler_version": "riscv64-unknown-elf-gcc (gc891d8dc23e) 13.2.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "nvdla_revision": "d99ffdc79bbf9b86c6cad0c278a785d5802c8209",
+  "builds": [
+    {
+      "name": "nvdla-dual",
+      "binary": "${ORIGINAL_TEST_BUILD}/nvdla-dual.riscv",
+      "sha256": "20c690f5e0b645834ad1a88859434bc3cf831d3cbcfc57693ca0e7b545df0807",
+      "harts": 2,
+      "negative_control": false
+    },
+    {
+      "name": "nvdla-negative-control",
+      "binary": "${ORIGINAL_TEST_BUILD}/nvdla-negative-control.riscv",
+      "sha256": "d0e59c25ce372dccd5e8bc4087fb4b685c1900d311bd84b1c8a83a6813e2f522",
+      "harts": 2,
+      "negative_control": true
+    },
+    {
+      "name": "nvdla-timeout-control",
+      "binary": "${ORIGINAL_TEST_BUILD}/nvdla-timeout-control.riscv",
+      "sha256": "4b65631ae509163c3502a469e9f297dbad48cc18d57cbf2095d22989c54c4f7f",
+      "harts": 2,
+      "negative_control": true
+    }
+  ],
+  "nvdla_plic_source": 1,
+  "dts": "${CHIPYARD_ROOT}/sims/verilator/generated-src/chipyard.harness.TestHarness.DualRocketNVDLAConfig/chipyard.harness.TestHarness.DualRocketNVDLAConfig.dts",
+  "dts_sha256": "9824c2fa39409c142db699205c8fd35bcd635bfe347cc4aa210259e18addc4dc",
+  "inputs": {
+    "tests/README.md": "9304fc83d3312dda49f1cd750d00f703cfa68c9bee867a0064a4acb681bf7820",
+    "tests/link.ld": "c93bc36d9e6f493f156092356899885a77c04ec2f0587817a7d98518cecf5683",
+    "tests/nvdla.h": "15aa2b37f35b559ff53891a58f2473a621411b03c57a3f8fbc43a862bf4745b3",
+    "tests/nvdla_standalone.cpp": "13d191a3e58406b87afb316409f33c08b93621920bb2d5d7c0e8f0275599054f",
+    "tests/nvdla_test.c": "0adcb0f5b65068b201d56581a4ec438f40019f3801aec6d31a40f972439a81fa",
+    "tests/start.S": "48c742ddc5378ed44ab854990a1021f6f86a025d1dffb921fecd501a9cfaaeff"
+  },
+  "builder_sha256": "19be07c9afdbe810b7bcd55fcecc3497951b41b521bef018f759860837322e3f"
+}

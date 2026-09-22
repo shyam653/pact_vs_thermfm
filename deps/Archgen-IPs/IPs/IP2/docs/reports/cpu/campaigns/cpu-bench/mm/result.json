@@ -1,0 +1,9 @@
+{
+  "test": "mm",
+  "suite": "benchmark-configured",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 201.376,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/mm/simulation.log"
+}

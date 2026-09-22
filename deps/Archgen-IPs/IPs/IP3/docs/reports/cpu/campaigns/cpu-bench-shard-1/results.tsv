@@ -1,0 +1,19 @@
+test	suite	result	exit_status	wall_seconds	cycles	log
+legacy-ad_matmul-dual	legacy-mt	WALL_TIMEOUT	0	1800.07		${CAMPAIGN_ROOT}/cpu-bench-shard-1/legacy-ad_matmul-dual/simulation.log
+legacy-cl_matmul-dual	legacy-mt	FAIL	255	522.661		${CAMPAIGN_ROOT}/cpu-bench-shard-1/legacy-cl_matmul-dual/simulation.log
+legacy-br_matmul-dual	legacy-mt	FAIL	255	414.685		${CAMPAIGN_ROOT}/cpu-bench-shard-1/legacy-br_matmul-dual/simulation.log
+legacy-av_matmul-dual	legacy-mt	FAIL	255	289.171		${CAMPAIGN_ROOT}/cpu-bench-shard-1/legacy-av_matmul-dual/simulation.log
+legacy-vvadd2-dual	legacy-mt	PASS	0	261.018		${CAMPAIGN_ROOT}/cpu-bench-shard-1/legacy-vvadd2-dual/simulation.log
+legacy-al_matmul-dual	legacy-mt	FAIL	255	268.38		${CAMPAIGN_ROOT}/cpu-bench-shard-1/legacy-al_matmul-dual/simulation.log
+legacy-bf_matmul-dual	legacy-mt	FAIL	255	246.811		${CAMPAIGN_ROOT}/cpu-bench-shard-1/legacy-bf_matmul-dual/simulation.log
+legacy-am_matmul-dual	legacy-mt	FAIL	255	209.844		${CAMPAIGN_ROOT}/cpu-bench-shard-1/legacy-am_matmul-dual/simulation.log
+chipyard-cpp-hello	chipyard-generic	PASS	0	196.429		${CAMPAIGN_ROOT}/cpu-bench-shard-1/chipyard-cpp-hello/simulation.log
+mt-matmul	benchmark-configured	PASS	0	138.558		${CAMPAIGN_ROOT}/cpu-bench-shard-1/mt-matmul/simulation.log
+corrected-legacy-ae_matmul-dual	corrected-mt-supplement	PASS	0	109.063		${CAMPAIGN_ROOT}/cpu-bench-shard-1/corrected-legacy-ae_matmul-dual/simulation.log
+legacy-ak_matmul-dual	legacy-mt	PASS	0	81.19		${CAMPAIGN_ROOT}/cpu-bench-shard-1/legacy-ak_matmul-dual/simulation.log
+legacy-cs_matmul-dual	legacy-mt	PASS	0	74.975		${CAMPAIGN_ROOT}/cpu-bench-shard-1/legacy-cs_matmul-dual/simulation.log
+median	benchmark-configured	PASS	0	56.415		${CAMPAIGN_ROOT}/cpu-bench-shard-1/median/simulation.log
+legacy-dm_matmul-dual	legacy-mt	PASS	0	52.905		${CAMPAIGN_ROOT}/cpu-bench-shard-1/legacy-dm_matmul-dual/simulation.log
+towers	benchmark-configured	PASS	0	40.037		${CAMPAIGN_ROOT}/cpu-bench-shard-1/towers/simulation.log
+legacy-bj_matmul-dual	legacy-mt	PASS	0	50.028		${CAMPAIGN_ROOT}/cpu-bench-shard-1/legacy-bj_matmul-dual/simulation.log
+chipyard-hello	chipyard-generic	PASS	0	32.74		${CAMPAIGN_ROOT}/cpu-bench-shard-1/chipyard-hello/simulation.log

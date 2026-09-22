@@ -1,0 +1,1 @@
+${CHIPYARD_ROOT}/sims/verilator/simulator-chipyard.harness-DualRocketNVDLAConfig +permissive +dramsim +dramsim_ini_dir=${CHIPYARD_ROOT}/generators/testchipip/src/main/resources/dramsim2_ini +max-cycles=3000000 +verilator+seed+1 +loadmem=${ORIGINAL_TEST_BUILD}/nvdla-timeout-control.riscv +permissive-off ${ORIGINAL_TEST_BUILD}/nvdla-timeout-control.riscv

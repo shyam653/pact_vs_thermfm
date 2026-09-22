@@ -1,0 +1,9 @@
+{
+  "test": "memcpy",
+  "suite": "benchmark-extra",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 46.482,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/memcpy/simulation.log"
+}

@@ -1,0 +1,44 @@
+{
+  "captured_utc": "2026-09-12T16:01:35.064851+00:00",
+  "source_sha256": "e1a0092fdf53f234c8ecf0c92bba1999409ed201b6ad6abde7addf0beb4a9322",
+  "unchanged_historical_helper_sha256": "da77938663b839e22965b8a2cd483d838866f567defe77940a8b554b96c382b1",
+  "extraction": "Exact buffer_word typedef and helper definitions are unchanged from the historical word-helper revision and occur verbatim in final numerical source. The byte-level probe captures fail diagnostics with longjmp.",
+  "commands": [
+    [
+      "gcc",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c11",
+      "${HELPER_BUILD}/probe.c",
+      "-o",
+      "${HELPER_BUILD}/c"
+    ],
+    [
+      "g++",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c++17",
+      "-x",
+      "c++",
+      "${HELPER_BUILD}/probe.c",
+      "-o",
+      "${HELPER_BUILD}/cpp"
+    ]
+  ],
+  "results": [
+    {
+      "language": "c",
+      "exit_status": 0,
+      "output": "PASS helper equivalence: all 4096 poison bytes; identical buffers; every mismatch index/bit position; first of multiple mismatches\n"
+    },
+    {
+      "language": "cpp",
+      "exit_status": 0,
+      "output": "PASS helper equivalence: all 4096 poison bytes; identical buffers; every mismatch index/bit position; first of multiple mismatches\n"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "test": "nvdla-dual",
+  "suite": "nvdla-accelerator",
+  "result": "WALL_TIMEOUT",
+  "exit_status": 0,
+  "wall_seconds": 900.122,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN}/nvdla-dual/simulation.log"
+}

@@ -1,0 +1,5 @@
+plugin -i slang
+read_liberty -lib inputs/sram.lib
+read_slang --top cc_dir_ext -D SYNTHESIS macro-map/chipyard_sram_macros.v
+hierarchy -check -top cc_dir_ext
+check -assert

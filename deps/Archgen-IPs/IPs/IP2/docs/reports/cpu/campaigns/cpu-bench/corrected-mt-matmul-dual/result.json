@@ -1,0 +1,9 @@
+{
+  "test": "corrected-mt-matmul-dual",
+  "suite": "corrected-mt-supplement",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 26.008,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/corrected-mt-matmul-dual/simulation.log"
+}

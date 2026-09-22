@@ -1,0 +1,29 @@
+{
+  "started_utc": "2026-09-06T09:37:47Z",
+  "configuration": "chipyard.DualRocketConfig",
+  "generation_model": "chipyard.harness.TestHarness",
+  "hardware_top": "ChipTop",
+  "chipyard_commit": "e602d917dcc495c58cabe906535e411707096c9c",
+  "rocket_chip_commit": "55bcad0f59436de98ea510334121de8546b9e9d7",
+  "tracked_source_changes": false,
+  "scala_configuration_edits": false,
+  "generated_rtl_edits": false,
+  "command_template": "make -C $CHIPYARD_ROOT/sims/verilator verilog CONFIG=DualRocketConfig -j2",
+  "used_existing_generator_cache": true,
+  "exit_code": 0,
+  "wall_seconds": 65.75,
+  "maximum_resident_set_kib": 1630636,
+  "tools": {
+    "chisel": "6.7.0",
+    "scala": "2.13.16",
+    "firtool": "1.75.0",
+    "openjdk": "20.0.2-internal"
+  },
+  "generated_verilog_systemverilog_files": 476,
+  "rtl_manifest": "rtl.sha256",
+  "local_original_evidence_sha256": {
+    "generation.log": "740964b3218ed8db7f9e50872d58586bf4641b667012c8c4e2083fd2bb733b02",
+    "generation-provenance.txt": "f726c05f4ea362ab5955a418c6a2d66b95773486f031612373cc0ff9f729d5e7",
+    "source-sha256.txt": "31430aa3967f2295564e5d3c887731d8fbe5126b3e6926d33d1dee4ed18f5a91"
+  }
+}

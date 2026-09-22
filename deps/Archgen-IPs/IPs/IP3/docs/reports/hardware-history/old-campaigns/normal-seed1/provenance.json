@@ -1,0 +1,29 @@
+{
+  "started_utc": "2026-09-12T15:11:59Z",
+  "simulator": "${CHIPYARD_ROOT}/sims/verilator/simulator-chipyard.harness-DualRocketNVDLAConfig",
+  "simulator_sha256": "1d1e40de39739d20508913e8d6ce4f0eafecb90f3b7a2295bbf8a80359924229",
+  "chipyard_root": "${CHIPYARD_ROOT}",
+  "dramsim_ini_sha256": {
+    "DDR3_micron_64M_8B_x4_sg15.ini": "d80668c4f4cc1fe9a7dbaaf0b3e5230cf93e9058aa7e5d83cb25fa421aad3b37",
+    "system.ini": "0b360fe6d596cb4c66565d4ea52b78f6dd12148120d610957bcda2e95b55a464"
+  },
+  "manifest": "${ORIGINAL_TEST_BUILD}/manifest.tsv",
+  "manifest_sha256": "859d21ddcc6502164ca7402d3e9ecc2e8dce8221c584633c4f11dac750abe1c9",
+  "jobs": 1,
+  "max_cycles": 3000000,
+  "wall_timeout_seconds": 2400,
+  "seed": 1,
+  "loadmem": true,
+  "tests": [
+    {
+      "test": "nvdla-dual",
+      "binary": "${ORIGINAL_TEST_BUILD}/nvdla-dual.riscv",
+      "suite": "nvdla-accelerator",
+      "required_stdout": [
+        "PASS NVDLA dual-hart"
+      ],
+      "sha256": "377163cb29a72490e46fa2a56b058d2e792422cbfa81b404024757890c02bda0"
+    }
+  ],
+  "runner_sha256": "2c07f055f0a1de1c31134c99e1443f28db98d9ef8216819be46cc0325db319cb"
+}

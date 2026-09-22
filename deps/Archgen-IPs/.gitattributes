@@ -1,0 +1,4 @@
+* -text
+*.sh linguist-language=Shell
+*.sv linguist-generated=true
+*.v linguist-generated=true

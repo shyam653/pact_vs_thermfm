@@ -1,0 +1,162 @@
+[
+  {
+    "path": "ChipTop-after-abc.il",
+    "bytes": 142211242,
+    "sha256": "645a7ed0535635d822b53a19bcbd3229d00b467c1bdfce1db9a3dc88b751cd8f"
+  },
+  {
+    "path": "ChipTop-mapped.json",
+    "bytes": 262856912,
+    "sha256": "a7dc552244edc434af288ef72da30eac3645dcbed8ff0a70124d0f918672d7c0"
+  },
+  {
+    "path": "ChipTop-mapped.v",
+    "bytes": 71796426,
+    "sha256": "b6c06025a9de256464e53cef1a3f37b23bc65843e042f15148962d3e1471ea51"
+  },
+  {
+    "path": "ChipTop.odb",
+    "bytes": 202430802,
+    "sha256": "b206994bf827a355854a3415c60db532afee276d74e3d038c1a4f26c5aa99140"
+  },
+  {
+    "path": "artifact-sha256.json",
+    "bytes": 3040,
+    "sha256": "b6f0c8a59cbe6f5376cc4306866ed5981288e6a48bf826a8a0e506825653d3f8"
+  },
+  {
+    "path": "check.tcl",
+    "bytes": 1071,
+    "sha256": "b13341b178f4842057335099749664aab65c330d446c79d5b6260df2d7a92cd1"
+  },
+  {
+    "path": "direct.abc",
+    "bytes": 28,
+    "sha256": "ff35c8ecc15fd3353d520c61090e0278080ae8cc765f98c3d2256bd5afe25dcd"
+  },
+  {
+    "path": "finalize.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "finalize.log",
+    "bytes": 9970,
+    "sha256": "77910ecc2c418e55f69c9a0f839b84071058b53b0d913a483d2d4270e2538ad8"
+  },
+  {
+    "path": "finalize.ys",
+    "bytes": 362,
+    "sha256": "6fb73c334a44937efa2913b3e7b202d35bad75f43489f9a7ac7e840ea9660117"
+  },
+  {
+    "path": "inherited/elaborate.log",
+    "bytes": 3068123,
+    "sha256": "4add63184abf671b988f3ee6a7fb3589778f1f182bf542d0d3067053721e2242"
+  },
+  {
+    "path": "inherited/macro-map/inventory.json",
+    "bytes": 2193,
+    "sha256": "aaa19b0dea4030591a8dc36ce013aa7b6c911e0c7098feb99e98b65e13c47d39"
+  },
+  {
+    "path": "inherited/macro-map/test_sram.log",
+    "bytes": 2003,
+    "sha256": "2ef65f9dec83794044d9bf1d2dfdd70c8762379ff62e5f76f27428e76e124740"
+  },
+  {
+    "path": "inherited/macro-map/test_sram.sv",
+    "bytes": 7470,
+    "sha256": "60663c9305ac07a726860ec50cf9b0e0b4b3fbe5077ae267150744677d4187fb"
+  },
+  {
+    "path": "inherited/map-prefix.log",
+    "bytes": 7464694,
+    "sha256": "d83d7e125178a4c23656ba333500ddfbd7da773d8c9bfaf5660878ee65ccd510"
+  },
+  {
+    "path": "inherited/memory-audit.json",
+    "bytes": 12758,
+    "sha256": "e745c5b3568e86c4a07357f088c914e3822c5c9784b5177852a92e559a4f2249"
+  },
+  {
+    "path": "inherited/preflight.log",
+    "bytes": 1760,
+    "sha256": "bb9a6ddd554cf50f5836c0aad7bbafd6a6aad38e06e873c694b0a8a0dd710a08"
+  },
+  {
+    "path": "inherited/prepare.log",
+    "bytes": 674582,
+    "sha256": "2d8acf96a300f4b0a02d475b914f4baa2de9b1cdc9225820a3e2e255ea720284"
+  },
+  {
+    "path": "inherited/provenance.json",
+    "bytes": 136590,
+    "sha256": "1e597b69ca36503edfc8370e573726656daa3d1c3911a298b45ea88cdcb2eded"
+  },
+  {
+    "path": "inherited/source-plan.json",
+    "bytes": 63427,
+    "sha256": "c91b2d3d24acb9ba0939d0c09ad9d72a87fe929feb88ae530728677e3b509c9c"
+  },
+  {
+    "path": "map.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "map.log",
+    "bytes": 2919,
+    "sha256": "8d7c43ae43e44bd7c5933b1f4442dfed12111dc8e6ef80acc7789821808d03c6"
+  },
+  {
+    "path": "map.ys",
+    "bytes": 227,
+    "sha256": "cf98f216329e4090dea6848fba3f37e44321cf266d9021d94fac53edb9da1068"
+  },
+  {
+    "path": "native-tools-after.json",
+    "bytes": 1000,
+    "sha256": "28b30430ee51c5d0e4866d20d8e4ce16ed069905a13c018e7efcafe1f607774e"
+  },
+  {
+    "path": "openroad-link.json",
+    "bytes": 71,
+    "sha256": "4989c87830d2be64a0934dc6da144ef3d89ea93c5155ea60711a563143d2fea9"
+  },
+  {
+    "path": "openroad.console.log",
+    "bytes": 839,
+    "sha256": "fec9f7c5d816b210397c25e5cc55ca1bef9403313b51acd0a0f55cb8ec703d86"
+  },
+  {
+    "path": "openroad.log",
+    "bytes": 839,
+    "sha256": "fec9f7c5d816b210397c25e5cc55ca1bef9403313b51acd0a0f55cb8ec703d86"
+  },
+  {
+    "path": "provenance.json",
+    "bytes": 141155,
+    "sha256": "a7ba4b6e062e7961e8efbdb9757fbf3abf7f86e1347af33b244b43cdf4c26ebc"
+  },
+  {
+    "path": "run-status.txt",
+    "bytes": 14,
+    "sha256": "ed163d69a09ddc0ffcbdf126a42d5745a93449fa7a39354788e948b7ac795c04"
+  },
+  {
+    "path": "run.py",
+    "bytes": 11814,
+    "sha256": "ef465fe2695f65fed95ae709b68667d20cf8a9fb5d2792a76ee86d08747d6ab5"
+  },
+  {
+    "path": "statistics.json",
+    "bytes": 3261,
+    "sha256": "7c0888b4c45bbe688096d9b5f65f9b5193178e021d21acb5f92dbddfdd8cc1f4"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 5116,
+    "sha256": "a9cb6ecccaf45000c81193d394aceb6a055f4081d9a67e79049d05febf18448c"
+  }
+]

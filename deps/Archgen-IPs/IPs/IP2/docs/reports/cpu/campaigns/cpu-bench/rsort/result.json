@@ -1,0 +1,9 @@
+{
+  "test": "rsort",
+  "suite": "benchmark-configured",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 248.319,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/rsort/simulation.log"
+}

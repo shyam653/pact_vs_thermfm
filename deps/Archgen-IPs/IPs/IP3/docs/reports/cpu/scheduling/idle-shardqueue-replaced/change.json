@@ -1,0 +1,25 @@
+{
+  "changed_utc": "2026-09-12T17:18:09.422297+00:00",
+  "reason": "Allow explicit released NVDLA slots to start benchmark shards before ISA ends; ISA contributes two baseline slots only after full completion",
+  "stopped_idle_scheduler_pid": 303539,
+  "stopped_idle_scheduler_argv": [
+    "python3",
+    "build/IP3/queue-cpu-bench-shards.py"
+  ],
+  "no_benchmark_ever_launched": true,
+  "no_active_simulation_interrupted": true,
+  "archived_files": {
+    "queue-cpu-bench-shards.py": "06c85fa24df8c50d041c1d25d9ea13ac6ebd50e86d1cfacd248008c3bef841ca",
+    "cpu-bench-shards-driver.log": "6f650664160205f0f6780280d15071b5342810324d66ffdcc5efee4221e5aad1",
+    "scheduling-events.jsonl": "6f650664160205f0f6780280d15071b5342810324d66ffdcc5efee4221e5aad1",
+    "extra-slot-grants.json": "5ccb914d6dff77ff2b4075fb24e918ac6cf7de0a29dd531e90b1fa8bad02d3cb",
+    "scheduler-launch-command.json": "e54497c529bb07d87a7f301031a5a7a67de0a47b6253ae98b33afff0b6cb446c"
+  },
+  "partition_sha256_unchanged": "2ffec24eb091dea276763c71c0e04b366260a799a644729321a8196e9bc87667",
+  "shard_manifest_sha256_unchanged": {
+    "bench-shard-4.tsv": "fbcb911000c781988e3744dcac3c98631ee4edb93e4517e5ac7100e5cf0ec254",
+    "bench-shard-2.tsv": "fc4d1311e923beb5d9ce5b43b702edd3afaa053124decc4612ffd1d2546dfa4e",
+    "bench-shard-1.tsv": "29f5bc43f56d970440fe4ec76f35fd14506d78d01d0ff1704099e4aebc2fbb07",
+    "bench-shard-3.tsv": "cb62f9d6fdf4da85c555b86bb241e8bdcfd4a0d5dfdea4aa61ab2a49bddcd611"
+  }
+}

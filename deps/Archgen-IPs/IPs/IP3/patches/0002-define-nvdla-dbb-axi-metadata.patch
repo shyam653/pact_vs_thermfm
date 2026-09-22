@@ -1,0 +1,16 @@
+--- a/src/main/scala/devices/nvdla/NVDLA.scala
++++ b/src/main/scala/devices/nvdla/NVDLA.scala
+@@ -93,6 +93,13 @@
+ 
+     val (dbb, _) = dbb_axi_node.out(0)
+ 
++    // The NVDLA memory interface emits incrementing bursts and no sidebands.
++    dbb.aw.bits := 0.U.asTypeOf(dbb.aw.bits)
++    dbb.ar.bits := 0.U.asTypeOf(dbb.ar.bits)
++    dbb.w.bits := 0.U.asTypeOf(dbb.w.bits)
++    dbb.aw.bits.burst := 1.U
++    dbb.ar.bits.burst := 1.U
++
+     dbb.aw.valid                            := u_nvdla.io.nvdla_core2dbb_aw_awvalid
+     u_nvdla.io.nvdla_core2dbb_aw_awready    := dbb.aw.ready
+     dbb.aw.bits.id                          := u_nvdla.io.nvdla_core2dbb_aw_awid

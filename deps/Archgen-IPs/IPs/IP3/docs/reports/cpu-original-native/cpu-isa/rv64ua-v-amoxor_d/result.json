@@ -1,0 +1,9 @@
+{
+  "test": "rv64ua-v-amoxor_d",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 55.577,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64ua-v-amoxor_d/simulation.log"
+}

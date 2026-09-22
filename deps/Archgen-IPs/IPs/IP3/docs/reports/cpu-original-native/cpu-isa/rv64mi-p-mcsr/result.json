@@ -1,0 +1,9 @@
+{
+  "test": "rv64mi-p-mcsr",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 2.878,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64mi-p-mcsr/simulation.log"
+}

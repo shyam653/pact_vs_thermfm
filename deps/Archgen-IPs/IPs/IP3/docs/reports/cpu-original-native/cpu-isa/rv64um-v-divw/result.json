@@ -1,0 +1,9 @@
+{
+  "test": "rv64um-v-divw",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 31.345,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64um-v-divw/simulation.log"
+}

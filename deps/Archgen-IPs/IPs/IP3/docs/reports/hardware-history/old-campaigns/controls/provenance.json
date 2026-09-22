@@ -1,0 +1,34 @@
+{
+  "started_utc": "2026-09-12T15:37:39Z",
+  "simulator": "${CHIPYARD_ROOT}/sims/verilator/simulator-chipyard.harness-DualRocketNVDLAConfig",
+  "simulator_sha256": "1d1e40de39739d20508913e8d6ce4f0eafecb90f3b7a2295bbf8a80359924229",
+  "chipyard_root": "${CHIPYARD_ROOT}",
+  "dramsim_ini_sha256": {
+    "DDR3_micron_64M_8B_x4_sg15.ini": "d80668c4f4cc1fe9a7dbaaf0b3e5230cf93e9058aa7e5d83cb25fa421aad3b37",
+    "system.ini": "0b360fe6d596cb4c66565d4ea52b78f6dd12148120d610957bcda2e95b55a464"
+  },
+  "manifest": "${ORIGINAL_TEST_BUILD}/negative-control.tsv",
+  "manifest_sha256": "a8568eed84c3a13695f95088c6e82a14b7652439b1765e86d087204328a8843c",
+  "jobs": 1,
+  "max_cycles": 3000000,
+  "wall_timeout_seconds": 2400,
+  "seed": 1,
+  "loadmem": true,
+  "tests": [
+    {
+      "test": "nvdla-negative-control",
+      "binary": "${ORIGINAL_TEST_BUILD}/nvdla-negative-control.riscv",
+      "suite": "expected-failure-control",
+      "required_stdout": [],
+      "sha256": "a2d1bb74861cda59f8cc3dc7aec112bb3caffbb59beae2b8be67b9d12fe377a0"
+    },
+    {
+      "test": "nvdla-timeout-control",
+      "binary": "${ORIGINAL_TEST_BUILD}/nvdla-timeout-control.riscv",
+      "suite": "expected-failure-control",
+      "required_stdout": [],
+      "sha256": "acadeaa80f650c10b375e256d222253e7f86221cb12d0faf6709d0e3e4e7cc20"
+    }
+  ],
+  "runner_sha256": "2c07f055f0a1de1c31134c99e1443f28db98d9ef8216819be46cc0325db319cb"
+}

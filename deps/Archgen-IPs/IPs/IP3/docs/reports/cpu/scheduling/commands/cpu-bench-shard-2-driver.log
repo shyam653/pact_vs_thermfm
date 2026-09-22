@@ -1,0 +1,167 @@
+Progress: 0/17, {}, elapsed 30s
+Progress: 0/17, {}, elapsed 60s
+Progress: 0/17, {}, elapsed 90s
+Progress: 0/17, {}, elapsed 120s
+Progress: 0/17, {}, elapsed 150s
+Progress: 0/17, {}, elapsed 180s
+Progress: 0/17, {}, elapsed 210s
+Progress: 0/17, {}, elapsed 240s
+Progress: 0/17, {}, elapsed 270s
+Progress: 0/17, {}, elapsed 300s
+Progress: 0/17, {}, elapsed 330s
+Progress: 0/17, {}, elapsed 360s
+Progress: 0/17, {}, elapsed 390s
+Progress: 0/17, {}, elapsed 420s
+Progress: 0/17, {}, elapsed 450s
+Progress: 0/17, {}, elapsed 480s
+Progress: 0/17, {}, elapsed 510s
+Progress: 0/17, {}, elapsed 540s
+Progress: 0/17, {}, elapsed 570s
+Progress: 0/17, {}, elapsed 600s
+Progress: 0/17, {}, elapsed 630s
+Progress: 0/17, {}, elapsed 660s
+Progress: 0/17, {}, elapsed 690s
+Progress: 0/17, {}, elapsed 720s
+Progress: 0/17, {}, elapsed 750s
+Progress: 0/17, {}, elapsed 780s
+Progress: 0/17, {}, elapsed 810s
+Progress: 0/17, {}, elapsed 840s
+Progress: 0/17, {}, elapsed 870s
+Progress: 0/17, {}, elapsed 900s
+Progress: 0/17, {}, elapsed 930s
+Progress: 0/17, {}, elapsed 960s
+Progress: 0/17, {}, elapsed 990s
+Progress: 0/17, {}, elapsed 1020s
+Progress: 0/17, {}, elapsed 1050s
+Progress: 0/17, {}, elapsed 1080s
+Progress: 0/17, {}, elapsed 1110s
+Progress: 0/17, {}, elapsed 1140s
+Progress: 0/17, {}, elapsed 1170s
+Progress: 0/17, {}, elapsed 1200s
+Progress: 0/17, {}, elapsed 1230s
+Progress: 0/17, {}, elapsed 1260s
+Progress: 0/17, {}, elapsed 1290s
+Progress: 0/17, {}, elapsed 1320s
+Progress: 0/17, {}, elapsed 1350s
+Progress: 0/17, {}, elapsed 1380s
+Progress: 0/17, {}, elapsed 1410s
+Progress: 0/17, {}, elapsed 1440s
+Progress: 0/17, {}, elapsed 1470s
+Progress: 0/17, {}, elapsed 1500s
+Progress: 0/17, {}, elapsed 1530s
+Progress: 0/17, {}, elapsed 1560s
+Progress: 0/17, {}, elapsed 1590s
+1/17 legacy-cf_matmul-dual FAIL 1606.309s
+Progress: 1/17, {'FAIL': 1}, elapsed 1636s
+Progress: 1/17, {'FAIL': 1}, elapsed 1666s
+Progress: 1/17, {'FAIL': 1}, elapsed 1696s
+Progress: 1/17, {'FAIL': 1}, elapsed 1726s
+Progress: 1/17, {'FAIL': 1}, elapsed 1756s
+Progress: 1/17, {'FAIL': 1}, elapsed 1786s
+Progress: 1/17, {'FAIL': 1}, elapsed 1816s
+Progress: 1/17, {'FAIL': 1}, elapsed 1846s
+Progress: 1/17, {'FAIL': 1}, elapsed 1876s
+Progress: 1/17, {'FAIL': 1}, elapsed 1906s
+Progress: 1/17, {'FAIL': 1}, elapsed 1936s
+Progress: 1/17, {'FAIL': 1}, elapsed 1966s
+Progress: 1/17, {'FAIL': 1}, elapsed 1996s
+Progress: 1/17, {'FAIL': 1}, elapsed 2026s
+Progress: 1/17, {'FAIL': 1}, elapsed 2056s
+Progress: 1/17, {'FAIL': 1}, elapsed 2086s
+Progress: 1/17, {'FAIL': 1}, elapsed 2116s
+Progress: 1/17, {'FAIL': 1}, elapsed 2146s
+Progress: 1/17, {'FAIL': 1}, elapsed 2176s
+Progress: 1/17, {'FAIL': 1}, elapsed 2206s
+2/17 legacy-cv_matmul-dual FAIL 608.445s
+Progress: 2/17, {'FAIL': 2}, elapsed 2245s
+Progress: 2/17, {'FAIL': 2}, elapsed 2275s
+Progress: 2/17, {'FAIL': 2}, elapsed 2305s
+Progress: 2/17, {'FAIL': 2}, elapsed 2335s
+Progress: 2/17, {'FAIL': 2}, elapsed 2365s
+Progress: 2/17, {'FAIL': 2}, elapsed 2395s
+Progress: 2/17, {'FAIL': 2}, elapsed 2425s
+Progress: 2/17, {'FAIL': 2}, elapsed 2455s
+Progress: 2/17, {'FAIL': 2}, elapsed 2485s
+Progress: 2/17, {'FAIL': 2}, elapsed 2515s
+Progress: 2/17, {'FAIL': 2}, elapsed 2545s
+Progress: 2/17, {'FAIL': 2}, elapsed 2575s
+Progress: 2/17, {'FAIL': 2}, elapsed 2605s
+Progress: 2/17, {'FAIL': 2}, elapsed 2635s
+3/17 legacy-df_matmul-dual FAIL 445.64s
+Progress: 3/17, {'FAIL': 3}, elapsed 2690s
+Progress: 3/17, {'FAIL': 3}, elapsed 2720s
+Progress: 3/17, {'FAIL': 3}, elapsed 2750s
+Progress: 3/17, {'FAIL': 3}, elapsed 2780s
+Progress: 3/17, {'FAIL': 3}, elapsed 2810s
+Progress: 3/17, {'FAIL': 3}, elapsed 2840s
+Progress: 3/17, {'FAIL': 3}, elapsed 2870s
+Progress: 3/17, {'FAIL': 3}, elapsed 2900s
+Progress: 3/17, {'FAIL': 3}, elapsed 2930s
+Progress: 3/17, {'FAIL': 3}, elapsed 2960s
+Progress: 3/17, {'FAIL': 3}, elapsed 2990s
+Progress: 3/17, {'FAIL': 3}, elapsed 3020s
+Progress: 3/17, {'FAIL': 3}, elapsed 3050s
+4/17 legacy-do_matmul-dual FAIL 419.845s
+Progress: 4/17, {'FAIL': 4}, elapsed 3110s
+Progress: 4/17, {'FAIL': 4}, elapsed 3140s
+Progress: 4/17, {'FAIL': 4}, elapsed 3170s
+Progress: 4/17, {'FAIL': 4}, elapsed 3200s
+Progress: 4/17, {'FAIL': 4}, elapsed 3230s
+Progress: 4/17, {'FAIL': 4}, elapsed 3260s
+Progress: 4/17, {'FAIL': 4}, elapsed 3290s
+Progress: 4/17, {'FAIL': 4}, elapsed 3320s
+5/17 legacy-vvadd4-dual PASS 260.75s
+Progress: 5/17, {'FAIL': 4, 'PASS': 1}, elapsed 3371s
+Progress: 5/17, {'FAIL': 4, 'PASS': 1}, elapsed 3401s
+Progress: 5/17, {'FAIL': 4, 'PASS': 1}, elapsed 3431s
+Progress: 5/17, {'FAIL': 4, 'PASS': 1}, elapsed 3461s
+Progress: 5/17, {'FAIL': 4, 'PASS': 1}, elapsed 3491s
+Progress: 5/17, {'FAIL': 4, 'PASS': 1}, elapsed 3521s
+Progress: 5/17, {'FAIL': 4, 'PASS': 1}, elapsed 3551s
+Progress: 5/17, {'FAIL': 4, 'PASS': 1}, elapsed 3581s
+6/17 legacy-cm_matmul-dual FAIL 263.828s
+Progress: 6/17, {'FAIL': 5, 'PASS': 1}, elapsed 3635s
+Progress: 6/17, {'FAIL': 5, 'PASS': 1}, elapsed 3665s
+Progress: 6/17, {'FAIL': 5, 'PASS': 1}, elapsed 3695s
+Progress: 6/17, {'FAIL': 5, 'PASS': 1}, elapsed 3725s
+Progress: 6/17, {'FAIL': 5, 'PASS': 1}, elapsed 3755s
+Progress: 6/17, {'FAIL': 5, 'PASS': 1}, elapsed 3785s
+Progress: 6/17, {'FAIL': 5, 'PASS': 1}, elapsed 3815s
+Progress: 6/17, {'FAIL': 5, 'PASS': 1}, elapsed 3845s
+7/17 mt-vvadd PASS 243.042s
+Progress: 7/17, {'FAIL': 5, 'PASS': 2}, elapsed 3878s
+Progress: 7/17, {'FAIL': 5, 'PASS': 2}, elapsed 3908s
+Progress: 7/17, {'FAIL': 5, 'PASS': 2}, elapsed 3938s
+Progress: 7/17, {'FAIL': 5, 'PASS': 2}, elapsed 3968s
+Progress: 7/17, {'FAIL': 5, 'PASS': 2}, elapsed 3998s
+Progress: 7/17, {'FAIL': 5, 'PASS': 2}, elapsed 4028s
+Progress: 7/17, {'FAIL': 5, 'PASS': 2}, elapsed 4058s
+8/17 legacy-at_matmul-dual FAIL 237.915s
+Progress: 8/17, {'FAIL': 6, 'PASS': 2}, elapsed 4116s
+Progress: 8/17, {'FAIL': 6, 'PASS': 2}, elapsed 4146s
+Progress: 8/17, {'FAIL': 6, 'PASS': 2}, elapsed 4176s
+Progress: 8/17, {'FAIL': 6, 'PASS': 2}, elapsed 4206s
+Progress: 8/17, {'FAIL': 6, 'PASS': 2}, elapsed 4236s
+Progress: 8/17, {'FAIL': 6, 'PASS': 2}, elapsed 4266s
+9/17 legacy-vvadd0-dual PASS 197.323s
+Progress: 9/17, {'FAIL': 6, 'PASS': 3}, elapsed 4313s
+Progress: 9/17, {'FAIL': 6, 'PASS': 3}, elapsed 4343s
+Progress: 9/17, {'FAIL': 6, 'PASS': 3}, elapsed 4373s
+Progress: 9/17, {'FAIL': 6, 'PASS': 3}, elapsed 4403s
+10/17 legacy-aq_matmul-dual PASS 148.793s
+Progress: 10/17, {'FAIL': 6, 'PASS': 4}, elapsed 4462s
+Progress: 10/17, {'FAIL': 6, 'PASS': 4}, elapsed 4492s
+11/17 legacy-bs_matmul-dual PASS 66.654s
+Progress: 11/17, {'FAIL': 6, 'PASS': 5}, elapsed 4529s
+Progress: 11/17, {'FAIL': 6, 'PASS': 5}, elapsed 4559s
+12/17 legacy-an_matmul-dual PASS 76.02s
+Progress: 12/17, {'FAIL': 6, 'PASS': 6}, elapsed 4605s
+13/17 legacy-ae_matmul-dual PASS 39.276s
+Progress: 13/17, {'FAIL': 6, 'PASS': 7}, elapsed 4644s
+14/17 legacy-ap_matmul-dual PASS 56.516s
+Progress: 14/17, {'FAIL': 6, 'PASS': 8}, elapsed 4700s
+15/17 chipyard-mt-hello-dual PASS 35.73s
+16/17 vvadd PASS 23.273s
+Progress: 16/17, {'FAIL': 6, 'PASS': 10}, elapsed 4759s
+17/17 legacy-bm_matmul-dual PASS 32.206s
+{"total": 17, "counts": {"FAIL": 6, "PASS": 11}, "elapsed_seconds": 4761.601, "finished_utc": "2026-09-12T18:52:23Z"}

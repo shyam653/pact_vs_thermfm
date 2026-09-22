@@ -1,0 +1,9 @@
+{
+  "test": "rv64um-v-mulhsu",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 31.826,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64um-v-mulhsu/simulation.log"
+}

@@ -1,0 +1,101 @@
+{
+  "scope": "Three earlier full-flow attempts were incomplete or failed and use the superseded pre-tieoff bundled RTL. The corrected flow repeats every required gate; none of the earlier tests or diagnostic results are reused as final acceptance.",
+  "accepted_run": "synthesis-preserve-direct-sdp-readback-fix",
+  "attempts": [
+    {
+      "run": "synthesis-preserve-direct",
+      "started_utc": "2026-09-12T14:44:29.301251+00:00",
+      "detail": {
+        "observed_utc": "2026-09-12T14:51:24.580520+00:00",
+        "tool_session_exit_code": 143,
+        "classification": "INTERRUPTED_INCOMPLETE",
+        "cause": "Unknown; project owner and EDA agent did not request termination. Exit143 is consistent with SIGTERM; no kernel OOM indication has been established.",
+        "original_run_status_text": "exit_status=0\n",
+        "run_status_limitation": "The original EXIT-only trap can record its preceding status0 after SIGTERM. No summary exists and only two of three SRAM seeds completed, so this run is not PASS.",
+        "completed_seeds": [
+          1,
+          827361
+        ],
+        "incomplete_seed": 2147483647,
+        "run_script_sha256": "c047d083e71e3c35784487bdef9212f120307dab1e7e0098d08b8eed91a746ba",
+        "next_action": "Preserve partial logs; add explicit HUP/INT/TERM nonzero handling and start fresh."
+      },
+      "summary_exists": false,
+      "generated_inputs": 531,
+      "changed_inputs_for_final_rtl": [
+        {
+          "path": "gen-collateral/nvdla_small.preprocessed.v",
+          "old_sha256": "2c9dba37f759ffab52ee229e2ba3ef312fb3cb6221f2476337d13fd58e062cea",
+          "current_sha256": "88e206bbf86544030034ecfc387ef3ae4a9a8b6a149b1f550b87bbf02770a124"
+        }
+      ],
+      "provenance_sha256": "45e89cea3ecf0cf564c715daafd36020a91e27b7df8342f39c80814805ada749",
+      "all_prior_results_excluded_from_final_acceptance": true
+    },
+    {
+      "run": "synthesis-preserve-direct-retry1",
+      "started_utc": "2026-09-12T14:51:43.552320+00:00",
+      "detail": {
+        "observed_utc": "2026-09-12T15:37:26.704345+00:00",
+        "reason": "Deliberately stopped after independent opt_clean-purge diagnostic passed identical CHECK and structural memory/port audit; fresh full flow will retain all gates.",
+        "status": "DELIBERATELY_STOPPED",
+        "signal": "SIGTERM",
+        "target_native_yosys_pid": 288092,
+        "process_before_stop": "    PID    PPID    PGID     ELAPSED %CPU   RSS STAT COMMAND\n 288092  288091  287233       38:30 95.7 1737836 R  OSS_CAD_SUITE_ROOT/lib/ld-linux-x86-64.so.2 --inhibit-cache --inhibit-rpath  --library-path OSS_CAD_SUITE_ROOT/lib OSS_CAD_SUITE_ROOT/libexec/yosys -Q -T -q -l elaborate.log -s elaborate.ys\n",
+        "workflow_snapshot_files": 31,
+        "original_provenance_sha256": "e4a7c806be04bc523cb57ab25cbb73fff0a5e6f50334d613817abca9cb5ed215",
+        "termination_observed_utc": "2026-09-12T15:38:26.349456+00:00",
+        "actual_session_exit_status": 143,
+        "run_status": "exit_status=143",
+        "target_process_absent": true,
+        "summary_exists": false
+      },
+      "summary_exists": false,
+      "generated_inputs": 531,
+      "changed_inputs_for_final_rtl": [
+        {
+          "path": "gen-collateral/nvdla_small.preprocessed.v",
+          "old_sha256": "2c9dba37f759ffab52ee229e2ba3ef312fb3cb6221f2476337d13fd58e062cea",
+          "current_sha256": "88e206bbf86544030034ecfc387ef3ae4a9a8b6a149b1f550b87bbf02770a124"
+        }
+      ],
+      "provenance_sha256": "e4a7c806be04bc523cb57ab25cbb73fff0a5e6f50334d613817abca9cb5ed215",
+      "all_prior_results_excluded_from_final_acceptance": true
+    },
+    {
+      "run": "synthesis-preserve-direct-cleanup",
+      "started_utc": "2026-09-12T15:38:37.138137+00:00",
+      "detail": {
+        "observed_utc": "2026-09-12T15:53:06.926196+00:00",
+        "status": "FAILED_CHECK_UNDRIVEN_UNSUPPORTED_SDP_LUT_READBACKS",
+        "actual_session_exit_status": 1,
+        "run_status": "exit_status=1",
+        "all_inputs_unchanged_before_snapshot": true,
+        "snapshot_files": 562,
+        "native_tools_unchanged": true,
+        "undriven_bits": 176,
+        "undriven_signals": {
+          "dp2reg_lut_oflow": 32,
+          "dp2reg_lut_uflow": 32,
+          "dp2reg_lut_le_hit": 32,
+          "dp2reg_lut_hybrid": 32,
+          "dp2reg_lut_lo_hit": 32,
+          "dp2reg_lut_data": 16
+        },
+        "scope": "Original hierarchy CHECK passed; macro-backed flattened CHECK found truly undriven register readbacks. No mapping/final PASS. Fresh corrected RTL must repeat all gates."
+      },
+      "summary_exists": false,
+      "generated_inputs": 531,
+      "changed_inputs_for_final_rtl": [
+        {
+          "path": "gen-collateral/nvdla_small.preprocessed.v",
+          "old_sha256": "2c9dba37f759ffab52ee229e2ba3ef312fb3cb6221f2476337d13fd58e062cea",
+          "current_sha256": "88e206bbf86544030034ecfc387ef3ae4a9a8b6a149b1f550b87bbf02770a124"
+        }
+      ],
+      "provenance_sha256": "815bd026d7de71f181813cf9aee5768b8323457350dc86223a6ccb769d208913",
+      "all_prior_results_excluded_from_final_acceptance": true
+    }
+  ],
+  "preparation_retry": "A launch during native regeneration refused a missing ChipTop.sv before creating a run directory. Successful preparation subsequently matched all 531 published generated inputs."
+}

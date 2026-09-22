@@ -1,0 +1,46 @@
+{
+  "compiler": "<chipyard>/.conda-env/riscv-tools/bin/riscv64-unknown-elf-gcc",
+  "compiler_version": "riscv64-unknown-elf-gcc (gc891d8dc23e) 13.2.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "fft_revision": "e361f229b5574931f555b10e1b48f2769c07832c",
+  "builds": [
+    {
+      "name": "fft-single",
+      "binary": "<test-build>/fft-single.riscv",
+      "sha256": "04c8a057cae8d0a5d2c7fa47c1b31dccae85bde8c53f37e421a3512e489216e2",
+      "harts": 1,
+      "negative_control": false
+    },
+    {
+      "name": "fft-dual",
+      "binary": "<test-build>/fft-dual.riscv",
+      "sha256": "065c68f08f84d9b68dcef45074398e398519dff46f721a1eec97e33ba2317ae8",
+      "harts": 2,
+      "negative_control": false
+    },
+    {
+      "name": "fft-upstream",
+      "binary": "<test-build>/fft-upstream.riscv",
+      "sha256": "4de627321acc7e70b972bacd8e1a0d026d69f81c5c5e54975dd46efee72d272d",
+      "harts": 1,
+      "negative_control": false
+    },
+    {
+      "name": "fft-negative-control",
+      "binary": "<test-build>/fft-negative-control.riscv",
+      "sha256": "8e996004ef91c2d26dd5bb7dcd2267854edd94af492468d06e45fa1cdfa53e0b",
+      "harts": 1,
+      "negative_control": true
+    }
+  ],
+  "inputs": {
+    "tests/fft_reference.py": "5d470ccc5db02b30160c363c468072bc7b840e3e02f9b1406aeff3f26f2f6524",
+    "tests/fft_test.c": "3809e5de7c81e43e4aafe16d9192fa2e587ec0fc679e49d73d99f36a4e9fc911",
+    "tests/link.ld": "c93bc36d9e6f493f156092356899885a77c04ec2f0587817a7d98518cecf5683",
+    "tests/runtime.h": "8a01c0e5358065ee1600c212c00a2d70c25267870ec8b1a34d19bdbb3facc457",
+    "tests/start.S": "48c742ddc5378ed44ab854990a1021f6f86a025d1dffb921fecd501a9cfaaeff",
+    "tests/upstream_fft.c": "5e6cec623822c2183cd80ec80d8eb6f9c01ebb069e29ef262e1abe6947fe539b"
+  },
+  "upstream_test_sha256": "7ce7e350b57510c7bf21e50af4203a786471e8f87ea99806f7b839d2418314bc",
+  "builder_sha256": "a7bb0500f8382a4b15601192ef4cfbb85ab417aa4cbad7710ccec9df252b5a6c",
+  "reference_header_sha256": "fda750764c84705fa46917d98abd64afad6a63795393b55c8c7fe6c28e3f8236"
+}

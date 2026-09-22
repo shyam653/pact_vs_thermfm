@@ -1,0 +1,9 @@
+{
+  "test": "median",
+  "suite": "benchmark-configured",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 19.443,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/median/simulation.log"
+}

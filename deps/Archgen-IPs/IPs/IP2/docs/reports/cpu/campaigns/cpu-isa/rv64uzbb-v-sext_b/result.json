@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzbb-v-sext_b",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 11.484,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uzbb-v-sext_b/simulation.log"
+}

@@ -1,0 +1,9 @@
+{
+  "test": "rv64ud-p-fmadd",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 6.96,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64ud-p-fmadd/simulation.log"
+}

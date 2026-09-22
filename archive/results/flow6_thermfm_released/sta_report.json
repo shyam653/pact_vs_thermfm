@@ -1,0 +1,9 @@
+{
+  "spef_path": "outputs/flow6_thermfm_released/adjusted.spef",
+  "clock_period_ns": 10.0,
+  "data_arrival_time_ns": 4.7767,
+  "slack_ns": 5.0641,
+  "wns_ns": 5.0641,
+  "tns_ns": 0.0,
+  "status": "MET"
+}

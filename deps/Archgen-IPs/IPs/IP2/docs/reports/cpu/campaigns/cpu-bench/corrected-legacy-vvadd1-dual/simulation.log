@@ -1,0 +1,11 @@
+[UART] UART0 is here (stdin/stdout).
+== Loading device model file '${CHIPYARD_ROOT}/generators/testchipip/src/main/resources/dramsim2_ini/DDR3_micron_64M_8B_x4_sg15.ini' == 
+== Loading system model file '${CHIPYARD_ROOT}/generators/testchipip/src/main/resources/dramsim2_ini/system.ini' == 
+===== MemorySystem 0 =====
+CH. 0 TOTAL_STORAGE : 4096MB | 1 Ranks | 16 Devices per rank
+DRAMSim2 Clock Frequency =666666666Hz, CPU Clock Frequency=500000000Hz
+
+vvadd(cid, nc, 1000, input1_data, input2_data, results_data); barrier(nc): 30886 cycles, 30.8 cycles/iter, 8.8 CPI
+
+vvadd(cid, nc, 1000, results_data, input2_data, results_data); barrier(nc): 15683 cycles, 15.6 cycles/iter, 2.9 CPI
+- ${CHIPYARD_ROOT}/sims/verilator/generated-src/chipyard.harness.TestHarness.DualRocketFFTConfig/gen-collateral/TestDriver.v:158: Verilog $finish

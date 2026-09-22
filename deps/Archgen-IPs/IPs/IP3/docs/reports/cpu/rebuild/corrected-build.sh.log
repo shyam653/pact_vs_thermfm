@@ -1,0 +1,4 @@
+test	exit_status	kernel	harness
+corrected-legacy-vvadd1-dual	0	${REPO_ROOT}/build/cpu-rebuilt/bench/corrected/vvadd1.c	${CHIPYARD_ROOT}/toolchains/riscv-tools/riscv-tests/benchmarks/mt-vvadd/mt-vvadd.c
+corrected-mt-matmul-dual	0	${CHIPYARD_ROOT}/toolchains/riscv-tools/riscv-tests/benchmarks/mt-matmul/matmul.c	${REPO_ROOT}/build/cpu-rebuilt/bench/corrected/mt-matmul.c
+corrected-legacy-ae_matmul-dual	0	${CHIPYARD_ROOT}/toolchains/riscv-tools/riscv-tests/mt/ae_matmul.c	${REPO_ROOT}/build/cpu-rebuilt/bench/corrected/mt-matmul.c

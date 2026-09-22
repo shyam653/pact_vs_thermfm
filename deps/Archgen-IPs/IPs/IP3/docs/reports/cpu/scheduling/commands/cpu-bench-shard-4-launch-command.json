@@ -1,0 +1,18 @@
+[
+  "python3",
+  "${REPO_ROOT}/IPs/IP2/scripts/run-regression.py",
+  "${REPO_ROOT}/build/IP3/cpu-bench-shards/bench-shard-4.tsv",
+  "${REPO_ROOT}/build/IP3/cpu-bench-shard-4",
+  "--simulator",
+  "${CHIPYARD_ROOT}/sims/verilator/simulator-chipyard.harness-DualRocketNVDLAConfig",
+  "--chipyard-root",
+  "${CHIPYARD_ROOT}",
+  "--jobs",
+  "1",
+  "--max-cycles",
+  "2000000",
+  "--timeout",
+  "1800",
+  "--seed",
+  "1"
+]

@@ -1,0 +1,9 @@
+{
+  "test": "rv64ui-p-lui",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 4.901,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64ui-p-lui/simulation.log"
+}

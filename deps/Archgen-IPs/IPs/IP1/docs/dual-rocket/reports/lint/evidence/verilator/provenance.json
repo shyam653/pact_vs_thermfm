@@ -1,0 +1,38 @@
+{
+  "started_utc": "2026-09-06T13:19:52Z",
+  "chipyard_root": "CHIPYARD_ROOT",
+  "source_commit": "e602d917dcc495c58cabe906535e411707096c9c",
+  "source_tracked_changes": false,
+  "rtl_root": "rtl",
+  "executable": "verilator",
+  "tool_version": "Verilator 5.051 devel rev v5.050-312-gb1c06fdb0 (mod)",
+  "executable_sha256": "098b09b11ba7d3e904ae13d924a9e8dac8ced5c9d7c9beff3b9d36119a417581",
+  "top": "ChipTop",
+  "config": "DualRocketConfig",
+  "defines": [
+    "SYNTHESIS"
+  ],
+  "default_timescale": "1ns/1ps",
+  "memories": "original behavioral RTL",
+  "command": [
+    "verilator",
+    "--lint-only",
+    "--top-module",
+    "ChipTop",
+    "-DSYNTHESIS",
+    "--timescale",
+    "1ns/1ps",
+    "-Wall",
+    "-Wno-fatal",
+    "--diagnostics-sarif",
+    "--diagnostics-sarif-output",
+    "LINT_OUTPUT_ROOT/verilator/diagnostics.sarif",
+    "--Mdir",
+    "LINT_OUTPUT_ROOT/verilator/obj_dir",
+    "-y",
+    "rtl",
+    "+libext+.sv+.v",
+    "rtl/ChipTop.sv",
+    "rtl/chipyard.harness.TestHarness.DualRocketConfig.top.mems.v"
+  ]
+}

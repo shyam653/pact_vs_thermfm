@@ -1,0 +1,9 @@
+{
+  "test": "rv64ui-p-fence_i",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 5.6,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64ui-p-fence_i/simulation.log"
+}

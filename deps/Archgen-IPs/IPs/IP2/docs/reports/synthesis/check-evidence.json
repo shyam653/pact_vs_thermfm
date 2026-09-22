@@ -1,0 +1,37 @@
+{
+  "inherited/preflight": {
+    "evidence": "inherited",
+    "raw_log_sha256": "bb9a6ddd554cf50f5836c0aad7bbafd6a6aad38e06e873c694b0a8a0dd710a08",
+    "raw_log_bytes": 1760,
+    "zero_problem_checks": 1,
+    "warnings": []
+  },
+  "inherited/elaborate": {
+    "evidence": "inherited",
+    "raw_log_sha256": "4add63184abf671b988f3ee6a7fb3589778f1f182bf542d0d3067053721e2242",
+    "raw_log_bytes": 3068123,
+    "zero_problem_checks": 1,
+    "warnings": []
+  },
+  "inherited/prepare": {
+    "evidence": "inherited",
+    "raw_log_sha256": "2d8acf96a300f4b0a02d475b914f4baa2de9b1cdc9225820a3e2e255ea720284",
+    "raw_log_bytes": 674582,
+    "zero_problem_checks": 1,
+    "warnings": []
+  },
+  "map": {
+    "evidence": "fresh independent execution",
+    "raw_log_sha256": "8d7c43ae43e44bd7c5933b1f4442dfed12111dc8e6ef80acc7789821808d03c6",
+    "raw_log_bytes": 2919,
+    "zero_problem_checks": 0,
+    "warnings": []
+  },
+  "finalize": {
+    "evidence": "fresh independent execution",
+    "raw_log_sha256": "77910ecc2c418e55f69c9a0f839b84071058b53b0d913a483d2d4270e2538ad8",
+    "raw_log_bytes": 9970,
+    "zero_problem_checks": 1,
+    "warnings": []
+  }
+}

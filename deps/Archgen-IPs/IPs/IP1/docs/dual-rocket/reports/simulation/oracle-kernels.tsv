@@ -1,0 +1,50 @@
+kernel	geometry_assessment	source_anchor_line	note
+vvadd0	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	7	Two 500-element blocks for n1000
+vvadd1	OUT_OF_BOUNDS	7	Final unrolled groups access indexes1000 through1007
+vvadd2	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	7	Four-element stride divides n1000
+vvadd3	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	6	Duff-style per-hart remainder handles count500
+vvadd4	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	12	Each interleaved index is bounded
+ad_matmul	DIMENSION_MISMATCH	13	32-wide strides and loop bounds
+ae_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	40	lda-dependent partition with4x8 unrolling
+af_matmul	DIMENSION_MISMATCH	17	32-wide input/output row strides
+ag_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	24	lda-dependent partition
+ai_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	20	lda-dependent partition
+ak_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	16	lda-bounded block iteration
+al_matmul	DIMENSION_MISMATCH	15	32-wide row/column loops
+am_matmul	DIMENSION_MISMATCH	15	32-row partition and strides
+an_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	23	Current16-wide block shape
+ap_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	22	lda-dependent loops
+aq_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	15	Current16-wide interleaved shape
+ar_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	19	Oversized scratch buffer but lda-bounded accesses
+at_matmul	DIMENSION_MISMATCH	123	Active transpose reads32 rows and columns
+av_matmul	DIMENSION_MISMATCH	19	Hardcoded rows16 through31
+ay_matmul	DIMENSION_MISMATCH	15	512-element hart slices and32-wide stride
+az_matmul	DIMENSION_MISMATCH	16	512-element hart slices and32-wide stride
+bb_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	7	lda-dependent4-row partition
+bc_matmul	HART0_ONLY_FALLBACK	129	lda16 bypasses optimized2-hart kernel
+bf_matmul	DIMENSION_MISMATCH	18	32-wide row/column loops
+bh_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	22	lda-dependent half partitions
+bj_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	22	lda-dependent half partitions
+bk_matmul	DIMENSION_MISMATCH	12	32-wide loop bounds and strides
+bm_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	47	Current16-wide4-row blocks
+bo_matmul	DIMENSION_MISMATCH	22	32-wide loop bounds and strides
+br_matmul	DIMENSION_MISMATCH	17	32-sized blocks not clipped to lda16
+bs_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	9	Current16 rows divide8-row interleaving
+ce_matmul	DIMENSION_MISMATCH	50	32-column partition writes through C271
+cf_matmul	DIMENSION_MISMATCH	16	32-wide loop bounds and strides
+cg_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	23	lda-dependent4-row partition
+ci_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	19	lda-dependent partition
+ck_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	17	lda-bounded block iteration
+cl_matmul	DIMENSION_MISMATCH	16	32-wide loop bounds
+cm_matmul	DIMENSION_MISMATCH	32	32-wide loop bounds
+cs_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	9	Current16 rows divide4-row interleaving
+cv_matmul	DIMENSION_MISMATCH	16	Hardcoded rows16 through31
+cy_matmul	DIMENSION_MISMATCH	16	512-element hart slices and32-wide stride
+dc_matmul	HART0_ONLY_FALLBACK	160	lda16 bypasses optimized2-hart kernel
+df_matmul	DIMENSION_MISMATCH	39	32-wide loop bounds
+dm_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	53	Current16-wide4-row blocks
+do_matmul	DIMENSION_MISMATCH	11	32-row partition and loop bounds
+dr_matmul	DIMENSION_MISMATCH	17	32-sized blocks not clipped to lda16
+ds_matmul	NO_OBVIOUS_CURRENT_SIZE_MISMATCH	9	Current16 rows divide8-row interleaving
+du_matmul	DIMENSION_MISMATCH	15	32-row partition and strides
+dv_matmul	DIMENSION_MISMATCH	18	32-wide loop bounds and strides

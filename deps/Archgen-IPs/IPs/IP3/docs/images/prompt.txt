@@ -1,0 +1,17 @@
+Use case: infographic-diagram
+Asset type: architecture PNG for a hardware repository
+Primary request: Draw a precise clean engineering block diagram for chipyard.DualRocketNVDLAConfig, IP3, highlighting NVDLA additions relative to a plain dual Rocket SoC.
+Style: flat technical diagram, white background, dark navy readable type, thin clean orthogonal connectors, restrained teal inherited blocks and orange new blocks, generous spacing, landscape, high resolution. No 3D chip art.
+Title: "IP3 — Dual Rocket + NVDLA small"
+Subtitle: "Orange = additions relative to IP1"
+Inside a large ChipTop boundary, arrange:
+Top left two separate teal CPU blocks "Rocket hart 0 · RV64 + FPU" and "Rocket hart 1 · RV64 + FPU". Under each its own "L1 I$ 32 KiB · D$ 32 KiB".
+Middle-left horizontal teal "TileLink system bus (SBUS)" connected to both CPU cache blocks.
+Below it "Shared inclusive L2 · 512 KiB" connected toward a bottom "64-bit AXI4 memory port". Outside ChipTop below memory port, label "External memory system" and "256 MiB address window at 0x80000000". Do not imply DRAM or a DDR PHY is on chip.
+From system fabric branch to teal "64 KiB scratchpad · 0x08000000" and "Peripheral bus (PBUS)" with existing teal "UART · CLINT · PLIC", "Boot ROM · JTAG debug · Serial TileLink", and "Clock / reset controls". Main clock is external, no on-chip PLL.
+Right half is a large orange outlined group "NEW: NVDLA nv_small · INT8". Inside show readable block groups: "Convolution: CDMA → CBUF 128 KiB → CSC → CMAC A/B → CACC"; "SDP · elementwise / conversion"; "PDP · pooling"; "CDP · LUT / LRN hardware"; "MCIF · 64-bit AXI DMA"; "CFGROM · control · interrupt". Use clear grouped rectangles; do not wire an invented serial chain through SDP,PDP,CDP. These engines share MCIF access.
+Between PBUS and NVDLA control draw orange small box "NEW: TileLink → APB" with bidirectional control connector, label "Registers: 0x10040000–0x1007ffff".
+Between NVDLA MCIF and SBUS draw orange small box "NEW: AXI4 → TileLink adapters" with bidirectional connector labeled "Coherent DMA".
+Draw one orange dashed arrow from NVDLA interrupt to PLIC labeled "New device interrupt".
+Footer within generous margin: "Separate accelerator variant: no FFT in IP3" and "Architectural view · not a physical floorplan".
+Constraints: exactly two CPUs; exactly one NVDLA group; CBUF stays inside NVDLA; no FFT, Gemmini, GPU, BDMA or CVSRAM blocks; distinguish PBUS control from SBUS DMA. Do not claim timing or completed physical implementation. Text legibility and correct connections are more important than decorative detail.

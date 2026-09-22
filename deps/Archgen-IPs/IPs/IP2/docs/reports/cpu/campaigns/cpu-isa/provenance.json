@@ -1,0 +1,2463 @@
+{
+  "started_utc": "2026-09-12T12:43:43Z",
+  "simulator": "${CHIPYARD_ROOT}/sims/verilator/simulator-chipyard.harness-DualRocketFFTConfig",
+  "simulator_sha256": "5945b691918e61aaf05431f07b8f40cdf87e6431ab4981e310c188a8b38fbd5c",
+  "chipyard_root": "${CHIPYARD_ROOT}",
+  "dramsim_ini_sha256": {
+    "DDR3_micron_64M_8B_x4_sg15.ini": "d80668c4f4cc1fe9a7dbaaf0b3e5230cf93e9058aa7e5d83cb25fa421aad3b37",
+    "system.ini": "0b360fe6d596cb4c66565d4ea52b78f6dd12148120d610957bcda2e95b55a464"
+  },
+  "manifest": "${REPO_ROOT}/build/cpu-rebuilt/isa.tsv",
+  "manifest_sha256": "bb6757ba97f41261b7fcd1f081a2a4926f43382002e6ee8a0842dbb170cddd64",
+  "jobs": 2,
+  "max_cycles": 2000000,
+  "wall_timeout_seconds": 300,
+  "seed": 1,
+  "loadmem": true,
+  "tests": [
+    {
+      "test": "rv64mi-p-access",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-access",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "7804b7224f22e7e643b16d3b83d2b9c9a6be62abd70cb860f39d424d433ca059"
+    },
+    {
+      "test": "rv64mi-p-breakpoint",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-breakpoint",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "54623fa0b08f1a88cc8263ac81beba4b99636cfce4bd06e9495422dd0e34fb24"
+    },
+    {
+      "test": "rv64mi-p-csr",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-csr",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "0ddbd24b87703196b21e20fbc202d2ddcf41ffd74beaf211b75ad86576922667"
+    },
+    {
+      "test": "rv64mi-p-illegal",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-illegal",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "3c32cc43913559366303831eae36ee40741243bc745962b7d4747bdc7e305871"
+    },
+    {
+      "test": "rv64mi-p-ld-misaligned",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-ld-misaligned",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d8666ff9e9e03d963f2a377b79a3f1ca9ced19aaa7312ad51b2c7eca1c4e1b1c"
+    },
+    {
+      "test": "rv64mi-p-lh-misaligned",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-lh-misaligned",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ad2f2944ee15e4e16bdcc8da0a82bfbce572804ad8d7305ed3f2270aa5c144cf"
+    },
+    {
+      "test": "rv64mi-p-lw-misaligned",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-lw-misaligned",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "933486e0d2d75b8647c7017a89f4fd45b294d59ffef81b2c89713c89139c1332"
+    },
+    {
+      "test": "rv64mi-p-ma_addr",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-ma_addr",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "79f156357e5f83edde9bc3454ee47e7b1ecdd9127ffbbc91f496550a4e05f1a4"
+    },
+    {
+      "test": "rv64mi-p-ma_fetch",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-ma_fetch",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "7558a29b3e22fce4d7bf707162b537afc7d482f9ae51ef7d67b9bb1dd0d64100"
+    },
+    {
+      "test": "rv64mi-p-mcsr",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-mcsr",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "9665822ad79ce9761fc717e75613c03b23fe26910c70bd0a03e5dbb69644fa63"
+    },
+    {
+      "test": "rv64mi-p-sbreak",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-sbreak",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f8b7a05a45c2dc7adcbc52da1fe61053c9088a5dbd3303994f80035206cc7094"
+    },
+    {
+      "test": "rv64mi-p-scall",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-scall",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "9f38665fda07e416e4e91fbeddd4159155f8a449c0038c3b8125adbdff17283c"
+    },
+    {
+      "test": "rv64mi-p-sd-misaligned",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-sd-misaligned",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "dc185769fc822900bfccbf1d3a9700b3d675b237ac22f65f2772de3ab97359fa"
+    },
+    {
+      "test": "rv64mi-p-sh-misaligned",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-sh-misaligned",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "80d1a0d3f133b0702d0c9b7c6cf9956ff99c1536b9c1363792eda59202a3fea7"
+    },
+    {
+      "test": "rv64mi-p-sw-misaligned",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-sw-misaligned",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "160788ceee38387c7bdc00af80da443f467e2ff5e7e1c59d6551793765ade025"
+    },
+    {
+      "test": "rv64mi-p-zicntr",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mi-p-zicntr",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e88ef60e13e2047f35ab672d983e2406bbac9106bedfea8afb6ad17cf6a4ab99"
+    },
+    {
+      "test": "rv64mzicbo-p-zero",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64mzicbo-p-zero",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ebcc8a36034b3102846c5e8d2823483ae5ed54e0675161acc13e78b7acfaba8e"
+    },
+    {
+      "test": "rv64si-p-csr",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64si-p-csr",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "81072ed60ac9607f8d159df830877af34fbac1a20fb6f4990529b32323c19dc6"
+    },
+    {
+      "test": "rv64si-p-dirty",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64si-p-dirty",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "7229f7aec8e5dd84db0221484febdc7fbc00cc3b0518ada9aa02490ee744e484"
+    },
+    {
+      "test": "rv64si-p-icache-alias",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64si-p-icache-alias",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "64d7a963c64c93ec6fc6ad1504c8a228016088fb4e7042cfa11c4c4f086b29c8"
+    },
+    {
+      "test": "rv64si-p-ma_fetch",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64si-p-ma_fetch",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "0424079d4cd6429d039e534b07b51a83eff1e465c2f2c645c766dca6b9993262"
+    },
+    {
+      "test": "rv64si-p-sbreak",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64si-p-sbreak",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "0b1b969561579b17558bd9ee97c5fadc8266c79a72ffa2329e8d113f7f37efbc"
+    },
+    {
+      "test": "rv64si-p-scall",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64si-p-scall",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "b4ce7916a0d310f2d4db548fbd3e5813f9715d4d2f459000df96234e67c6e9c4"
+    },
+    {
+      "test": "rv64si-p-wfi",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64si-p-wfi",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "1330a8388222990576af49149e9421b3917f88f9e93df217394b99d31dff1a7a"
+    },
+    {
+      "test": "rv64ssvnapot-p-napot",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ssvnapot-p-napot",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "00a9b0ca8053bfe4ef42e4a74593e5d0ea79cc8e38e5bc263fb82f4e4ac50714"
+    },
+    {
+      "test": "rv64ua-p-amoadd_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amoadd_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "283c2377cc6a98368d94b6d60c987c492ad29de52cd0795ee87710558945cd2a"
+    },
+    {
+      "test": "rv64ua-p-amoadd_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amoadd_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "7b8071ec27ec6a2e5786119ccabd0bf26bee4cf41a68fe78af784e2747f075f0"
+    },
+    {
+      "test": "rv64ua-p-amoand_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amoand_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "5a774309e14b4ae7b6af2dcab79061ca98d350068a8346edb80540e04ff5f361"
+    },
+    {
+      "test": "rv64ua-p-amoand_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amoand_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "3466e259cf3bd3782e204790b4a01de56c189dd5b6c2ace7f82c7344b62c2f15"
+    },
+    {
+      "test": "rv64ua-p-amomax_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amomax_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "424bb7c082f9c56f029e7048d93b4e033f1d146b2ad477af87fa8f2f6af62147"
+    },
+    {
+      "test": "rv64ua-p-amomax_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amomax_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ca13aa8fb743013b060994bd5d09eeb164495372a244d01078dd1f020d32bd0e"
+    },
+    {
+      "test": "rv64ua-p-amomaxu_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amomaxu_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e358030e049935a51cbc19ce94db1810e5157d349cb58c199be1a9836e3fd04b"
+    },
+    {
+      "test": "rv64ua-p-amomaxu_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amomaxu_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "8236dc089e84f8e1feaf665547cbcaa312529e7958a2190aeead5e728b34b0b8"
+    },
+    {
+      "test": "rv64ua-p-amomin_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amomin_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2ca22b8b28df0d9aa21ed97965748f29b42e6efffe1ce96dcc95e96ca8ec04b5"
+    },
+    {
+      "test": "rv64ua-p-amomin_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amomin_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "34e255194319fc560ab8bffdee4ca6e9465ef63f6047524a47a77eaf7cafa6ea"
+    },
+    {
+      "test": "rv64ua-p-amominu_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amominu_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c277aee32e72df3fedb3ab5044ac1815ebda1dcdef1ead2476d851ca0d9ff46d"
+    },
+    {
+      "test": "rv64ua-p-amominu_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amominu_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "0a673f9806e83de4585c2c32c95688c458be276a3d63786d8881789666aca2a8"
+    },
+    {
+      "test": "rv64ua-p-amoor_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amoor_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "897773187f2389506ae8fb77eef23dfdb2b5b1da94e8c707438d65a4110c74e4"
+    },
+    {
+      "test": "rv64ua-p-amoor_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amoor_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e45cb9d29c5eaea0d89b461178e390438feb856b8eb936aac104877b866a3fec"
+    },
+    {
+      "test": "rv64ua-p-amoswap_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amoswap_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e6c9a06b3e7422af3e06bac0be82221127462ec97e3e427876e0175c3d76b822"
+    },
+    {
+      "test": "rv64ua-p-amoswap_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amoswap_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "0bcba698f724a00a897303858d14eacd720aa9513bc78b8153b030435092fc39"
+    },
+    {
+      "test": "rv64ua-p-amoxor_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amoxor_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f71d36447f9b026aa95569628293094584ba0eb99763ed60e4f062b24738cc19"
+    },
+    {
+      "test": "rv64ua-p-amoxor_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-amoxor_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "b1771c32c72d8bf424e460eb30beda5d310ee6b0808d9fa34edd3d92eb5431d6"
+    },
+    {
+      "test": "rv64ua-p-lrsc",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-p-lrsc",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "5bc23d518fce163a271ab27cd3eaf3cda224e7eab17fed0ee6642285db4d2f48"
+    },
+    {
+      "test": "rv64ua-v-amoadd_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amoadd_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "969afab6907301357c98013e5aa7ca2ba93e9268f227c0f0e6e5249f6e6c5ee9"
+    },
+    {
+      "test": "rv64ua-v-amoadd_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amoadd_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "bdb4971d5ee164f0b99c979070882f3d02531e45bf8a08a12ce5f1d261c6240e"
+    },
+    {
+      "test": "rv64ua-v-amoand_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amoand_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "6ef1c09114a7e9c282336836573abbc726c365d8fc22a0fb33f6d5562c7490be"
+    },
+    {
+      "test": "rv64ua-v-amoand_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amoand_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "1b21014e44e0959e448e30ed53550d41776d0853ca0de6ba712950db8f6f741d"
+    },
+    {
+      "test": "rv64ua-v-amomax_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amomax_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e70d611865de7115fae2c408ae576c2333028db196e16d6bc6fce9816fdb4cf6"
+    },
+    {
+      "test": "rv64ua-v-amomax_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amomax_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "cbec18b50d43182e29d27d4601c73515ed2ceb315858b3d2f5abd6401b6d47f6"
+    },
+    {
+      "test": "rv64ua-v-amomaxu_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amomaxu_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "1cba2937030d9265be7290759f181091f640d003136cf540f6f740d0aeb1ecf1"
+    },
+    {
+      "test": "rv64ua-v-amomaxu_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amomaxu_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2b62c238e290b1530a283c4d47f663d18cbe6e6b17e3c0c57ff8ca6dc448e168"
+    },
+    {
+      "test": "rv64ua-v-amomin_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amomin_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "7f048e637cb8866ee4288cc0f573a0a7a35dea65cd38b08ff1939b12e6d621f1"
+    },
+    {
+      "test": "rv64ua-v-amomin_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amomin_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "15cf8542f580ebd24e552c7685740d83ff9c4d6888bbb4c4d8b246cd11c0ef8a"
+    },
+    {
+      "test": "rv64ua-v-amominu_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amominu_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "b7543a11ed7202e96d4668c97f289a00a9c0ec9875af2923c2046b08c2463074"
+    },
+    {
+      "test": "rv64ua-v-amominu_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amominu_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "529b583bbbba74f52bc1c5a42a03252ada3d232e6b4df5230a09b425280fe37a"
+    },
+    {
+      "test": "rv64ua-v-amoor_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amoor_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d753cd329b7724e918216881e318c598d21279aa7c4f769c8e18330260519915"
+    },
+    {
+      "test": "rv64ua-v-amoor_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amoor_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ef9c19aa30eacbdee5c2d83eef594ff1ccfd4401fc9327f32f55a71df87e1d23"
+    },
+    {
+      "test": "rv64ua-v-amoswap_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amoswap_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "6b348e859a6d0e98c85a97532fab79d72e86ca6beeccfebc9b338d0fea425ad5"
+    },
+    {
+      "test": "rv64ua-v-amoswap_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amoswap_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "1844c0c981ebd5947424769f62f0d09fc4d27b7dbbd5c61bb163cd148ba88b5b"
+    },
+    {
+      "test": "rv64ua-v-amoxor_d",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amoxor_d",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "51b1973254a56e90f3624c41e1c4f0f7b20ef879bbf3448e6213a736e6c75ba9"
+    },
+    {
+      "test": "rv64ua-v-amoxor_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-amoxor_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2d2cf1514ed39132bce8a98255308dcc944e01f8a3eb1e2f936990a81e663aa8"
+    },
+    {
+      "test": "rv64ua-v-lrsc",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ua-v-lrsc",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d42424eca27816d01f5e191bf04b7c185cb44e38868337219655cacc0add6db1"
+    },
+    {
+      "test": "rv64uc-p-rvc",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uc-p-rvc",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "8c4aa3f4a60058c35d956ba86eb4b983d285ce8c8b5eed9194a897cfbacdfd4a"
+    },
+    {
+      "test": "rv64uc-v-rvc",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uc-v-rvc",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "5a6554a06d571a8bc93d5c27154ae9d639a1adffe19e74869a5b5caf82619248"
+    },
+    {
+      "test": "rv64ud-p-fadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-p-fadd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "80c2a07b02721000417534eb4f30234d118492a17c0d2114efbb7d5f32b06dab"
+    },
+    {
+      "test": "rv64ud-p-fclass",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-p-fclass",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "3a890ea5e04bb3f938f4cf326a59db594896a9e2873a9f09af95067f4e5a7fdd"
+    },
+    {
+      "test": "rv64ud-p-fcmp",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-p-fcmp",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "cf4c1d10ea6c2247e570f60db273cc9ffd91b410eb124563b6626aed426f1669"
+    },
+    {
+      "test": "rv64ud-p-fcvt",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-p-fcvt",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "1396bff7a41f277f74971953ba896edd1f4e5b0c53085442e66466bf0f7c5b9e"
+    },
+    {
+      "test": "rv64ud-p-fcvt_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-p-fcvt_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "acf2f24b75a8758600cf511c615f22d46780ca8ab4b071c6cc3a06bd9e8d30ed"
+    },
+    {
+      "test": "rv64ud-p-fdiv",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-p-fdiv",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "cab121b52c4c7719faa13a661616d83ed39a473d7d716fa4cfe49b8e80634495"
+    },
+    {
+      "test": "rv64ud-p-fmadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-p-fmadd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "badaa5df2fb66eb8c5e509a13d59efd7891a5db887d2fec2c3031c05de1fbde8"
+    },
+    {
+      "test": "rv64ud-p-fmin",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-p-fmin",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d8984acdc15d22e391a9cda82c85c5708b1edd09c4c7452de3d864d7f72e0f1e"
+    },
+    {
+      "test": "rv64ud-p-ldst",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-p-ldst",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e7101b6d057ede7f60df609354fdb5bc443b95205441aaaeb48dbaf4144c87e1"
+    },
+    {
+      "test": "rv64ud-p-move",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-p-move",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d61909a48474062f4061cb78c8c80eae7b407dd374567da91021ea7078db9066"
+    },
+    {
+      "test": "rv64ud-p-recoding",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-p-recoding",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "13dae325ee0b2d6d205444e86e050f6c0bbdaefcdece79b394188788fbdcc7d2"
+    },
+    {
+      "test": "rv64ud-p-structural",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-p-structural",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ded26ea358d197308b4d1752532ee6d942801e5f5989389345186ada96cba287"
+    },
+    {
+      "test": "rv64ud-v-fadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-v-fadd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2857fb37d0cc6e9d7a5f657644f29a30f7dd6e921e96e6aaf0f6912b6f688af2"
+    },
+    {
+      "test": "rv64ud-v-fclass",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-v-fclass",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "7ce7f808e805849462ab4bfe45ef80f68e085cd49b077d0de10569477328f5c9"
+    },
+    {
+      "test": "rv64ud-v-fcmp",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-v-fcmp",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "6e53e4652a19e3dec2f2a662f0388a9d3d9b20a8e3d9d5a8bc8dbf7547b9ae87"
+    },
+    {
+      "test": "rv64ud-v-fcvt",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-v-fcvt",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d213af62d2159b86fa629257e6ad8a5d05d0eb1107d389935e7cedb07b25d136"
+    },
+    {
+      "test": "rv64ud-v-fcvt_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-v-fcvt_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d862c43292d895a25f486c681ec91fd9f9ed1967181576e0f0d4223c182cd327"
+    },
+    {
+      "test": "rv64ud-v-fdiv",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-v-fdiv",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "8c2fb8b159c80414d14403d71564a753c267a172fbe17e9550cc839a012058b1"
+    },
+    {
+      "test": "rv64ud-v-fmadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-v-fmadd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "5c37b779d6198f566ff5179789d254dd12aa00b8dbed13bcc31e0ca24b6115dd"
+    },
+    {
+      "test": "rv64ud-v-fmin",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-v-fmin",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "471e7219522ba96c71be8674f3daecd477a0d349bcfb4d828872b733190fb9a3"
+    },
+    {
+      "test": "rv64ud-v-ldst",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-v-ldst",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "397a09c4641e4f9781f1bd48e171a9ee2ff38e9d2bffa283098d8fe38f233682"
+    },
+    {
+      "test": "rv64ud-v-move",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-v-move",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d0c86d9e1c5c8b611e60e7defa0a3bdd485290d76783486261d510d74301723d"
+    },
+    {
+      "test": "rv64ud-v-recoding",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-v-recoding",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "517a2c64074befd20076299337b372bbe53208d1d642e43bf6604e42de2c713e"
+    },
+    {
+      "test": "rv64ud-v-structural",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ud-v-structural",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "8b493a8b619b647dec23202d3b79f090b62f5391e685fed90f1153f26cc92994"
+    },
+    {
+      "test": "rv64uf-p-fadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-p-fadd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f1940d45f3aa72d9255228304e5e0573c572e4415a1be7b40b03a0dab13fed67"
+    },
+    {
+      "test": "rv64uf-p-fclass",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-p-fclass",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "79269774dd989cf19514094f2f558d1b3712ac29eff795209fee6498a3e163c6"
+    },
+    {
+      "test": "rv64uf-p-fcmp",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-p-fcmp",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e57186e261cd3422655c1c8af2890cc83d328cef7343dd8f149de0b6d298d5b7"
+    },
+    {
+      "test": "rv64uf-p-fcvt",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-p-fcvt",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c83b659bd8bebb0a3ad5fa42a3b3e643786e453ee4e0148ae8269972829ac6b9"
+    },
+    {
+      "test": "rv64uf-p-fcvt_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-p-fcvt_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "598fdc8611808f8d825b3026e73da6e29d4b07c931be11b34c506c4f0b28df58"
+    },
+    {
+      "test": "rv64uf-p-fdiv",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-p-fdiv",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "8cb9d88c9e0cb2991b7b8b075397b859745e6195ec7c4f806603855472845d88"
+    },
+    {
+      "test": "rv64uf-p-fmadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-p-fmadd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c230bdbca7156b496330d38e39aa685f8028a3ed2aa6f600948c38623de31114"
+    },
+    {
+      "test": "rv64uf-p-fmin",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-p-fmin",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "fd74c357515dbde852cb5af33ffa614ad32fb40eb64c6a686ba0b2eacbf30b8c"
+    },
+    {
+      "test": "rv64uf-p-ldst",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-p-ldst",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "8edb3e1899b09c8c0abd472861a83c4f3d5c2e70e38c17ade1d1b65409d0165b"
+    },
+    {
+      "test": "rv64uf-p-move",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-p-move",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c4244730763f9e10b91c2d3f31dcc15b5b80fb6eba08a8a25b173591ac35ebea"
+    },
+    {
+      "test": "rv64uf-p-recoding",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-p-recoding",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "dc760af55211dd21164eb01dacdefe4289e7200010ccbbde617f12bb25b33d60"
+    },
+    {
+      "test": "rv64uf-v-fadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-v-fadd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "3ad8f9eda5c32167e361cf3ffd41116bf63625ccf0144884752de470917b9a82"
+    },
+    {
+      "test": "rv64uf-v-fclass",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-v-fclass",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "5172fba7e1b787890e9e7d6098db291cfc709d548146265b51c0875f1fc0c80a"
+    },
+    {
+      "test": "rv64uf-v-fcmp",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-v-fcmp",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "9282c780d3f0f6fb9b92a14678eefa00da4e4577dcba1f003e1339a6eda01f20"
+    },
+    {
+      "test": "rv64uf-v-fcvt",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-v-fcvt",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "44c38cb6b5a56d11b899203e2eaf18bf31bebfb1053e6fb4f70165581071a6db"
+    },
+    {
+      "test": "rv64uf-v-fcvt_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-v-fcvt_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d1d4633b6cb8dd49611a884b70d9391b3521a2fc7b5a137df5f90c5e415486b4"
+    },
+    {
+      "test": "rv64uf-v-fdiv",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-v-fdiv",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "21b230d3035adc5eeb99271b26376995ae96da6d8939a34b1a8f5006e82b26ac"
+    },
+    {
+      "test": "rv64uf-v-fmadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-v-fmadd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d1bdd6422d70f606d5254cb16b64f9345da0d39ea976126a35ab3ec120d92521"
+    },
+    {
+      "test": "rv64uf-v-fmin",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-v-fmin",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d309fb9cb32f3b98fa02a5d0de7446914b3bc0d06b79351db930e93b619401e1"
+    },
+    {
+      "test": "rv64uf-v-ldst",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-v-ldst",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f22ebfbd363cbcb914c66d21c04baed3828db3d4106b44b5800f04dc5fd3b633"
+    },
+    {
+      "test": "rv64uf-v-move",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-v-move",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "7cbb746c83f0e1c187cb39c84d3b32a55d3bbf6a76676dd90ebf5f62eceb0213"
+    },
+    {
+      "test": "rv64uf-v-recoding",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uf-v-recoding",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "5a07309bce209d39cd9763be8ac77bfea88b82a66c9ee5f35344b650f7812ae6"
+    },
+    {
+      "test": "rv64ui-p-add",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-add",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "cf56272719cc8ea836bae20be5834b0eef80bb2216b6649f64c9bfd444dbbbef"
+    },
+    {
+      "test": "rv64ui-p-addi",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-addi",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "0dd7186caa9845c5d2a4607d3a975101fd308d04d408a7589c9b639c41135840"
+    },
+    {
+      "test": "rv64ui-p-addiw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-addiw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "4ea7e590dc7ecc8f57b0ff9f2b7be665a51bdcdfc828605a2e6e2cac4d680961"
+    },
+    {
+      "test": "rv64ui-p-addw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-addw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "36e2fcffca516f83be36a1a9aa9c9b9370b26e994fd2e63ea294d6ac1d74d07a"
+    },
+    {
+      "test": "rv64ui-p-and",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-and",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "76c25895bd52fa9778545fd332ff0176c00f59b37e453b9b861637d2b5a0368f"
+    },
+    {
+      "test": "rv64ui-p-andi",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-andi",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "dd4218760a6efaa3bc3c4e563765939618d9a9070c58cd757f79c48a845a8a02"
+    },
+    {
+      "test": "rv64ui-p-auipc",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-auipc",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2984a20fca706cf5dcd19a537995ad3fea891d3d4b27ef33f741e5c07eeb3144"
+    },
+    {
+      "test": "rv64ui-p-beq",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-beq",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "a05128985bf64e107a0d6f235f1bdd4ba7aa9d32e8c4602b4ef9e1c4c2087ee2"
+    },
+    {
+      "test": "rv64ui-p-bge",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-bge",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "614c3dc322e949711274e5aef1c815b35c15cf986d92ee26e93e16769c4dc174"
+    },
+    {
+      "test": "rv64ui-p-bgeu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-bgeu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "969a1b9f7f5ca538a713cd0966f4d324ecf4341dd55c8d7887ea3cac90ced5b2"
+    },
+    {
+      "test": "rv64ui-p-blt",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-blt",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ed562091a72c0b1bbe7ee8ed9164b47ca47e0a8afd96b03999566fd05fbecd15"
+    },
+    {
+      "test": "rv64ui-p-bltu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-bltu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "404ba5751f830cd975886eeb398a577a4e90c3380c4e38b4b89698bdda5d05a5"
+    },
+    {
+      "test": "rv64ui-p-bne",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-bne",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "40b1b8ee5786e73ec50278d5837086d2f226e718c9b043199c01f53f075c5d18"
+    },
+    {
+      "test": "rv64ui-p-fence_i",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-fence_i",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "666265d83bca22056e8b9cf5c75fd98a2dfbb1070a27ec9567b532b27b1cceb7"
+    },
+    {
+      "test": "rv64ui-p-jal",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-jal",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "83170e5fe1e94d9ad6471fa719055ea4d861d0d03e594fab856a3f6684ddf642"
+    },
+    {
+      "test": "rv64ui-p-jalr",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-jalr",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "b7a4ba003895dbbb8b486ecd0c8bbc62c6b17fb0d4393c8806fcb0a2e5708bb3"
+    },
+    {
+      "test": "rv64ui-p-lb",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-lb",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d20cd3662e0483650f9f5ff4ba5633913bb3e690312183dd6bec37bc0de6e612"
+    },
+    {
+      "test": "rv64ui-p-lbu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-lbu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "dbfad2bce808dda4aa02760d4cfa43e0a393af6bd44cb13e54bc0dcae950425d"
+    },
+    {
+      "test": "rv64ui-p-ld",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-ld",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2b288e131b2775fcfae0197d4380cc8aa52e91f8efff462799cca6b66d8a37cb"
+    },
+    {
+      "test": "rv64ui-p-lh",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-lh",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "621a8014a2ea120e139b38325fe677bb87f2f74db6635d7965652cb4b6dadbd7"
+    },
+    {
+      "test": "rv64ui-p-lhu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-lhu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2ea0ecd5f9b8e0d22d4237ffcedf67d94d6eb30084020ada4db87a756720a3df"
+    },
+    {
+      "test": "rv64ui-p-lui",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-lui",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "71997bd941240552b9cfaf76c293363e99a2e2bbc0fa0f6e8870ef976a2fda8a"
+    },
+    {
+      "test": "rv64ui-p-lw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-lw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e5f394f5098c9d7c2cde5b8e0ec8515fe1f268eadb172ece939e4d5ed37621f9"
+    },
+    {
+      "test": "rv64ui-p-lwu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-lwu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d7d97fbf31a77d372622034efc53f40bdc4ceb09543cb502ef362234b2f3ad24"
+    },
+    {
+      "test": "rv64ui-p-ma_data",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-ma_data",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "20c312a4feb33449c326b0000284120320244cf96e127cebe4fd7b9cf86bfa27"
+    },
+    {
+      "test": "rv64ui-p-or",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-or",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "b16d5c96829ac48962be8c75147f3fbec109eda5bece121c32b39eb7270e4168"
+    },
+    {
+      "test": "rv64ui-p-ori",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-ori",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "fc76a721bd1f7236603b87452ed0df99c4e2c2588c718dff863ab980249cda50"
+    },
+    {
+      "test": "rv64ui-p-sb",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-sb",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "3c333669362ee44d8b1072800beaf79daa15da5b14864c9452aa181de85c8f8f"
+    },
+    {
+      "test": "rv64ui-p-sd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-sd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "cb7d5035b4c8016aef4c311530355948c7569cc4ed4cfd9441ee6e14010e1b42"
+    },
+    {
+      "test": "rv64ui-p-sh",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-sh",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "acc970549172bb1aa38b7a96644882fd100df62b069971910ebe50dddb80e22c"
+    },
+    {
+      "test": "rv64ui-p-simple",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-simple",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "dafef66ab8dcaf3d3233e5fb145b07ec0d92c468c025615941b497d296e8bf98"
+    },
+    {
+      "test": "rv64ui-p-sll",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-sll",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e4aa7dec13b832e95437c10a02748f3d4aca988a790209bd1bfb87f6a6ccf003"
+    },
+    {
+      "test": "rv64ui-p-slli",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-slli",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ff7dbfbed8535fbc48f2167dc287aff47c94f2c031cff264e6cf8d09119840ec"
+    },
+    {
+      "test": "rv64ui-p-slliw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-slliw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "57f9115a1092dd9133c1edf053793d63eb0471b7ccf62c060e93a567101d7983"
+    },
+    {
+      "test": "rv64ui-p-sllw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-sllw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f02efae0fedd8285372df90b2b0773f4f29e6c50e3594b80948dd77940cade85"
+    },
+    {
+      "test": "rv64ui-p-slt",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-slt",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2906df1d7a6773b81a0c8bdffa711e6f793f3c1fe332a75cb85aac51841cc489"
+    },
+    {
+      "test": "rv64ui-p-slti",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-slti",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "be4a299cd3a971f121c96adcfac88166ccd622a5734990cd4b1e3dfa84f292ac"
+    },
+    {
+      "test": "rv64ui-p-sltiu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-sltiu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "a28a4e302106df519b42a7b9777377fef38df95ceda085da802e6628c75ffce4"
+    },
+    {
+      "test": "rv64ui-p-sltu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-sltu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "adfd6d92853ffdbef6d785dda9bf0732a0e383298f19f6a5263f6cbcbfb9c759"
+    },
+    {
+      "test": "rv64ui-p-sra",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-sra",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "dd9ea828e1de491560e6a335191346b81397f44ccac765bbe2351f7d0b776417"
+    },
+    {
+      "test": "rv64ui-p-srai",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-srai",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "27d2cc2cbd11bdd07f2aac985116c8864cf65138c33154254424bb498b5ab85c"
+    },
+    {
+      "test": "rv64ui-p-sraiw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-sraiw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e073b7554f9bc77df4c7c2fdac1895206d2d2ac483fba9d92aae7ddfdb2c3824"
+    },
+    {
+      "test": "rv64ui-p-sraw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-sraw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ee64e799cd76ca5c09cb6466fa2c3123f4f6924d7828d460cedf1b4f9f8f1ff8"
+    },
+    {
+      "test": "rv64ui-p-srl",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-srl",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "6c4a4d614c7e8a601f6126aebc2c493b038605a43a5cfc15fc93bd3eb7c7ee2c"
+    },
+    {
+      "test": "rv64ui-p-srli",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-srli",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e67d86e479b1036dda5d892d1a66446872693bca69febf3a39c916ce831730fb"
+    },
+    {
+      "test": "rv64ui-p-srliw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-srliw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "deb6ecee647198e64c4651f127a4f734379e538ec0f46bec2a0e18aaddebbccb"
+    },
+    {
+      "test": "rv64ui-p-srlw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-srlw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c98af01c4c136c6b0c5669c9905dd34733fb180fb02f1510550596c2f9aebe9c"
+    },
+    {
+      "test": "rv64ui-p-sub",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-sub",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "1e2d5f0a6926aa9da388cd4aaa7760ce98383be97986ac35619bf8435b5564bf"
+    },
+    {
+      "test": "rv64ui-p-subw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-subw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "37033a25d4d512fc0e4a2d209c4cd857b736357bbff8ba9e84f7e4bf3fc59c79"
+    },
+    {
+      "test": "rv64ui-p-sw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-sw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "4fd6319ac32ed9ef875bc3b1c9fe46dfa307359984000b2f1ec90a08357f8599"
+    },
+    {
+      "test": "rv64ui-p-xor",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-xor",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c6b70e24353bcb61ed15d22fd40af7aea24a99063ed957d49b5268fe9d61e1a6"
+    },
+    {
+      "test": "rv64ui-p-xori",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-p-xori",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "025e77a7b52e40d9aa8c7d5dbd60bcadd9c946620e498d481ba60a96d396ff69"
+    },
+    {
+      "test": "rv64ui-v-add",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-add",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "86b12a577a04e97d1af73db2474a0efad6089d91d044ce5cd0220fa3fc622a9a"
+    },
+    {
+      "test": "rv64ui-v-addi",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-addi",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e10fa804b94a55204cf2833e57cdb04f4086e80f6a2d6d19b4441beba7d7ce7e"
+    },
+    {
+      "test": "rv64ui-v-addiw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-addiw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "a308a90ffb462aec88b277ebdada446bd6ec44c5c69f0506c40d38ec6f290164"
+    },
+    {
+      "test": "rv64ui-v-addw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-addw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "60cfcc0edea4325e4c189da7be95e7fb6b9614c36ffbb6d61dcf5bc66fa6dccd"
+    },
+    {
+      "test": "rv64ui-v-and",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-and",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "66e0608f183dc39781e0f02526c5fc8c0d3f72d4b2fd23140cdedb8f2ed53532"
+    },
+    {
+      "test": "rv64ui-v-andi",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-andi",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "817251123078cca563d160072106efabcb1a0b8ff68dec2a2cd27b98c1a081b2"
+    },
+    {
+      "test": "rv64ui-v-auipc",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-auipc",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "05f2c758df09c4ee6d7a7329448ac136a3e9d42928130b4f9aabc858e4dae770"
+    },
+    {
+      "test": "rv64ui-v-beq",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-beq",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f9ba9e0ca4c87c68b7f4f194988381295d354ad577b2692c0ff4419892fcf425"
+    },
+    {
+      "test": "rv64ui-v-bge",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-bge",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "8efd397650fa44cd59a6c6e2e78bcf4b6be348d6987b1f7ffdbb09de7b521a56"
+    },
+    {
+      "test": "rv64ui-v-bgeu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-bgeu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e8e855ccaefdf560935d9dca10cfe5314decac12360b787c5acc2a1d6027c846"
+    },
+    {
+      "test": "rv64ui-v-blt",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-blt",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "eddc2884a16f7b613f72b4a1f195071bfe1409027ad3fa1d5dd41815eb681cc5"
+    },
+    {
+      "test": "rv64ui-v-bltu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-bltu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "9949a7a2c844ad7a82a7be90bb95288e1b06ef90af6806b29036fefcadb5f073"
+    },
+    {
+      "test": "rv64ui-v-bne",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-bne",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "0f065b617d70d2bb14c370a7792542ef46477f00ba643c0dc5721a0d3d43550e"
+    },
+    {
+      "test": "rv64ui-v-fence_i",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-fence_i",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "04b94f262d9b91e84514140d14b50ef4d437bf948c5b0170b530357e3b6d4f70"
+    },
+    {
+      "test": "rv64ui-v-jal",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-jal",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "9d42ac98a75b7e4d8a179237220892a6341af94e90c2b0be6484391593cbfb44"
+    },
+    {
+      "test": "rv64ui-v-jalr",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-jalr",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "682a81fa0e26b8faef58748c9a030a473b37d5de64cbc7b3a6de7e61814ba6e1"
+    },
+    {
+      "test": "rv64ui-v-lb",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-lb",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ebc785d2fecb8bb907643b0ced75d0dad23c81b9bde9517c83b75bd3ee9ac38d"
+    },
+    {
+      "test": "rv64ui-v-lbu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-lbu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "61edd3a4749b1a4c7451625b7938d2cc0dbb1e65efcf8cb428507dc182b98f23"
+    },
+    {
+      "test": "rv64ui-v-ld",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-ld",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d759c8548673e933ca0c9f7a091b7e0dba99c9e084046cc151145a30f41d3fff"
+    },
+    {
+      "test": "rv64ui-v-lh",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-lh",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "296ef42ae055c7aeed6b60ca3e2ad0ae4a84ffaec1556c57afceb7e116c3c538"
+    },
+    {
+      "test": "rv64ui-v-lhu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-lhu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "668bcfa1881c3e27be1e0dd523dd6fa5c605555710aa73382f5320d76153030e"
+    },
+    {
+      "test": "rv64ui-v-lui",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-lui",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "b2d01ab8ce3776aac3ae4dce30b3289de2039c8d1bef6edadb33613b59092348"
+    },
+    {
+      "test": "rv64ui-v-lw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-lw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "08fb53a320661578ed10d8055e3b2bf5fb16579c976b925cc75a7c9ac145f079"
+    },
+    {
+      "test": "rv64ui-v-lwu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-lwu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "4ae12c414a2c4e7da9ea1b8ab7c47f2ed2fb582200f94dde841f2b0e666373e1"
+    },
+    {
+      "test": "rv64ui-v-ma_data",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-ma_data",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d3c3c78b203312d544ff03193c37ff26701d8de64c45449ead9060882d040c4c"
+    },
+    {
+      "test": "rv64ui-v-or",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-or",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "b71e555d0f9329c485baf5e8e705e9dd1a378ed7797802742ead8b573ccb1ab8"
+    },
+    {
+      "test": "rv64ui-v-ori",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-ori",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d748d13e691c026273a8e30805ea70997972983416b31813d4ecafba2480d949"
+    },
+    {
+      "test": "rv64ui-v-sb",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-sb",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "63bc897d834b1f5dba216bddebb06aa6d2d6a0e8a2e6adf1dd1d3c59b1fe4d85"
+    },
+    {
+      "test": "rv64ui-v-sd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-sd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "9ef541463eb081ff6239170cce99b9afed7de98b8d593970f58a8e8ec81a4a37"
+    },
+    {
+      "test": "rv64ui-v-sh",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-sh",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f816ccff9c4df33a2f75b27ec4ac5d55badd805bdf1b75e7af2f04dc0693bc47"
+    },
+    {
+      "test": "rv64ui-v-simple",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-simple",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "58462f710a1675395d9facb30c566b79e25cea623e7439c9ae3619847e26509b"
+    },
+    {
+      "test": "rv64ui-v-sll",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-sll",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "5f33fe8ca2e4bd2af492d700e0527afcd4871cdced209a4ceee213a40d282920"
+    },
+    {
+      "test": "rv64ui-v-slli",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-slli",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "10d656858112036d0ac08db49dbed8999002d808d6fad1f2c440e77ce83a598d"
+    },
+    {
+      "test": "rv64ui-v-slliw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-slliw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "a366c9308b1bb94a2060584d8f235d5a4f2bf352b1cf3c09c91528d30b0ddc7e"
+    },
+    {
+      "test": "rv64ui-v-sllw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-sllw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "b35c45b78d1b52d1817b208fca7872df979a06106873d8be57c1254e4d2c3458"
+    },
+    {
+      "test": "rv64ui-v-slt",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-slt",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "81fa85f07c426fd3db803d325715352fb3e4e3c15a12afa3abcaadefd4ac44e4"
+    },
+    {
+      "test": "rv64ui-v-slti",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-slti",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "9ca7243278b1df62b823acbe6eca39f15613e2aec2c0e53ddac671efa5e2a1fa"
+    },
+    {
+      "test": "rv64ui-v-sltiu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-sltiu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c013e6a30853f09b844307586629f73eda68b9994a990cb013a9c6c4e01fc6e7"
+    },
+    {
+      "test": "rv64ui-v-sltu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-sltu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "236e2bc9a5d5af49d2e4239acdea2836cfea87ff57deb45e59267fc2a68b8859"
+    },
+    {
+      "test": "rv64ui-v-sra",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-sra",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "0a64a7154985ad45240286e573e7cbf8326ee80ff8c8302277c723899563afea"
+    },
+    {
+      "test": "rv64ui-v-srai",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-srai",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "dfc9b363a2d7f574f84d757c46738318dda338ac8ae916ace2bb04fd8113251b"
+    },
+    {
+      "test": "rv64ui-v-sraiw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-sraiw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2f63fb5af4004fb63adaa6caddd78eaca57be62dbb8af1d845871c4a0709950b"
+    },
+    {
+      "test": "rv64ui-v-sraw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-sraw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "6ffaf7e2eba23e0043a87398dcddc2309d5821a183b4341bafd1a16c30d7ddec"
+    },
+    {
+      "test": "rv64ui-v-srl",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-srl",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "8db551412185e2cbf834ba025270d8be136698b04490d91a37945fc00505fa57"
+    },
+    {
+      "test": "rv64ui-v-srli",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-srli",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "53bdd2ad05abe4c291e1d6789bbcb7539f825b3249e832b8e195d673a3be95b5"
+    },
+    {
+      "test": "rv64ui-v-srliw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-srliw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "87d18bc4d0dba61af9ab49715fb632f7a2b069ea186270fad1c5f707cf9c61b4"
+    },
+    {
+      "test": "rv64ui-v-srlw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-srlw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "06cc50e6ccfcc0f05c774acc15cfe163cdba66d78bd6b8164a07d7ea6cacefde"
+    },
+    {
+      "test": "rv64ui-v-sub",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-sub",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e24f407f6b04baf0d1b94cafc899ff70b65fea632a50c99ca6229336b10bff4d"
+    },
+    {
+      "test": "rv64ui-v-subw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-subw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "a7f8c20d54c83e339e3ce6a77fac410d79bc6094ab771adf033d77ed072033b5"
+    },
+    {
+      "test": "rv64ui-v-sw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-sw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ebd9ed595041f50889e981fb1af6de9a53e3ea7958c9be4ac513bc5ca8042e71"
+    },
+    {
+      "test": "rv64ui-v-xor",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-xor",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "7e5386ee54210572c416d9ec2a5123d32d4a3c9e632a293e30c575f3c3f65b05"
+    },
+    {
+      "test": "rv64ui-v-xori",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64ui-v-xori",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "8398837d3e0b624723decdbf4eb06290ac10eb2aa36d7720fa173b06065e7d85"
+    },
+    {
+      "test": "rv64um-p-div",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-p-div",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "27670a198f11c69fffc55ffbb8bc1a1732f043e0d71eea9724c460c55563378f"
+    },
+    {
+      "test": "rv64um-p-divu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-p-divu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e124d045d7d1ab426fd6244675366a52dcb5a9458abb223c663f9429809eaf17"
+    },
+    {
+      "test": "rv64um-p-divuw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-p-divuw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "a3ba9b9bf8c6e569ac0b313b9839e65557011d01973f7dfd4b55e846aa72694b"
+    },
+    {
+      "test": "rv64um-p-divw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-p-divw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "4971f0222e8a974c86e9bd65d234e0f4adbbbeb1a372ea542c440dabd41d8d01"
+    },
+    {
+      "test": "rv64um-p-mul",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-p-mul",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "a0cca16fd4125c5444171d0aa1ee2815678f8f7a4f51085bd6a23e2cd56fffb7"
+    },
+    {
+      "test": "rv64um-p-mulh",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-p-mulh",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "6f5addd604af9aa7f5e777713e1bdca63e88b27efd6ab9bc42bc0b1bd0ac9ae6"
+    },
+    {
+      "test": "rv64um-p-mulhsu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-p-mulhsu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "6d7b36d79d94bdd3c9702156a3a6456bf6d055cc73f77bec2e7b40b0aaa277a9"
+    },
+    {
+      "test": "rv64um-p-mulhu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-p-mulhu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "dddbcc9836cbf51fe658c5fedad445508f9227b5f7f3a7e5705b4bcc756c83bd"
+    },
+    {
+      "test": "rv64um-p-mulw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-p-mulw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f33ee0ba7e9a8e9da9ca31c674a156e72ac013477fde6720dd88a5eb36c27b59"
+    },
+    {
+      "test": "rv64um-p-rem",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-p-rem",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2c1c7d6a9ec09a4b5759cb437603a9c54c5aabef826c3268f353af9fa3c38c87"
+    },
+    {
+      "test": "rv64um-p-remu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-p-remu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "1e5579a61c4b65d225bd7964682379b18dd261d48d8403e5fd685ebf57715df7"
+    },
+    {
+      "test": "rv64um-p-remuw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-p-remuw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2fd5fb37d312c4976e02256276ac579ee3a72ca9916308f98a1ddeed1cc58cc2"
+    },
+    {
+      "test": "rv64um-p-remw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-p-remw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ee40a6278a2ccbccc331668704adf6cd4efa9d8526e7cff2eef28a244da52b6f"
+    },
+    {
+      "test": "rv64um-v-div",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-v-div",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e84a5e0c16ca899caef264d718e70f60c66e77b88ec862c6d1ddcd66a031b312"
+    },
+    {
+      "test": "rv64um-v-divu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-v-divu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "cecb9c60c996313b302f6faaa95ac1d12a2bec0861d403ab9d9178e7f469a5eb"
+    },
+    {
+      "test": "rv64um-v-divuw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-v-divuw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d6c212879b30b6783d7eca45421b17432c9a9130c2f1643afe2a03fc5ce9969e"
+    },
+    {
+      "test": "rv64um-v-divw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-v-divw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "9ce0b3f8a359951d3060a5a91652b371e5fab33f98bc680dd9c455df12e6e4f9"
+    },
+    {
+      "test": "rv64um-v-mul",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-v-mul",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "a5fa03ca46270a87d79c03b5a3a6f159b4075a465430129834b5957677fabda6"
+    },
+    {
+      "test": "rv64um-v-mulh",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-v-mulh",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "edda708c831b3f090b4d48277aeb0f4fbcc16cb4863a9c0575315fe69b766b94"
+    },
+    {
+      "test": "rv64um-v-mulhsu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-v-mulhsu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "594201cd95e715a576b5880ff650d6cf28bc55dc37c13771114a198bece259bf"
+    },
+    {
+      "test": "rv64um-v-mulhu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-v-mulhu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f4a3581467b555273cbbd341576b1a5e40b0b5fc6fb9121c3cb32489c5f3264a"
+    },
+    {
+      "test": "rv64um-v-mulw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-v-mulw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d3a809aac45f8d0eaecb4cb5731e2612e0bb858fa5220d4f5355cb8fc9e515a1"
+    },
+    {
+      "test": "rv64um-v-rem",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-v-rem",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "77f03d7d70eba641e4a3c18d3a445cb33c1ff358b09bca6240f1ab1a55bbaa80"
+    },
+    {
+      "test": "rv64um-v-remu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-v-remu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "34372331f05c6298b93b0407a564d891fb7125455f6be53388bf0fd194550f0a"
+    },
+    {
+      "test": "rv64um-v-remuw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-v-remuw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c92a7dea99d8e237326ca4852052da9cbaa64081bb94c78dc925dd9bf0a85e2c"
+    },
+    {
+      "test": "rv64um-v-remw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64um-v-remw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c4ba4ae72f0381fef11b19ce135090c520a27f66cb7a7c5c1f5481704a600761"
+    },
+    {
+      "test": "rv64uzba-p-add_uw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-p-add_uw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "748f154491acc776b7bf85ee8affb70740b936c31c917fb4fa024166ce8ab93e"
+    },
+    {
+      "test": "rv64uzba-p-sh1add",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-p-sh1add",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "1158a76112e50e78605ac4af32649bd4f6588dfc265328e2af93c18545f56f2b"
+    },
+    {
+      "test": "rv64uzba-p-sh1add_uw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-p-sh1add_uw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c3062b9907849caecb47382829af4be72d9e00322aecd773dc93ece6f5729e8c"
+    },
+    {
+      "test": "rv64uzba-p-sh2add",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-p-sh2add",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e9b97f74f5fa50cbb179e338bd0eb206f06b6eee5d22f265d45f419daa58b889"
+    },
+    {
+      "test": "rv64uzba-p-sh2add_uw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-p-sh2add_uw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2a35d63cc40f703459e09f2dfc98a89d6a2172103f8b0369929dc7cfe4eb4b47"
+    },
+    {
+      "test": "rv64uzba-p-sh3add",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-p-sh3add",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f4cf11344612dca737c0a01dd6d42f70bf72417bae4460510bd7258733b85cbc"
+    },
+    {
+      "test": "rv64uzba-p-sh3add_uw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-p-sh3add_uw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "07a4833e77b4cd9d971678be3dc49ab8dcd4ab1b28398695d031f84b01562935"
+    },
+    {
+      "test": "rv64uzba-p-slli_uw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-p-slli_uw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "1e383ba377df8282e40d25964f562f93a4dd96c05765bd65288a91cdff31500e"
+    },
+    {
+      "test": "rv64uzba-v-add_uw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-v-add_uw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "99520fd221e9706333820a12a9ae2504db108b3d9b200fff1a92485de0d9c1d6"
+    },
+    {
+      "test": "rv64uzba-v-sh1add",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-v-sh1add",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "8a83c6f1e27b4b933c2d4d2f189644c6d4e446da0e22b82900815f460a924b66"
+    },
+    {
+      "test": "rv64uzba-v-sh1add_uw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-v-sh1add_uw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "bca92cbd1e40325a59638cce28d17085bb713014c3882d86885359a34b8d714b"
+    },
+    {
+      "test": "rv64uzba-v-sh2add",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-v-sh2add",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "b56f8d7a045b59ec47dcc93279d3380d67004986bce76907c834b90f88e896d7"
+    },
+    {
+      "test": "rv64uzba-v-sh2add_uw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-v-sh2add_uw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "cab13122de278b470d9926a7c0e1caba406920fee02c3de1fcb906c8788d574b"
+    },
+    {
+      "test": "rv64uzba-v-sh3add",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-v-sh3add",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "810b803a72f8878b4531a3fbb307e6c2a26e15c2091687fbdcf8d011e2c819e7"
+    },
+    {
+      "test": "rv64uzba-v-sh3add_uw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-v-sh3add_uw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c8314161c1c3386edee4452099924b9769c2c4afcce1cc17175c9df97f17555b"
+    },
+    {
+      "test": "rv64uzba-v-slli_uw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzba-v-slli_uw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "649c1cfa8a5a9ab9ac458fa5604733440b6f07b419f13673c804a2e8bec4694b"
+    },
+    {
+      "test": "rv64uzbb-p-andn",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-andn",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "04bc5d85ccfb7e54ebd1be3f372b2f7b68f5b5e43543b63ec0fa58c4921a88c8"
+    },
+    {
+      "test": "rv64uzbb-p-clz",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-clz",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "fbd6add4d468f4d4a2ea4998cd09770e758d4c7a84a19d6bfa89f826406d1d2d"
+    },
+    {
+      "test": "rv64uzbb-p-clzw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-clzw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "299c4013bdc59b2ebbb802eb4e2fdbe6a12d824b601f1bd209debe7d33ed38b7"
+    },
+    {
+      "test": "rv64uzbb-p-cpop",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-cpop",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "92d0bb0b7a08b0c4ac788848f6370a3e8f19661b9f1a2b0a1344653524068957"
+    },
+    {
+      "test": "rv64uzbb-p-cpopw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-cpopw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ac9511b0d67f89dc19344fb42373a64f4b39510a2e2efc11cc3c49c6d74d3df6"
+    },
+    {
+      "test": "rv64uzbb-p-ctz",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-ctz",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "35d01fd7636f42083631563510383b5ac6a7fa50c25c5242f2a90a9cdba68051"
+    },
+    {
+      "test": "rv64uzbb-p-ctzw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-ctzw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "49d058e3f98d1b3c0f897c6064e2af6a5cff979beba1b078ac2ccfe4b136a051"
+    },
+    {
+      "test": "rv64uzbb-p-max",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-max",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "af33151bc86c24b4be469e0b5d5b34483c27cddfcdbbe7f4f78d4ab8aac93973"
+    },
+    {
+      "test": "rv64uzbb-p-maxu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-maxu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "de18e407534102524f22d2dead251dd26d07148f94d83e90e1f7dced266339fa"
+    },
+    {
+      "test": "rv64uzbb-p-min",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-min",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f11192902faab1330e967e8107c869877606db69a131330373518e2344761754"
+    },
+    {
+      "test": "rv64uzbb-p-minu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-minu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "a4493ea6d28647e57f77332e0a2e2406fa785c259754f533bb195e3d003530f4"
+    },
+    {
+      "test": "rv64uzbb-p-orc_b",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-orc_b",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "bda16e9304319e904bdab4a3d18bfd650a45dbb4d519a1ea2cec28e0db1e0da6"
+    },
+    {
+      "test": "rv64uzbb-p-orn",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-orn",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "867ef1bac0dcaee6cc661b1a022ce27f7cbd2d7505c20c1cb46d7e68def325af"
+    },
+    {
+      "test": "rv64uzbb-p-rev8",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-rev8",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2795a4cc712bba35e7aad824808937fbc9992f6b0e2f84eab9b397d83b9f1041"
+    },
+    {
+      "test": "rv64uzbb-p-rol",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-rol",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "afa8753f83d3e402e596b480aee09fcf417313f9138b61819bef8eb37f856473"
+    },
+    {
+      "test": "rv64uzbb-p-rolw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-rolw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "38087ef98922c830034a4706bfe370c63d7c2210435926ade70beb6d879794f3"
+    },
+    {
+      "test": "rv64uzbb-p-ror",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-ror",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d82a5931542ba13033ade93c4a84972fe6b31f4f0cc9dc769c9dcac80f41853c"
+    },
+    {
+      "test": "rv64uzbb-p-rori",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-rori",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "62cdf261674f6a62535f6932ad651a19e050a57dbe91b658d8a43c43e17d8621"
+    },
+    {
+      "test": "rv64uzbb-p-roriw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-roriw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "884fc6f3de97fb67212c819ad80e6a8986701a3e4d01fc8d7223a8fecdcd5f62"
+    },
+    {
+      "test": "rv64uzbb-p-rorw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-rorw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d73f632a4cc779a30537a547073acea47434cc14d11d81448024a84d485bc046"
+    },
+    {
+      "test": "rv64uzbb-p-sext_b",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-sext_b",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "7c72be77c3d96f64f1a1fb51543bffaa1240ee4191b5293623b37d2958955aa6"
+    },
+    {
+      "test": "rv64uzbb-p-sext_h",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-sext_h",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "0aff94f5881771b433aa36aa0756e5ac429c8680a214ae90cbd870e159236a1e"
+    },
+    {
+      "test": "rv64uzbb-p-xnor",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-xnor",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "9e2914d56d1c59e54b9dcf65d5c6f5d98b63c87ec3057fb932ba509193db07e0"
+    },
+    {
+      "test": "rv64uzbb-p-zext_h",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-p-zext_h",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "3f46e1715e279591a78cf363d32ac46988b8b14c9f518ba27eddfd549097e865"
+    },
+    {
+      "test": "rv64uzbb-v-andn",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-andn",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f7e62783c7724a3ada3d3ebbcae82e183cfab286116369da7102f708f0ea9ba2"
+    },
+    {
+      "test": "rv64uzbb-v-clz",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-clz",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "86304d2a61867bfbaac7b538d1673f715d1262ebb408fe700388ccf18f624d44"
+    },
+    {
+      "test": "rv64uzbb-v-clzw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-clzw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "0493bf5ee363f8b8eae8c423d29cdc010aeb5e51f88c7721732793633758a257"
+    },
+    {
+      "test": "rv64uzbb-v-cpop",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-cpop",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "93bc30253f216ae5bba2e807b8658823fc6e877a6c2e545bffd5db935aa7a672"
+    },
+    {
+      "test": "rv64uzbb-v-cpopw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-cpopw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "dc237bc098d1e7072c96f17e63909bb5ba6845bcd6d727936bb728c67f769432"
+    },
+    {
+      "test": "rv64uzbb-v-ctz",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-ctz",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "448050a37f2acd2419cb3a1eb62138abc40d58233ba9536095dcc859a12e3825"
+    },
+    {
+      "test": "rv64uzbb-v-ctzw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-ctzw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "62b361c886a8fd045343c1a77b1f522fa663032c86cf1b7576fa8e22f7eec8dc"
+    },
+    {
+      "test": "rv64uzbb-v-max",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-max",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "cc85d33c7d61b2fde01f2b26bd0605bbf29669b05ec025bb7847c0c3fe06657e"
+    },
+    {
+      "test": "rv64uzbb-v-maxu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-maxu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "8a1813087750e4b010bd0c1e497144aff8a7c91f2e76013082a32a17de7e5326"
+    },
+    {
+      "test": "rv64uzbb-v-min",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-min",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "0fab0d6ae60867ec0cc85b345675e83d30b8b4b8ff0080597db12b3ce5f4df94"
+    },
+    {
+      "test": "rv64uzbb-v-minu",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-minu",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c0ed44d0f7f338eb3f25be2d59fd08edacd6ee07e42163863e9c052873b05d12"
+    },
+    {
+      "test": "rv64uzbb-v-orc_b",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-orc_b",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "1276bdf3496ea713be94d6f2d01f43118ba874f215163eec0445ec91d74cde54"
+    },
+    {
+      "test": "rv64uzbb-v-orn",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-orn",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "483c3c0df631ce0ce84e3b441dbc3da54e509da71bfb3ffb278c78e66271e913"
+    },
+    {
+      "test": "rv64uzbb-v-rev8",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-rev8",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "9609e3c3b80b4b9dba82b0f9d9262440821f705a079ad2aeb8b24034af11ac57"
+    },
+    {
+      "test": "rv64uzbb-v-rol",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-rol",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "85a8189a7ea47c915f0fe37f16cfa67522d4e37d84e815ef97a80ac26a7112d6"
+    },
+    {
+      "test": "rv64uzbb-v-rolw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-rolw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "88b1b5df2dca9c96f0bd866cf8197e4c85de123ccd76298d5b3c5437843a2082"
+    },
+    {
+      "test": "rv64uzbb-v-ror",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-ror",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "fbc6ec8ad3e8d711da79d0345713461df78c49965dd6a947c4f223d60c821563"
+    },
+    {
+      "test": "rv64uzbb-v-rori",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-rori",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "b9f6f3d8b145cc878be18c62fcd7fd05d8089cc19ea505c077ae12ca8311054d"
+    },
+    {
+      "test": "rv64uzbb-v-roriw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-roriw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "e21a9877a41662f2e539163bbfbf7bf0355ba3cbb4e55f44ad43b0010c95d832"
+    },
+    {
+      "test": "rv64uzbb-v-rorw",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-rorw",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f7042d39032ef3bd067099c7fbc1ed2306e0f05e2998fcb874476e983f01dc4c"
+    },
+    {
+      "test": "rv64uzbb-v-sext_b",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-sext_b",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "9be9386becfb55d58ea972653d0c7f9a81102ebf37d9f74f00275d86ff7ad349"
+    },
+    {
+      "test": "rv64uzbb-v-sext_h",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-sext_h",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "26a7dd1c8be00207d790080cbfc2822394976d299a7c4992c254433d5ad9fd5d"
+    },
+    {
+      "test": "rv64uzbb-v-xnor",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-xnor",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "b5f8cb7cdd8872d583104b58c20d429f65ee1074f0d7dd1b5a8a85f435d445aa"
+    },
+    {
+      "test": "rv64uzbb-v-zext_h",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbb-v-zext_h",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "09e21c18d12730362346daebcdf3a09b4fea5400a55523f5cbe4738599df6f03"
+    },
+    {
+      "test": "rv64uzbc-p-clmul",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbc-p-clmul",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f1909a291316fdde2f20a7d8a635f0b45f4fd38910f81e1123dc7492c66cd7e0"
+    },
+    {
+      "test": "rv64uzbc-p-clmulh",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbc-p-clmulh",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "69a7ec8e518c2ce136351d6bc7d61f21edc5a06973f7cb4bee30d1b6b3db4383"
+    },
+    {
+      "test": "rv64uzbc-p-clmulr",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbc-p-clmulr",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "8a133059afc60f30a4022bd8c9a0459129541f80a241dabf60a63a096cafdb93"
+    },
+    {
+      "test": "rv64uzbc-v-clmul",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbc-v-clmul",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "7f0fb6ebb39fed2296f7a6d64a97de18e8e2cdee980c5eaa86abeaab7d7c3a0c"
+    },
+    {
+      "test": "rv64uzbc-v-clmulh",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbc-v-clmulh",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ab6da7f061a550458af0c7eebe1c90247669043e7f2d028a0e95a8e1fb0902c3"
+    },
+    {
+      "test": "rv64uzbc-v-clmulr",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbc-v-clmulr",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "ef5c5125944c1e16a8bac74a636cd97dcd237959c095d7c7b2fba03559c49eb3"
+    },
+    {
+      "test": "rv64uzbs-p-bclr",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-p-bclr",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "8273ee4d6666e71b6bac68088365ee62115743e83ee0392565764be647321766"
+    },
+    {
+      "test": "rv64uzbs-p-bclri",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-p-bclri",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "87e20a284b539b8418fa5846722eaa731b8c3ab43a3bafa3d91a972ff60f3bc7"
+    },
+    {
+      "test": "rv64uzbs-p-bext",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-p-bext",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "f9910f81e58f25aebc2d70c1c54a492e175afe4638f07ca2a04edcf4b9c44d0b"
+    },
+    {
+      "test": "rv64uzbs-p-bexti",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-p-bexti",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "1b3a28cbcb2db5a05495bd2afd20f748992f8f4592042ad0069799410ddff7d4"
+    },
+    {
+      "test": "rv64uzbs-p-binv",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-p-binv",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "2008a7342983442afe5a4db8c2d3b18eac436978604dd6f45bf5890792d138d8"
+    },
+    {
+      "test": "rv64uzbs-p-binvi",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-p-binvi",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "957ab373816bbe1d8611f580857b32b1f0ff031da56aa91239ad2f39202cccdf"
+    },
+    {
+      "test": "rv64uzbs-p-bset",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-p-bset",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "065c5e6bc0eec58af7750cedf4dcd476a6bb27859b674594dae003aeeec9ad9a"
+    },
+    {
+      "test": "rv64uzbs-p-bseti",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-p-bseti",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "99a5a3dedb4b19d2812d6319e47223a1ef0035a8652543751b5c141fbf4038f6"
+    },
+    {
+      "test": "rv64uzbs-v-bclr",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-v-bclr",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "b9273d899816309a9a6bdb806d53f43e9f0f313b21254cdcacd9da0b4c1700e6"
+    },
+    {
+      "test": "rv64uzbs-v-bclri",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-v-bclri",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "a041698204a8da714ef896cab1d1aec1c941bc35b6c580c3e413b3c6776683d7"
+    },
+    {
+      "test": "rv64uzbs-v-bext",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-v-bext",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "73dcde36d5a0318b7e24de52b1d8ab439bec7f0ab499cf393eef3d41652b6979"
+    },
+    {
+      "test": "rv64uzbs-v-bexti",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-v-bexti",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "3382a691f02eac430eec7f635f58736895610ed5795c3fc241b2085924da3d27"
+    },
+    {
+      "test": "rv64uzbs-v-binv",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-v-binv",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c3ee1fcecdf1dfae9afd976aa6490d238cf86c45fcb8a4ede0f0de4e6c8d82d8"
+    },
+    {
+      "test": "rv64uzbs-v-binvi",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-v-binvi",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "7591eab759d7dacabe83e6fdcfe328fbdcb9aeaa09bdfee579d640fe1f889c29"
+    },
+    {
+      "test": "rv64uzbs-v-bset",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-v-bset",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "11d3ec807dbaa8f225bb02226393e26984fdaf27edd5a2aa5d5429e041e0253b"
+    },
+    {
+      "test": "rv64uzbs-v-bseti",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzbs-v-bseti",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "7f80563f1a8b34c387ba61c9f55c2c03fefa26581d5e8228073555acfb1ed679"
+    },
+    {
+      "test": "rv64uzfh-p-fadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-p-fadd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "9e29a8993002939bae2288e559173b392b25321aa8b0b6b7d5b03471090ffd22"
+    },
+    {
+      "test": "rv64uzfh-p-fclass",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-p-fclass",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d8bc0a91411bd18199b69bc232f8d6b2ee05d647ee383fda2bc8d35c2be98f77"
+    },
+    {
+      "test": "rv64uzfh-p-fcmp",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-p-fcmp",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "9a8c18172473c5533e8e9f758bac43390c653a3a9128240dc186c2e6aa217174"
+    },
+    {
+      "test": "rv64uzfh-p-fcvt",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-p-fcvt",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "5f9ade8e827df5d4232b01ecb86449b725854fef5b0c3aa416a262851a563c93"
+    },
+    {
+      "test": "rv64uzfh-p-fcvt_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-p-fcvt_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c039e6a1b8e88e989bd2b485e69ed7a5f2d7dfc19f28e5fc798066e6e728ecef"
+    },
+    {
+      "test": "rv64uzfh-p-fdiv",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-p-fdiv",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "6f9116e2b4d79cd18e9119a93474ccf390df47f6f399480f96333b11fde25539"
+    },
+    {
+      "test": "rv64uzfh-p-fmadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-p-fmadd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "05ef3ace06d043175337f49a2b95ee82963a6295f80afc8225a6f6f31cc90af1"
+    },
+    {
+      "test": "rv64uzfh-p-fmin",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-p-fmin",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "6fad0c8149e83acc55214a845e7eb7527a1ce3d9775673955e396589187875dd"
+    },
+    {
+      "test": "rv64uzfh-p-ldst",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-p-ldst",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "3725e64973e9bbcab449bdf057e9b9b198d50ab889025a76a76e8f84339ca8bc"
+    },
+    {
+      "test": "rv64uzfh-p-move",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-p-move",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c6f624dcd91cd9fc03b11a90b9a21a8e2797adc8ddfa78251b08e1cb98a7bf59"
+    },
+    {
+      "test": "rv64uzfh-p-recoding",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-p-recoding",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "7f44fa29bb131c2b54679ed628f9e234e534d51d048682aa646e96d25f2411a1"
+    },
+    {
+      "test": "rv64uzfh-v-fadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-v-fadd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d767fcd92cb024a2b7678068e60a34783455ce00dcc3b1411287b4b2bd8d44e1"
+    },
+    {
+      "test": "rv64uzfh-v-fclass",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-v-fclass",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d67642c663dff789d430d30016b4e2cde6552518b0bf9904d2cf36676a90e355"
+    },
+    {
+      "test": "rv64uzfh-v-fcmp",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-v-fcmp",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "c1bc9261ef8e7be25a85f4b92bf5d7e1fd898053979102e85cf64d92efba71a2"
+    },
+    {
+      "test": "rv64uzfh-v-fcvt",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-v-fcvt",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "37053a66b50756eb049f86e783e3a7bb6c9742412db5c351a11dadfe6b37a0cc"
+    },
+    {
+      "test": "rv64uzfh-v-fcvt_w",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-v-fcvt_w",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "793a669ff2d8098de8d9a62041a0e5a8c7a3b5ed5ef2b9cb398380ac698d8a8c"
+    },
+    {
+      "test": "rv64uzfh-v-fdiv",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-v-fdiv",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "0fe2b2899d979568e2a64e6c4658cfba1972156ffdeaf28327ea0f8da9b60f6e"
+    },
+    {
+      "test": "rv64uzfh-v-fmadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-v-fmadd",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "713501e4e052a2370501603a0047328b045a4bf1d798b79502fd641a96849fe1"
+    },
+    {
+      "test": "rv64uzfh-v-fmin",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-v-fmin",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "4d327e107f20c6c00a39d8913eeb689882aeabd129b9d8f9cf16ef7d2c275f4d"
+    },
+    {
+      "test": "rv64uzfh-v-ldst",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-v-ldst",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "d5445370db7c7ffab0bf5e7ec990ad65160e7c887de464b85ffd07a3081f2d65"
+    },
+    {
+      "test": "rv64uzfh-v-move",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-v-move",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "492489e8d741eeceef2a420cd72164c5f616b53b99d701c01670f2a6f1377e5f"
+    },
+    {
+      "test": "rv64uzfh-v-recoding",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/isa/rv64uzfh-v-recoding",
+      "suite": "isa",
+      "required_stdout": [],
+      "sha256": "54ee452ef4dc51438e6c9c7e22b331469d1adcc6d05f67fd6bcd6d50ce2de901"
+    }
+  ],
+  "runner_sha256": "2c07f055f0a1de1c31134c99e1443f28db98d9ef8216819be46cc0325db319cb"
+}

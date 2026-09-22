@@ -1,0 +1,2 @@
+Layer,FloorplanFile,Thickness (m),PtraceFile,LateralHeatFlow
+0,/home/boson4/shyam/therm_fm_pact/v_01/archive/design_inputs/archgen_ip3/flp.csv,0.0001,/home/boson4/shyam/therm_fm_pact/v_01/archive/design_inputs/archgen_ip3/ptrace.csv,True

@@ -1,0 +1,9 @@
+{
+  "test": "rv64mi-p-illegal",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 2.031,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64mi-p-illegal/simulation.log"
+}

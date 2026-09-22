@@ -1,0 +1,3 @@
+test	suite	result	exit_status	wall_seconds	cycles	log
+nvdla-negative-control	expected-failure-control	FAIL	255	57.21		${REPO_ROOT}/build/IP3/nvdla-words-controls/nvdla-negative-control/simulation.log
+nvdla-timeout-control	expected-failure-control	FAIL	255	345.392		${REPO_ROOT}/build/IP3/nvdla-words-controls/nvdla-timeout-control/simulation.log

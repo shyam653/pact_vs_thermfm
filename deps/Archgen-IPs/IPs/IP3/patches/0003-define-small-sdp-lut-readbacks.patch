@@ -1,0 +1,18 @@
+diff --git a/src/main/resources/vsrc/small/vmod/nvdla/sdp/NV_NVDLA_sdp.v b/src/main/resources/vsrc/small/vmod/nvdla/sdp/NV_NVDLA_sdp.v
+index 46ef3f8..5d90487 100644
+--- a/src/main/resources/vsrc/small/vmod/nvdla/sdp/NV_NVDLA_sdp.v
++++ b/src/main/resources/vsrc/small/vmod/nvdla/sdp/NV_NVDLA_sdp.v
+@@ -371,6 +371,13 @@ NV_NVDLA_SDP_reg u_reg (
+   ,.sdp2csb_resp_pd (sdp2csb_resp_pd[33:0])
+   ,.sdp2csb_resp_valid (sdp2csb_resp_valid)
+   ,.dp2reg_done (dp2reg_done)
++  // nv_small omits the SDP LUT datapath; define its unused readback inputs.
++  ,.dp2reg_lut_hybrid (32'b0)
++  ,.dp2reg_lut_int_data (16'b0)
++  ,.dp2reg_lut_le_hit (32'b0)
++  ,.dp2reg_lut_lo_hit (32'b0)
++  ,.dp2reg_lut_oflow (32'b0)
++  ,.dp2reg_lut_uflow (32'b0)
+   ,.dp2reg_out_saturation (dp2reg_out_saturation[31:0])
+   ,.dp2reg_status_inf_input_num ({32{1'b0}})
+   ,.dp2reg_status_nan_input_num ({32{1'b0}})

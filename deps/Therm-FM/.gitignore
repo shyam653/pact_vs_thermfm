@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Logs and experiment outputs
+*.log
+wandb/
+checkpoints
+eval_outputs/
+demo_data/
+demo_outputs/
+utils/
+
+# Data (download separately)
+data
+therm_fm_dataset/
+therm_fm_models/
+
+# IDE / tooling
+.idea/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+
+# Paper
+*.pdf
+*.doc

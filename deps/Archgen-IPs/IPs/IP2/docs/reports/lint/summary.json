@@ -1,0 +1,54 @@
+{
+  "verilator": {
+    "exit_code": 0,
+    "errors": 0,
+    "warnings": 2581,
+    "notes": 0,
+    "warning_categories": [
+      {
+        "category": "DECLFILENAME",
+        "count": 1
+      },
+      {
+        "category": "EOFNEWLINE",
+        "count": 4
+      },
+      {
+        "category": "LATCH",
+        "count": 1
+      },
+      {
+        "category": "PINCONNECTEMPTY",
+        "count": 425
+      },
+      {
+        "category": "SYNCASYNCNET",
+        "count": 4
+      },
+      {
+        "category": "UNUSEDPARAM",
+        "count": 1
+      },
+      {
+        "category": "UNUSEDSIGNAL",
+        "count": 2143
+      },
+      {
+        "category": "VARHIDDEN",
+        "count": 2
+      }
+    ]
+  },
+  "slang": {
+    "exit_code": 0,
+    "errors": 0,
+    "warnings": 21,
+    "notes": 21,
+    "warning_categories": [
+      {
+        "category": "arith-in-shift",
+        "count": 21
+      }
+    ]
+  }
+}

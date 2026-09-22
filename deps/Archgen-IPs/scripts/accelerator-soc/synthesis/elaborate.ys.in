@@ -1,0 +1,11 @@
+plugin -i @SLANG_PLUGIN@
+read_slang --top ChipTop --best-effort-hierarchy -D SYNTHESIS -y @RTL_DIR@ -Y .sv -Y .v @CHIP_TOP@ @EXTRA_SOURCES@ @ORIGINAL_MEMORIES@
+hierarchy -check -top ChipTop
+tee -o @OUT@/elaborate-before-clean-statistics.json stat -json -width
+write_rtlil @OUT@/elaborate-before-clean.il
+opt_clean -purge
+tee -o @OUT@/elaborate-after-clean-statistics.json stat -json -width
+write_rtlil @OUT@/elaborate-after-clean.il
+check -assert
+tee -o @OUT@/elaborated-statistics.json stat -json -width
+write_rtlil @OUT@/ChipTop-elaborated.il

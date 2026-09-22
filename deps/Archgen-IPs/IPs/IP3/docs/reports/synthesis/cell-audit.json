@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "allowed_library_cell_types": 136,
+  "observed_cell_types": 34,
+  "generic_memory_exception": true,
+  "scope": "Actual standard-cell and SRAM Liberty declarations; only $mem_v2 additionally allowed in preserve-memories mode"
+}

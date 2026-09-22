@@ -1,0 +1,9 @@
+{
+  "test": "vvadd",
+  "suite": "benchmark-configured",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 23.273,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench-shard-2/vvadd/simulation.log"
+}

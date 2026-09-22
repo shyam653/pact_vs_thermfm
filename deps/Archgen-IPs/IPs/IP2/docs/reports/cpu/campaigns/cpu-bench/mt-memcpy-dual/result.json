@@ -1,0 +1,9 @@
+{
+  "test": "mt-memcpy-dual",
+  "suite": "benchmark-dual",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 102.487,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/mt-memcpy-dual/simulation.log"
+}

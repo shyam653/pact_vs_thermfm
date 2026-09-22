@@ -1,0 +1,9 @@
+{
+  "test": "legacy-bk_matmul-dual",
+  "suite": "legacy-mt",
+  "result": "FAIL",
+  "exit_status": 255,
+  "wall_seconds": 65.059,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/legacy-bk_matmul-dual/simulation.log"
+}

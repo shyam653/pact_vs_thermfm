@@ -1,0 +1,9 @@
+{
+  "test": "rv64ssvnapot-p-napot",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 5.907,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64ssvnapot-p-napot/simulation.log"
+}

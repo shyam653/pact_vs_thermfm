@@ -1,0 +1,333 @@
+1/349 rv64mi-p-access PASS 3.086s
+2/349 rv64mi-p-breakpoint PASS 3.383s
+3/349 rv64mi-p-csr PASS 3.581s
+4/349 rv64mi-p-illegal PASS 3.781s
+5/349 rv64mi-p-lh-misaligned PASS 2.885s
+6/349 rv64mi-p-ld-misaligned PASS 3.937s
+7/349 rv64mi-p-lw-misaligned PASS 2.979s
+8/349 rv64mi-p-ma_addr PASS 4.887s
+9/349 rv64mi-p-ma_fetch PASS 2.98s
+10/349 rv64mi-p-mcsr PASS 2.878s
+11/349 rv64mi-p-sbreak PASS 3.882s
+12/349 rv64mi-p-scall PASS 4.28s
+13/349 rv64mi-p-sd-misaligned PASS 5.891s
+14/349 rv64mi-p-sh-misaligned PASS 3.883s
+15/349 rv64mi-p-zicntr PASS 2.926s
+16/349 rv64mi-p-sw-misaligned PASS 4.387s
+17/349 rv64mzicbo-p-zero FAIL 4.088s
+18/349 rv64si-p-csr PASS 5.347s
+19/349 rv64si-p-dirty PASS 5.402s
+20/349 rv64si-p-icache-alias PASS 6.001s
+21/349 rv64si-p-ma_fetch PASS 4.6s
+22/349 rv64si-p-sbreak PASS 4.339s
+23/349 rv64si-p-scall PASS 4.137s
+24/349 rv64si-p-wfi PASS 4.546s
+25/349 rv64ssvnapot-p-napot PASS 5.907s
+26/349 rv64ua-p-amoadd_d PASS 4.543s
+27/349 rv64ua-p-amoadd_w PASS 4.188s
+28/349 rv64ua-p-amoand_d PASS 4.192s
+29/349 rv64ua-p-amoand_w PASS 4.143s
+30/349 rv64ua-p-amomax_d PASS 4.343s
+31/349 rv64ua-p-amomax_w PASS 4.444s
+32/349 rv64ua-p-amomaxu_d PASS 4.141s
+33/349 rv64ua-p-amomaxu_w PASS 4.593s
+34/349 rv64ua-p-amomin_d PASS 4.445s
+35/349 rv64ua-p-amomin_w PASS 4.392s
+36/349 rv64ua-p-amominu_d PASS 4.444s
+37/349 rv64ua-p-amominu_w PASS 4.244s
+38/349 rv64ua-p-amoor_d PASS 4.09s
+39/349 rv64ua-p-amoor_w PASS 4.19s
+40/349 rv64ua-p-amoswap_d PASS 4.141s
+41/349 rv64ua-p-amoswap_w PASS 4.24s
+42/349 rv64ua-p-amoxor_d PASS 4.242s
+43/349 rv64ua-p-amoxor_w PASS 4.19s
+44/349 rv64ua-p-lrsc PASS 21.642s
+Progress: 44/349, {'PASS': 43, 'FAIL': 1}, elapsed 141s
+45/349 rv64ua-v-amoadd_d PASS 58.996s
+46/349 rv64ua-v-amoadd_w PASS 56.335s
+Progress: 46/349, {'PASS': 45, 'FAIL': 1}, elapsed 197s
+47/349 rv64ua-v-amoand_d PASS 53.999s
+48/349 rv64ua-v-amoand_w PASS 56.222s
+Progress: 48/349, {'PASS': 47, 'FAIL': 1}, elapsed 253s
+49/349 rv64ua-v-amomax_d PASS 54.505s
+50/349 rv64ua-v-amomax_w PASS 57.263s
+Progress: 50/349, {'PASS': 49, 'FAIL': 1}, elapsed 311s
+51/349 rv64ua-v-amomaxu_d PASS 57.839s
+52/349 rv64ua-v-amomaxu_w PASS 62.658s
+Progress: 52/349, {'PASS': 51, 'FAIL': 1}, elapsed 373s
+53/349 rv64ua-v-amomin_d PASS 64.694s
+54/349 rv64ua-v-amomin_w PASS 64.594s
+Progress: 54/349, {'PASS': 53, 'FAIL': 1}, elapsed 438s
+55/349 rv64ua-v-amominu_d PASS 60.622s
+56/349 rv64ua-v-amominu_w PASS 57.384s
+Progress: 56/349, {'PASS': 55, 'FAIL': 1}, elapsed 495s
+57/349 rv64ua-v-amoor_d PASS 55.271s
+Progress: 57/349, {'PASS': 56, 'FAIL': 1}, elapsed 528s
+58/349 rv64ua-v-amoor_w PASS 67.671s
+Progress: 58/349, {'PASS': 57, 'FAIL': 1}, elapsed 563s
+59/349 rv64ua-v-amoswap_d PASS 83.754s
+60/349 rv64ua-v-amoswap_w PASS 70.436s
+Progress: 60/349, {'PASS': 59, 'FAIL': 1}, elapsed 633s
+61/349 rv64ua-v-amoxor_d PASS 55.577s
+62/349 rv64ua-v-amoxor_w PASS 54.523s
+63/349 rv64uc-p-rvc PASS 5.346s
+Progress: 63/349, {'PASS': 62, 'FAIL': 1}, elapsed 693s
+64/349 rv64ua-v-lrsc PASS 75.577s
+65/349 rv64ud-p-fadd PASS 6.658s
+66/349 rv64ud-p-fclass PASS 6.058s
+67/349 rv64ud-p-fcmp PASS 7.359s
+68/349 rv64ud-p-fcvt PASS 6.716s
+69/349 rv64ud-p-fcvt_w PASS 11.885s
+70/349 rv64ud-p-fdiv PASS 7.614s
+71/349 rv64uc-v-rvc PASS 99.355s
+72/349 rv64ud-p-fmadd PASS 6.96s
+73/349 rv64ud-p-fmin PASS 8.119s
+74/349 rv64ud-p-ldst PASS 5.6s
+75/349 rv64ud-p-recoding PASS 6.308s
+76/349 rv64ud-p-structural PASS 7.672s
+77/349 rv64ud-p-move PASS 15.428s
+Progress: 77/349, {'PASS': 76, 'FAIL': 1}, elapsed 816s
+78/349 rv64ud-v-fclass PASS 51.918s
+Progress: 78/349, {'PASS': 77, 'FAIL': 1}, elapsed 868s
+79/349 rv64ud-v-fadd PASS 83.272s
+Progress: 79/349, {'PASS': 78, 'FAIL': 1}, elapsed 899s
+80/349 rv64ud-v-fcmp PASS 78.86s
+81/349 rv64ud-v-fcvt PASS 72.335s
+Progress: 81/349, {'PASS': 80, 'FAIL': 1}, elapsed 972s
+Progress: 81/349, {'PASS': 80, 'FAIL': 1}, elapsed 1002s
+82/349 rv64ud-v-fdiv PASS 65.246s
+83/349 rv64ud-v-fcvt_w PASS 98.08s
+Progress: 83/349, {'PASS': 82, 'FAIL': 1}, elapsed 1045s
+84/349 rv64ud-v-fmadd PASS 67.531s
+85/349 rv64ud-v-fmin PASS 68.183s
+Progress: 85/349, {'PASS': 84, 'FAIL': 1}, elapsed 1113s
+86/349 rv64ud-v-ldst PASS 64.098s
+87/349 rv64ud-v-move PASS 63.027s
+88/349 rv64ud-v-structural PASS 28.499s
+89/349 rv64uf-p-fadd PASS 11.597s
+90/349 rv64uf-p-fclass PASS 10.142s
+91/349 rv64uf-p-fcmp PASS 10.692s
+92/349 rv64ud-v-recoding PASS 74.335s
+93/349 rv64uf-p-fcvt PASS 7.884s
+94/349 rv64uf-p-fdiv PASS 8.582s
+95/349 rv64uf-p-fcvt_w PASS 13.201s
+96/349 rv64uf-p-fmadd PASS 5.368s
+97/349 rv64uf-p-fmin PASS 6.807s
+98/349 rv64uf-p-ldst PASS 4.935s
+99/349 rv64uf-p-recoding PASS 4.539s
+100/349 rv64uf-p-move PASS 5.8s
+Progress: 100/349, {'PASS': 99, 'FAIL': 1}, elapsed 1269s
+101/349 rv64uf-v-fclass PASS 38.065s
+102/349 rv64uf-v-fadd PASS 63.657s
+Progress: 102/349, {'PASS': 101, 'FAIL': 1}, elapsed 1332s
+103/349 rv64uf-v-fcmp PASS 62.302s
+104/349 rv64uf-v-fcvt PASS 62.302s
+Progress: 104/349, {'PASS': 103, 'FAIL': 1}, elapsed 1394s
+Progress: 104/349, {'PASS': 103, 'FAIL': 1}, elapsed 1424s
+105/349 rv64uf-v-fdiv PASS 65.62s
+106/349 rv64uf-v-fcvt_w PASS 95.138s
+Progress: 106/349, {'PASS': 105, 'FAIL': 1}, elapsed 1464s
+107/349 rv64uf-v-fmadd PASS 62.468s
+108/349 rv64uf-v-fmin PASS 61.099s
+Progress: 108/349, {'PASS': 107, 'FAIL': 1}, elapsed 1525s
+109/349 rv64uf-v-move PASS 36.168s
+110/349 rv64uf-v-ldst PASS 60.508s
+111/349 rv64ui-p-add PASS 7.206s
+112/349 rv64ui-p-addi PASS 5.698s
+113/349 rv64ui-p-addiw PASS 5.851s
+114/349 rv64ui-p-addw PASS 6.805s
+115/349 rv64ui-p-and PASS 6.503s
+116/349 rv64ui-p-andi PASS 5.246s
+117/349 rv64uf-v-recoding PASS 59.592s
+118/349 rv64ui-p-auipc PASS 4.139s
+119/349 rv64ui-p-beq PASS 5.396s
+120/349 rv64ui-p-bge PASS 5.998s
+121/349 rv64ui-p-bgeu PASS 6.507s
+122/349 rv64ui-p-blt PASS 6.003s
+123/349 rv64ui-p-bltu PASS 6.607s
+124/349 rv64ui-p-bne PASS 6.403s
+125/349 rv64ui-p-fence_i PASS 5.6s
+126/349 rv64ui-p-jal PASS 4.642s
+127/349 rv64ui-p-jalr PASS 5.149s
+128/349 rv64ui-p-lb PASS 6.003s
+129/349 rv64ui-p-lbu PASS 5.747s
+130/349 rv64ui-p-ld PASS 7.613s
+131/349 rv64ui-p-lh PASS 6.456s
+132/349 rv64ui-p-lhu PASS 6.606s
+133/349 rv64ui-p-lui PASS 5.298s
+134/349 rv64ui-p-lw PASS 6.503s
+135/349 rv64ui-p-lwu PASS 6.856s
+136/349 rv64ui-p-ma_data FAIL 4.341s
+137/349 rv64ui-p-or PASS 7.962s
+138/349 rv64ui-p-ori PASS 5.801s
+139/349 rv64ui-p-sb PASS 7.912s
+140/349 rv64ui-p-sd PASS 10.027s
+141/349 rv64ui-p-simple PASS 5.049s
+142/349 rv64ui-p-sh PASS 9.125s
+143/349 rv64ui-p-slli PASS 6.805s
+144/349 rv64ui-p-sll PASS 8.868s
+145/349 rv64ui-p-slliw PASS 7.212s
+146/349 rv64ui-p-sllw PASS 9.174s
+147/349 rv64ui-p-slt PASS 8.317s
+148/349 rv64ui-p-slti PASS 6.253s
+149/349 rv64ui-p-sltiu PASS 5.749s
+150/349 rv64ui-p-sltu PASS 8.166s
+151/349 rv64ui-p-sra PASS 8.62s
+152/349 rv64ui-p-srai PASS 6.758s
+153/349 rv64ui-p-sraiw PASS 6.355s
+154/349 rv64ui-p-sraw PASS 8.112s
+155/349 rv64ui-p-srl PASS 8.623s
+156/349 rv64ui-p-srli PASS 6.461s
+157/349 rv64ui-p-srliw PASS 6.404s
+158/349 rv64ui-p-srlw PASS 8.262s
+159/349 rv64ui-p-sub PASS 7.863s
+160/349 rv64ui-p-subw PASS 7.105s
+161/349 rv64ui-p-sw PASS 8.069s
+162/349 rv64ui-p-xor PASS 8.167s
+163/349 rv64ui-p-xori PASS 6.054s
+Progress: 163/349, {'PASS': 161, 'FAIL': 2}, elapsed 1780s
+164/349 rv64ui-v-add PASS 44.68s
+165/349 rv64ui-v-addi PASS 42.17s
+Progress: 165/349, {'PASS': 163, 'FAIL': 2}, elapsed 1822s
+166/349 rv64ui-v-addiw PASS 40.808s
+167/349 rv64ui-v-addw PASS 41.298s
+Progress: 167/349, {'PASS': 165, 'FAIL': 2}, elapsed 1863s
+168/349 rv64ui-v-andi PASS 36.607s
+169/349 rv64ui-v-and PASS 63.152s
+170/349 rv64ui-v-auipc PASS 34.907s
+171/349 rv64ui-v-beq PASS 35.415s
+172/349 rv64ui-v-bge PASS 35.059s
+173/349 rv64ui-v-bgeu PASS 34.615s
+174/349 rv64ui-v-blt PASS 35.821s
+175/349 rv64ui-v-bltu PASS 35.864s
+176/349 rv64ui-v-bne PASS 36.115s
+Progress: 176/349, {'PASS': 174, 'FAIL': 2}, elapsed 2042s
+177/349 rv64ui-v-jal PASS 34.82s
+178/349 rv64ui-v-fence_i PASS 59.206s
+179/349 rv64ui-v-jalr PASS 37.776s
+Progress: 179/349, {'PASS': 177, 'FAIL': 2}, elapsed 2114s
+180/349 rv64ui-v-lb PASS 68.097s
+181/349 rv64ui-v-lbu PASS 65.272s
+Progress: 181/349, {'PASS': 179, 'FAIL': 2}, elapsed 2180s
+182/349 rv64ui-v-ld PASS 63.407s
+183/349 rv64ui-v-lh PASS 62.906s
+Progress: 183/349, {'PASS': 181, 'FAIL': 2}, elapsed 2243s
+184/349 rv64ui-v-lui PASS 38.877s
+185/349 rv64ui-v-lhu PASS 63.309s
+Progress: 185/349, {'PASS': 183, 'FAIL': 2}, elapsed 2285s
+Progress: 185/349, {'PASS': 183, 'FAIL': 2}, elapsed 2315s
+186/349 rv64ui-v-lw PASS 66.493s
+187/349 rv64ui-v-lwu PASS 67.719s
+Progress: 187/349, {'PASS': 185, 'FAIL': 2}, elapsed 2353s
+Progress: 187/349, {'PASS': 185, 'FAIL': 2}, elapsed 2383s
+188/349 rv64ui-v-or PASS 68.714s
+Progress: 188/349, {'PASS': 186, 'FAIL': 2}, elapsed 2422s
+189/349 rv64ui-v-ori PASS 35.127s
+Progress: 189/349, {'PASS': 187, 'FAIL': 2}, elapsed 2457s
+Progress: 189/349, {'PASS': 187, 'FAIL': 2}, elapsed 2487s
+190/349 rv64ui-v-sb PASS 64.014s
+Progress: 190/349, {'PASS': 188, 'FAIL': 2}, elapsed 2521s
+Progress: 190/349, {'PASS': 188, 'FAIL': 2}, elapsed 2551s
+Progress: 190/349, {'PASS': 188, 'FAIL': 2}, elapsed 2581s
+191/349 rv64ui-v-sd PASS 90.615s
+Progress: 191/349, {'PASS': 189, 'FAIL': 2}, elapsed 2612s
+Progress: 191/349, {'PASS': 189, 'FAIL': 2}, elapsed 2642s
+192/349 rv64ui-v-sh PASS 61.667s
+Progress: 192/349, {'PASS': 190, 'FAIL': 2}, elapsed 2673s
+193/349 rv64ui-v-simple PASS 38.13s
+Progress: 193/349, {'PASS': 191, 'FAIL': 2}, elapsed 2711s
+Progress: 193/349, {'PASS': 191, 'FAIL': 2}, elapsed 2741s
+194/349 rv64ui-v-sll PASS 60.994s
+195/349 rv64ui-v-slli PASS 24.082s
+196/349 rv64ui-v-slliw PASS 27.708s
+Progress: 196/349, {'PASS': 194, 'FAIL': 2}, elapsed 2824s
+197/349 rv64ui-v-sllw PASS 56.145s
+Progress: 197/349, {'PASS': 195, 'FAIL': 2}, elapsed 2880s
+198/349 rv64ui-v-slt PASS 38.481s
+199/349 rv64ui-v-ma_data WALL_TIMEOUT 600.319s
+200/349 rv64ui-v-slti PASS 34.205s
+201/349 rv64ui-v-sltiu PASS 34.507s
+202/349 rv64ui-v-sltu PASS 35.367s
+Progress: 202/349, {'PASS': 199, 'FAIL': 2, 'WALL_TIMEOUT': 1}, elapsed 2988s
+203/349 rv64ui-v-srai PASS 33.956s
+204/349 rv64ui-v-sra PASS 65.243s
+Progress: 204/349, {'PASS': 201, 'FAIL': 2, 'WALL_TIMEOUT': 1}, elapsed 3048s
+205/349 rv64ui-v-sraiw PASS 58.943s
+Progress: 205/349, {'PASS': 202, 'FAIL': 2, 'WALL_TIMEOUT': 1}, elapsed 3081s
+206/349 rv64ui-v-sraw PASS 85.541s
+207/349 rv64ui-v-srl PASS 68.918s
+208/349 rv64ui-v-srli PASS 34.812s
+209/349 rv64ui-v-srliw PASS 34.658s
+Progress: 209/349, {'PASS': 206, 'FAIL': 2, 'WALL_TIMEOUT': 1}, elapsed 3185s
+210/349 rv64ui-v-sub PASS 36.799s
+211/349 rv64ui-v-srlw PASS 62.216s
+212/349 rv64ui-v-subw PASS 32.524s
+Progress: 212/349, {'PASS': 209, 'FAIL': 2, 'WALL_TIMEOUT': 1}, elapsed 3254s
+213/349 rv64ui-v-sw PASS 56.245s
+214/349 rv64ui-v-xor PASS 60.637s
+215/349 rv64um-p-div PASS 4.943s
+216/349 rv64ui-v-xori PASS 34.161s
+217/349 rv64um-p-divu PASS 4.943s
+218/349 rv64um-p-divuw PASS 4.794s
+219/349 rv64um-p-divw PASS 5.294s
+220/349 rv64um-p-mul PASS 6.51s
+221/349 rv64um-p-mulh PASS 6.605s
+222/349 rv64um-p-mulhsu PASS 6.148s
+223/349 rv64um-p-mulhu PASS 6.653s
+224/349 rv64um-p-mulw PASS 5.901s
+225/349 rv64um-p-rem PASS 4.339s
+226/349 rv64um-p-remu PASS 4.994s
+227/349 rv64um-p-remuw PASS 4.54s
+228/349 rv64um-p-remw PASS 5.043s
+229/349 rv64um-v-div PASS 31.888s
+230/349 rv64um-v-divu PASS 32.758s
+231/349 rv64um-v-divuw PASS 32.099s
+232/349 rv64um-v-divw PASS 31.345s
+Progress: 232/349, {'PASS': 229, 'FAIL': 2, 'WALL_TIMEOUT': 1}, elapsed 3418s
+233/349 rv64um-v-mul PASS 33.253s
+234/349 rv64um-v-mulh PASS 34.561s
+Progress: 234/349, {'PASS': 231, 'FAIL': 2, 'WALL_TIMEOUT': 1}, elapsed 3453s
+235/349 rv64um-v-mulhsu PASS 35.863s
+236/349 rv64um-v-mulhu PASS 36.323s
+237/349 rv64um-v-mulw PASS 33.649s
+238/349 rv64um-v-rem PASS 33.5s
+239/349 rv64um-v-remu PASS 32.204s
+240/349 rv64um-v-remuw PASS 31.739s
+241/349 rv64uzba-p-add_uw PASS 5.998s
+242/349 rv64uzba-p-sh1add PASS 7.816s
+243/349 rv64uzba-p-sh1add_uw PASS 8.422s
+244/349 rv64uzba-p-sh2add PASS 7.111s
+245/349 rv64um-v-remw PASS 35.482s
+246/349 rv64uzba-p-sh2add_uw PASS 7.565s
+247/349 rv64uzba-p-sh3add PASS 7.31s
+248/349 rv64uzba-p-sh3add_uw PASS 6.804s
+249/349 rv64uzba-p-slli_uw PASS 4.843s
+Progress: 249/349, {'PASS': 246, 'FAIL': 2, 'WALL_TIMEOUT': 1}, elapsed 3599s
+250/349 rv64uzba-v-sh1add PASS 33.461s
+251/349 rv64uzba-v-add_uw PASS 37.493s
+252/349 rv64uzba-v-sh2add PASS 26.154s
+253/349 rv64uzba-v-sh1add_uw PASS 30.97s
+254/349 rv64uzba-v-sh3add PASS 22.82s
+255/349 rv64uzba-v-sh2add_uw PASS 33.063s
+256/349 rv64uzba-v-sh3add_uw PASS 27.446s
+257/349 rv64uzbb-p-andn PASS 6.552s
+258/349 rv64uzba-v-slli_uw PASS 25.393s
+259/349 rv64uzbb-p-clz PASS 3.38s
+260/349 rv64uzbb-p-clzw PASS 4.232s
+261/349 rv64uzbb-p-cpopw PASS 3.435s
+262/349 rv64uzbb-p-cpop PASS 4.739s
+263/349 rv64uzbb-p-ctz PASS 3.683s
+264/349 rv64uzbb-p-ctzw PASS 4.495s
+265/349 rv64uzbb-p-max PASS 4.494s
+266/349 rv64uzbb-p-maxu PASS 6.198s
+267/349 rv64uzbb-p-min PASS 4.795s
+268/349 rv64uzbb-p-minu PASS 6.35s
+269/349 rv64uzbb-p-orc_b PASS 4.339s
+270/349 rv64uzbb-p-rev8 PASS 5.14s
+271/349 rv64uzbb-p-orn PASS 6.603s
+272/349 rv64uzbb-p-rol PASS 6.599s
+273/349 rv64uzbb-p-rolw PASS 6.599s
+274/349 rv64uzbb-p-rori PASS 5.037s
+275/349 rv64uzbb-p-ror PASS 6.746s
+276/349 rv64uzbb-p-roriw PASS 5.035s
+277/349 rv64uzbb-p-rorw PASS 6.143s

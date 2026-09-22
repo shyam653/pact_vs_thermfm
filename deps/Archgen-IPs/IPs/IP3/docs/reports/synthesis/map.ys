@@ -1,0 +1,18 @@
+read_rtlil ./ChipTop-macro-elaborated.il
+select -assert-count 194 t:fakeram45_512x64
+opt_expr
+opt_clean
+techmap -map inputs/enabled-output-map.v
+select -assert-none t:$tribuf t:$_TBUF_
+synth -top ChipTop -noabc -run begin:fine
+# Deliberately omit memory_map. Keep exact generic memory port/collision semantics.
+opt -fast -full
+opt -full
+techmap
+opt -fast
+check -assert
+dfflibmap -liberty inputs/cell.lib
+write_rtlil ./ChipTop-before-abc.il
+abc -liberty inputs/cell.lib -script inputs/direct.abc
+clean
+write_rtlil ./ChipTop-after-abc.il

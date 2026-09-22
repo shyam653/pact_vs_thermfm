@@ -1,0 +1,75 @@
+
+-- Executing script file `map.ys' --
+
+1. Executing RTLIL frontend.
+Input filename: inputs/checkpoint.il
+
+2. Executing Liberty frontend: inputs/cell.lib
+Imported 135 cell types from liberty file.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \ChipTop
+
+3.2. Analyzing design hierarchy..
+Top module:  \ChipTop
+Removed 0 unused modules.
+
+4. Executing ABC pass (technology mapping using ABC).
+
+4.1. Extracting gate netlist of module `\ChipTop' to `<abc-temp-dir>/input.blif'..
+Replacing 256 occurrences of constant undef bits with constant zero bits
+
+4.1.1. Executed ABC.
+Extracted 411544 gates and 485369 wires to a netlist network with 73822 inputs and 57214 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Sep  5 2026 04:56:44)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_scl YOSYS_TEMP 
+ABC: Warning: Detected 2 multi-output cells (for example, "FA_X1").
+ABC: + source SYNTHESIS_OUTPUT_ROOT/direct.abc 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+ABC: 
+ABC: YOSYS_ABC_DONE 
+
+4.1.2. Re-integrating ABC results.
+ABC RESULTS:           AND2_X1 cells:     5551
+ABC RESULTS:           AND3_X1 cells:     1945
+ABC RESULTS:           AND4_X1 cells:      745
+ABC RESULTS:         AOI211_X1 cells:     2355
+ABC RESULTS:          AOI21_X1 cells:    22795
+ABC RESULTS:         AOI221_X1 cells:     2246
+ABC RESULTS:         AOI222_X1 cells:      788
+ABC RESULTS:          AOI22_X1 cells:     2196
+ABC RESULTS:            BUF_X1 cells:       24
+ABC RESULTS:            INV_X1 cells:    13022
+ABC RESULTS:           MUX2_X1 cells:   131937
+ABC RESULTS:          NAND2_X1 cells:    36706
+ABC RESULTS:          NAND3_X1 cells:    10493
+ABC RESULTS:          NAND4_X1 cells:     4985
+ABC RESULTS:           NOR2_X1 cells:    18652
+ABC RESULTS:           NOR3_X1 cells:     6492
+ABC RESULTS:           NOR4_X1 cells:     4613
+ABC RESULTS:         OAI211_X1 cells:     1812
+ABC RESULTS:          OAI21_X1 cells:    24601
+ABC RESULTS:         OAI221_X1 cells:     1150
+ABC RESULTS:         OAI222_X1 cells:      128
+ABC RESULTS:          OAI22_X1 cells:      446
+ABC RESULTS:          OAI33_X1 cells:       79
+ABC RESULTS:            OR2_X1 cells:     4383
+ABC RESULTS:            OR3_X1 cells:     1642
+ABC RESULTS:            OR4_X1 cells:      681
+ABC RESULTS:          XNOR2_X1 cells:    23116
+ABC RESULTS:           XOR2_X1 cells:    16551
+ABC RESULTS:        internal signals:   354333
+ABC RESULTS:           input signals:    73822
+ABC RESULTS:          output signals:    57214
+Removing temp directory.
+Removing global temp directory.
+Removed 3 unused cells and 224308 unused wires.
+
+5. Executing RTLIL backend.
+Output filename: ChipTop-after-abc.il

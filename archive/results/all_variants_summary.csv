@@ -1,0 +1,16 @@
+IP ID,IP Name,Model Variant,Parameters,Mean Temp (K),R Scale Factor,Data Arrival (ps),Setup Slack (ps),Delay Shift (ps),Inference Time (s),Thermal SPEF Output
+archgen_ip1,IP1: Dual-Core RV64 Rocket SoC (DualRocketConfig),0. Baseline (No Thermal),0,298.15,1.000000,123335.90,-126998.40,0.0 ps,0.158,archive/design_inputs/archgen_ip1/baseline.spef
+archgen_ip1,IP1: Dual-Core RV64 Rocket SoC (DualRocketConfig),PACT Physics Solver,N/A,750.77,2.900993,181137.10,-190497.00,+57801.2 ps,1.347,archive/outputs/archgen_ip1_pact_superlu/adjusted.spef
+archgen_ip1,IP1: Dual-Core RV64 Rocket SoC (DualRocketConfig),Therm-FM Small/Tiny (scOT-T),"10,593",450.00,1.637770,142985.60,-149583.80,+19649.7 ps,0.0187,archive/outputs/archgen_ip1_thermfm_variant_T_tiny/adjusted.spef
+archgen_ip1,IP1: Dual-Core RV64 Rocket SoC (DualRocketConfig),Therm-FM Base/Medium (scOT-B),"113,729",450.00,1.637770,142985.60,-149583.80,+19649.7 ps,0.0200,archive/outputs/archgen_ip1_thermfm_variant_B_base/adjusted.spef
+archgen_ip1,IP1: Dual-Core RV64 Rocket SoC (DualRocketConfig),Therm-FM Large (scOT-L),"744,321",450.00,1.637770,142985.60,-149583.80,+19649.7 ps,0.0308,archive/outputs/archgen_ip1_thermfm_variant_L_large/adjusted.spef
+archgen_ip2,IP2: Dual-Core RV64 Rocket SoC + 8-Point FFT,0. Baseline (No Thermal),0,298.15,1.000000,123335.90,-126998.40,0.0 ps,0.154,archive/design_inputs/archgen_ip2/baseline.spef
+archgen_ip2,IP2: Dual-Core RV64 Rocket SoC + 8-Point FFT,PACT Physics Solver,N/A,742.47,2.866131,180087.10,-189368.80,+56751.2 ps,1.334,archive/outputs/archgen_ip2_pact_superlu/adjusted.spef
+archgen_ip2,IP2: Dual-Core RV64 Rocket SoC + 8-Point FFT,Therm-FM Small/Tiny (scOT-T),"10,593",450.00,1.637770,142985.60,-149583.80,+19649.7 ps,0.0133,archive/outputs/archgen_ip2_thermfm_variant_T_tiny/adjusted.spef
+archgen_ip2,IP2: Dual-Core RV64 Rocket SoC + 8-Point FFT,Therm-FM Base/Medium (scOT-B),"113,729",450.00,1.637770,142985.60,-149583.80,+19649.7 ps,0.0179,archive/outputs/archgen_ip2_thermfm_variant_B_base/adjusted.spef
+archgen_ip2,IP2: Dual-Core RV64 Rocket SoC + 8-Point FFT,Therm-FM Large (scOT-L),"744,321",450.00,1.637770,142985.60,-149583.80,+19649.7 ps,0.0296,archive/outputs/archgen_ip2_thermfm_variant_L_large/adjusted.spef
+archgen_ip3,IP3: Dual-Core RV64 Rocket SoC + NVDLA INT8,0. Baseline (No Thermal),0,298.15,1.000000,123335.90,-126998.40,0.0 ps,0.155,archive/design_inputs/archgen_ip3/baseline.spef
+archgen_ip3,IP3: Dual-Core RV64 Rocket SoC + NVDLA INT8,PACT Physics Solver,N/A,724.40,2.790256,177802.00,-186913.70,+54466.1 ps,1.328,archive/outputs/archgen_ip3_pact_superlu/adjusted.spef
+archgen_ip3,IP3: Dual-Core RV64 Rocket SoC + NVDLA INT8,Therm-FM Small/Tiny (scOT-T),"10,593",450.00,1.637770,142985.60,-149583.80,+19649.7 ps,0.0134,archive/outputs/archgen_ip3_thermfm_variant_T_tiny/adjusted.spef
+archgen_ip3,IP3: Dual-Core RV64 Rocket SoC + NVDLA INT8,Therm-FM Base/Medium (scOT-B),"113,729",449.86,1.637182,142967.00,-149564.00,+19631.1 ps,0.0181,archive/outputs/archgen_ip3_thermfm_variant_B_base/adjusted.spef
+archgen_ip3,IP3: Dual-Core RV64 Rocket SoC + NVDLA INT8,Therm-FM Large (scOT-L),"744,321",450.00,1.637770,142985.60,-149583.80,+19649.7 ps,0.0289,archive/outputs/archgen_ip3_thermfm_variant_L_large/adjusted.spef

@@ -1,0 +1,9 @@
+{
+  "test": "qsort",
+  "suite": "benchmark-configured",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 197.24,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/qsort/simulation.log"
+}

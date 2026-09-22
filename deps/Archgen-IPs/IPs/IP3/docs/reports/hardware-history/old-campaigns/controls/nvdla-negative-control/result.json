@@ -1,0 +1,9 @@
+{
+  "test": "nvdla-negative-control",
+  "suite": "expected-failure-control",
+  "result": "FAIL",
+  "exit_status": 255,
+  "wall_seconds": 57.21,
+  "cycles": "",
+  "log": "${REPO_ROOT}/build/IP3/nvdla-words-controls/nvdla-negative-control/simulation.log"
+}

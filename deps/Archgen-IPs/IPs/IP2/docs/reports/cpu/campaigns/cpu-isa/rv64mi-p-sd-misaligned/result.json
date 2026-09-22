@@ -1,0 +1,9 @@
+{
+  "test": "rv64mi-p-sd-misaligned",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 1.723,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64mi-p-sd-misaligned/simulation.log"
+}

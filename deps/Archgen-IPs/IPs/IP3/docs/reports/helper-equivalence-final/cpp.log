@@ -1,0 +1,1 @@
+PASS helper equivalence: all 4096 poison bytes; identical buffers; every mismatch index/bit position; first of multiple mismatches

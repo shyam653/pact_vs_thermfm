@@ -1,0 +1,9 @@
+{
+  "test": "rv64uf-p-fdiv",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 8.582,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64uf-p-fdiv/simulation.log"
+}

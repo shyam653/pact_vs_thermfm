@@ -1,0 +1,9 @@
+{
+  "test": "nvdla-dual",
+  "suite": "nvdla-accelerator",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 1747.681,
+  "cycles": "",
+  "log": "<campaign:normal-01-seed1>/nvdla-dual/simulation.log"
+}

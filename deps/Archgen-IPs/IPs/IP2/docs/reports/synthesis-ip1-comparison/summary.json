@@ -1,0 +1,197 @@
+{
+  "completed_utc": "2026-09-12T14:29:23.290004+00:00",
+  "configuration": "DualRocketConfig",
+  "top": "ChipTop",
+  "status": "PASS",
+  "synthesis_mode": "mapped",
+  "mapping_mode": "abc-direct",
+  "abc_commands": [
+    "strash",
+    "&get -n",
+    "&nf",
+    "&put"
+  ],
+  "checkpoint_reuse": {
+    "origin": "CHECKPOINT_ORIGIN",
+    "checkpoint_sha256": "05afba9480bdc608662a91b5a65e34b9e7ce33b8780c7e4da2dbb117591c742a",
+    "origin_status_at_fork": "exit_status=0",
+    "historical_document_mismatches": [
+      {
+        "path": "IP1_ORIGINAL_SOURCE/scripts/dual-rocket/synthesis/README.md",
+        "historical_sha256": "f6a09bf24f194087051d1c2e7c0a899f4b45c28ead93d17a868c9341d4b1a2e6",
+        "observed_sha256": "57fe81dbb7e0c5ccdcc663269335218ea68710a06dcfa478d23b910dbdf25d15",
+        "scope": "Explicitly permitted documentation-only historical mismatch"
+      }
+    ],
+    "scope": "Reuse original RTL elaboration, SRAM simulations and pre-ABC synthesis; rerun ABC, mapped checks and OpenROAD link independently"
+  },
+  "mapped_design": {
+    "num_wires": 379796,
+    "num_wire_bits": 466164,
+    "num_pub_wires": 6504,
+    "num_pub_wire_bits": 86365,
+    "num_ports": 56,
+    "num_port_bits": 363,
+    "num_memories": 0,
+    "num_memory_bits": 0,
+    "num_processes": 0,
+    "num_cells": 379208,
+    "num_submodules": 0,
+    "area": 4064449.942001,
+    "sequential_area": 252291.956,
+    "num_cells_by_type": {
+      "AND2_X1": 5271,
+      "AND3_X1": 1885,
+      "AND4_X1": 751,
+      "AOI211_X1": 2237,
+      "AOI21_X1": 21150,
+      "AOI221_X1": 2067,
+      "AOI222_X1": 849,
+      "AOI22_X1": 2165,
+      "BUF_X1": 24,
+      "DFFR_X1": 549,
+      "DFFS_X1": 7,
+      "DFF_X1": 55138,
+      "DLL_X1": 1,
+      "INV_X1": 11641,
+      "MUX2_X1": 131364,
+      "NAND2_X1": 35098,
+      "NAND3_X1": 10160,
+      "NAND4_X1": 4913,
+      "NOR2_X1": 15866,
+      "NOR3_X1": 6244,
+      "NOR4_X1": 4482,
+      "OAI211_X1": 1718,
+      "OAI21_X1": 23778,
+      "OAI221_X1": 1122,
+      "OAI222_X1": 123,
+      "OAI22_X1": 445,
+      "OAI33_X1": 76,
+      "OR2_X1": 4039,
+      "OR3_X1": 1572,
+      "OR4_X1": 653,
+      "XNOR2_X1": 18985,
+      "XOR2_X1": 14641,
+      "fakeram45_512x64": 194
+    }
+  },
+  "yosys_creator": "Yosys 0.68+195 (git sha1 435977e97-dirty, Release, Clang /usr/bin/clang++ 21.1.8)",
+  "standard_cell_instances": 379014,
+  "openroad_link": {
+    "top": "ChipTop",
+    "linked": true,
+    "instances": 379208,
+    "sram_macros": 194
+  },
+  "memory_inventory": {
+    "configuration": "DualRocketConfig",
+    "top": "ChipTop",
+    "macro": "fakeram45_512x64",
+    "memories": [
+      {
+        "module": "cc_dir_ext",
+        "depth": 1024,
+        "width": 144,
+        "ports": "mrw",
+        "mask_granularity": 18,
+        "mask_bits": 8,
+        "instances": 1,
+        "macros_per_instance": 6,
+        "total_macros": 6,
+        "logical_bits": 147456
+      },
+      {
+        "module": "cc_banks_0_ext",
+        "depth": 16384,
+        "width": 64,
+        "ports": "rw",
+        "mask_granularity": 64,
+        "mask_bits": 1,
+        "instances": 4,
+        "macros_per_instance": 32,
+        "total_macros": 128,
+        "logical_bits": 4194304
+      },
+      {
+        "module": "rockettile_dcache_data_arrays_0_ext",
+        "depth": 512,
+        "width": 512,
+        "ports": "mrw",
+        "mask_granularity": 8,
+        "mask_bits": 64,
+        "instances": 2,
+        "macros_per_instance": 8,
+        "total_macros": 16,
+        "logical_bits": 524288
+      },
+      {
+        "module": "rockettile_dcache_tag_array_ext",
+        "depth": 64,
+        "width": 176,
+        "ports": "mrw",
+        "mask_granularity": 22,
+        "mask_bits": 8,
+        "instances": 2,
+        "macros_per_instance": 3,
+        "total_macros": 6,
+        "logical_bits": 22528
+      },
+      {
+        "module": "rockettile_icache_tag_array_ext",
+        "depth": 64,
+        "width": 168,
+        "ports": "mrw",
+        "mask_granularity": 21,
+        "mask_bits": 8,
+        "instances": 2,
+        "macros_per_instance": 3,
+        "total_macros": 6,
+        "logical_bits": 21504
+      },
+      {
+        "module": "rockettile_icache_data_arrays_0_ext",
+        "depth": 512,
+        "width": 256,
+        "ports": "mrw",
+        "mask_granularity": 32,
+        "mask_bits": 8,
+        "instances": 4,
+        "macros_per_instance": 4,
+        "total_macros": 16,
+        "logical_bits": 524288
+      },
+      {
+        "module": "mem_ext",
+        "depth": 8192,
+        "width": 64,
+        "ports": "mrw",
+        "mask_granularity": 8,
+        "mask_bits": 8,
+        "instances": 1,
+        "macros_per_instance": 16,
+        "total_macros": 16,
+        "logical_bits": 524288
+      }
+    ],
+    "memory_instances": 16,
+    "logical_bits": 5958656,
+    "physical_macro_instances": 194,
+    "physical_capacity_bits": 6356992
+  },
+  "sram_comparison": {
+    "evidence": "inherited",
+    "seeds": [
+      1,
+      827361,
+      2147483647
+    ],
+    "interfaces": 7,
+    "compared_cycles": 212364
+  },
+  "limitations": [
+    "Exploratory Nangate45/fakeram45 mapping; no timing constraints, placement, routing or timing closure",
+    "Finite SRAM simulation is inherited from the checkpoint origin; no full-SoC formal equivalence",
+    "Original default ABC run is independent and is not completed by this run",
+    "Same direct ABC optimization mode is required for comparable cell area"
+  ]
+}

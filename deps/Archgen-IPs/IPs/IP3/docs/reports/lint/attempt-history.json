@@ -1,0 +1,22 @@
+{
+  "accepted_run": "lint-sdp-readback-fix",
+  "accepted_rtl_sha256": "88e206bbf86544030034ecfc387ef3ae4a9a8b6a149b1f550b87bbf02770a124",
+  "earlier_attempts": [
+    {
+      "run": "lint",
+      "status": "FAILED_VERILATOR_CONSTANT_WIDTH_LIMIT",
+      "scope": "Earlier RTL; Verilator default width limit rejected wide TileLink monitor constants. Slang succeeded.",
+      "required_option": "--max-num-width 1048576"
+    },
+    {
+      "run": "lint-width1048576",
+      "status": "LINT_PASSED_ON_SUPERSEDED_RTL",
+      "verilator_warnings": 5950,
+      "slang_warnings": 92,
+      "scope": "Six missing absent-feature SDP LUT inputs remained warnings here; flattened synthesis CHECK later rejected their 176 undriven bits. This is not final-RTL lint evidence.",
+      "source_index_sha256": "ecf3c8b3da05f1cebc3b7e560cec51251a57026929f63044fcfd9d35295ed04e"
+    }
+  ],
+  "final_option": "--max-num-width 1048576",
+  "option_scope": "Matches Chipyard native Makefile parser width setting; no diagnostic waiver or numeric RTL change."
+}

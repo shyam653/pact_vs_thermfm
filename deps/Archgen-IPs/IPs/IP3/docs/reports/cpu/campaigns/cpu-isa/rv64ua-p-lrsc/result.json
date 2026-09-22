@@ -1,0 +1,9 @@
+{
+  "test": "rv64ua-p-lrsc",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 23.217,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64ua-p-lrsc/simulation.log"
+}

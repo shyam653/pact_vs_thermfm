@@ -1,0 +1,4 @@
+{
+  "extra_slots": 0,
+  "reason": "Initial two slots are released by completed ISA; PMP/NVDLA slots require separate coordinated release"
+}

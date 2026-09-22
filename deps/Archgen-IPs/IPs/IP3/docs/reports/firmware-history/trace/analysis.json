@@ -1,0 +1,38 @@
+{
+  "full_trace_sha256": "0ac300298fdc286b9786d9b65aa28d565db48b7cdedb2d8d11a871e21041fad9",
+  "full_trace_bytes": 11273641,
+  "full_trace_local_identifier": "${REPO_ROOT}/build/IP3/nvdla-trace1/trace.log",
+  "trace_published": false,
+  "reason": "Bounded verbose observation showed hart0 steadily executing byte poison initialization and hart1 waiting for accelerator ownership; no MMIO setup deadlock inferred.",
+  "last_hart_evidence": {
+    "0": {
+      "last_committed_line": "C0:      49498 [1] pc=[0000000080002486] W[r 0=0000000000000000][0] R[r13=0000000080007230] R[r29=000000000000003c] inst=[01d68023] DASM(01d68023)",
+      "last_1000_pc_counts": {
+        "000000008000248e": 143,
+        "0000000080002492": 143,
+        "0000000080002494": 143,
+        "0000000080002496": 143,
+        "0000000080002498": 143,
+        "0000000080002486": 143,
+        "000000008000248a": 142
+      }
+    },
+    "1": {
+      "last_committed_line": "C1:      49454 [1] pc=[00000000800023f0] W[r14=00000000800043f0][1] R[r 0=0000000000000000] R[r 0=0000000000000000] inst=[00002717] DASM(00002717)",
+      "last_1000_pc_counts": {
+        "00000000800023f8": 143,
+        "00000000800023fa": 143,
+        "00000000800023fe": 143,
+        "00000000800023ea": 143,
+        "00000000800023ec": 143,
+        "00000000800023f0": 143,
+        "00000000800023f4": 142
+      }
+    }
+  },
+  "termination_lines": [
+    "*** FAILED ***                       (timeout) after               100001 simulation cycles",
+    "%Error: /home/archgen_guest_1/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.DualRocketNVDLAConfig/gen-collateral/TestDriver.v:147: Verilog $stop",
+    "Aborting..."
+  ]
+}

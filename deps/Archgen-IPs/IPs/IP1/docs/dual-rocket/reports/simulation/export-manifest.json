@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "campaign": "Prior completed DualRocketConfig simulation campaign, 2026-09-06",
+  "unique_tests": 422,
+  "normalization": {
+    "relative_paths": "Log and ELF fields are relative to the external regression run root, not this Git export folder",
+    "../simulation": "Sibling earlier smoke directory outside the regression run root",
+    "upstream-chipyard": "Portable alias for the external prepared upstream Chipyard checkout",
+    "raw_logs_in_git": false
+  },
+  "source_files": {
+    "README.md": {
+      "original_sha256": "5037444545c725b155c3cb3908d3f12d4de6a0bd94cf9905854b76c7544e83a2",
+      "original_bytes": 7237
+    },
+    "RESULTS.md": {
+      "original_sha256": "63da92b78c4f8b809a3336bc0fd6c47cb7dd72decacc872ae8b32bbab268c926",
+      "original_bytes": 6567
+    },
+    "all-results.tsv": {
+      "original_sha256": "34c2fc60d7df07c35dab94afb25276c43fb21fa4da3563d1e3a0374af29c4935",
+      "original_bytes": 58937
+    },
+    "bench-build/ORACLE_AUDIT.md": {
+      "original_sha256": "6fd5c8f215f0b8fa60807092de60d3658416a812a1576c7c70e82a8ab5453d63",
+      "original_bytes": 7011
+    },
+    "bench-build/oracle-kernels.tsv": {
+      "original_sha256": "40b842a8eff6d48c0cf809d46abeb84d98411f9e117d7cc134323d5c44a54f89",
+      "original_bytes": 3517
+    },
+    "bench-run/provenance.json": {
+      "original_sha256": "a15292d79dada8c1ea579f2ce515dfaee5280dd6c8efeae5aa39474c74e259d1",
+      "original_bytes": 18537
+    },
+    "bench-run/results.tsv": {
+      "original_sha256": "3f6bd654c0841c07a0f92e67f2dc0e04889d9373925beaf86b94124287a3d9e6",
+      "original_bytes": 9561
+    },
+    "config-benchmark-targets.txt": {
+      "original_sha256": "f7618b013b14c193a1b0a5b085c6d5a245da04ba9ad3d361d073491249fedcc5",
+      "original_bytes": 154
+    },
+    "config-isa-targets.txt": {
+      "original_sha256": "be193c8f5970a6150b481725547bf6a489642e72f32bed7a7ea04a3b4eae7fe1",
+      "original_bytes": 5196
+    },
+    "corrected-run/provenance.json": {
+      "original_sha256": "0d1b81d4da41947ca8c30e77f21fbf4084c24190b7dfa7d9e5ce2195035c79f3",
+      "original_bytes": 1589
+    },
+    "cpp-retry/provenance.json": {
+      "original_sha256": "d0395d62964dfd2140431f7091b5f17e165e2d91c8bc08a06e8977e0d0c18776",
+      "original_bytes": 870
+    },
+    "cpp-retry/results.tsv": {
+      "original_sha256": "3318bde9497b738189defcfb70794c0a604926e388a426682adec4c59d73e6a0",
+      "original_bytes": 203
+    },
+    "isa-run/provenance.json": {
+      "original_sha256": "82afebc010ef800d89f58370b37b3a3f1f140aa2cec51ff1d31b17741aca8fe7",
+      "original_bytes": 87092
+    },
+    "pmp-retry/provenance.json": {
+      "original_sha256": "412042b2a3fd7eb34fbc3049dc4220c3f30877c95d23eefc163d32dacc2f1413",
+      "original_bytes": 905
+    },
+    "pmp-retry/results.tsv": {
+      "original_sha256": "fa43509bc85fc2031c803c1c45c8a76f5bc913262115a1a4f193671325f5a369",
+      "original_bytes": 179
+    },
+    "reference-comparison/comparison.tsv": {
+      "original_sha256": "74e651d9d8b1fa396d7a938fbda8571da0257476558fbc753c3a3705fcd90665",
+      "original_bytes": 168454
+    },
+    "reference-comparison/summary.json": {
+      "original_sha256": "0cc157c34334346aed7860ffea16ba57a04023afea187a035868dde642f64218",
+      "original_bytes": 5978
+    },
+    "smoke-run/provenance.json": {
+      "original_sha256": "3f5d1f24f1bc72b8f77efa2e0d5f1996738687d4f9c84c10104553c67a53f92e",
+      "original_bytes": 1995
+    },
+    "smoke-run/results.tsv": {
+      "original_sha256": "f343bd86eaad97c472d1ff40d9d1f726142e1e8851cc740fe8e552bfd00a446d",
+      "original_bytes": 653
+    },
+    "summary.json": {
+      "original_sha256": "e3735235d4b9953f2d3465cc9c6972c29b59de6984044bbf66e0eaf734c9840d",
+      "original_bytes": 13085
+    }
+  },
+  "exports": [
+    {
+      "exported_file": "all-results.tsv",
+      "exported_sha256": "3c20f8acb240d481d055650db1359fee5c2abb70c7e2dfd3d27cfbe8b3d284c1",
+      "source_files": [
+        "all-results.tsv"
+      ],
+      "transformation": "Parsed TSV; absolute evidence paths normalized; UTF-8 with LF line endings"
+    },
+    {
+      "exported_file": "reference-comparison/comparison.tsv",
+      "exported_sha256": "4d01f2c59abae6851abd38f702ea2c38e7ac3650972bbce7f0bfd35afff3dcb6",
+      "source_files": [
+        "reference-comparison/comparison.tsv"
+      ],
+      "transformation": "Parsed TSV; absolute evidence paths normalized; UTF-8 with LF line endings"
+    },
+    {
+      "exported_file": "oracle-kernels.tsv",
+      "exported_sha256": "40b842a8eff6d48c0cf809d46abeb84d98411f9e117d7cc134323d5c44a54f89",
+      "source_files": [
+        "bench-build/oracle-kernels.tsv"
+      ],
+      "transformation": "Parsed TSV; absolute evidence paths normalized; UTF-8 with LF line endings"
+    },
+    {
+      "exported_file": "summary.json",
+      "exported_sha256": "eaf7052c1445406ccfe53d67bee8cb4a7a28c82c78dec7b4df394836a5e74f63",
+      "source_files": [
+        "summary.json"
+      ],
+      "transformation": "Parsed JSON; absolute path values and keys normalized; formatted with LF line endings"
+    },
+    {
+      "exported_file": "reference-comparison/summary.json",
+      "exported_sha256": "d7166a0c1cd28a767dd7f86859c66e5377d627b4c020f8808465b6697e66a3c1",
+      "source_files": [
+        "reference-comparison/summary.json"
+      ],
+      "transformation": "Parsed JSON; absolute path values and keys normalized; formatted with LF line endings"
+    },
+    {
+      "exported_file": "config-isa-targets.txt",
+      "exported_sha256": "be193c8f5970a6150b481725547bf6a489642e72f32bed7a7ea04a3b4eae7fe1",
+      "source_files": [
+        "config-isa-targets.txt"
+      ],
+      "transformation": "Validated test names; LF line endings"
+    },
+    {
+      "exported_file": "config-benchmark-targets.txt",
+      "exported_sha256": "ae044218394f613d44cd2aa3298ca67014b994e2653d80db598a14a33e389d87",
+      "source_files": [
+        "config-benchmark-targets.txt"
+      ],
+      "transformation": "Validated test names; LF line endings; removed the .riscv executable suffix to match final test identifiers"
+    },
+    {
+      "exported_file": "campaign-settings.json",
+      "exported_sha256": "a83f3ce5338f7a7e95eed51fb7c2889b86b147e7fcd6845fccfdd66fc4b19f36",
+      "source_files": [
+        "isa-run/provenance.json",
+        "bench-run/provenance.json",
+        "smoke-run/provenance.json",
+        "cpp-retry/provenance.json",
+        "corrected-run/provenance.json",
+        "pmp-retry/provenance.json",
+        "summary.json"
+      ],
+      "transformation": "Parsed campaign provenance without repeated per-test ELF arrays; added recorded test counts and completed summaries; normalized paths"
+    },
+    {
+      "exported_file": "rerun-history.tsv",
+      "exported_sha256": "c83132790879a3ebca96ed278d1aa8c5d6b158f6eea6285533cf0a7fc604195e",
+      "source_files": [
+        "bench-run/results.tsv",
+        "pmp-retry/results.tsv",
+        "smoke-run/results.tsv",
+        "cpp-retry/results.tsv",
+        "all-results.tsv"
+      ],
+      "transformation": "Selected unchanged-ELF PMP and C++ original/retry rows; preserved raw outcomes; normalized paths"
+    },
+    {
+      "exported_file": "README.md",
+      "exported_sha256": "7121be668391620d49896b18db653f05bc7529cd1cb6cbd4ee92b457da7e210e",
+      "source_files": [
+        "RESULTS.md",
+        "README.md",
+        "bench-build/ORACLE_AUDIT.md"
+      ],
+      "transformation": "Manually authored self-contained summary of the prior campaign; not a verbatim report copy"
+    }
+  ],
+  "exporter": {
+    "repository_path": "scripts/dual-rocket/export-simulation-evidence.py",
+    "sha256": "4fb579e8990a926dfccf8f24374b64ff6d0efcfc6f5fb8692124e2863ed311f4"
+  },
+  "manifest_hash_note": "The manifest does not hash itself; every listed export has a digest"
+}

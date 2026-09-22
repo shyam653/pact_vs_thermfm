@@ -1,0 +1,10 @@
+{
+  "total": 18,
+  "counts": {
+    "WALL_TIMEOUT": 1,
+    "FAIL": 6,
+    "PASS": 11
+  },
+  "elapsed_seconds": 4845.022,
+  "finished_utc": "2026-09-12T18:45:36Z"
+}

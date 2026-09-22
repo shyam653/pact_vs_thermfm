@@ -1,0 +1,9 @@
+{
+  "test": "rv64uf-v-move",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 44.042,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uf-v-move/simulation.log"
+}

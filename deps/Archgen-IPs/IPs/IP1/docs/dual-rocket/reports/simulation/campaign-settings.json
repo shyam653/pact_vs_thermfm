@@ -1,0 +1,136 @@
+{
+  "isa-run": {
+    "started_utc": "2026-09-06T10:12:41Z",
+    "simulator": "upstream-chipyard/sims/verilator/simulator-chipyard.harness-DualRocketConfig",
+    "simulator_sha256": "0f8727ad431088f81279b358ed91069b6dca9035212ba49686b712635c965894",
+    "manifest": "isa-build/manifest.tsv",
+    "jobs": 3,
+    "max_cycles": 2000000,
+    "wall_timeout_seconds": 300,
+    "seed": 1,
+    "loadmem": true,
+    "recorded_test_count": 349,
+    "completed_summary": {
+      "total": 349,
+      "counts": {
+        "PASS": 340,
+        "FAIL": 5,
+        "WALL_TIMEOUT": 4
+      },
+      "elapsed_seconds": 1359.715,
+      "finished_utc": "2026-09-06T10:35:21Z"
+    }
+  },
+  "bench-run": {
+    "started_utc": "2026-09-06T10:15:25Z",
+    "simulator": "upstream-chipyard/sims/verilator/simulator-chipyard.harness-DualRocketConfig",
+    "simulator_sha256": "0f8727ad431088f81279b358ed91069b6dca9035212ba49686b712635c965894",
+    "manifest": "bench-build/manifest.tsv",
+    "jobs": 1,
+    "max_cycles": 10000000,
+    "wall_timeout_seconds": 600,
+    "seed": 1,
+    "loadmem": true,
+    "recorded_test_count": 66,
+    "completed_summary": {
+      "total": 66,
+      "counts": {
+        "PASS": 43,
+        "WALL_TIMEOUT": 3,
+        "FAIL": 20
+      },
+      "elapsed_seconds": 1723.372,
+      "finished_utc": "2026-09-06T11:15:38Z",
+      "resumed": true,
+      "previously_completed": 14,
+      "recovered_results": 0,
+      "elapsed_scope": "this resume invocation"
+    }
+  },
+  "smoke-run": {
+    "started_utc": "2026-09-06T10:18:20Z",
+    "simulator": "upstream-chipyard/sims/verilator/simulator-chipyard.harness-DualRocketConfig",
+    "simulator_sha256": "0f8727ad431088f81279b358ed91069b6dca9035212ba49686b712635c965894",
+    "manifest": "smoke-manifest.tsv",
+    "jobs": 1,
+    "max_cycles": 2000000,
+    "wall_timeout_seconds": 300,
+    "seed": 1,
+    "loadmem": true,
+    "runner_sha256": "87213096e1de8e7da82a7ac02232be070733f08fffa85797bfd9e74bfdd24a95",
+    "recorded_test_count": 4,
+    "completed_summary": {
+      "total": 4,
+      "counts": {
+        "PASS": 3,
+        "MISSING_FINISH": 1
+      },
+      "elapsed_seconds": 107.932,
+      "finished_utc": "2026-09-06T10:20:08Z"
+    }
+  },
+  "cpp-retry": {
+    "started_utc": "2026-09-06T10:22:01Z",
+    "simulator": "upstream-chipyard/sims/verilator/simulator-chipyard.harness-DualRocketConfig",
+    "simulator_sha256": "0f8727ad431088f81279b358ed91069b6dca9035212ba49686b712635c965894",
+    "manifest": "cpp-retry.tsv",
+    "jobs": 1,
+    "max_cycles": 2000000,
+    "wall_timeout_seconds": 300,
+    "seed": 1,
+    "loadmem": true,
+    "runner_sha256": "d2985a64f1500b2b75adfeb8d7bc3bde58b1fedf1c671cdbf9e7a1ad3d950a5c",
+    "recorded_test_count": 1,
+    "completed_summary": {
+      "total": 1,
+      "counts": {
+        "PASS": 1
+      },
+      "elapsed_seconds": 70.676,
+      "finished_utc": "2026-09-06T10:23:12Z"
+    }
+  },
+  "corrected-run": {
+    "started_utc": "2026-09-06T10:26:51Z",
+    "simulator": "upstream-chipyard/sims/verilator/simulator-chipyard.harness-DualRocketConfig",
+    "simulator_sha256": "0f8727ad431088f81279b358ed91069b6dca9035212ba49686b712635c965894",
+    "manifest": "bench-build/corrected/manifest.tsv",
+    "jobs": 1,
+    "max_cycles": 10000000,
+    "wall_timeout_seconds": 600,
+    "seed": 1,
+    "loadmem": true,
+    "runner_sha256": "d2985a64f1500b2b75adfeb8d7bc3bde58b1fedf1c671cdbf9e7a1ad3d950a5c",
+    "recorded_test_count": 3,
+    "completed_summary": {
+      "total": 3,
+      "counts": {
+        "PASS": 3
+      },
+      "elapsed_seconds": 152.356,
+      "finished_utc": "2026-09-06T10:29:23Z"
+    }
+  },
+  "pmp-retry": {
+    "started_utc": "2026-09-06T10:49:22Z",
+    "simulator": "upstream-chipyard/sims/verilator/simulator-chipyard.harness-DualRocketConfig",
+    "simulator_sha256": "0f8727ad431088f81279b358ed91069b6dca9035212ba49686b712635c965894",
+    "manifest": "pmp-retry.tsv",
+    "manifest_sha256": "707e5022d08c4b65cace0e55db20a333caf164a003da6db5360caf91681183b6",
+    "jobs": 1,
+    "max_cycles": 20000000,
+    "wall_timeout_seconds": 1800,
+    "seed": 1,
+    "loadmem": true,
+    "runner_sha256": "0ef5b689696bb08f40e71cc5d1d2fcc1095d35d9c93a78de3422cad434c3310a",
+    "recorded_test_count": 1,
+    "completed_summary": {
+      "total": 1,
+      "counts": {
+        "PASS": 1
+      },
+      "elapsed_seconds": 892.321,
+      "finished_utc": "2026-09-06T11:04:15Z"
+    }
+  }
+}

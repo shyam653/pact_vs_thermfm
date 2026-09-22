@@ -1,0 +1,2 @@
+test	binary	suite	required_stdout
+nvdla-dual	<test-build>/nvdla-dual.riscv	nvdla-accelerator	"[""PASS NVDLA dual-hart""]"

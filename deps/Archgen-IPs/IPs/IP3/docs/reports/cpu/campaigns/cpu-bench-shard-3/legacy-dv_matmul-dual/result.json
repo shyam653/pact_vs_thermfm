@@ -1,0 +1,9 @@
+{
+  "test": "legacy-dv_matmul-dual",
+  "suite": "legacy-mt",
+  "result": "WALL_TIMEOUT",
+  "exit_status": -9,
+  "wall_seconds": 1805.017,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench-shard-3/legacy-dv_matmul-dual/simulation.log"
+}

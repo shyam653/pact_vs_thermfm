@@ -1,0 +1,18 @@
+test	suite	result	exit_status	wall_seconds	cycles	log
+legacy-cf_matmul-dual	legacy-mt	FAIL	255	1606.309		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-cf_matmul-dual/simulation.log
+legacy-cv_matmul-dual	legacy-mt	FAIL	255	608.445		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-cv_matmul-dual/simulation.log
+legacy-df_matmul-dual	legacy-mt	FAIL	255	445.64		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-df_matmul-dual/simulation.log
+legacy-do_matmul-dual	legacy-mt	FAIL	255	419.845		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-do_matmul-dual/simulation.log
+legacy-vvadd4-dual	legacy-mt	PASS	0	260.75		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-vvadd4-dual/simulation.log
+legacy-cm_matmul-dual	legacy-mt	FAIL	255	263.828		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-cm_matmul-dual/simulation.log
+mt-vvadd	benchmark-configured	PASS	0	243.042		${CAMPAIGN_ROOT}/cpu-bench-shard-2/mt-vvadd/simulation.log
+legacy-at_matmul-dual	legacy-mt	FAIL	255	237.915		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-at_matmul-dual/simulation.log
+legacy-vvadd0-dual	legacy-mt	PASS	0	197.323		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-vvadd0-dual/simulation.log
+legacy-aq_matmul-dual	legacy-mt	PASS	0	148.793		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-aq_matmul-dual/simulation.log
+legacy-bs_matmul-dual	legacy-mt	PASS	0	66.654		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-bs_matmul-dual/simulation.log
+legacy-an_matmul-dual	legacy-mt	PASS	0	76.02		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-an_matmul-dual/simulation.log
+legacy-ae_matmul-dual	legacy-mt	PASS	0	39.276		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-ae_matmul-dual/simulation.log
+legacy-ap_matmul-dual	legacy-mt	PASS	0	56.516		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-ap_matmul-dual/simulation.log
+chipyard-mt-hello-dual	chipyard-generic	PASS	0	35.73		${CAMPAIGN_ROOT}/cpu-bench-shard-2/chipyard-mt-hello-dual/simulation.log
+vvadd	benchmark-configured	PASS	0	23.273		${CAMPAIGN_ROOT}/cpu-bench-shard-2/vvadd/simulation.log
+legacy-bm_matmul-dual	legacy-mt	PASS	0	32.206		${CAMPAIGN_ROOT}/cpu-bench-shard-2/legacy-bm_matmul-dual/simulation.log

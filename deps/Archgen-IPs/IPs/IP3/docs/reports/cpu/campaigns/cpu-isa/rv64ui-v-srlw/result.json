@@ -1,0 +1,9 @@
+{
+  "test": "rv64ui-v-srlw",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 51.348,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64ui-v-srlw/simulation.log"
+}

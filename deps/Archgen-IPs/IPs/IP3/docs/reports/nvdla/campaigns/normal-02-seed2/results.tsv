@@ -1,0 +1,2 @@
+test	suite	result	exit_status	wall_seconds	cycles	log
+nvdla-dual	nvdla-accelerator	PASS	0	1022.633		<campaign:normal-02-seed2>/nvdla-dual/simulation.log

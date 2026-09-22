@@ -1,0 +1,4 @@
+Yosys 0.68+195 (git sha1 435977e97-dirty, Release, Clang /usr/bin/clang++ 21.1.8)
+OpenROAD v2.0-17598-ga008522d8
+Icarus Verilog version 14.0 (devel) (s20260301-403-g5ab23063f-dirty)
+Icarus Verilog runtime version 14.0 (devel) (s20260301-403-g5ab23063f-dirty)

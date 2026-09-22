@@ -1,0 +1,38 @@
+{
+  "scope": "Standalone engine model: no Rocket CPUs or caches; PLIC emulated. Full-SoC simulation still required.",
+  "source_wrapper_revision": "d99ffdc79bbf9b86c6cad0c278a785d5802c8209",
+  "source_hw_revision": "8e06b1b9d85aab65b40d43d08eec5ea4681ff715",
+  "verilator_version": "Verilator 5.022 2024-02-24 rev conda-forge build 1",
+  "rtl_sha256": "8e0e8801f87a76e08f127d88fba5e29847bc69079460d7c53de909afafb59f09",
+  "simulator_sha256": "8f418aa49496f3fb58079545ab98790281f57ec528dbb0405215d6a046838096",
+  "inputs": {
+    "tests/nvdla_standalone.cpp": "13d191a3e58406b87afb316409f33c08b93621920bb2d5d7c0e8f0275599054f",
+    "tests/nvdla_test.c": "0adcb0f5b65068b201d56581a4ec438f40019f3801aec6d31a40f972439a81fa",
+    "tests/nvdla.h": "15aa2b37f35b559ff53891a58f2473a621411b03c57a3f8fbc43a862bf4745b3",
+    "patches/0001-define-small-nvdla-axi-address-upper-bits.patch": "7408892d5e04c137fcff9befecee1d9dde9ca07aa8806a7da89e6cdefb9aec1e"
+  },
+  "results": [
+    {
+      "seed": 1,
+      "random_reset": 2,
+      "engine_jobs": 22,
+      "cycles": 14569,
+      "result": "PASS",
+      "log": "seed-1.log",
+      "log_sha256": "9e7b82ca4644e9551e3e8c915b9454f533d7f86f2e4fc50a710b11fc9b70ccd7"
+    },
+    {
+      "seed": 17,
+      "random_reset": 2,
+      "engine_jobs": 22,
+      "cycles": 14569,
+      "result": "PASS",
+      "log": "seed-17.log",
+      "log_sha256": "9e7b82ca4644e9551e3e8c915b9454f533d7f86f2e4fc50a710b11fc9b70ccd7"
+    }
+  ],
+  "all_passed": true,
+  "preparation": "Preprocessed pinned default nv_small behavioral RAM sources, with exactly the upper-address-bits fix in patch 0001; DBB Scala metadata patch is outside standalone scope.",
+  "history": "An initial harness with seeded random initial state accepted invalid pre-reset requests; final harness ignores requests during reset and initializes all driven APB inputs. These final results use the corrected harness.",
+  "reproduction": "IPs/IP3/scripts/run-standalone.py --rtl <exported patched nvdla_small.preprocessed.v> --output <fresh path> --verilator <verilator>"
+}

@@ -1,0 +1,30 @@
+SEED=1
+PASS kind=3 depth=64 width=176 mask_bits=8 compared_cycles=10040
+PASS kind=4 depth=64 width=168 mask_bits=8 compared_cycles=10040
+PASS kind=5 depth=512 width=256 mask_bits=8 compared_cycles=10046
+PASS kind=2 depth=512 width=512 mask_bits=64 compared_cycles=10270
+PASS kind=0 depth=1024 width=144 mask_bits=8 compared_cycles=10052
+PASS kind=6 depth=8192 width=64 mask_bits=8 compared_cycles=10136
+PASS kind=1 depth=16384 width=64 mask_bits=1 compared_cycles=10204
+PASS all original memory interfaces match macro implementation
+CHECKPOINT_ORIGIN/macro-map/test_sram.sv:176: $finish called at 265880000 (1ps)
+SEED=827361
+PASS kind=3 depth=64 width=176 mask_bits=8 compared_cycles=10040
+PASS kind=4 depth=64 width=168 mask_bits=8 compared_cycles=10040
+PASS kind=5 depth=512 width=256 mask_bits=8 compared_cycles=10046
+PASS kind=2 depth=512 width=512 mask_bits=64 compared_cycles=10270
+PASS kind=0 depth=1024 width=144 mask_bits=8 compared_cycles=10052
+PASS kind=6 depth=8192 width=64 mask_bits=8 compared_cycles=10136
+PASS kind=1 depth=16384 width=64 mask_bits=1 compared_cycles=10204
+PASS all original memory interfaces match macro implementation
+CHECKPOINT_ORIGIN/macro-map/test_sram.sv:176: $finish called at 265880000 (1ps)
+SEED=2147483647
+PASS kind=3 depth=64 width=176 mask_bits=8 compared_cycles=10040
+PASS kind=4 depth=64 width=168 mask_bits=8 compared_cycles=10040
+PASS kind=5 depth=512 width=256 mask_bits=8 compared_cycles=10046
+PASS kind=2 depth=512 width=512 mask_bits=64 compared_cycles=10270
+PASS kind=0 depth=1024 width=144 mask_bits=8 compared_cycles=10052
+PASS kind=6 depth=8192 width=64 mask_bits=8 compared_cycles=10136
+PASS kind=1 depth=16384 width=64 mask_bits=1 compared_cycles=10204
+PASS all original memory interfaces match macro implementation
+CHECKPOINT_ORIGIN/macro-map/test_sram.sv:176: $finish called at 265880000 (1ps)

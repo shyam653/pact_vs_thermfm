@@ -1,0 +1,9 @@
+{
+  "test": "nvdla-negative-control",
+  "suite": "expected-failure-control",
+  "result": "FAIL",
+  "exit_status": 255,
+  "wall_seconds": 77.898,
+  "cycles": "",
+  "log": "<campaign:control-04-seed1>/nvdla-negative-control/simulation.log"
+}

@@ -1,0 +1,3 @@
+[ERROR ORD-2010] no technology has been read.
+Error: run_sta.tcl, 4 ORD-2010
+

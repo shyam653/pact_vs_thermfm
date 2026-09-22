@@ -1,0 +1,716 @@
+{
+  "created_utc": "2026-09-12T17:02:41.683765+00:00",
+  "method": "Longest processing time first: descending IP2 per-test wall_seconds, test-name tie break; assign to lowest total, shard-index tie break",
+  "timing_scope": "Historical IP2 host durations guide scheduling only; they do not predict hardware performance or establish IP3 outcomes",
+  "source_manifest": "build/cpu-rebuilt/bench-short.tsv",
+  "source_manifest_sha256": "1552aa828ebd758d3b8212a09619b5157c960e8572135fdb72b64751cbcac061",
+  "timing_reference": "IPs/IP2/docs/reports/cpu/campaigns/cpu-bench/results.tsv",
+  "timing_reference_sha256": "81a96e44034a3df64b223dc53743a36a1656e27a9fef1cde7acfdbb7cf233e4f",
+  "preparation_script": "build/IP3/prepare-bench-shards.py",
+  "preparation_script_sha256": "306bad22d073ba58527de64b61a7120e31a808be5975a00c9043457cb223d078",
+  "original_rows": [
+    {
+      "test": "median",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/median.riscv",
+      "suite": "benchmark-configured",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "qsort",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/qsort.riscv",
+      "suite": "benchmark-configured",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "rsort",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/rsort.riscv",
+      "suite": "benchmark-configured",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "towers",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/towers.riscv",
+      "suite": "benchmark-configured",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "vvadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/vvadd.riscv",
+      "suite": "benchmark-configured",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "memcpy",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/memcpy.riscv",
+      "suite": "benchmark-extra",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "multiply",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/multiply.riscv",
+      "suite": "benchmark-configured",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "mm",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/mm.riscv",
+      "suite": "benchmark-configured",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "dhrystone",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/dhrystone.riscv",
+      "suite": "benchmark-configured",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "spmv",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/spmv.riscv",
+      "suite": "benchmark-configured",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "mt-vvadd",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/mt-vvadd.riscv",
+      "suite": "benchmark-configured",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "mt-matmul",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/mt-matmul.riscv",
+      "suite": "benchmark-configured",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "mt-memcpy",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/mt-memcpy.riscv",
+      "suite": "benchmark-extra",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "mt-vvadd-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/mt-vvadd-dual.riscv",
+      "suite": "benchmark-dual",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "mt-matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/mt-matmul-dual.riscv",
+      "suite": "benchmark-dual",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "mt-memcpy-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/mt-memcpy-dual.riscv",
+      "suite": "benchmark-dual",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-vvadd0-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-vvadd0-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-vvadd1-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-vvadd1-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-vvadd2-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-vvadd2-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-vvadd3-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-vvadd3-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-vvadd4-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-vvadd4-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-ad_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-ad_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-ae_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-ae_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-af_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-af_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-ag_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-ag_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-ai_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-ai_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-ak_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-ak_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-al_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-al_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-am_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-am_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-an_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-an_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-ap_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-ap_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-aq_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-aq_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-ar_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-ar_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-at_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-at_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-av_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-av_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-ay_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-ay_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-az_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-az_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-bb_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-bb_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-bc_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-bc_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-bf_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-bf_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-bh_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-bh_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-bj_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-bj_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-bk_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-bk_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-bm_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-bm_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-bo_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-bo_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-br_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-br_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-bs_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-bs_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-ce_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-ce_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-cf_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-cf_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-cg_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-cg_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-ci_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-ci_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-ck_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-ck_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-cl_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-cl_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-cm_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-cm_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-cs_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-cs_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-cv_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-cv_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-cy_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-cy_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-dc_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-dc_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-df_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-df_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-dm_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-dm_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-do_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-do_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-dr_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-dr_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-ds_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-ds_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-du_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-du_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "legacy-dv_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/legacy-dv_matmul-dual.riscv",
+      "suite": "legacy-mt",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "chipyard-hello",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/chipyard-hello.riscv",
+      "suite": "chipyard-generic",
+      "required_stdout": "[\"Hello world\"]"
+    },
+    {
+      "test": "chipyard-cpp-hello",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/chipyard-cpp-hello.riscv",
+      "suite": "chipyard-generic",
+      "required_stdout": "[\"Hello World!\"]"
+    },
+    {
+      "test": "chipyard-mt-hello-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/bin/chipyard-mt-hello-dual.riscv",
+      "suite": "chipyard-generic",
+      "required_stdout": "[\"Hello world from core 0, a rocket\", \"Hello world from core 1, a rocket\"]"
+    },
+    {
+      "test": "corrected-legacy-vvadd1-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/corrected/bin/corrected-legacy-vvadd1-dual.riscv",
+      "suite": "corrected-mt-supplement",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "corrected-mt-matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/corrected/bin/corrected-mt-matmul-dual.riscv",
+      "suite": "corrected-mt-supplement",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "corrected-legacy-ae_matmul-dual",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/bench/corrected/bin/corrected-legacy-ae_matmul-dual.riscv",
+      "suite": "corrected-mt-supplement",
+      "required_stdout": "[]"
+    },
+    {
+      "test": "dual-hart-smoke",
+      "binary": "${REPO_ROOT}/build/cpu-rebuilt/dual-hart-smoke.riscv",
+      "suite": "dual-hart-smoke",
+      "required_stdout": "[\"PASS dual-hart: hart0+hart1, peer data visible, 256 atomic increments\"]"
+    }
+  ],
+  "elf_sha256": {
+    "median": "e71f29493b324a5d33eeaa4c36021b016a8fb1f9e3ea6438873167a57433ff33",
+    "qsort": "34ff2b810b141129bc665a356ed46db390020566e729ce9db603af791cac4800",
+    "rsort": "dd42fe3ff19768c3cc82681388553cf3e05dc4874e5b9df5dea4a357c37caf65",
+    "towers": "cfe0351f02ebc61b4616485ed5289ed4d18c6997b6e92368d2b265fcad8c59fc",
+    "vvadd": "ee5bfea1960c5c32c7dda75048ae7e712c039035a5e2e37f8d262735298b8f16",
+    "memcpy": "65342c9f4827252236d6130c2006035c9f339748bbbc30f7bc8f300cc3c7b311",
+    "multiply": "d924ac5364130419cc37eb6d081158bbb4e41f3e02d9f313c1ea57084e2d26cd",
+    "mm": "8e9c646aed9d37a57a73201761e22ef98e7c13cdcc5a7864b648f31bbe002873",
+    "dhrystone": "4c076ebf9298bcf682cb6baea4df1e5ca07ff0c98656769f2cf899f555f642ff",
+    "spmv": "a65b9cca794b4c6ad7b35c5cfcc3b7febcda761206ec9c1954d493c3609879d2",
+    "mt-vvadd": "52376c154a90ec32c44e6e10a7a435c598c652facb12cd68271d8403f4520a82",
+    "mt-matmul": "b9da9b8e716515d19be32b9ced727b5d8e12d7b511ea1ce6757f82ba3c041064",
+    "mt-memcpy": "e5973552f9735ac41090d55e97b12528822f9ec455b3a74fe7547315223fbb15",
+    "mt-vvadd-dual": "37ccfce2544c418e322ed1c7b3d038db573b4df09a95e570ccde1ffbdd7493df",
+    "mt-matmul-dual": "1379164ed6a9d781c9900fce4e44f9e19ad63468f87be5d3f24127048b6fd6a7",
+    "mt-memcpy-dual": "fc8650e007797b8bf546087148203ffae1051eb948e712bd3088f72e45c34c0f",
+    "legacy-vvadd0-dual": "ef59bee482d875daf794413e6403966f372df80975fdb7933e5d2cb7cda48bb0",
+    "legacy-vvadd1-dual": "6338d5b712f0404e4343becd26da958d2fb0b1ddf243a523ce5db16409bd81a5",
+    "legacy-vvadd2-dual": "9a87101b2e5ba4f706547fa94e4e650cad370a14dd6900e5296c368658270923",
+    "legacy-vvadd3-dual": "8e745ac78274487d21deffce61a2f3d643be4f1107c012f5ca23c07725430b53",
+    "legacy-vvadd4-dual": "c94f4758d2a815dd62e095981e0fd3591f3a1b8b2f08e87bc90558da8fd641c9",
+    "legacy-ad_matmul-dual": "58e1ed0f6c84478c972aa69e84c29442858254635f3db972dec8cc25998e22f4",
+    "legacy-ae_matmul-dual": "a83a8ad568a20558145ab20a1282d7669e6b60fa8d3f912aa912dd249a20d3e5",
+    "legacy-af_matmul-dual": "5d86de83d435ee5376448742fb1b3c15f85fc6aff330dbdb79e7600cc7fcc2ad",
+    "legacy-ag_matmul-dual": "6ab4a313a4cd0abdecf6769a53db5d42188c875699fdf479c0c27e3eec7273b6",
+    "legacy-ai_matmul-dual": "681befb0dceb24f4828fac552c2dadeb51f52e5b42dd1762bbe4861b15279553",
+    "legacy-ak_matmul-dual": "1cbc854544a013d70d40fabaeeb71ed439a49c5c218703faf1790496857c24ba",
+    "legacy-al_matmul-dual": "f6b21988534b9cdac82d5dc02576ff355ea19ec9baf93b4b0d855c3b485ac0da",
+    "legacy-am_matmul-dual": "b33190a01c4584e71f0a6c7f5b503eec9f5144724373120d70f9753d27aeec35",
+    "legacy-an_matmul-dual": "7fcfb826410b19f8622475167580673e85d49163ffcca1b851705133880df90f",
+    "legacy-ap_matmul-dual": "27c8ab6e244f69b47978532eb26c6813552c96b6fcbf08de9290847d5409a46e",
+    "legacy-aq_matmul-dual": "0f5b4923269df1deb49dcd533ee8a13634e8dc31f11c3b9da04a5f2e11ca1596",
+    "legacy-ar_matmul-dual": "45cabfb096a5efbb234592d42bafeae79278bcda1b28917f04b89f8a0bb49aba",
+    "legacy-at_matmul-dual": "ccb9dc557529febafc6dcaccef607a23e248585486b388795c7779eeb9d6d541",
+    "legacy-av_matmul-dual": "42434dada342f51b4781f7fa6549eff3d949f35828f620d0f622699c125a16b4",
+    "legacy-ay_matmul-dual": "3aa95e0691214b60e65d7c21faac6445830cc337fd7d3eb78e0f7baf692708f0",
+    "legacy-az_matmul-dual": "1a770acac5815cd8a5761626e92bb581d55c1dbc3df5492fa8756fde0aa5fea9",
+    "legacy-bb_matmul-dual": "9502301092bac4d69eedb9f9d9cf0b42b54ca0f19f7c654c68dd5a8434d1eeae",
+    "legacy-bc_matmul-dual": "621189a61b25594cdae2644a67d4b61a854fcaf82956e2848cdeefc58a5562bd",
+    "legacy-bf_matmul-dual": "8c1e7b8c549cbc7bfa02e2ec0682cf3a7aa3aef914d997d9f74ef7a899238414",
+    "legacy-bh_matmul-dual": "71e95322f5c00d87af06133413a6a075f2333399ac384f4f2e984db88ed550dd",
+    "legacy-bj_matmul-dual": "89a736ac3038fb522f03bef2347b36cd1a5d8cada3b2ef8203cf4ac1fb1b4297",
+    "legacy-bk_matmul-dual": "a19d86fefe0e4ecaeb136d99ec564d78bc32cd9b6f010d94c074d02503b55176",
+    "legacy-bm_matmul-dual": "ee14134d7602c8f3c50ee0b7d154123cfe3a4ef70f0f0aeb2cd55549a21b13b8",
+    "legacy-bo_matmul-dual": "9e586279278793f96c77fe17acf20cd8a65bb146a987a81afdea4cda3054fa67",
+    "legacy-br_matmul-dual": "73899411c17181a814fa8360fab30530b755d5e1b271f76f3c2e50e82c3c5c42",
+    "legacy-bs_matmul-dual": "9b2ec3dce53d9a584f459357cd1e3426eafcb1f72d620b98cf871034bf529d04",
+    "legacy-ce_matmul-dual": "efb58a330b492ce93602d60d102f37f7c7343613d5bd43b4ef876ab8386cfc6e",
+    "legacy-cf_matmul-dual": "e252c17acdbae7d1965438506f4647e1856e42c959e39171af0b641f284e6831",
+    "legacy-cg_matmul-dual": "f46b723bb8fbfdcd0e3731572ca982d0731c7fd8a4e0662790d8475fa8888191",
+    "legacy-ci_matmul-dual": "4a19747b45242b4676f4f530499bad2fc7be955abcbfbb50796c295f57e536aa",
+    "legacy-ck_matmul-dual": "c72d4901820e1a1c93c08d8b198afca8ddd6ffb5278afc8066b529a2dac2f343",
+    "legacy-cl_matmul-dual": "526252cf3dbe06f44b521c905b956f83da7fa8cc2e888d1fb38a3cb9041f3e79",
+    "legacy-cm_matmul-dual": "bc0ef6a03569ad934b3052584f501fc23932eff2c9cdfd2bf7904c462f67ef36",
+    "legacy-cs_matmul-dual": "7ba6cecd94464c82b2ef6bfd72ef3ebec4d9ad60bc95e89f6d51b84fbfe21109",
+    "legacy-cv_matmul-dual": "8c630cfe24118f743526175c8944f1adb87038050b79c4f36f056397984d825b",
+    "legacy-cy_matmul-dual": "56700730434359060c8c762d2d3fe4d31d8e751ad949bad041a15c7886acc834",
+    "legacy-dc_matmul-dual": "e7c2057211d768621c6983353b9b4cc532cca62290bd2530cb40e0957fee9c33",
+    "legacy-df_matmul-dual": "a9c58b94ef9ed5ca4399a78a3c97d4ed70528626ab7771b1a9e9de957a33be44",
+    "legacy-dm_matmul-dual": "492f6cc517aac73ad5b1ac8d0bb70df7fc31a7a98cbb869a738e884f11900aaa",
+    "legacy-do_matmul-dual": "a81db530c95b8521665201731df1689518cb9d6a5a935cf9bfa8c5fe858a443b",
+    "legacy-dr_matmul-dual": "a6859c4461de24ff12fad3165df57991dd31da322b9694409871cdef1c80b5c1",
+    "legacy-ds_matmul-dual": "4a25fd7bdc3fef8e84c059da03366e18cee185a08c635eb9a47f090261eb897d",
+    "legacy-du_matmul-dual": "69b57f6de187ad95da1f250890d4cd15200a10d8f799f2f135dd93e7de1d837b",
+    "legacy-dv_matmul-dual": "ae37c39b29ffe9741c54e7aae500a4abdbb77458535cdf1ecf7de1c18b17ecf8",
+    "chipyard-hello": "2ccf4810d8538b0efbe76e950b31ddd44595b300d339b57c85c03148b105c6b1",
+    "chipyard-cpp-hello": "a2d23e5af0802c11d20408fe851d5414d65659375f3b95e0a1dc14d33d49d5ef",
+    "chipyard-mt-hello-dual": "9288854cb5377802107a46d7c3813c63c3e2ad6b3bd6695e04260c5eac97e0dd",
+    "corrected-legacy-vvadd1-dual": "bf766df3e5ad502f84298f8fe4cc3452259a1c7f11219f75543db753908cc21e",
+    "corrected-mt-matmul-dual": "81287927f6c1fd30dbb7cfcfff97cfa00fedadd1dd202ef8f347a1eca3fd1c03",
+    "corrected-legacy-ae_matmul-dual": "de84fd1518ba69fb99cadfd41891250ee537e1e0d1c037eaf0fd93dcfd86fc3c",
+    "dual-hart-smoke": "65f188e60df57e2f7581d89a52ad0d08f9989cd3ab193d47611c4b4cef231306"
+  },
+  "historical_ip2_wall_seconds": {
+    "median": "19.443",
+    "qsort": "197.24",
+    "rsort": "248.319",
+    "towers": "14.674",
+    "vvadd": "14.559",
+    "memcpy": "46.482",
+    "multiply": "40.118",
+    "mm": "201.376",
+    "dhrystone": "135.69",
+    "spmv": "74.43",
+    "mt-vvadd": "67.612",
+    "mt-matmul": "38.134",
+    "mt-memcpy": "144.407",
+    "mt-vvadd-dual": "74.003",
+    "mt-matmul-dual": "17.112",
+    "mt-memcpy-dual": "102.487",
+    "legacy-vvadd0-dual": "55.224",
+    "legacy-vvadd1-dual": "71.928",
+    "legacy-vvadd2-dual": "71.971",
+    "legacy-vvadd3-dual": "56.846",
+    "legacy-vvadd4-dual": "72.173",
+    "legacy-ad_matmul-dual": "531.131",
+    "legacy-ae_matmul-dual": "19.934",
+    "legacy-af_matmul-dual": "13.645",
+    "legacy-ag_matmul-dual": "17.372",
+    "legacy-ai_matmul-dual": "14.0",
+    "legacy-ak_matmul-dual": "22.901",
+    "legacy-al_matmul-dual": "68.746",
+    "legacy-am_matmul-dual": "58.528",
+    "legacy-an_matmul-dual": "26.16",
+    "legacy-ap_matmul-dual": "19.323",
+    "legacy-aq_matmul-dual": "48.219",
+    "legacy-ar_matmul-dual": "19.571",
+    "legacy-at_matmul-dual": "64.269",
+    "legacy-av_matmul-dual": "76.728",
+    "legacy-ay_matmul-dual": "68.187",
+    "legacy-az_matmul-dual": "68.341",
+    "legacy-bb_matmul-dual": "12.581",
+    "legacy-bc_matmul-dual": "32.137",
+    "legacy-bf_matmul-dual": "66.765",
+    "legacy-bh_matmul-dual": "14.296",
+    "legacy-bj_matmul-dual": "14.138",
+    "legacy-bk_matmul-dual": "65.059",
+    "legacy-bm_matmul-dual": "13.994",
+    "legacy-bo_matmul-dual": "83.678",
+    "legacy-br_matmul-dual": "107.844",
+    "legacy-bs_matmul-dual": "30.939",
+    "legacy-ce_matmul-dual": "27.406",
+    "legacy-cf_matmul-dual": "448.056",
+    "legacy-cg_matmul-dual": "16.656",
+    "legacy-ci_matmul-dual": "14.189",
+    "legacy-ck_matmul-dual": "22.298",
+    "legacy-cl_matmul-dual": "142.014",
+    "legacy-cm_matmul-dual": "71.233",
+    "legacy-cs_matmul-dual": "20.68",
+    "legacy-cv_matmul-dual": "158.266",
+    "legacy-cy_matmul-dual": "68.926",
+    "legacy-dc_matmul-dual": "34.203",
+    "legacy-df_matmul-dual": "119.545",
+    "legacy-dm_matmul-dual": "14.996",
+    "legacy-do_matmul-dual": "107.471",
+    "legacy-dr_matmul-dual": "114.283",
+    "legacy-ds_matmul-dual": "16.858",
+    "legacy-du_matmul-dual": "57.056",
+    "legacy-dv_matmul-dual": "432.385",
+    "chipyard-hello": "9.272",
+    "chipyard-cpp-hello": "54.637",
+    "chipyard-mt-hello-dual": "14.848",
+    "corrected-legacy-vvadd1-dual": "66.287",
+    "corrected-mt-matmul-dual": "26.008",
+    "corrected-legacy-ae_matmul-dual": "28.271",
+    "dual-hart-smoke": "6.701"
+  },
+  "shards": [
+    {
+      "number": 1,
+      "campaign": "cpu-bench-shard-1",
+      "manifest": "build/IP3/cpu-bench-shards/bench-shard-1.tsv",
+      "manifest_sha256": "29f5bc43f56d970440fe4ec76f35fd14506d78d01d0ff1704099e4aebc2fbb07",
+      "tests": 18,
+      "ip2_wall_seconds_sum": "1360.873",
+      "ordered_tests": [
+        "legacy-ad_matmul-dual",
+        "legacy-cl_matmul-dual",
+        "legacy-br_matmul-dual",
+        "legacy-av_matmul-dual",
+        "legacy-vvadd2-dual",
+        "legacy-al_matmul-dual",
+        "legacy-bf_matmul-dual",
+        "legacy-am_matmul-dual",
+        "chipyard-cpp-hello",
+        "mt-matmul",
+        "corrected-legacy-ae_matmul-dual",
+        "legacy-ak_matmul-dual",
+        "legacy-cs_matmul-dual",
+        "median",
+        "legacy-dm_matmul-dual",
+        "towers",
+        "legacy-bj_matmul-dual",
+        "chipyard-hello"
+      ]
+    },
+    {
+      "number": 2,
+      "campaign": "cpu-bench-shard-2",
+      "manifest": "build/IP3/cpu-bench-shards/bench-shard-2.tsv",
+      "manifest_sha256": "fc4d1311e923beb5d9ce5b43b702edd3afaa053124decc4612ffd1d2546dfa4e",
+      "tests": 17,
+      "ip2_wall_seconds_sum": "1351.825",
+      "ordered_tests": [
+        "legacy-cf_matmul-dual",
+        "legacy-cv_matmul-dual",
+        "legacy-df_matmul-dual",
+        "legacy-do_matmul-dual",
+        "legacy-vvadd4-dual",
+        "legacy-cm_matmul-dual",
+        "mt-vvadd",
+        "legacy-at_matmul-dual",
+        "legacy-vvadd0-dual",
+        "legacy-aq_matmul-dual",
+        "legacy-bs_matmul-dual",
+        "legacy-an_matmul-dual",
+        "legacy-ae_matmul-dual",
+        "legacy-ap_matmul-dual",
+        "chipyard-mt-hello-dual",
+        "vvadd",
+        "legacy-bm_matmul-dual"
+      ]
+    },
+    {
+      "number": 3,
+      "campaign": "cpu-bench-shard-3",
+      "manifest": "build/IP3/cpu-bench-shards/bench-shard-3.tsv",
+      "manifest_sha256": "cb62f9d6fdf4da85c555b86bb241e8bdcfd4a0d5dfdea4aa61ab2a49bddcd611",
+      "tests": 18,
+      "ip2_wall_seconds_sum": "1358.476",
+      "ordered_tests": [
+        "legacy-dv_matmul-dual",
+        "qsort",
+        "legacy-dr_matmul-dual",
+        "legacy-bo_matmul-dual",
+        "spmv",
+        "legacy-vvadd1-dual",
+        "legacy-az_matmul-dual",
+        "corrected-legacy-vvadd1-dual",
+        "legacy-vvadd3-dual",
+        "memcpy",
+        "legacy-bc_matmul-dual",
+        "corrected-mt-matmul-dual",
+        "legacy-ar_matmul-dual",
+        "mt-matmul-dual",
+        "legacy-ds_matmul-dual",
+        "legacy-ci_matmul-dual",
+        "legacy-ai_matmul-dual",
+        "dual-hart-smoke"
+      ]
+    },
+    {
+      "number": 4,
+      "campaign": "cpu-bench-shard-4",
+      "manifest": "build/IP3/cpu-bench-shards/bench-shard-4.tsv",
+      "manifest_sha256": "fbcb911000c781988e3744dcac3c98631ee4edb93e4517e5ac7100e5cf0ec254",
+      "tests": 19,
+      "ip2_wall_seconds_sum": "1364.085",
+      "ordered_tests": [
+        "rsort",
+        "mm",
+        "mt-memcpy",
+        "dhrystone",
+        "mt-memcpy-dual",
+        "mt-vvadd-dual",
+        "legacy-cy_matmul-dual",
+        "legacy-ay_matmul-dual",
+        "legacy-bk_matmul-dual",
+        "legacy-du_matmul-dual",
+        "multiply",
+        "legacy-dc_matmul-dual",
+        "legacy-ce_matmul-dual",
+        "legacy-ck_matmul-dual",
+        "legacy-ag_matmul-dual",
+        "legacy-cg_matmul-dual",
+        "legacy-bh_matmul-dual",
+        "legacy-af_matmul-dual",
+        "legacy-bb_matmul-dual"
+      ]
+    }
+  ],
+  "disjoint_union_exactly_original_72": true,
+  "all_original_row_fields_identical": true,
+  "current_elf_hashes_match_reused_inputs": true,
+  "fixed_settings": {
+    "jobs": 1,
+    "seed": 1,
+    "max_cycles": 2000000,
+    "wall_timeout_seconds": 1800
+  }
+}

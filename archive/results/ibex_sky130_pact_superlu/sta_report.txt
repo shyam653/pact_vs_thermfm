@@ -1,0 +1,45 @@
+[INFO ODB-0227] LEF file: /home/boson4/diffusion/external/OpenROAD-flow-scripts/flow/platforms/sky130hd/lef/sky130_fd_sc_hd.tlef, created 13 layers, 25 vias
+[INFO ODB-0227] LEF file: /home/boson4/diffusion/external/OpenROAD-flow-scripts/flow/platforms/sky130hd/lef/sky130_fd_sc_hd_merged.lef, created 441 library cells
+[WARNING ORD-2011] LEF master sky130_fd_sc_hd__tapvpwrvgnd_1 has no liberty cell.
+Startpoint: _414_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _418_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+    Delay      Time   Description
+-------------------------------------------------------------
+   0.0000    0.0000   clock clk (rise edge)
+   0.0000    0.0000   clock network delay (ideal)
+   0.0000    0.0000 ^ _414_/CLK (sky130_fd_sc_hd__dfxtp_4)
+   0.3239    0.3239 v _414_/Q (sky130_fd_sc_hd__dfxtp_4)
+   0.1234    0.4474 v _214_/Y (sky130_fd_sc_hd__nor2b_4)
+   0.3234    0.7707 v _215_/X (sky130_fd_sc_hd__maj3_2)
+   0.3254    1.0961 v _216_/X (sky130_fd_sc_hd__maj3_2)
+   0.3603    1.4564 v _217_/X (sky130_fd_sc_hd__maj3_2)
+   0.3777    1.8341 v _218_/X (sky130_fd_sc_hd__maj3_2)
+   0.3983    2.2324 v _219_/X (sky130_fd_sc_hd__maj3_2)
+   0.2496    2.4820 ^ _222_/Y (sky130_fd_sc_hd__o211ai_4)
+   0.1578    2.6399 v _225_/Y (sky130_fd_sc_hd__a311oi_4)
+   0.3389    2.9788 ^ _228_/Y (sky130_fd_sc_hd__o311ai_4)
+   0.1726    3.1515 v _231_/Y (sky130_fd_sc_hd__a311oi_4)
+   0.4335    3.5850 v _292_/X (sky130_fd_sc_hd__o311a_2)
+   0.7154    4.3003 ^ _295_/Y (sky130_fd_sc_hd__o31ai_4)
+   0.3629    4.6632 ^ split1/X (sky130_fd_sc_hd__buf_4)
+   0.1138    4.7770 v _316_/Y (sky130_fd_sc_hd__a221oi_1)
+   0.0002    4.7771 v _418_/D (sky130_fd_sc_hd__dfxtp_1)
+             4.7771   data arrival time
+
+  10.0000   10.0000   clock clk (rise edge)
+   0.0000   10.0000   clock network delay (ideal)
+   0.0000   10.0000   clock reconvergence pessimism
+            10.0000 ^ _418_/CLK (sky130_fd_sc_hd__dfxtp_1)
+  -0.1593    9.8407   library setup time
+             9.8407   data required time
+-------------------------------------------------------------
+             9.8407   data required time
+            -4.7771   data arrival time
+-------------------------------------------------------------
+             5.0635   slack (MET)
+
+
+

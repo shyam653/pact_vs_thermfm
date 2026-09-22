@@ -1,0 +1,9 @@
+{
+  "test": "rv64ui-v-sraiw",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 10.074,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64ui-v-sraiw/simulation.log"
+}

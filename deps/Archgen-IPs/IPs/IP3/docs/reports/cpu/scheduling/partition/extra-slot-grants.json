@@ -1,0 +1,30 @@
+{
+  "extra_slots": 2,
+  "reason": "NVDLA agent released both completed normal workers, with no further accelerator simulations or retries; ISA retains two workers until full completion",
+  "released_workers": [
+    {
+      "granted_utc": "2026-09-12T17:24:49.083826+00:00",
+      "released_campaign": "build/IP3/nvdla-sdp-tieoff-seed2",
+      "released_native_pid": 303855,
+      "released_tool_session": 50310,
+      "native_process_absent": true,
+      "summary_sha256": "a1cb9a6719d45549f922dc057f5d66e83afc25c6fa9a85fd1078576946283bde",
+      "provenance_sha256": "9b29ea54fe998ddb35bd78067f51a337a6fb292f40004b8402f7bdb38c35ab9c",
+      "result_sha256": "215d1db1fb46811880f99a0ca35a72c07e6f742c76ff2c5470772a5f1679cb5c",
+      "finished_utc": "2026-09-12T17:23:49Z",
+      "previous_grant_file_sha256": "5ccb914d6dff77ff2b4075fb24e918ac6cf7de0a29dd531e90b1fa8bad02d3cb"
+    },
+    {
+      "granted_utc": "2026-09-12T17:32:59.347339+00:00",
+      "released_campaign": "build/IP3/nvdla-sdp-tieoff-seed3",
+      "released_native_pid": 304126,
+      "released_tool_session": 12265,
+      "native_process_absent": true,
+      "summary_sha256": "307c9a8116f3caa1e748497ca7c8e73894ad067f6591626a060f66478a2716ff",
+      "provenance_sha256": "ae5b634cf299c16e10f9a0e0a6d836d6b048821c6514be87b6eeaba66e3a3dd5",
+      "result_sha256": "51355549115f7f7e7e2b9e9419fa3f07d79c1429c90029e0a731f5c4c7c3bf06",
+      "finished_utc": "2026-09-12T17:32:25Z",
+      "previous_grant_file_sha256": "dfe27d31d7a4a30d8950a78a54c23371a97d0ec6d3beb28b3faa8d84514c09a2"
+    }
+  ]
+}

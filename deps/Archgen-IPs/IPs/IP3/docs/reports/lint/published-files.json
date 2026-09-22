@@ -1,0 +1,97 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 2277,
+    "sha256": "fb69cd73bf66116cfb696db9cb7fe152ef138133a38c75918ca4f8c0275d43d2"
+  },
+  {
+    "path": "attempt-history.json",
+    "bytes": 1035,
+    "sha256": "48783774880d8cec189e0c80691834395bd420688b8b10d3f84ba7e391403ef1"
+  },
+  {
+    "path": "export.json",
+    "bytes": 4730,
+    "sha256": "450407adb29f7a645050736a6d880c9086c6e154b54e785b7c275a80e328bf95"
+  },
+  {
+    "path": "slang/dependency-sha256.txt",
+    "bytes": 87230,
+    "sha256": "fc6bb1911177eaaaf9e2d91b9b7a8202fa55f92acd1ee11121e11329065dc977"
+  },
+  {
+    "path": "slang/diagnostics.json",
+    "bytes": 29740,
+    "sha256": "eebb6dcbce4128cbefce3e0424e4b3b824d23381a54309911c819d220093a959"
+  },
+  {
+    "path": "slang/exit-code.txt",
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  {
+    "path": "slang/module-dependencies.txt",
+    "bytes": 56078,
+    "sha256": "65501abd25931cbb0da83c8575c35a112db6b2380494e71e676bf05294f19408"
+  },
+  {
+    "path": "slang/provenance.json",
+    "bytes": 1124,
+    "sha256": "dcd39c6043ae332c9632d839fbe4ace5da181cd4c6203e49c63b16f3f6b5ba29"
+  },
+  {
+    "path": "slang/source-integrity-exit-code.txt",
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  {
+    "path": "slang/time-stats.json",
+    "bytes": 127,
+    "sha256": "281e3a7ab190da1625f7dd36d6795b348f690c1a5d5949200c945a0b1afc1ed1"
+  },
+  {
+    "path": "source-lint-directives.txt",
+    "bytes": 103,
+    "sha256": "fa9cebac1ff5023b44fcd16729489d9f8dac90b6a1bd8ab484781768837abda2"
+  },
+  {
+    "path": "source-sha256.txt",
+    "bytes": 48244,
+    "sha256": "1b80d07f3d210e0e855ae24e5dc63a195dd9e89169e94fbad9972d29a46e9e91"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 1988,
+    "sha256": "852c57e8d78fca1fc5a1ae2b0fd460db9fa38b694770517d830a1a4a47ab310f"
+  },
+  {
+    "path": "verilator/diagnostics.json",
+    "bytes": 6507538,
+    "sha256": "29271010938efd2e01fea4ea7f8b4ec34f0edb0b42250663ac66ec932d8e7ead"
+  },
+  {
+    "path": "verilator/exit-code.txt",
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  {
+    "path": "verilator/provenance.json",
+    "bytes": 1118,
+    "sha256": "2b92818d046f7ca60c5e503ae9abdda4bafe3080360e9cfba814f1b26ab3149b"
+  },
+  {
+    "path": "verilator/source-integrity-exit-code.txt",
+    "bytes": 2,
+    "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+  },
+  {
+    "path": "warning-triage.json",
+    "bytes": 5974,
+    "sha256": "cce2fd25bb9fc0c5c12d85bb9c3efcaf129ee6c59ac7180e347b45b5a31724b1"
+  },
+  {
+    "path": "workflow-exits.json",
+    "bytes": 35,
+    "sha256": "424ef9382c10f038d61d32735d0d93ffee8a0c0290c6c4c599c81902fd7d1591"
+  }
+]

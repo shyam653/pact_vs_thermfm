@@ -1,0 +1,9 @@
+{
+  "test": "rv64ui-p-addw",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 8.229,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64ui-p-addw/simulation.log"
+}

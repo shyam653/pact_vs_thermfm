@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzbb-p-xnor",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 4.834,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uzbb-p-xnor/simulation.log"
+}

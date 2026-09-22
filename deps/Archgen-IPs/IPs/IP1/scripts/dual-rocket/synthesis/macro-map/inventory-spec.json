@@ -1,0 +1,9 @@
+{
+  "cc_dir_ext": [1024, 144, "mrw", 18, 1],
+  "cc_banks_0_ext": [16384, 64, "rw", 64, 4],
+  "rockettile_dcache_data_arrays_0_ext": [512, 512, "mrw", 8, 2],
+  "rockettile_dcache_tag_array_ext": [64, 176, "mrw", 22, 2],
+  "rockettile_icache_tag_array_ext": [64, 168, "mrw", 21, 2],
+  "rockettile_icache_data_arrays_0_ext": [512, 256, "mrw", 32, 4],
+  "mem_ext": [8192, 64, "mrw", 8, 1]
+}

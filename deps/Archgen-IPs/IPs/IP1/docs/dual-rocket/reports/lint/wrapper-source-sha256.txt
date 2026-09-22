@@ -1,0 +1,7 @@
+c3ecb03a3f8acac8bac062ce867a175a3bf8e4cef52b9743b9b028bdc2860b48  scripts/dual-rocket/lint/common.sh
+0dc1687aa8f5575a385fb96ef9a0efb0f39166c45814751e63fd7be1b0793cc2  scripts/dual-rocket/lint/compare.sh
+290f51121999521763cb1ff62f53c62b10996f57b5533db3edc0752d7272c1b5  scripts/dual-rocket/lint/run.sh
+a3d5ab137f742dabcd561fc8ba5c6cae060408c61c7593bbda16c2fde4ed220f  scripts/dual-rocket/lint/slang.sh
+566d372f2977855c1502c423b34ce29fe51b71e8268856d9652e3370c5319d80  scripts/dual-rocket/lint/verilator.sh
+16f8cc59f3ee4cf565c852bee4b87e25261f394b9ec88372bc7c3664b4216b3f  scripts/dual-rocket/lint/export-report.py
+5da8e94cf66c2426feb801ff9d2e48294d363e95d487a5f529942c5dcde53b89  scripts/dual-rocket/lint/README.md

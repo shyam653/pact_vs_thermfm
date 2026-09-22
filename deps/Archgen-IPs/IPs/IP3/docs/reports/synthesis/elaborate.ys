@@ -1,0 +1,11 @@
+plugin -i slang
+read_slang --top ChipTop --best-effort-hierarchy -D SYNTHESIS -y inputs/rtl -Y .sv -Y .v inputs/rtl/ChipTop.sv inputs/extra-0.v inputs/rtl/chipyard.harness.TestHarness.DualRocketNVDLAConfig.top.mems.v
+hierarchy -check -top ChipTop
+tee -o ./elaborate-before-clean-statistics.json stat -json -width
+write_rtlil ./elaborate-before-clean.il
+opt_clean -purge
+tee -o ./elaborate-after-clean-statistics.json stat -json -width
+write_rtlil ./elaborate-after-clean.il
+check -assert
+tee -o ./elaborated-statistics.json stat -json -width
+write_rtlil ./ChipTop-elaborated.il

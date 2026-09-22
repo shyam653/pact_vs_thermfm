@@ -1,0 +1,15 @@
+{
+  "fft_revision": "e361f229b5574931f555b10e1b48f2769c07832c",
+  "points": 8,
+  "component_width": 16,
+  "component_fraction_bits": 8,
+  "twiddle_fraction_bits": 17,
+  "random_seed": 1179928148,
+  "cases": 135,
+  "independent_dft_cases": 94,
+  "max_independent_dft_component_error_lsb": 0.9993872553617962,
+  "dft_component_error_limit_lsb": 4,
+  "upstream_known_answer_verified": true,
+  "generator_sha256": "5d470ccc5db02b30160c363c468072bc7b840e3e02f9b1406aeff3f26f2f6524",
+  "header_sha256": "fda750764c84705fa46917d98abd64afad6a63795393b55c8c7fe6c28e3f8236"
+}

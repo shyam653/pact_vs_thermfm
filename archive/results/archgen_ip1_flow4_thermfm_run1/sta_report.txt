@@ -1,0 +1,31 @@
+[INFO ODB-0227] LEF file: archive/design_inputs/aes_asap7/asap7_tech_1x_201209.lef, created 30 layers, 9 vias
+[INFO ODB-0227] LEF file: archive/design_inputs/aes_asap7/asap7sc7p5t_28_R_1x_220121a.lef, created 212 library cells
+Startpoint: r1 (rising edge-triggered flip-flop clocked by clk1)
+Endpoint: r3 (rising edge-triggered flip-flop clocked by clk3)
+Path Group: clk3
+Path Type: max
+
+    Delay      Time   Description
+-------------------------------------------------------------
+   0.0000    0.0000   clock clk1 (rise edge)
+   0.0000    0.0000   clock network delay (ideal)
+   0.0000    0.0000 ^ r1/CLK (DFFHQx4_ASAP7_75t_R)
+  52.5454   52.5454 ^ r1/Q (DFFHQx4_ASAP7_75t_R)
+  55.7774  108.3228 ^ u2/Y (AND2x2_ASAP7_75t_R)
+  16.6730  124.9958 ^ r3/D (DFFHQx4_ASAP7_75t_R)
+           124.9958   data arrival time
+
+  10.0000   10.0000   clock clk3 (rise edge)
+   0.0000   10.0000   clock network delay (ideal)
+   0.0000   10.0000   clock reconvergence pessimism
+            10.0000 ^ r3/CLK (DFFHQx4_ASAP7_75t_R)
+ -13.7231   -3.7231   library setup time
+            -3.7231   data required time
+-------------------------------------------------------------
+            -3.7231   data required time
+          -124.9958   data arrival time
+-------------------------------------------------------------
+          -128.7188   slack (VIOLATED)
+
+
+

@@ -1,0 +1,165 @@
+{
+  "status": "REVIEWED_REMAINING_WARNINGS_AFTER_SDP_READBACK_FIX",
+  "verilator_warning_counts": {
+    "EOFNEWLINE": 5,
+    "DEFOVERRIDE": 1,
+    "REDEFMACRO": 1,
+    "DECLFILENAME": 2,
+    "PINCONNECTEMPTY": 445,
+    "PINMISSING": 63,
+    "GENUNNAMED": 18,
+    "VARHIDDEN": 2,
+    "IMPLICIT": 5,
+    "WIDTHEXPAND": 591,
+    "WIDTHTRUNC": 937,
+    "ASCRANGE": 12,
+    "WIDTHXZEXPAND": 64,
+    "ALWNEVER": 1,
+    "UNUSEDSIGNAL": 3758,
+    "UNUSEDPARAM": 25,
+    "UNSIGNED": 7,
+    "CASEINCOMPLETE": 1,
+    "LATCH": 1,
+    "SYNCASYNCNET": 5
+  },
+  "undriven": {
+    "UNDRIVEN_category_count": 0,
+    "not_driven_messages": 852,
+    "all_explicitly_also_unused": true,
+    "scope": "All 852 explicit not-driven messages also say nor used. Zero remaining unconnected-input-port warnings in slang; mandatory flattened synthesis CHECK is a separate gate."
+  },
+  "width": {
+    "warnings": 1592,
+    "all_in_bundled_nvidia_rtl": true,
+    "integration_and_external_bridge_width_warnings": 0,
+    "truncation_warnings": 937,
+    "all_truncations_assign_unsized_x_constants": true,
+    "xz_expansion_warnings": 64,
+    "ordinary_expansion_warnings": 591,
+    "reviewed_active_control_examples": [
+      {
+        "module": "NV_NVDLA_MCIF_WRITE_IG_bpt",
+        "line": 152784,
+        "observation": "32-bit address increment widens 3-bit ftran_size before ((ftran_size+1)<<3)."
+      },
+      {
+        "module": "NV_NVDLA_MCIF_WRITE_IG_cvt",
+        "line": 153495,
+        "observation": "Outstanding-count arithmetic widens operands into an 11-bit result."
+      },
+      {
+        "module": "NV_NVDLA_SDP_RDMA_eg",
+        "line": 199283,
+        "observation": "Four 1-bit mask flags sum into a 3-bit population count."
+      },
+      {
+        "module": "NV_NVDLA_csb_master",
+        "line": 126569,
+        "observation": "18-bit masked byte address zero-extends for a 32-bit register-decode comparison."
+      }
+    ],
+    "scope": "Reviewed boundary warnings and active MCIF/SDP/CSB examples. This is not exhaustive numerical validation of every accelerator mode."
+  },
+  "implicit_nets": {
+    "count": 5,
+    "scope": "Each is an unused constant assignment for the absent CVSRAM interface; no other uncommented reference exists."
+  },
+  "latch": {
+    "count": 1,
+    "file": "rtl/EICG_wrapper.v",
+    "line": 12,
+    "instance": "ChipTop.gated_clock_debug_clock_gate.en_latched",
+    "sha256": "3d66cf9dc6062f27cfe73ff9a926d187c9d40c9c35125a151978bdd6fcdfefbd",
+    "identical_to_ip1": true,
+    "scope": "Intentional low-phase enable latch in inherited debug clock gate. No new NVDLA data-path latch reported."
+  },
+  "other_reviewed": {
+    "ALWNEVER": {
+      "line": 63859,
+      "signal": "rsp_rd_more_atmm",
+      "active_references": 2,
+      "scope": "Constant-only body; selected small RTL has no consumers (declaration plus assignment only)."
+    },
+    "CASEINCOMPLETE": {
+      "line": 67717,
+      "scope": "Pixel-format parser supplies defaults before case; unsupported format encodings retain defaults. No latch inferred."
+    }
+  },
+  "wrapper_fixes": {
+    "upper_address_bits": "Both DBB address outputs explicitly assign bits63:32=0 at bundled RTL218382/218383. Integration consumes bits31:0.",
+    "metadata": "Both generated AXI queue write buses prefix request fields with 14'h1: INCR burst and zero lock/cache/prot/QoS."
+  },
+  "sdp_lut_ports": {
+    "count": 6,
+    "inputs": [
+      "dp2reg_lut_hybrid",
+      "dp2reg_lut_int_data",
+      "dp2reg_lut_le_hit",
+      "dp2reg_lut_lo_hit",
+      "dp2reg_lut_oflow",
+      "dp2reg_lut_uflow"
+    ],
+    "scope": "Patch 0003 supplies explicit typed zeros to all six inputs for the absent small SDP LUT: five 32-bit statistic inputs and one 16-bit data input. The separate CDP LUT remains implemented. The small SDP LUT datapath remains absent.",
+    "configuration_evidence": {
+      "cfgrom_offset": "0x12c",
+      "value": "0x18",
+      "register": "SDP_CAP_COMPAT"
+    },
+    "independent_source_review": "Confirmed by NVDLA integration agent from selected small CFGROM, SDP core and SDP register RTL.",
+    "patch": "IPs/IP3/patches/0003-define-small-sdp-lut-readbacks.patch",
+    "patch_sha256": "f23d08baaaf4743de2724f5f1cb6fc82fc86cecf0c656925cb4226bd11135714",
+    "tieoffs": {
+      "dp2reg_lut_hybrid": 32,
+      "dp2reg_lut_int_data": 16,
+      "dp2reg_lut_le_hit": 32,
+      "dp2reg_lut_lo_hit": 32,
+      "dp2reg_lut_oflow": 32,
+      "dp2reg_lut_uflow": 32
+    },
+    "remaining_unconnected_input_warnings": 0,
+    "prior_flattened_check_failure_bits": 176,
+    "bundled_instance_line": 209044
+  },
+  "observed_utc": "2026-09-12T16:05:26.086465+00:00",
+  "source_sha256": "88e206bbf86544030034ecfc387ef3ae4a9a8b6a149b1f550b87bbf02770a124",
+  "diagnostic_change": {
+    "scope": "Message text and category multiset comparison; source locations may shift by seven added lines.",
+    "prior_verilator_warnings": 5950,
+    "current_verilator_warnings": 5944,
+    "removed": [
+      {
+        "category": "PINMISSING",
+        "message": "Instance has missing pin: 'dp2reg_lut_hybrid'",
+        "count": 1
+      },
+      {
+        "category": "PINMISSING",
+        "message": "Instance has missing pin: 'dp2reg_lut_int_data'",
+        "count": 1
+      },
+      {
+        "category": "PINMISSING",
+        "message": "Instance has missing pin: 'dp2reg_lut_le_hit'",
+        "count": 1
+      },
+      {
+        "category": "PINMISSING",
+        "message": "Instance has missing pin: 'dp2reg_lut_lo_hit'",
+        "count": 1
+      },
+      {
+        "category": "PINMISSING",
+        "message": "Instance has missing pin: 'dp2reg_lut_oflow'",
+        "count": 1
+      },
+      {
+        "category": "PINMISSING",
+        "message": "Instance has missing pin: 'dp2reg_lut_uflow'",
+        "count": 1
+      }
+    ],
+    "added_messages": 0,
+    "all_remaining_message_texts_unchanged": true,
+    "prior_raw_rtl_sha256": "2c9dba37f759ffab52ee229e2ba3ef312fb3cb6221f2476337d13fd58e062cea"
+  }
+}

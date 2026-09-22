@@ -1,0 +1,9 @@
+{
+  "test": "spmv",
+  "suite": "benchmark-configured",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 74.43,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/spmv/simulation.log"
+}

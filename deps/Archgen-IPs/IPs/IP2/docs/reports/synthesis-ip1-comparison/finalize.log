@@ -1,0 +1,268 @@
+
+-- Executing script file `finalize.ys' --
+
+1. Executing RTLIL frontend.
+Input filename: ChipTop-after-abc.il
+
+2. Executing Liberty frontend: inputs/cell.lib
+Replacing existing blackbox module AND2_X1.
+Replacing existing blackbox module AND2_X2.
+Replacing existing blackbox module AND2_X4.
+Replacing existing blackbox module AND3_X1.
+Replacing existing blackbox module AND3_X2.
+Replacing existing blackbox module AND3_X4.
+Replacing existing blackbox module AND4_X1.
+Replacing existing blackbox module AND4_X2.
+Replacing existing blackbox module AND4_X4.
+Replacing existing blackbox module ANTENNA_X1.
+Replacing existing blackbox module AOI21_X1.
+Replacing existing blackbox module AOI21_X2.
+Replacing existing blackbox module AOI21_X4.
+Replacing existing blackbox module AOI22_X1.
+Replacing existing blackbox module AOI22_X2.
+Replacing existing blackbox module AOI22_X4.
+Replacing existing blackbox module AOI211_X1.
+Replacing existing blackbox module AOI211_X2.
+Replacing existing blackbox module AOI211_X4.
+Replacing existing blackbox module AOI221_X1.
+Replacing existing blackbox module AOI221_X2.
+Replacing existing blackbox module AOI221_X4.
+Replacing existing blackbox module AOI222_X1.
+Replacing existing blackbox module AOI222_X2.
+Replacing existing blackbox module AOI222_X4.
+Replacing existing blackbox module BUF_X1.
+Replacing existing blackbox module BUF_X2.
+Replacing existing blackbox module BUF_X4.
+Replacing existing blackbox module BUF_X8.
+Replacing existing blackbox module BUF_X16.
+Replacing existing blackbox module BUF_X32.
+Replacing existing blackbox module CLKBUF_X1.
+Replacing existing blackbox module CLKBUF_X2.
+Replacing existing blackbox module CLKBUF_X3.
+Replacing existing blackbox module CLKGATETST_X1.
+Replacing existing blackbox module CLKGATETST_X2.
+Replacing existing blackbox module CLKGATETST_X4.
+Replacing existing blackbox module CLKGATETST_X8.
+Replacing existing blackbox module CLKGATE_X1.
+Replacing existing blackbox module CLKGATE_X2.
+Replacing existing blackbox module CLKGATE_X4.
+Replacing existing blackbox module CLKGATE_X8.
+Replacing existing blackbox module DFFRS_X1.
+Replacing existing blackbox module DFFRS_X2.
+Replacing existing blackbox module DFFR_X1.
+Replacing existing blackbox module DFFR_X2.
+Replacing existing blackbox module DFFS_X1.
+Replacing existing blackbox module DFFS_X2.
+Replacing existing blackbox module DFF_X1.
+Replacing existing blackbox module DFF_X2.
+Replacing existing blackbox module DLH_X1.
+Replacing existing blackbox module DLH_X2.
+Replacing existing blackbox module DLL_X1.
+Replacing existing blackbox module DLL_X2.
+Replacing existing blackbox module FA_X1.
+Replacing existing blackbox module FILLCELL_X1.
+Replacing existing blackbox module TAPCELL_X1.
+Replacing existing blackbox module FILLCELL_X2.
+Replacing existing blackbox module FILLCELL_X4.
+Replacing existing blackbox module FILLCELL_X8.
+Replacing existing blackbox module FILLCELL_X16.
+Replacing existing blackbox module FILLCELL_X32.
+Replacing existing blackbox module HA_X1.
+Replacing existing blackbox module INV_X1.
+Replacing existing blackbox module INV_X2.
+Replacing existing blackbox module INV_X4.
+Replacing existing blackbox module INV_X8.
+Replacing existing blackbox module INV_X16.
+Replacing existing blackbox module INV_X32.
+Replacing existing blackbox module LOGIC0_X1.
+Replacing existing blackbox module LOGIC1_X1.
+Replacing existing blackbox module MUX2_X1.
+Replacing existing blackbox module MUX2_X2.
+Replacing existing blackbox module NAND2_X1.
+Replacing existing blackbox module NAND2_X2.
+Replacing existing blackbox module NAND2_X4.
+Replacing existing blackbox module NAND3_X1.
+Replacing existing blackbox module NAND3_X2.
+Replacing existing blackbox module NAND3_X4.
+Replacing existing blackbox module NAND4_X1.
+Replacing existing blackbox module NAND4_X2.
+Replacing existing blackbox module NAND4_X4.
+Replacing existing blackbox module NOR2_X1.
+Replacing existing blackbox module NOR2_X2.
+Replacing existing blackbox module NOR2_X4.
+Replacing existing blackbox module NOR3_X1.
+Replacing existing blackbox module NOR3_X2.
+Replacing existing blackbox module NOR3_X4.
+Replacing existing blackbox module NOR4_X1.
+Replacing existing blackbox module NOR4_X2.
+Replacing existing blackbox module NOR4_X4.
+Replacing existing blackbox module OAI21_X1.
+Replacing existing blackbox module OAI21_X2.
+Replacing existing blackbox module OAI21_X4.
+Replacing existing blackbox module OAI22_X1.
+Replacing existing blackbox module OAI22_X2.
+Replacing existing blackbox module OAI22_X4.
+Replacing existing blackbox module OAI33_X1.
+Replacing existing blackbox module OAI211_X1.
+Replacing existing blackbox module OAI211_X2.
+Replacing existing blackbox module OAI211_X4.
+Replacing existing blackbox module OAI221_X1.
+Replacing existing blackbox module OAI221_X2.
+Replacing existing blackbox module OAI221_X4.
+Replacing existing blackbox module OAI222_X1.
+Replacing existing blackbox module OAI222_X2.
+Replacing existing blackbox module OAI222_X4.
+Replacing existing blackbox module OR2_X1.
+Replacing existing blackbox module OR2_X2.
+Replacing existing blackbox module OR2_X4.
+Replacing existing blackbox module OR3_X1.
+Replacing existing blackbox module OR3_X2.
+Replacing existing blackbox module OR3_X4.
+Replacing existing blackbox module OR4_X1.
+Replacing existing blackbox module OR4_X2.
+Replacing existing blackbox module OR4_X4.
+Replacing existing blackbox module SDFFRS_X1.
+Replacing existing blackbox module SDFFRS_X2.
+Replacing existing blackbox module SDFFR_X1.
+Replacing existing blackbox module SDFFR_X2.
+Replacing existing blackbox module SDFFS_X1.
+Replacing existing blackbox module SDFFS_X2.
+Replacing existing blackbox module SDFF_X1.
+Replacing existing blackbox module SDFF_X2.
+Replacing existing blackbox module TBUF_X1.
+Replacing existing blackbox module TBUF_X2.
+Replacing existing blackbox module TBUF_X4.
+Replacing existing blackbox module TBUF_X8.
+Replacing existing blackbox module TBUF_X16.
+Replacing existing blackbox module TINV_X1.
+Replacing existing blackbox module TLAT_X1.
+Replacing existing blackbox module XNOR2_X1.
+Replacing existing blackbox module XNOR2_X2.
+Replacing existing blackbox module XOR2_X1.
+Replacing existing blackbox module XOR2_X2.
+Imported 135 cell types from liberty file.
+Removed 0 unused cells and 16629 unused wires.
+
+3. Executing HIERARCHY pass (managing design hierarchy).
+
+3.1. Analyzing design hierarchy..
+Top module:  \ChipTop
+
+3.2. Analyzing design hierarchy..
+Top module:  \ChipTop
+Removed 0 unused modules.
+
+4. Executing CHECK pass (checking for obvious problems).
+Checking module ChipTop...
+Found and reported 0 problems.
+{
+   "creator": "Yosys 0.68+195 (git sha1 435977e97-dirty, Release, Clang /usr/bin/clang++ 21.1.8)",
+   "invocation": "stat -json -liberty inputs/cell.lib -liberty inputs/sram.lib ",
+   "modules": {
+      "\\ChipTop": {
+         "num_wires":         379796,
+         "num_wire_bits":     466164,
+         "num_pub_wires":     6504,
+         "num_pub_wire_bits": 86365,
+         "num_ports":         56,
+         "num_port_bits":     363,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         379208,
+         "num_submodules":       0,
+         "area":              4064449.942001,
+         "sequential_area":    252291.956000,
+         "num_cells_by_type": {
+            "AND2_X1": 5271,
+            "AND3_X1": 1885,
+            "AND4_X1": 751,
+            "AOI211_X1": 2237,
+            "AOI21_X1": 21150,
+            "AOI221_X1": 2067,
+            "AOI222_X1": 849,
+            "AOI22_X1": 2165,
+            "BUF_X1": 24,
+            "DFFR_X1": 549,
+            "DFFS_X1": 7,
+            "DFF_X1": 55138,
+            "DLL_X1": 1,
+            "INV_X1": 11641,
+            "MUX2_X1": 131364,
+            "NAND2_X1": 35098,
+            "NAND3_X1": 10160,
+            "NAND4_X1": 4913,
+            "NOR2_X1": 15866,
+            "NOR3_X1": 6244,
+            "NOR4_X1": 4482,
+            "OAI211_X1": 1718,
+            "OAI21_X1": 23778,
+            "OAI221_X1": 1122,
+            "OAI222_X1": 123,
+            "OAI22_X1": 445,
+            "OAI33_X1": 76,
+            "OR2_X1": 4039,
+            "OR3_X1": 1572,
+            "OR4_X1": 653,
+            "XNOR2_X1": 18985,
+            "XOR2_X1": 14641,
+            "fakeram45_512x64": 194
+         }
+      }
+   },
+      "design": {
+         "num_wires":         379796,
+         "num_wire_bits":     466164,
+         "num_pub_wires":     6504,
+         "num_pub_wire_bits": 86365,
+         "num_ports":         56,
+         "num_port_bits":     363,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         379208,
+         "num_submodules":       0,
+         "area":              4064449.942001,
+         "sequential_area":    252291.956000,
+         "num_cells_by_type": {
+            "AND2_X1": 5271,
+            "AND3_X1": 1885,
+            "AND4_X1": 751,
+            "AOI211_X1": 2237,
+            "AOI21_X1": 21150,
+            "AOI221_X1": 2067,
+            "AOI222_X1": 849,
+            "AOI22_X1": 2165,
+            "BUF_X1": 24,
+            "DFFR_X1": 549,
+            "DFFS_X1": 7,
+            "DFF_X1": 55138,
+            "DLL_X1": 1,
+            "INV_X1": 11641,
+            "MUX2_X1": 131364,
+            "NAND2_X1": 35098,
+            "NAND3_X1": 10160,
+            "NAND4_X1": 4913,
+            "NOR2_X1": 15866,
+            "NOR3_X1": 6244,
+            "NOR4_X1": 4482,
+            "OAI211_X1": 1718,
+            "OAI21_X1": 23778,
+            "OAI221_X1": 1122,
+            "OAI222_X1": 123,
+            "OAI22_X1": 445,
+            "OAI33_X1": 76,
+            "OR2_X1": 4039,
+            "OR3_X1": 1572,
+            "OR4_X1": 653,
+            "XNOR2_X1": 18985,
+            "XOR2_X1": 14641,
+            "fakeram45_512x64": 194
+         }
+      }
+}
+
+5. Executing Verilog backend.
+Dumping module `\ChipTop'.
+
+6. Executing JSON backend.

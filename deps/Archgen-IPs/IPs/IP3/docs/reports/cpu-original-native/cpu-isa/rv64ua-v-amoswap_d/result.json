@@ -1,0 +1,9 @@
+{
+  "test": "rv64ua-v-amoswap_d",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 83.754,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64ua-v-amoswap_d/simulation.log"
+}

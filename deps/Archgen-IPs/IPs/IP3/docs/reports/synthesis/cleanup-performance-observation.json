@@ -1,0 +1,51 @@
+{
+  "observed_utc": "2026-09-12T16:43:34.622121+00:00",
+  "status": "CLEANUP_TERMINATED_NORMALLY_WITHOUT_ALTERNATIVE",
+  "stage": "9 opt -fast after techmap",
+  "completed_sweeps": 8,
+  "reruns": 7,
+  "timing_scope": "Wall-clock polling observations bound the stage; Yosys log does not timestamp every pass. Checkpoint time includes later CHECK/DFFLIBMAP/write stages and supplies an upper bound only.",
+  "observations": [
+    {
+      "utc": "2026-09-12T16:30:38Z",
+      "last_stage": "8.801 techmap subpass"
+    },
+    {
+      "utc": "2026-09-12T16:32:30Z",
+      "last_stage": "9.1 OPT_EXPR, sweep 1"
+    },
+    {
+      "utc": "2026-09-12T16:34:07Z",
+      "last_stage": "9.6 OPT_EXPR, sweep 2"
+    },
+    {
+      "utc": "2026-09-12T16:36:11Z",
+      "last_stage": "9.16 OPT_EXPR, sweep 4"
+    },
+    {
+      "utc": "2026-09-12T16:37:51Z",
+      "last_stage": "9.26 OPT_EXPR, sweep 6"
+    },
+    {
+      "utc": "2026-09-12T16:40:03.199528Z",
+      "last_stage": "pre-ABC checkpoint completed"
+    }
+  ],
+  "observed_phase_progress_average_seconds_per_sweep": 64.2,
+  "phase_progress_average_scope": "321 seconds between observations of sweeps 1 and 6 divided by five advanced sweeps; approximate because each observation can occur within OPT_EXPR.",
+  "stage_duration_bounds_seconds": [
+    321,
+    565.199528
+  ],
+  "duration_bounds_scope": "At least first/last observed ongoing stage duration; at most interval from prior techmap observation through completed pre-ABC checkpoint.",
+  "last_reduced_cell_type": "$_DFFE_PN0P_",
+  "last_reduced_cells": [
+    "$auto$ff.cc:337:slice$297380",
+    "$auto$ff.cc:337:slice$297324",
+    "$auto$ff.cc:337:slice$297256",
+    "$auto$ff.cc:337:slice$297212",
+    "$auto$ff.cc:337:slice$297156"
+  ],
+  "source_net_resolution": "Auto-generated bit FF IDs were logged without source net names and eliminated before the first gate checkpoint; no source-chain-length assertion is made. Actual loop convergence is observed.",
+  "alternative_launched": false
+}

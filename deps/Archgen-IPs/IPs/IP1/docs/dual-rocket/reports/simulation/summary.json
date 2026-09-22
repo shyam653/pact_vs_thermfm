@@ -1,0 +1,453 @@
+{
+  "campaigns": {
+    "isa-run": {
+      "total": 349,
+      "counts": {
+        "PASS": 340,
+        "FAIL": 5,
+        "WALL_TIMEOUT": 4
+      },
+      "elapsed_seconds": 1359.715,
+      "finished_utc": "2026-09-06T10:35:21Z"
+    },
+    "bench-run": {
+      "total": 66,
+      "counts": {
+        "PASS": 43,
+        "WALL_TIMEOUT": 3,
+        "FAIL": 20
+      },
+      "elapsed_seconds": 1723.372,
+      "finished_utc": "2026-09-06T11:15:38Z",
+      "resumed": true,
+      "previously_completed": 14,
+      "recovered_results": 0,
+      "elapsed_scope": "this resume invocation"
+    },
+    "smoke-run": {
+      "total": 4,
+      "counts": {
+        "PASS": 3,
+        "MISSING_FINISH": 1
+      },
+      "elapsed_seconds": 107.932,
+      "finished_utc": "2026-09-06T10:20:08Z"
+    },
+    "cpp-retry": {
+      "total": 1,
+      "counts": {
+        "PASS": 1
+      },
+      "elapsed_seconds": 70.676,
+      "finished_utc": "2026-09-06T10:23:12Z"
+    },
+    "corrected-run": {
+      "total": 3,
+      "counts": {
+        "PASS": 3
+      },
+      "elapsed_seconds": 152.356,
+      "finished_utc": "2026-09-06T10:29:23Z"
+    },
+    "pmp-retry": {
+      "total": 1,
+      "counts": {
+        "PASS": 1
+      },
+      "elapsed_seconds": 892.321,
+      "finished_utc": "2026-09-06T11:04:15Z"
+    }
+  },
+  "unique_tests": 422,
+  "unique_results": {
+    "PASS": 391,
+    "FAIL": 25,
+    "WALL_TIMEOUT": 6
+  },
+  "configured_isa": {
+    "PASS": 335
+  },
+  "configured_benchmarks": {
+    "PASS": 12
+  },
+  "by_suite": {
+    "benchmark-configured": {
+      "PASS": 12
+    },
+    "benchmark-dual": {
+      "PASS": 3
+    },
+    "benchmark-extra": {
+      "PASS": 2
+    },
+    "chipyard-generic": {
+      "PASS": 3
+    },
+    "corrected-mt-supplement": {
+      "PASS": 3
+    },
+    "dual-hart-smoke": {
+      "PASS": 1
+    },
+    "isa": {
+      "PASS": 340,
+      "FAIL": 5,
+      "WALL_TIMEOUT": 4
+    },
+    "legacy-mt": {
+      "PASS": 27,
+      "FAIL": 20,
+      "WALL_TIMEOUT": 2
+    }
+  },
+  "nonpasses": [
+    {
+      "test": "rv64mzicbo-p-zero",
+      "suite": "isa",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "4.238",
+      "cycles": "",
+      "log": "isa-run/rv64mzicbo-p-zero/simulation.log",
+      "tohost_exit": "668",
+      "campaign": "isa-run"
+    },
+    {
+      "test": "rv64ui-p-ma_data",
+      "suite": "isa",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "1.275",
+      "cycles": "",
+      "log": "isa-run/rv64ui-p-ma_data/simulation.log",
+      "tohost_exit": "668",
+      "campaign": "isa-run"
+    },
+    {
+      "test": "rv64ui-v-ma_data",
+      "suite": "isa",
+      "result": "WALL_TIMEOUT",
+      "exit_status": "0",
+      "wall_seconds": "300.116",
+      "cycles": "",
+      "log": "isa-run/rv64ui-v-ma_data/simulation.log",
+      "tohost_exit": "",
+      "campaign": "isa-run"
+    },
+    {
+      "test": "rv64uzbc-p-clmul",
+      "suite": "isa",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "1.428",
+      "cycles": "",
+      "log": "isa-run/rv64uzbc-p-clmul/simulation.log",
+      "tohost_exit": "668",
+      "campaign": "isa-run"
+    },
+    {
+      "test": "rv64uzbc-p-clmulh",
+      "suite": "isa",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "1.426",
+      "cycles": "",
+      "log": "isa-run/rv64uzbc-p-clmulh/simulation.log",
+      "tohost_exit": "668",
+      "campaign": "isa-run"
+    },
+    {
+      "test": "rv64uzbc-p-clmulr",
+      "suite": "isa",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "1.631",
+      "cycles": "",
+      "log": "isa-run/rv64uzbc-p-clmulr/simulation.log",
+      "tohost_exit": "668",
+      "campaign": "isa-run"
+    },
+    {
+      "test": "rv64uzbc-v-clmul",
+      "suite": "isa",
+      "result": "WALL_TIMEOUT",
+      "exit_status": "0",
+      "wall_seconds": "300.068",
+      "cycles": "",
+      "log": "isa-run/rv64uzbc-v-clmul/simulation.log",
+      "tohost_exit": "",
+      "campaign": "isa-run"
+    },
+    {
+      "test": "rv64uzbc-v-clmulh",
+      "suite": "isa",
+      "result": "WALL_TIMEOUT",
+      "exit_status": "0",
+      "wall_seconds": "300.012",
+      "cycles": "",
+      "log": "isa-run/rv64uzbc-v-clmulh/simulation.log",
+      "tohost_exit": "",
+      "campaign": "isa-run"
+    },
+    {
+      "test": "rv64uzbc-v-clmulr",
+      "suite": "isa",
+      "result": "WALL_TIMEOUT",
+      "exit_status": "0",
+      "wall_seconds": "300.116",
+      "cycles": "",
+      "log": "isa-run/rv64uzbc-v-clmulr/simulation.log",
+      "tohost_exit": "",
+      "campaign": "isa-run"
+    },
+    {
+      "test": "legacy-af_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "12.936",
+      "cycles": "",
+      "log": "bench-run/legacy-af_matmul-dual/simulation.log",
+      "tohost_exit": "17",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-al_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "66.126",
+      "cycles": "",
+      "log": "bench-run/legacy-al_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-am_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "56.633",
+      "cycles": "",
+      "log": "bench-run/legacy-am_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-at_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "62.375",
+      "cycles": "",
+      "log": "bench-run/legacy-at_matmul-dual/simulation.log",
+      "tohost_exit": "2",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-av_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "74.592",
+      "cycles": "",
+      "log": "bench-run/legacy-av_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-ay_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "65.888",
+      "cycles": "",
+      "log": "bench-run/legacy-ay_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-az_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "65.922",
+      "cycles": "",
+      "log": "bench-run/legacy-az_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-bf_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "66.471",
+      "cycles": "",
+      "log": "bench-run/legacy-bf_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-bk_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "64.861",
+      "cycles": "",
+      "log": "bench-run/legacy-bk_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-bo_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "81.792",
+      "cycles": "",
+      "log": "bench-run/legacy-bo_matmul-dual/simulation.log",
+      "tohost_exit": "1337",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-br_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "105.127",
+      "cycles": "",
+      "log": "bench-run/legacy-br_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-ad_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "WALL_TIMEOUT",
+      "exit_status": "0",
+      "wall_seconds": "600.019",
+      "cycles": "",
+      "log": "bench-run/legacy-ad_matmul-dual/simulation.log",
+      "tohost_exit": "",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-cm_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "70.199",
+      "cycles": "",
+      "log": "bench-run/legacy-cm_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-cl_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "138.451",
+      "cycles": "",
+      "log": "bench-run/legacy-cl_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-cy_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "70.223",
+      "cycles": "",
+      "log": "bench-run/legacy-cy_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-cv_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "157.601",
+      "cycles": "",
+      "log": "bench-run/legacy-cv_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-df_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "115.759",
+      "cycles": "",
+      "log": "bench-run/legacy-df_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-do_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "95.802",
+      "cycles": "",
+      "log": "bench-run/legacy-do_matmul-dual/simulation.log",
+      "tohost_exit": "1337",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-cf_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "437.636",
+      "cycles": "",
+      "log": "bench-run/legacy-cf_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-du_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "47.096",
+      "cycles": "",
+      "log": "bench-run/legacy-du_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-dr_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "FAIL",
+      "exit_status": "255",
+      "wall_seconds": "98.907",
+      "cycles": "",
+      "log": "bench-run/legacy-dr_matmul-dual/simulation.log",
+      "tohost_exit": "1",
+      "campaign": "bench-run"
+    },
+    {
+      "test": "legacy-dv_matmul-dual",
+      "suite": "legacy-mt",
+      "result": "WALL_TIMEOUT",
+      "exit_status": "-9",
+      "wall_seconds": "605.011",
+      "cycles": "",
+      "log": "bench-run/legacy-dv_matmul-dual/simulation.log",
+      "tohost_exit": "",
+      "campaign": "bench-run"
+    }
+  ],
+  "superseded_runner_parse_results": [
+    {
+      "campaign": "smoke-run",
+      "test": "chipyard-cpp-hello",
+      "raw_result": "MISSING_FINISH"
+    }
+  ]
+}

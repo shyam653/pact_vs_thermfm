@@ -1,0 +1,62 @@
+{
+  "started_utc": "2026-09-06T13:24:00.655174+00:00",
+  "scope": "Isolated wrapper negative controls; no real git/Java/firtool/make execution",
+  "wrapper_sha256": "5c8192515314f6397bc8a6813b063bbce386022c05f8ff3f6c1a5ee7eb49ef9f",
+  "rtl_manifest_sha256": "6fae05b32c473c30d08220e9e22415c4973868c9af02c6c2cc8d8a97482c61ce",
+  "cases": [
+    {
+      "name": "missing-rtl",
+      "status": "PASS",
+      "exit_codes": {
+        "process": 1,
+        "overall": 1,
+        "make": 0,
+        "source_check": 1
+      },
+      "existing_evidence_unchanged": null,
+      "fake_tool_calls": 6,
+      "evidence": "missing-rtl"
+    },
+    {
+      "name": "mismatched-rtl",
+      "status": "PASS",
+      "exit_codes": {
+        "process": 1,
+        "overall": 1,
+        "make": 0,
+        "source_check": 1
+      },
+      "existing_evidence_unchanged": null,
+      "fake_tool_calls": 6,
+      "evidence": "mismatched-rtl"
+    },
+    {
+      "name": "make-failure",
+      "status": "PASS",
+      "exit_codes": {
+        "process": 23,
+        "overall": 23,
+        "make": 23,
+        "source_check": null
+      },
+      "existing_evidence_unchanged": null,
+      "fake_tool_calls": 6,
+      "evidence": "make-failure"
+    },
+    {
+      "name": "existing-provenance",
+      "status": "PASS",
+      "exit_codes": {
+        "process": 1,
+        "overall": 88,
+        "make": null,
+        "source_check": null
+      },
+      "existing_evidence_unchanged": true,
+      "fake_tool_calls": 0,
+      "evidence": "existing-provenance"
+    }
+  ],
+  "protected_wrapper_and_manifest_unchanged": true,
+  "finished_utc": "2026-09-06T13:24:01.235407+00:00"
+}

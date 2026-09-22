@@ -1,0 +1,9 @@
+{
+  "test": "mt-vvadd-dual",
+  "suite": "benchmark-dual",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 74.003,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/mt-vvadd-dual/simulation.log"
+}

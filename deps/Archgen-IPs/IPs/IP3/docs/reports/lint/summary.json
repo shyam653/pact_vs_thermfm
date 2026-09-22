@@ -1,0 +1,114 @@
+{
+  "verilator": {
+    "exit_code": 0,
+    "errors": 0,
+    "warnings": 5944,
+    "notes": 0,
+    "warning_categories": [
+      {
+        "category": "ALWNEVER",
+        "count": 1
+      },
+      {
+        "category": "ASCRANGE",
+        "count": 12
+      },
+      {
+        "category": "CASEINCOMPLETE",
+        "count": 1
+      },
+      {
+        "category": "DECLFILENAME",
+        "count": 2
+      },
+      {
+        "category": "DEFOVERRIDE",
+        "count": 1
+      },
+      {
+        "category": "EOFNEWLINE",
+        "count": 5
+      },
+      {
+        "category": "GENUNNAMED",
+        "count": 18
+      },
+      {
+        "category": "IMPLICIT",
+        "count": 5
+      },
+      {
+        "category": "LATCH",
+        "count": 1
+      },
+      {
+        "category": "PINCONNECTEMPTY",
+        "count": 445
+      },
+      {
+        "category": "PINMISSING",
+        "count": 63
+      },
+      {
+        "category": "REDEFMACRO",
+        "count": 1
+      },
+      {
+        "category": "SYNCASYNCNET",
+        "count": 5
+      },
+      {
+        "category": "UNSIGNED",
+        "count": 7
+      },
+      {
+        "category": "UNUSEDPARAM",
+        "count": 25
+      },
+      {
+        "category": "UNUSEDSIGNAL",
+        "count": 3758
+      },
+      {
+        "category": "VARHIDDEN",
+        "count": 2
+      },
+      {
+        "category": "WIDTHEXPAND",
+        "count": 591
+      },
+      {
+        "category": "WIDTHTRUNC",
+        "count": 937
+      },
+      {
+        "category": "WIDTHXZEXPAND",
+        "count": 64
+      }
+    ]
+  },
+  "slang": {
+    "exit_code": 0,
+    "errors": 0,
+    "warnings": 86,
+    "notes": 23,
+    "warning_categories": [
+      {
+        "category": "arith-in-shift",
+        "count": 21
+      },
+      {
+        "category": "missing-else-clause",
+        "count": 1
+      },
+      {
+        "category": "redef-macro",
+        "count": 1
+      },
+      {
+        "category": "unconnected-output-port",
+        "count": 63
+      }
+    ]
+  }
+}

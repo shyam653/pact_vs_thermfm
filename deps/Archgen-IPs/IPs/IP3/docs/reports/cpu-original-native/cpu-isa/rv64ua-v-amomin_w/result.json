@@ -1,0 +1,9 @@
+{
+  "test": "rv64ua-v-amomin_w",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 64.594,
+  "cycles": "",
+  "log": "${ORIGINAL_CAMPAIGN_ROOT}/cpu-isa/rv64ua-v-amomin_w/simulation.log"
+}

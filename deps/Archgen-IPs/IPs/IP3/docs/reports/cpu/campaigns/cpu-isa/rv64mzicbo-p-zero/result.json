@@ -1,0 +1,9 @@
+{
+  "test": "rv64mzicbo-p-zero",
+  "suite": "isa",
+  "result": "FAIL",
+  "exit_status": 255,
+  "wall_seconds": 4.547,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64mzicbo-p-zero/simulation.log"
+}

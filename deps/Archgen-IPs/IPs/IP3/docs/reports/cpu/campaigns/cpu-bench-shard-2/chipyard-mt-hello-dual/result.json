@@ -1,0 +1,9 @@
+{
+  "test": "chipyard-mt-hello-dual",
+  "suite": "chipyard-generic",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 35.73,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench-shard-2/chipyard-mt-hello-dual/simulation.log"
+}

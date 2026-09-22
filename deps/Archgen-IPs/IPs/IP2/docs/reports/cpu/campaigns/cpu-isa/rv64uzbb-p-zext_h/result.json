@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzbb-p-zext_h",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 3.412,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uzbb-p-zext_h/simulation.log"
+}

@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzfh-p-fclass",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 1.929,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uzfh-p-fclass/simulation.log"
+}

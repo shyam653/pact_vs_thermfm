@@ -1,0 +1,6 @@
+[repositories]
+  local
+  ti-maven-central: https://artifactory.itg.ti.com/artifactory/maven-central/
+  ti-maven-central-ivy: https://artifactory.itg.ti.com/artifactory/maven-central/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/ivys/ivy.xml
+  ti-plugins-release: https://artifactory.itg.ti.com/artifactory/plugins-release/
+  ti-plugins-release-ivy: https://artifactory.itg.ti.com/artifactory/plugins-release/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/ivys/ivy.xml

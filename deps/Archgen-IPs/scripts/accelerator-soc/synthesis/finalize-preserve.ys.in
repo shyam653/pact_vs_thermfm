@@ -1,0 +1,12 @@
+read_rtlil @OUT@/ChipTop-after-abc.il
+read_liberty -lib @CELL_LIB@
+clean -purge
+hierarchy -check -top ChipTop
+check -assert
+select -assert-count @MACRO_COUNT@ t:fakeram45_512x64
+# Generic memories are the only allowed remaining internal cells.
+select -assert-none t:$* t:$mem_v2 %d
+stat -liberty @CELL_LIB@ -liberty @SRAM_LIB@
+tee -o @OUT@/statistics.json stat -json -liberty @CELL_LIB@ -liberty @SRAM_LIB@
+write_verilog -noattr -noexpr @OUT@/ChipTop-logic-mapped.v
+write_json @OUT@/ChipTop-logic-mapped.json

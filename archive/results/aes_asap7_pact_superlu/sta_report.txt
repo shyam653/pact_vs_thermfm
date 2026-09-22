@@ -1,0 +1,31 @@
+[INFO ODB-0227] LEF file: /home/boson4/diffusion/external/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7_tech_1x_201209.lef, created 30 layers, 9 vias
+[INFO ODB-0227] LEF file: /home/boson4/diffusion/external/OpenROAD-flow-scripts/flow/platforms/asap7/lef/asap7sc7p5t_28_R_1x_220121a.lef, created 212 library cells
+Startpoint: r1 (rising edge-triggered flip-flop clocked by clk1)
+Endpoint: r3 (rising edge-triggered flip-flop clocked by clk3)
+Path Group: clk3
+Path Type: max
+
+    Delay      Time   Description
+-------------------------------------------------------------
+   0.0000    0.0000   clock clk1 (rise edge)
+   0.0000    0.0000   clock network delay (ideal)
+   0.0000    0.0000 ^ r1/CLK (DFFHQx4_ASAP7_75t_R)
+  49.1683   49.1683 v r1/Q (DFFHQx4_ASAP7_75t_R)
+ 161.9126  211.0809 v u2/Y (AND2x2_ASAP7_75t_R)
+  91.1863  302.2672 v r3/D (DFFHQx4_ASAP7_75t_R)
+           302.2672   data arrival time
+
+  10.0000   10.0000   clock clk3 (rise edge)
+   0.0000   10.0000   clock network delay (ideal)
+   0.0000   10.0000   clock reconvergence pessimism
+            10.0000 ^ r3/CLK (DFFHQx4_ASAP7_75t_R)
+ -30.2005  -20.2005   library setup time
+           -20.2005   data required time
+-------------------------------------------------------------
+           -20.2005   data required time
+          -302.2672   data arrival time
+-------------------------------------------------------------
+          -322.4676   slack (VIOLATED)
+
+
+

@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "captured_utc": "2026-09-12T16:04:36.726365+00:00",
+  "scope": "Historical pre-SDP-tieoff native campaigns; excluded from corrected full-SoC acceptance",
+  "reason": "Flattened synthesis CHECK exposed 176 undriven bits at six register inputs belonging to the absent small SDP LUT. Patch 0003 explicitly ties those inputs to typed zero; no large or CDP source is changed.",
+  "historical_simulator_sha256": "1d1e40de39739d20508913e8d6ce4f0eafecb90f3b7a2295bbf8a80359924229",
+  "historical_nvdla_rtl_sha256": "2c9dba37f759ffab52ee229e2ba3ef312fb3cb6221f2476337d13fd58e062cea",
+  "corrected_nvdla_rtl_sha256": "88e206bbf86544030034ecfc387ef3ae4a9a8b6a149b1f550b87bbf02770a124",
+  "correction_patch_sha256": "f23d08baaaf4743de2724f5f1cb6fc82fc86cecf0c656925cb4226bd11135714",
+  "historical_numerical_source_sha256": "8e443fa4d9340b7b10b46ad231dc608544abde0b0440d69e654234512a997f71",
+  "final_numerical_source_sha256": "e1a0092fdf53f234c8ecf0c92bba1999409ed201b6ad6abde7addf0beb4a9322",
+  "old_source_files": {
+    "old-tests/README.md.txt": "9304fc83d3312dda49f1cd750d00f703cfa68c9bee867a0064a4acb681bf7820",
+    "old-tests/link.ld": "c93bc36d9e6f493f156092356899885a77c04ec2f0587817a7d98518cecf5683",
+    "old-tests/nvdla.h": "15aa2b37f35b559ff53891a58f2473a621411b03c57a3f8fbc43a862bf4745b3",
+    "old-tests/nvdla_standalone.cpp": "13d191a3e58406b87afb316409f33c08b93621920bb2d5d7c0e8f0275599054f",
+    "old-tests/nvdla_test.c": "8e443fa4d9340b7b10b46ad231dc608544abde0b0440d69e654234512a997f71",
+    "old-tests/start.S": "48c742ddc5378ed44ab854990a1021f6f86a025d1dffb921fecd501a9cfaaeff"
+  },
+  "old_source_map": {
+    "tests/README.md": {
+      "archived_path": "old-tests/README.md.txt",
+      "original_sha256": "9304fc83d3312dda49f1cd750d00f703cfa68c9bee867a0064a4acb681bf7820"
+    },
+    "tests/link.ld": {
+      "archived_path": "old-tests/link.ld",
+      "original_sha256": "c93bc36d9e6f493f156092356899885a77c04ec2f0587817a7d98518cecf5683"
+    },
+    "tests/nvdla.h": {
+      "archived_path": "old-tests/nvdla.h",
+      "original_sha256": "15aa2b37f35b559ff53891a58f2473a621411b03c57a3f8fbc43a862bf4745b3"
+    },
+    "tests/nvdla_standalone.cpp": {
+      "archived_path": "old-tests/nvdla_standalone.cpp",
+      "original_sha256": "13d191a3e58406b87afb316409f33c08b93621920bb2d5d7c0e8f0275599054f"
+    },
+    "tests/nvdla_test.c": {
+      "archived_path": "old-tests/nvdla_test.c",
+      "original_sha256": "8e443fa4d9340b7b10b46ad231dc608544abde0b0440d69e654234512a997f71"
+    },
+    "tests/start.S": {
+      "archived_path": "old-tests/start.S",
+      "original_sha256": "48c742ddc5378ed44ab854990a1021f6f86a025d1dffb921fecd501a9cfaaeff"
+    }
+  },
+  "historical_build_provenance": "old-build/build-provenance.json",
+  "records": [
+    {
+      "campaign": "normal-seed1",
+      "test": "nvdla-dual",
+      "result": "PASS",
+      "exit_status": 0,
+      "wall_seconds": 1512.925,
+      "elf_sha256": "377163cb29a72490e46fa2a56b058d2e792422cbfa81b404024757890c02bda0",
+      "normal_finish": true,
+      "pass_markers": [
+        "PASS NVDLA job=0x0000000000000000 hart=0x0000000000000000 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000001 hart=0x0000000000000001 elements=0x0000000000000008",
+        "PASS NVDLA job=0x0000000000000002 hart=0x0000000000000000 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000003 hart=0x0000000000000001 elements=0x0000000000000030",
+        "PASS NVDLA job=0x0000000000000004 hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000005 hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA job=0x0000000000000006 hart=0x0000000000000000 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000007 hart=0x0000000000000001 elements=0x00000000000004c8",
+        "PASS NVDLA job=0x0000000000000008 hart=0x0000000000000000 elements=0x0000000000000180",
+        "PASS NVDLA job=0x0000000000000009 hart=0x0000000000000001 elements=0x0000000000000180",
+        "PASS NVDLA job=0x000000000000000a hart=0x0000000000000000 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000b hart=0x0000000000000001 elements=0x0000000000000090",
+        "PASS NVDLA job=0x000000000000000c hart=0x0000000000000000 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000d hart=0x0000000000000001 elements=0x0000000000000110",
+        "PASS NVDLA job=0x000000000000000e hart=0x0000000000000000 elements=0x0000000000000100",
+        "PASS NVDLA job=0x000000000000000f hart=0x0000000000000001 elements=0x0000000000000100",
+        "PASS NVDLA CDP LUT job=0x0000000000000010 gain=0x0000000000000001 elements=256",
+        "PASS NVDLA CDP LUT job=0x0000000000000011 gain=0x0000000000000002 elements=256",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000000 outputs=8",
+        "PASS NVDLA convolution 1x1 C8 K8 hart=0x0000000000000001 outputs=8",
+        "PASS NVDLA PDP 2x2 max outputs=8",
+        "PASS NVDLA PDP 2x2 min outputs=8",
+        "PASS NVDLA dual-hart: 16 SDP + 2 CDP + 2 convolution + 2 pooling jobs, coherent DMA, guards, PLIC"
+      ],
+      "failure_markers": [],
+      "evidence_valid": true,
+      "completed_jobs": 22,
+      "engine_jobs": {
+        "SDP": 16,
+        "CDP": 2,
+        "convolution": 2,
+        "PDP": 2
+      },
+      "jobs_by_hart": {
+        "0": 11,
+        "1": 11
+      }
+    },
+    {
+      "campaign": "controls",
+      "test": "nvdla-negative-control",
+      "result": "FAIL",
+      "exit_status": 255,
+      "wall_seconds": 57.21,
+      "elf_sha256": "a2d1bb74861cda59f8cc3dc7aec112bb3caffbb59beae2b8be67b9d12fe377a0",
+      "normal_finish": false,
+      "pass_markers": [],
+      "failure_markers": [
+        "FAIL NVDLA: numerical/guard mismatch hart=0x0000000000000000 job=0x0000000000000000 index=0x0000000000000040 got=0x0000000000000080 expected=0x0000000000000081"
+      ],
+      "evidence_valid": true,
+      "negative_control_kind": "corrupted-expected",
+      "intended_failure_marker": "FAIL NVDLA: numerical/guard mismatch hart=0x0000000000000000 job=0x0000000000000000 index=0x0000000000000040 got=0x0000000000000080 expected=0x0000000000000081",
+      "negative_control_rejected": true
+    },
+    {
+      "campaign": "controls",
+      "test": "nvdla-timeout-control",
+      "result": "FAIL",
+      "exit_status": 255,
+      "wall_seconds": 345.392,
+      "elf_sha256": "acadeaa80f650c10b375e256d222253e7f86221cb12d0faf6709d0e3e4e7cc20",
+      "normal_finish": false,
+      "pass_markers": [],
+      "failure_markers": [
+        "FAIL NVDLA: completion timeout hart=0x0000000000000000 job=0x0000000000000000 index=0x000000000000100c got=0x0000000000000000 expected=0x0000000000000001"
+      ],
+      "evidence_valid": true,
+      "negative_control_kind": "skipped-enable",
+      "intended_failure_marker": "FAIL NVDLA: completion timeout hart=0x0000000000000000 job=0x0000000000000000 index=0x000000000000100c got=0x0000000000000000 expected=0x0000000000000001",
+      "negative_control_rejected": true
+    }
+  ],
+  "source_changes": "Final firmware adds boot capability/nonzero-write-zero-readback checks and six zero readback checks after each SDP job. The standalone harness invokes the shared boot checks. All 22 numerical job definitions/goldens and marker sequence are unchanged.",
+  "local_full_archive_sha256": "a457ec1b044bb0764c2106e743b7fe7a8c660a60d7250c1a3c7ab88304adacf8",
+  "local_retention": "Original full IP3 package and native simulator remain indexed under ${PRE_SDP_TIEOFF_ARCHIVE}; original ELF executables remain under ${ORIGINAL_TEST_BUILD}. These binaries and full RTL are external artifacts, not files promised by this compact report."
+}

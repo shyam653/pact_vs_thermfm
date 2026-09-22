@@ -1,0 +1,236 @@
+{
+  "status": "OBSERVED_SYNTHESIS_TRANSFORMATIONS",
+  "scope": "Inventory reconciliation from macro-elaborated RTLIL to final collected memories; describes synthesis transformations, not formal RTL-to-memory equivalence. Exact pre/post-ABC parameter identity is checked separately.",
+  "arrays_before": 199,
+  "bits_before": 1151042,
+  "memories_after": 201,
+  "bits_after": 1210363,
+  "added_constant_mux_roms": [
+    {
+      "instance": "ChipTop.$auto$memory_bmux2rom.cc:63:execute$133508",
+      "WIDTH": 64,
+      "SIZE": 1024,
+      "ABITS": 10,
+      "RD_PORTS": 1,
+      "WR_PORTS": 0,
+      "bits": 65536
+    },
+    {
+      "instance": "ChipTop.$auto$memory_bmux2rom.cc:63:execute$133511",
+      "WIDTH": 3,
+      "SIZE": 8,
+      "ABITS": 3,
+      "RD_PORTS": 1,
+      "WR_PORTS": 0,
+      "bits": 24
+    },
+    {
+      "instance": "ChipTop.$auto$memory_bmux2rom.cc:63:execute$133514",
+      "WIDTH": 64,
+      "SIZE": 8,
+      "ABITS": 3,
+      "RD_PORTS": 1,
+      "WR_PORTS": 0,
+      "bits": 512
+    },
+    {
+      "instance": "ChipTop.$auto$memory_bmux2rom.cc:63:execute$133517",
+      "WIDTH": 4,
+      "SIZE": 16,
+      "ABITS": 4,
+      "RD_PORTS": 1,
+      "WR_PORTS": 0,
+      "bits": 64
+    },
+    {
+      "instance": "ChipTop.$auto$memory_bmux2rom.cc:63:execute$133520",
+      "WIDTH": 3,
+      "SIZE": 8,
+      "ABITS": 3,
+      "RD_PORTS": 1,
+      "WR_PORTS": 0,
+      "bits": 24
+    }
+  ],
+  "removed_arrays": [
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.serial_tl_domain.phy.out_phits_out_async_io_enq_q.ram_flit_ext.Memory",
+      "width": 32,
+      "depth": 8,
+      "bits": 256,
+      "instance": "ChipTop.system.serial_tl_domain.phy.out_phits_out_async_io_enq_q.ram_flit_ext.Memory"
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.serial_tl_domain.phy.out_phits_out_async_io_enq_q_2.ram_flit_ext.Memory",
+      "width": 32,
+      "depth": 8,
+      "bits": 256,
+      "instance": "ChipTop.system.serial_tl_domain.phy.out_phits_out_async_io_enq_q_2.ram_flit_ext.Memory"
+    },
+    {
+      "module": "\\ChipTop",
+      "memory": "\\system.serial_tl_domain.phy.out_phits_out_async_io_enq_q_4.ram_flit_ext.Memory",
+      "width": 32,
+      "depth": 8,
+      "bits": 256,
+      "instance": "ChipTop.system.serial_tl_domain.phy.out_phits_out_async_io_enq_q_4.ram_flit_ext.Memory"
+    }
+  ],
+  "geometry_reductions": [
+    {
+      "instance": "ChipTop.$auto$proc_rom.cc:155:do_switch$2",
+      "before_depth": 512,
+      "before_width": 32,
+      "after_depth": 512,
+      "after_width": 23
+    },
+    {
+      "instance": "ChipTop.system.bank.buffer.nodeIn_d_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 79,
+      "after_depth": 2,
+      "after_width": 72
+    },
+    {
+      "instance": "ChipTop.system.cbus.coupler_to_prci_ctrl.buffer.nodeIn_d_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 85,
+      "after_depth": 2,
+      "after_width": 15
+    },
+    {
+      "instance": "ChipTop.system.cbus.wrapped_error_device.buffer.nodeIn_d_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 86,
+      "after_depth": 2,
+      "after_width": 18
+    },
+    {
+      "instance": "ChipTop.system.coh_wrapper.cork.q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 80,
+      "after_depth": 2,
+      "after_width": 6
+    },
+    {
+      "instance": "ChipTop.system.coh_wrapper.cork.q_1.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 80,
+      "after_depth": 2,
+      "after_width": 6
+    },
+    {
+      "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.requests.data_ext.Memory",
+      "before_depth": 33,
+      "before_width": 48,
+      "after_depth": 33,
+      "after_width": 47
+    },
+    {
+      "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sourceA.io_a_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 117,
+      "after_depth": 2,
+      "after_width": 29
+    },
+    {
+      "instance": "ChipTop.system.coh_wrapper.l2.inclusive_cache_bank_sched.sourceC.queue.ram_ext.Memory",
+      "before_depth": 12,
+      "before_width": 109,
+      "after_depth": 12,
+      "after_width": 96
+    },
+    {
+      "instance": "ChipTop.system.domain.nvdla.axi4buf.nodeOut_ar_deq_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 65,
+      "after_depth": 2,
+      "after_width": 35
+    },
+    {
+      "instance": "ChipTop.system.domain.nvdla.axi4buf.nodeOut_aw_deq_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 65,
+      "after_depth": 2,
+      "after_width": 38
+    },
+    {
+      "instance": "ChipTop.system.domain.nvdla.buffer.nodeOut_a_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 130,
+      "after_depth": 2,
+      "after_width": 125
+    },
+    {
+      "instance": "ChipTop.system.domain.nvdla.u_nvdla.nvdla_top.u_partition_c.u_NV_NVDLA_cdma.u_wt.u_fifo.ram.M",
+      "before_depth": 128,
+      "before_width": 6,
+      "after_depth": 128,
+      "after_width": 4
+    },
+    {
+      "instance": "ChipTop.system.fbus.buffer.nodeOut_a_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 127,
+      "after_depth": 2,
+      "after_width": 122
+    },
+    {
+      "instance": "ChipTop.system.pbus.buffer.nodeIn_d_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 85,
+      "after_depth": 2,
+      "after_width": 82
+    },
+    {
+      "instance": "ChipTop.system.tile_prci_domain.buffer.nodeIn_b_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 52,
+      "after_depth": 2,
+      "after_width": 27
+    },
+    {
+      "instance": "ChipTop.system.tile_prci_domain.buffer.nodeOut_a_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 117,
+      "after_depth": 2,
+      "after_width": 116
+    },
+    {
+      "instance": "ChipTop.system.tile_prci_domain.buffer.nodeOut_c_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 109,
+      "after_depth": 2,
+      "after_width": 106
+    },
+    {
+      "instance": "ChipTop.system.tile_prci_domain_1.buffer.nodeIn_b_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 52,
+      "after_depth": 2,
+      "after_width": 27
+    },
+    {
+      "instance": "ChipTop.system.tile_prci_domain_1.buffer.nodeOut_a_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 117,
+      "after_depth": 2,
+      "after_width": 116
+    },
+    {
+      "instance": "ChipTop.system.tile_prci_domain_1.buffer.nodeOut_c_q.ram_ext.Memory",
+      "before_depth": 2,
+      "before_width": 109,
+      "after_depth": 2,
+      "after_width": 106
+    }
+  ],
+  "explanation": "Yosys memory_bmux2rom introduces five read-only memories for constant mux tables. Three serial-TL phit arrays are removed during optimization, and 21 retained memories have narrower stored words. The existing proc_rom is among the width reductions. All final collected memory parameters are unchanged across ABC.",
+  "input_sha256": {
+    "memory-audit.json": "122e6562a42cbee8c3f4069a0537bac4186dec27b85dc9db9e6263572e2f109c",
+    "preserved-memories.json": "74e841bb8b9744c8bd3d9ea89ce754ca65f2b4364521a08d2aca65a873bc78a2",
+    "map.log": "830b9c720402aadfbf6209e457c168a10933aaf0e1e4c74a125394480d868ac8"
+  }
+}

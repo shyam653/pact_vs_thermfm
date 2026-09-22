@@ -1,0 +1,12 @@
+dhrystone
+median
+mm
+mt-matmul
+mt-vvadd
+multiply
+pmp
+qsort
+rsort
+spmv
+towers
+vvadd

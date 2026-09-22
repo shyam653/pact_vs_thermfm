@@ -1,0 +1,9 @@
+{
+  "test": "rv64uzbs-p-bclri",
+  "suite": "isa",
+  "result": "PASS",
+  "exit_status": 0,
+  "wall_seconds": 6.004,
+  "cycles": "",
+  "log": "${CAMPAIGN_ROOT}/cpu-isa/rv64uzbs-p-bclri/simulation.log"
+}

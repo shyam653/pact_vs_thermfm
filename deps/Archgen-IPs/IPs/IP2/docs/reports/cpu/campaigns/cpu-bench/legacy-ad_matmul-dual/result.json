@@ -1,0 +1,9 @@
+{
+  "test": "legacy-ad_matmul-dual",
+  "suite": "legacy-mt",
+  "result": "CYCLE_TIMEOUT",
+  "exit_status": 255,
+  "wall_seconds": 531.131,
+  "cycles": "2000001",
+  "log": "${CAMPAIGN_ROOT}/cpu-bench/legacy-ad_matmul-dual/simulation.log"
+}
